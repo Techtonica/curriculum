@@ -91,113 +91,7 @@ By the end of this session, participants will:
 
 _**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
-### Task 1: Karel World No.1 - "Clean the Room" (60–90 minutes)
-**Objective:** Write your first Python program. Experience the debugging process. Learn core programming concepts through doing.
-
-**Background — What is Karel?**
-Karel is a robot that lives in a grid world. You control Karel using Python commands. Karel can:
-
-- **move()** — Move forward one square
-- **turn_left()** — Turn left 90 degrees
-- **put_beeper()** — Place a beeper (marker) on the current square
-- **pick_beeper()** — Pick up a beeper from the current square
-- **front_is_clear()** — Check if the path ahead is clear (returns True/False)
-- **beepers_present()** — Check if there are beepers on the current square (returns True/False)
-
-**The Task: "Clean the Room"**
-Karel is a robot that lives in a grid world. Karel is in a room with scattered beepers. The room looks roughly like this:
-
-The robot can:
-- **move()** — Move forward one square
-- **turn_left()** — Turn left 90 degrees
-- **put_beeper()** — Place a beeper (marker) on the current square
-- **pick_beeper()** — Pick up a beeper from the current square
-
-Your job: Write commands to instruct Karel to do a task.
-
-**The Task: "Clean the Room"**
-
-Karel is in a room (at position 1, 1) that looks like this (simplified):
-
-```plaintext
-        1   2   3   4   5
-    5   .   .   .   .   .
-    4   .   *   *   *   .
-    3   .   *   *   *   .
-    2   .   *   *   *   .
-    1   K   .   .   .   .
-```
-
-- K = Karel's starting position (1, 1)
-- * = Beepers (trash) scattered in the room
-- . = Empty spaces
-
-**Your Goal:** Write a program that instructs Karel to:
-1. Move through the room
-2. Pick up all the beepers
-3. Return to the starting position
-
-**Your Challenge:** Write a Python program that instructs Karel to:
-1. Move through the room
-2. Pick up all the beepers (check if beepers are present before picking)
-3. Return to the starting position
-
-**Setup Instructions:**
-1. **Access Karel:** Go to https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html
-2. **Set Up Python:** Follow the Stanford Karel Reader's setup guide to install the necessary files and run Karel in your Python environment
-3. **Explore the "Lesson 1" or starter worlds** to understand how the environment works
-4. **Write Your Program:** Create a Python file (e.g., `clean_room.py`) with your code
-
-**Example Code Structure:**
-
-```python
-from karel.stanfordkarel import *
-
-def main():
-    # Your code here
-    move()
-    move()
-    
-    if beepers_present():
-        pick_beeper()
-    
-    # Continue...
-    
-if __name__ == "__main__":
-    main()
-```
-
-**Common Challenges (Normal!):**
-- "ModuleNotFoundError: No module named 'karel'" → You need to set up the Karel files properly. Follow the Stanford Reader setup guide.
-- "IndentationError: unexpected indent" → Python requires consistent indentation. Make sure all code inside functions is indented.
-- "Karel picked up a beeper but I didn't expect it" → You called `pick_beeper()` at the wrong location. Debug by checking where Karel is before picking.
-- "I don't know how to pick up all the beepers efficiently" → Check if beepers exist before picking. Use conditionals: `if beepers_present(): pick_beeper()`
-- "This is taking forever" → Take a break! Come back with fresh eyes.
-
-**Record a Video Explaining Your Thinking (5–10 minutes)**
-Once you've solved the task (or spent 60+ minutes trying), record a recorded video explaining:
-
-1. **What confused you?** Example: "I didn't understand how `if beepers_present():` works. I thought it meant Karel would automatically pick up beepers, but I had to call `pick_beeper()` explicitly."
-
-2. **How did you solve it? (Or how did you approach it?)** Example: "I started by writing simple move commands to navigate the room. Then I added a conditional to check for beepers. Once I found a beeper, I called pick_beeper(). Then I looped through the room to find all beepers."
-
-3. **Where did you get stuck? How did you respond?** Example: "I got an IndentationError and had to debug the spacing in my code. I looked at the example code structure and noticed my indentation was wrong. I fixed it and it worked."
-
-4. **Explain how this task is related to programming:** Example: "This is programming because I had to give the computer exact instructions in Python. If I made a mistake, the program failed. It's like debugging: I had to figure out what went wrong and fix it."
-
-**Free Resources:**
-- **[Stanford Karel Reader - Python](https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html)** (official source; includes lessons and example worlds — follow lessons 1-3 from the Karel Reader to understand basics)
-- **YouTube - "Python Karel Introduction":** Search for "Stanford Karel Python tutorial" for video walkthroughs
-- **[Python.org - "Python for Beginners"](https://www.python.org/about/gettingstarted/)** (if you need Python basics)
-- **[Replit Karel (Optional Web-Based Alternative)](https://replit.com)** (if you prefer not to install locally)
-
-**Submission:**
-- Successfully complete the "Clean the Room" world (or document how far you got)
-- Submit recorded video link explaining your thinking
-- Include a note: "This was easy / medium / hard for me because..."
-- Share your `clean_room.py` code file
-
-### Task 2: "Resilience Log" (20–30 minutes)
+### Task 1: "Resilience Log" (20–30 minutes)
 **Objective:** Develop metacognitive awareness of frustration and build resilience practices.
 
 **Instructions:**
@@ -235,13 +129,105 @@ After completing the log, write 3–5 sentences addressing:
 - **Article - "Why Debugging Teaches Resilience" (Medium):** Search for this topic; many free articles on learning through struggle
 - **[Mindfulness App - "Insight Timer"](https://insighttimer.com)** (free guided meditations on frustration and focus)
 
+### Task 1: Karel World No.1 - "Clean the Room" (60–90 minutes)
+**Objective:** Write your first Python program. Experience the debugging process. Learn core programming concepts through doing.
+
+**Background — What is Karel?**
+Karel is a robot that lives in a grid world. You control Karel using Python commands. Karel can:
+
+- **move()** — Move forward one square
+- **turn_left()** — Turn left 90 degrees
+- **put_beeper()** — Place a beeper (marker) on the current square
+- **pick_beeper()** — Pick up a beeper from the current square
+- **front_is_clear()** — Check if the path ahead is clear (returns True/False)
+- **beepers_present()** — Check if there are beepers on the current square (returns True/False)
+
+Your job: Write commands to instruct Karel to do a task.
+
+**The Task: "Clean the Room"**
+
+Karel is in a room (at position 1, 1) that looks like this (simplified):
+
+```plaintext
+        1   2   3   4   5
+    5   .   .   .   .   .
+    4   .   *   *   *   .
+    3   .   *   *   *   .
+    2   .   *   *   *   .
+    1   K   .   .   .   .
+```
+
+- K = Karel's starting position (1, 1)
+- * = Beepers (trash) scattered in the room
+- . = Empty spaces
+
+**Your Goal:** Write a program that instructs Karel to:
+1. Move through the room
+2. Pick up all the beepers (check if beepers are present before picking)
+3. Return to the starting position
+
+**Setup Instructions:**
+1. **Access Karel:** Go to https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html (Lessons 5-6 cover loops)
+2. **Set Up Python:** Follow the Stanford Karel Reader's setup guide to install the necessary files and run Karel in your Python environment
+3. **Explore the "Lesson 1" or starter worlds** to understand how the environment works
+4. **Write Your Program:** Create a Python file (e.g., `clean_room.py`) with your code
+
+**Example Code Structure:**
+
+```python
+from karel.stanfordkarel import *
+
+def main():
+    # Your code here
+    move()
+    move()
+    
+    if beepers_present():
+        pick_beeper()
+    
+    # Continue...
+    
+if __name__ == "__main__":
+    main()
+```
+
+**Common Challenges (Normal!):**
+- "ModuleNotFoundError: No module named 'karel'" → You need to set up the Karel files properly. Follow the Stanford Reader setup guide.
+- "IndentationError: unexpected indent" → Python requires consistent indentation. Make sure all code inside functions is indented.
+- "Karel picked up a beeper but I didn't expect it" → You called `pick_beeper()` at the wrong location. Debug by checking where Karel is before picking.
+- "I don't know how to pick up all the beepers efficiently" → Check if beepers exist before picking. Use conditionals: `if beepers_present(): pick_beeper()`
+- "This is taking forever" → Take a break! Come back with fresh eyes.
+
+**Record a Video Explaining Your Thinking (5–10 minutes)**
+Once you've solved the task (or spent 60+ minutes trying), record a video explaining:
+
+1. **What confused you?** Example: "I didn't understand how `if beepers_present():` works. I thought it meant Karel would automatically pick up beepers, but I had to call `pick_beeper()` explicitly."
+
+2. **How did you solve it? (Or how did you approach it?)** Example: "I started by writing simple move commands to navigate the room. Then I added a conditional to check for beepers. Once I found a beeper, I called pick_beeper(). Then I looped through the room to find all beepers."
+
+3. **Where did you get stuck? How did you respond?** Example: "I got an IndentationError and had to debug the spacing in my code. I looked at the example code structure and noticed my indentation was wrong. I fixed it and it worked."
+
+4. **Explain how this task is related to programming:** Example: "This is programming because I had to give the computer exact instructions in Python. If I made a mistake, the program failed. It's like debugging: I had to figure out what went wrong and fix it."
+
+**Free Resources:**
+- **[Stanford Karel Reader - Python](https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html)** (official source; includes lessons and example worlds — follow lessons 1-3 from the Karel Reader to understand basics)
+- **YouTube - "Python Karel Introduction":** Search for "Stanford Karel Python tutorial" for video walkthroughs
+- **[Python.org - "Python for Beginners"](https://www.python.org/about/gettingstarted/)** (if you need Python basics)
+- **[Replit Karel (Optional Web-Based Alternative)](https://replit.com)** (if you prefer not to install locally)
+
+**Submission:**
+- Successfully complete the "Clean the Room" world (or document how far you got)
+- Submit recorded video link explaining your thinking
+- Include a note: "This was easy / medium / hard for me because..."
+- Share your `clean_room.py` code file
+
 ## Guided Practice (In-Session: 2 hours)
 
 ### Part 1: Welcome & Session Overview (5 minutes)
 Programming isn't about getting it right on the first try. It's about iterating, testing, debugging, and trying again. That's not a failure mode; that's the process. This week is about resilience: your ability to face frustration, pause, reflect, and persist. That skill matters more than any code you'll write today.
 
 <!-- Program Staff Talking Points:**
-- "This is the moment we shift from theory to practice. You're about to write your first program. Some of it will work beautifully. Some of it won't. Both are essential."
+- "This is the moment we shift from theory to practice. Some of it will work beautifully. Some of it won't. Both are essential."
 - "You just tracked every moment of frustration in your resilience log. That practice—naming what's hard—is how you build resilience. You're already doing it."
 -->
 
@@ -571,4 +557,4 @@ A: No. You'll use them so often that they'll stick. In real programming, you ref
 - Explore loops (for loops, while loops) conceptually
 - Harder Karel worlds (provided on Code.org or Stanford's site)
 - Explore functions in Karel
-- Try out ptimization: "Write the shortest code possible to solve this world"
+- Try out otimization: "Write the shortest code possible to solve this world"
