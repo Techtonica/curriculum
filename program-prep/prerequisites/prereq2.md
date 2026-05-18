@@ -1,4 +1,4 @@
-## Prerequisite Session 2: Digital Literacy + Curiosity
+# Prerequisite Session 2: Digital Literacy + Curiosity
 
 Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Access to Slack (can be free tier for this program)
