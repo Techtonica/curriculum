@@ -10,7 +10,7 @@ Participants should have a basic understanding of the following foundational con
 - Willingness to pair with a peer and discuss challenges
 - Completed [Prerequisites Session 5: Resilience + Programming Foundation](../prereq5.md)
 
-## Table of Contents
+### Table of Contents
 - [Motivation](#motivation)
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
@@ -27,7 +27,7 @@ Participants should have a basic understanding of the following foundational con
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
-## Projected Time
+### Projected Time
 
 **Independent Practice (Pre-Session): ~2.5 hours**
 - Karel World No.2 - "Maze Runner": 75–120 minutes
@@ -42,10 +42,10 @@ Participants should have a basic understanding of the following foundational con
 - Resilience in Debugging & Problem-Solving: 10 minutes
 - Q&A: 5 minutes
 
-## Motivation
+### Motivation
 If Prerequisite Session 5 introduced programming as step-by-step instructions, Session 6 teaches you how to write *smart* instructions. Python loops (`for`, `while`) let you repeat commands without rewriting them. Functions let you repackage logic for reuse. Together, these concepts transform programming from tedious line-by-line coding to elegant problem-solving. But they also introduce new complexity. Bugs become harder to trace. Logic becomes more abstract. This is where resilience deepens. You won't just bounce back from frustration; you'll use frustration as information. "My while loop isn't terminating correctly—what's wrong?" "I called this function but it didn't produce the output I expected—why?" These are sophisticated debugging questions that require persistence and systematic thinking. Additionally, this session emphasizes peer collaboration: checking in with a partner about struggles, learning from their approaches, and building psychological safety around vulnerability. By week's end, you won't just be a programmer; you'll be part of an engineering community that values growth, resilience, and mutual support.
 
-## Objectives
+### Objectives
 By the end of this session, participants will:
 - Understand loops (for loops, while loops) and when to use each
 - Write programs that use loops to reduce repetition
@@ -57,7 +57,7 @@ By the end of this session, participants will:
 - Understand that smart code is often code that looks simple (because it abstracts complexity)
 - Build psychological safety and peer support in a learning community
 
-## Specific Things to Learn
+### Specific Things to Learn
 
 **Technical Skills:**
 - For loops: when and how to use them
@@ -78,9 +78,9 @@ By the end of this session, participants will:
 - Balancing confidence in your solution with openness to better ways
 - Ownership of your learning and your code
 
-## Independent Practice
+### Independent Practice
 
-### Task 1: Karel World No.2 - "Maze Runner" (75–120 minutes)
+#### Task 1: Karel World No.2 - "Maze Runner" (75–120 minutes)
 **Objective:** Apply loops and/or functions to solve a more complex problem. Manage increased complexity. Learn advanced debugging.
 
 **Background:**
@@ -263,16 +263,16 @@ In a Google Doc, write 1–2 pages answering:
 - **"Empathy in Tech Teams" (Article):** Search for this; many free articles on peer support in engineering
 - **[Podcast - "Brené Brown on Vulnerability"](https://brenebrown.com/podcasts/unlocking-us)** (episodes on building connection through honesty)
 
-## Guided Practice (In-Session: 2 hours)
+### Guided Practice (In-Session: 2 hours)
 
-### Part 1: Welcome & Session Overview (5 minutes)
+#### Part 1: Welcome & Session Overview (5 minutes)
 Last session, you wrote your first program and debugged it using Karel. You learned that struggle is normal and that persistence pays off. This session, you're going to write smarter programs using loops and functions. This is where programming becomes less 'do this, then this, then this' and more 'repeat this pattern' or 'reuse this logic.'
 <!-- Program Staff Talking Points:**
 - "You also did something powerful this week: you paired with a peer, talked about struggle, and learned from each other. That's how real engineering teams work. You're not just learning to code; you're learning to be part of a collaborative community."
 - "Today's focus: Loops, functions, and decomposition. But underneath all of that: resilience. Because more complex code means more opportunities to get stuck. And by now, you know that getting stuck isn't the end; it's the beginning of learning."
 -->
 
-### Part 2: Breakout Room Sharing (45 minutes)
+#### Part 2: Breakout Room Sharing (45 minutes)
 
 **Part A: Maze Runner Demos (25 minutes)**
 
@@ -310,7 +310,7 @@ Program Staff Listening & Notes:
 - Build community: "Notice how many people got stuck in the same places? That's universal. You're not alone."
 -->
 
-### Part 3: Group Debrief (10 minutes)
+#### Part 3: Group Debrief (10 minutes)
 <!-- Program Staff Talking Points:
 
 - "Your maze solutions were impressive. I saw different approaches—some used loops, some functions, some did something creative I haven't seen before. That's what I love about programming: there's usually more than one right answer."
@@ -325,7 +325,7 @@ Prompt Celebration:
 -->
 Now we're going to deepen your understanding of loops and functions. You've used them intuitively. Now let's talk about what's happening under the hood and how to write even cleaner, smarter code.
 
-### Part 4: Staff-Led Loops, Functions & Decomposition (40 minutes)
+#### Part 4: Staff-Led Loops, Functions & Decomposition (40 minutes)
 **Objective:** Formalize understanding of loops, functions, and code decomposition. Show that elegant solutions require strategic thinking.
 
 **Demo 1: Loops Demystified — For vs While (8 minutes)**
@@ -603,7 +603,7 @@ Interactive Element:
 - That's the power of functions. One change, everywhere that function is called gets updated.
 -->
 
-### Part 5: Mini-Challenge - Refactor Messy Karel Code (20 minutes)
+#### Part 5: Mini-Challenge - Refactor Messy Karel Code (20 minutes)
 **Objective:** Practice identifying patterns and using functions to simplify code.
 **Format:** Facilitator presents messy code. Participants work in pairs or small groups to refactor it.
 
@@ -733,7 +733,7 @@ Program Staff Led Group Discussion in Main Room:
 Talking Point: "Refactoring is about making code cleaner, shorter, and more maintainable. It's a skill you'll practice throughout your programming journey. The goal isn't to write the shortest code; it's to write the clearest code."
 -->
 
-### Part 6: Resilience in Debugging & Problem-Solving (10 minutes)
+#### Part 6: Resilience in Debugging & Problem-Solving (10 minutes)
 **Objective:** Reflect on resilience as it applies to increasingly complex programming.
 
 **Program Staff Facilitates Discussion:**
@@ -766,7 +766,7 @@ Talking Point: "Refactoring is about making code cleaner, shorter, and more main
 Talking Point: "You're not going to hit a wall and suddenly start coding perfectly. You're going to hit walls and keep going. The code is going to get more complex. The bugs are going to get harder. And you're going to get better at all of it. That's what an engineer is."
 --->
 
-### Part 7: Q&A (5 minutes)
+#### Part 7: Q&A (5 minutes)
 Q: "Why do we even need functions if loops do the same thing?" \
 A: Functions are about organization and reusability. Loops repeat. Functions package logic. Both are necessary.
 
@@ -788,7 +788,7 @@ A: The syntax is slightly different, but the concept is the same. Python loops w
 Q: "What if my loop runs forever?" \
 A: You have an infinite loop. Check your condition. Make sure it will eventually become false. Add a `break` statement if needed.
 
-## Continued Learning
+### Continued Learning
 - **[Podcast - "Code Newbie"](https://www.codenewbie.org/podcast)** (stories of people learning to code)
 - **[Khan Academy - "Algorithms & Data Structures"](https://www.khanacademy.org/computing/computer-science/algorithms)** (intro to algorithmic thinking)
 - **[YouTube - "Big-O Notation Explained"](https://www.youtube.com/watch?v=v4cd1O4zkGw)** (optional; introduces code efficiency)
