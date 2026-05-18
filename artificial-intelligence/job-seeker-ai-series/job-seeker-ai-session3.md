@@ -1,6 +1,6 @@
 # Job Seeker AI Session Week 3: AI for Testing & Code Quality
 
-## Prerequisites
+### Prerequisites
 - Completion of 1000+ hours of PERN full-stack development experience
 - Familiarity with testing frameworks (Jest, Vitest, pytest, unittest, or similar)
 - Experience writing unit tests and understanding concepts like assertions, test cases, and test structure
@@ -8,7 +8,7 @@
 - A free account with at least one AI tool (ChatGPT, Claude, or similar)
 - Completion of [Job Seeker AI Session Week 2: AI for Debugging & Documentation](../job-seeker-ai-session2.md)
 
-## TABLE OF CONTENTS
+### Table of Contents
 
 - [Motivation](#motivation)
 - [Objectives](#objectives)
@@ -18,12 +18,12 @@
 - [Supplemental Materials](#supplemental-materials)
 - [Showing Up for Yourself During Session](#showing-up-for-yourself-during-session)
 
-## Projected Time
+### Projected Time
 - **Independent Practice:** 30 minutes
 - **Guided Practice:** 45 minutes
 - **Total Session Time:** 75 minutes
 
-## Motivation
+### Motivation
 Testing is the safety net of development. Good tests catch bugs early, prevent regressions, and give you confidence to refactor. But writing comprehensive tests is **tedious and time-consuming**—and many developers skip it or write minimal tests.
 
 This is where AI shines. AI can:
@@ -42,7 +42,7 @@ You'll learn to:
 
 Strong testing skills—especially paired with critical AI usage—make you a standout engineer. Teams value developers who maintain code quality and can explain their testing strategy.
 
-## Objectives
+### Objectives
 By the end of this session, you will be able to:
 1. **Generate test cases with AI** by providing function signatures, requirements, and edge cases to consider.
 2. **Evaluate AI-generated tests critically**, identifying weak assertions, missing edge cases, and assumptions that need verification.
@@ -51,9 +51,9 @@ By the end of this session, you will be able to:
 5. **Debug failing AI-generated tests**, understanding why they fail and whether the issue is in the test or the code.
 6. **Articulate your testing philosophy** to teammates and interviewers, demonstrating how AI fits into your quality assurance process.
 
-## Specific Things to Learn
+### Specific Things to Learn
 
-### Test Generation with AI
+#### Test Generation with AI
 - **Prompt structure for tests:** Specifying function behavior, inputs, expected outputs, edge cases
 - **Test anatomy:** Setup, action, assertion—and how AI sometimes skips critical steps
 - **Parameterized tests:** Using AI to generate multiple test cases efficiently
@@ -61,7 +61,7 @@ By the end of this session, you will be able to:
 - **Error case testing:** Ensuring AI generates tests for failure modes, not just happy paths
 - **Framework-specific syntax:** Getting AI to generate tests in your specific tool (Jest, pytest, etc.)
 
-### Code Quality & Coverage Analysis
+#### Code Quality & Coverage Analysis
 - **Coverage metrics:** Line coverage, branch coverage, function coverage—and what each means
 - **Coverage gaps:** Using AI to identify which code paths aren't tested
 - **Edge case thinking:** AI's common blind spots (null/undefined, empty collections, boundary values, dates, and times)
@@ -69,21 +69,21 @@ By the end of this session, you will be able to:
 - **Test maintainability:** How AI-generated tests can become technical debt if not reviewed carefully
 - **Security and robustness testing:** Cases AI often misses (injection attacks, type coercion, race conditions)
 
-### Integration with Development Workflow
+#### Integration with Development Workflow
 - **Test-driven development (TDD) with AI:** Writing tests before code, using AI to accelerate both
 - **Regression testing:** Generating tests from real bugs you've fixed
 - **Continuous integration:** Ensuring AI-generated tests work in your CI/CD pipeline
 - **Documentation through tests:** Using tests as executable documentation of behavior
 - **Balancing speed and quality:** When to rely on AI tests vs. when to write manually
 
-## Independent Practice
+### Independent Practice
 
 **Time Allocation:** 30 minutes
 
 ### Overview
 You will work through **two focused activities**: generating tests for a provided function with AI, evaluating and improving those tests, and analyzing code coverage gaps. You'll document your process and note what AI caught and what it missed.
 
-### How to Show Up for Yourself, Prepared to Do the Work!
+#### How to Show Up for Yourself, Prepared to Do the Work!
 - **Complete both activities** below before the session.
 - **Use a free AI tool** (ChatGPT, Claude, or similar).
 - **Document your work in a shared format** (Google Doc, Markdown file, Notion, or screenshots) so you can screen-share during guided practice.
@@ -92,7 +92,7 @@ You will work through **two focused activities**: generating tests for a provide
   - One edge case you had to add manually that AI missed
   - How you'd use this process on your current projects
 
-### Activity 1: AI-Generated Test Cases & Coverage (18 minutes)
+#### Activity 1: AI-Generated Test Cases & Coverage (18 minutes)
 
 **Objective:** Generate tests with AI and evaluate their quality and coverage.
 
@@ -236,7 +236,7 @@ Write a 2-3 sentence reflection:
 - How would you describe "good" test coverage to someone who hasn't written tests before?
 - Would these AI-generated tests catch a real bug if you introduced one?
 
-### Activity 2: Code Quality & Test Maintainability (12 minutes)
+#### Activity 2: Code Quality & Test Maintainability (12 minutes)
 
 **Objective:** Evaluate code quality implications of AI-assisted testing.
 
@@ -343,7 +343,7 @@ Improvement 2: [etc]
 **Step 4: One Quality Consideration (1 minute)**
 Write a 1-2 sentence note: "The refactored tests are [better/worse/similar in] maintainability because..."
 
-### Independent Practice Showcase Format
+#### Independent Practice Showcase Format
 
 **What to prepare for Zoom:**
 1. **Your completed document** with both Activity 1 and Activity 2
@@ -352,12 +352,12 @@ Write a 1-2 sentence note: "The refactored tests are [better/worse/similar in] m
   - **Activity 2:** Show the "before" poor test suite, the AI-refactored version, and one specific improvement that stood out
 3. **Be ready to answer:** "What's one thing you'll do differently when generating tests with AI in your projects?"
 
-## Guided Practice
+### Guided Practice
 
 **Time Allocation:** 45 minutes
 Program staff will facilitate interactive discussion and live demonstrations. Come ready to participate and learn from peers.
 
-### Part 1: Test Generation Strategy & Quality Standards (13 minutes)
+#### Part 1: Test Generation Strategy & Quality Standards (13 minutes)
 
 **Presentation:**
 Program staff will present a **framework for test quality** and how to use AI responsibly:
@@ -412,7 +412,7 @@ Synthesize common themes. Clarify what makes a test strong vs. weak. Address mis
 - Don't worry if your assessment differs from peers; differences spark learning
 - Ask clarifying questions if the quality framework isn't clear
 
-### Part 2: Live Coverage Analysis & Gap Identification (17 minutes)
+#### Part 2: Live Coverage Analysis & Gap Identification (17 minutes)
 
 **Live Demonstration (8 minutes):**
 Program staff will analyze a **real code function** for test coverage, showing:
@@ -473,7 +473,7 @@ You'll analyze coverage for a **different function** (program staff provide 2-3 
 - Don't aim for 100% coverage; just identify what's missing
 - Engage with program staff feedback; ask clarifying questions if needed
 
-### Part 3: Test Debugging & Peer Review (15 minutes)
+#### Part 3: Test Debugging & Peer Review (15 minutes)
 
 **Small Group Activity:**
 You'll pair with **one peer** to review each other's independent practice work.
@@ -501,9 +501,9 @@ Peer review focuses on:
 - Be open to suggestions; this is collaborative learning
 - Share one insight you gained from the peer review
 
-## Supplemental Materials
+### Supplemental Materials
 
-### Free Testing Frameworks & Tools
+#### Free Testing Frameworks & Tools
 
 | Tool | Language | Free Tier | Best For|
 |-----|-----|-----|-----|
@@ -514,7 +514,7 @@ Peer review focuses on:
 | **Coverage.py** | Python | Free, open-source | Measure code coverage in Python
 | **NYC** / **c8** | JavaScript | Free, open-source | Generate coverage reports for JavaScript
 
-### Test Writing & AI Assistance
+#### Test Writing & AI Assistance
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
@@ -524,7 +524,7 @@ Peer review focuses on:
 | **[Test Pyramid Concept](https://martinfowler.com/bliki/TestPyramid.html)** | Article | Understand balance between unit, integration, E2E tests | 
 | **[Unit Testing Best Practices](https://www.pluralsight.com/guides/unit-testing-best-practices)** | Pluralsight Guide | What makes a good unit test; naming, assertion strength | 
 
-### Code Coverage Analysis
+#### Code Coverage Analysis
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
@@ -534,21 +534,21 @@ Peer review focuses on:
 | **[Using NYC for Coverage Reports](https://github.com/istanbuljs/nyc)** | Tutorial | Analyze JavaScript test coverage; identify gaps | 
 | **[Using Coverage.py for Python](https://coverage.readthedocs.io/)** | Tutorial | Generate coverage reports; understand coverage data | 
 
-### AI-Assisted Test Generation
+#### AI-Assisted Test Generation
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **Prompting for Test Generation** | Guide (Reference Week 1 & 2 resources on prompting; apply to testing context)| Specific techniques for getting AI to generate useful tests | 
 | **ChatGPT for Unit Testing** | Blog/Video (YouTube: search "ChatGPT unit testing tutorial") | Practical walkthrough of AI-assisted test writing | 
 
-### Edge Cases & Boundary Testing
+#### Edge Cases & Boundary Testing
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[Equivalence Partitioning](https://en.wikipedia.org/wiki/Equivalence_partitioning)** | Testing Technique | Group test cases into equivalence classes; ensure comprehensive coverage |
 | **Testing Null, Undefined, Empty** | Best Practices: MDN (JS) / PEP docs (Python) | Common edge cases in JavaScript/Python | 
 
-### Mocking, Fixtures & Test Data
+#### Mocking, Fixtures & Test Data
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
@@ -556,28 +556,28 @@ Peer review focuses on:
 | **[pytest Fixtures](https://docs.pytest.org/en/stable/fixture.html)** | Official Docs | Reusable test setup; prevents duplication | 
 | **[Factory Pattern in Tests](https://github.com/thoughtbot/factory_bot)** | Article | Generate realistic test data efficiently |  (Ruby example, but pattern applies everywhere)
 
-### Test Maintainability & Refactoring
+#### Test Maintainability & Refactoring
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[Test Smell: A Quick Reference](https://testsmells.org/)** | Article | Recognize and fix common test code smells | 
 | **[DRY in Tests](https://en.wikipedia.org/wiki/Don't_repeat_yourself)** | Best Practices | Avoid test duplication; maintain tests long-term | 
 
-### Security & Robustness Testing
+#### Security & Robustness Testing
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)** | Reference | Common vulnerabilities to test for | 
 | **[Input Validation Testing](https://owasp.org/www-community/attacks/xss/) (example: XSS testing)** | Best Practices | Testing user inputs for unexpected formats | 
 
-### Test-Driven Development (TDD)
+#### Test-Driven Development (TDD)
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[TDD Best Practices](https://en.wikipedia.org/wiki/Test-driven_development)** | Article | Writing tests *before* code; using tests to guide design | 
 | **[Red-Green-Refactor Cycle](https://www.youtube.com/watch?v=B2_SDHP7VZ0) (search for TDD video tutorials)** | Guide | TDD workflow; how AI can accelerate each phase | 
 
-### Interview Prep: Talking About Testing
+#### Interview Prep: Talking About Testing
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
@@ -585,7 +585,7 @@ Peer review focuses on:
 | **Test Coverage Discussion** | Conversation Starter | Discuss tradeoffs: speed vs. quality, coverage goals | GitHub discussions, engineering blogs
 | **Real-World Testing Scenarios** | Case Study | Study how teams balance AI-assisted testing with quality | Search company engineering blogs (Stripe, Vercel, GitHub, etc.)
 
-### Optional: Going Deeper
+#### Optional: Going Deeper
 
 | Resource | Type | For Those Interested| Link|
 |-----|-----|-----|-----|
@@ -593,7 +593,7 @@ Peer review focuses on:
 | **Mutation Testing** | Advanced | Test the tests; ensure your assertions catch real bugs | [https://stryker-mutator.io/](https://stryker-mutator.io/)
 | **Contract Testing** | Advanced | Test API contracts between services; relevant for full-stack | [https://pact.foundation/](https://pact.foundation/)
 
-## Showing Up for Yourself During Session
+### Showing Up for Yourself During Session
 
 **Before the Session:**
 - Complete both Activity 1 and Activity 2. If time is tight, prioritize Activity 1 (test generation is the core skill).
