@@ -311,8 +311,8 @@ You'll pair with **one peer**.
 
 ### Interview & Communication Resources
 
-| Resource | Type | Why It Matters | Link|
-|-----|-----|-----|-----|
+| Resource | Type | Why It Matters |
+|-----|-----|-----|
 | **"How to Discuss AI Usage in Interviews"** | Blog/Guide | Frame your AI experience positively and honestly | Vercel blog, Y Combinator startup resources, or Blind.com community posts
 | **[Behavioral Interview Questions](https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions)** (Sample) | Reference | Practice articulating your decision-making process | 
 
