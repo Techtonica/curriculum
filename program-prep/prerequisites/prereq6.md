@@ -19,9 +19,9 @@ Participants should have a basic understanding of the following foundational con
   - [Part 1: Welcome & Session Overview](#part-1-welcome--session-overview-5-minutes)
   - [Part 2: Breakout Room Sharing](#part-2-breakout-room-sharing-45-minutes)
   - [Part 3: Group Debrief](#part-3-group-debrief-10-minutes)
-  - [Part 4: Staff-Led Translating Flowcharts to Pseudo-Code](#part-4-translating-flowcharts-to-pseudo-code-40-minutes)
-  - [Part 5: Mini-Challenge - Find and Fix Errors in Pseudo-Code](#part-5-find-and-fix-errors-in-pseudo-code-20-minutes)
-  - [Part 6: Decomposition & Independence in Problem-Solving](#part-6-decmpositon--independence-in-problem-solving-10-minutes)
+  - [Part 4: Staff-Led Translating Flowcharts to Pseudo-Code](#part-4-staff-led-translating-flowcharts-to-pseudo-code-40-minutes)
+  - [Part 5: Mini-Challenge - Find and Fix Errors in Pseudo-Code](#part-5-mini-challenge---find-and-fix-errors-in-pseudo-code-20-minutes)
+  - [Part 6: Decomposition & Independence in Problem-Solving](#part-6-decomposition--independence-in-problem-solving-10-minutes)
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
