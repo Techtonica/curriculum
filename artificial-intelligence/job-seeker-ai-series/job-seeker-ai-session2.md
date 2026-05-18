@@ -1,13 +1,13 @@
 # Job Seeker AI Session Week 2: AI for Debugging & Documentation
 
-## Prerequisites
+### Prerequisites
 - Completion of 1000+ hours of PERN full stack development experience
 - Completion of [Job Seeker AI Session Week 1 (Ethical AI + Prompting Foundations)](../job-seeker-ai-session1.md), you should understand ethical frameworks and basic prompt refinement techniques
 - Familiarity with debugging workflows (reading error messages, using browser/server dev tools, tracing execution)
 - Comfort reading code in JavaScript or Python (examples provided in both languages)
 - A free account with at least one AI tool (ChatGPT, Claude, or similar)
 
-## Table of Contents
+### Table of Contents
 - [Motivation](#motivation)
 - [Objectives](#objectives)
 - [Specific Things To Learn](#specific-things-to-learn)
@@ -16,12 +16,12 @@
 - [Supplemental Materials](#supplemental-materials)
 - [Showing Up for Yourself During Session](#showing-up-for-yourself-during-session)
 
-## Projected Timeline
+### Projected Timeline
 - **Independent Practice:** 30 minutes
 - **Guided Practice:** 45 minutes
 - **Total Session Time:** 75 minutes
 
-## Motivation
+### Motivation
 Debugging is one of the most time-consuming parts of development. Developers spend an average of **40-50% of their coding time debugging**, and much of that involves:
 - Reproducing the error
 - Isolating the root cause
@@ -38,7 +38,7 @@ This session, you'll learn to:
 
 Teams value engineers who debug efficiently and document clearly. The better you are at debugging, the less errors your code will have. The more you clearly document your code, the easier it is to work on a team with a shared codebase. Mastering AI-assisted debugging and documentation makes you more productive *and* more hireable.
 
-## Objectives
+### Objectives
 By the end of this session, you will be able to:
 1. **Use AI as a debugging partner** by providing effective context (error messages, code snippets, attempted solutions) and iteratively refining prompts to isolate root causes.
 2. **Generate documentation with AI** (API docs, function descriptions, README sections) and edit for accuracy, tone, and completeness.
@@ -46,9 +46,9 @@ By the end of this session, you will be able to:
 4. **Create reproducible debugging scenarios** that you can share with AI tools to get actionable help.
 5. **Articulate your debugging process** to interviewers and teammates, showing how AI fits into your problem-solving workflow.
 
-## Specific Things to Learn
+### Specific Things to Learn
 
-### Debugging with AI
+#### Debugging with AI
 - **Providing effective debugging context:** Error messages, stack traces, relevant code sections, what you've already tried
 - **Iterative debugging:** Following up on AI suggestions, testing them, reporting results, and refining next steps
 - **Red flags in AI debugging suggestions:** Hallucinated functions, outdated syntax, solutions that don't match your stack
@@ -56,7 +56,7 @@ By the end of this session, you will be able to:
 - **Rubber duck debugging enhanced:** Using AI as a sounding board to explain your code and spot logic errors
 - **Documentation through debugging:** How to capture your debugging journey for future reference and team knowledge
 
-### Documentation Generation with AI
+#### Documentation Generation with AI
 - **Prompt structure for docs:** Specifying audience, format, depth, and technical level
 - **Generating API documentation:** Using AI to create function signatures, parameter descriptions, return values, examples
 - **README and onboarding docs:** AI assistance for project setup, configuration, troubleshooting sections
@@ -64,19 +64,19 @@ By the end of this session, you will be able to:
 - **Editing AI-generated documentation:** Checking for accuracy, outdated assumptions, missing edge cases
 - **Documentation as reference for debugging:** Good docs help you and your team debug faster
 
-### Practical Integration
+#### Practical Integration
 - Recording debugging sessions (screenshots, stack traces) to share with AI and team members
 - Comparing your manual debugging notes to AI suggestions
 - Combining AI documentation with examples and edge cases
 - Balancing AI-generated content with your own expertise and voice
 
-## Independent Practice
+### Independent Practice
 **Time Allocation:** 30 minutes
 
-### Overview
+#### Overview
 You will work through **two focused activities**: debugging a real code problem with AI assistance, and generating documentation for a code sample. You'll document your process, evaluate outputs, and note what worked and what didn't.
 
-### How to Show Up for Yourself, Prepared to Do the Work!
+#### How to Show Up for Yourself, Prepared to Do the Work!
 - **Complete both activities** below before the session.
 - **Use a free AI tool** (ChatGPT, Claude, or similar).
 - **Document your work in a shared format** (Google Doc, Markdown file, Notion, or screenshots) so you can screen-share during guided practice.
@@ -85,7 +85,7 @@ You will work through **two focused activities**: debugging a real code problem 
   - One thing the AI-generated documentation got wrong that you had to fix
   - How you'd use this process on your current job search projects
 
-### Activity 1: AI-Assisted Debugging (18 minutes)
+#### Activity 1: AI-Assisted Debugging (18 minutes)
 **Objective:** Experience using AI as a debugging partner while maintaining critical evaluation.
 
 **Task:**
@@ -201,7 +201,7 @@ Write a 2-3 sentence reflection:
 
 **Deliverable:** Add your reflection to your document.
 
-### Activity 2: AI-Generated Documentation (12 minutes)
+#### Activity 2: AI-Generated Documentation (12 minutes)
 **Objective:** Generate documentation with AI and practice evaluating accuracy.
 
 **Task:**
@@ -304,7 +304,7 @@ Can you revise?"
 **Step 4: Compare & Reflect (1 minute)**
 Add a final note: "The AI-generated docs were [80%/60%/40%] accurate. I had to fix [list 1-2 things]. Next time, I would..."
 
-### Independent Practice Showcase Format
+#### Independent Practice Showcase Format
 
 **What to prepare for Zoom:**
 1. **Your completed document** with both Activity 1 and Activity 2
@@ -314,12 +314,12 @@ Add a final note: "The AI-generated docs were [80%/60%/40%] accurate. I had to f
 
 3. **Be ready to answer:** "How confident would you be using AI-generated docs or fixes in your actual project?"
 
-## Guided Practice
+### Guided Practice
 
 **Time Allocation:** 45 minutes
 Program staff will facilitate interactive discussion and live demonstrations. Come ready to participate and learn from peers' experiences.
 
-### Part 1: Debugging Strategy Debrief (12 minutes)
+#### Part 1: Debugging Strategy Debrief (12 minutes)
 
 **Discussion:**
 Program staff will present a **structured debugging process** that incorporates AI:
@@ -350,7 +350,7 @@ Program staff will review selected participant prompts, highlight what made them
 - If you're uncertain about your prompt, ask; everyone is learning
 - Note one thing that surprised you about the debugging process
 
-### Part 2: Documentation Workshop — Live Demo & Hands-On (18 minutes)
+#### Part 2: Documentation Workshop — Live Demo & Hands-On (18 minutes)
 
 **Live Demonstration (8 minutes):**
 Program staff will **live-generate documentation** for a moderately complex function, narrating their process:
@@ -399,7 +399,7 @@ You'll generate documentation for a **different function** (program staff provid
 - If your AI output looks off, note it; program staff might use your example to teach
 - Engage with feedback—ask clarifying questions if needed
 
-### Part 3: Debugging + Documentation Integration & Peer Feedback (15 minutes)
+#### Part 3: Debugging + Documentation Integration & Peer Feedback (15 minutes)
 
 **Small Group Activity:**
 You'll pair with **one peer** to review each other's independent practice work.
@@ -430,9 +430,9 @@ Peer review focuses on:
 - Ask clarifying questions if something isn't clear
 - Be open to suggestions; this is collaborative learning
 
-## Supplemental Materials
+### Supplemental Materials
 
-### Free Tools & Platforms
+#### Free Tools & Platforms
 
 | Tool | Purpose | Free Tier | Best For |
 |-----|-----|-----|-----|
@@ -443,7 +443,7 @@ Peer review focuses on:
 | [**Stack Overflow**](https://stackoverflow.com) | Q&A community | Free | Finding solutions others have debugged
 | [**MDN Web Docs**](https://mdn.mozilla.org) | Reference | Free | JavaScript/Web API documentation reference
 
-### Debugging-Specific Resources
+#### Debugging-Specific Resources
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
@@ -453,7 +453,7 @@ Peer review focuses on:
 | **[Rubber Duck Debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging)** (Concept) | Article | AI as a modern take on explaining code to debug it |
 | **[Python Debugging with pdb](https://docs.python.org/3/library/pdb.html)** | Tutorial | Understanding Python's debugger (works with AI help) |
 
-### Documentation Generation & Best Practices
+#### Documentation Generation & Best Practices
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
@@ -464,7 +464,7 @@ Peer review focuses on:
 | **[Auto-generating Docs from Code](https://swagger.io/tools/swagger-ui/)** | Tutorial | Tools like Swagger/OpenAPI can generate docs (AI-friendly) | 
 | **Documentation Examples on GitHub** | Reference | Search for well-documented projects to see examples | GitHub > explore > filter by language > look at README and docs/ folder
 
-### Stack Traces & Error Handling
+#### Stack Traces & Error Handling
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
@@ -472,7 +472,7 @@ Peer review focuses on:
 | **[Python Traceback Guide](https://docs.python.org/3/tutorial/errors.html)** | Tutorial | How to interpret Python error messages and tracebacks |
 | **[Error Boundaries & Debugging in React](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary)** | React Docs | Best practices for catching and debugging errors in React |
 
-### Prompt Engineering for Debugging & Documentation
+#### Prompt Engineering for Debugging & Documentation
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
@@ -480,7 +480,7 @@ Peer review focuses on:
 | **Prompting for Code Analysis** | Article | Specific prompt patterns for code-related tasks | Search "prompting for code analysis AI" or reference Week 1 resources
 | **Multi-turn Conversations with AI** | Guide | How to iterate and refine prompts over multiple turns | Covered in AI tool documentation (ChatGPT, Claude guides)
 
-### Interview Prep: Talking About Your Debugging Process
+#### Interview Prep: Talking About Your Debugging Process
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
@@ -488,14 +488,14 @@ Peer review focuses on:
 | **"Walk Me Through Your Debugging Process"** | Blog/Guide | How to answer this common interview question | Search on Blind.com or interview prep blogs; multiple perspectives available
 | **System Design & Debugging Discussions** | Video | Engineering leaders discussing debugging approaches | YouTube: search "engineering debugging interview"
 
-### Optional: Going Deeper
+#### Optional: Going Deeper
 
 | Resource | Type | For Those Interested|
 |-----|-----|-----|
 | **[Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)** | Article | Writing tests alongside debugging | 
 | **[Observability & Logging Best Practices](https://opentelemetry.io/docs/)** | Guide | How good logging makes debugging (with or without AI) easier |
 
-## Showing Up for Yourself During Session
+### Showing Up for Yourself During Session
 
 **Before the Session:**
 - Complete both Activity 1 and Activity 2. If time is tight, prioritize Activity 1 (debugging is often more urgent).
