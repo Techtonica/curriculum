@@ -16,7 +16,7 @@ Participants should have a basic understanding of the following foundational con
 - Growth mindset: belief that struggling is part of learning
 - Completed [Prerequisite Session 4: Logic + Ownership](../prereq4.md)
 
-## Table of Contents
+### Table of Contents
 - [Projected Time](#projected-time)
 - [Motivation](#motivation)
 - [Objectives](#objectives)
@@ -34,14 +34,14 @@ Participants should have a basic understanding of the following foundational con
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
-## Projected Time
+### Projected Time
 Independent Practice (Pre-Session): ~2.5 hours
 Guided Practice (In-Session): 2 hours
 
-## Motivation
+### Motivation
 Programming is inherently frustrating at first. Your code won't do what you expect. You'll spend 10 minutes debugging only to realize you forgot indentation or a function call. You'll write logic that seems right but produces the wrong output. This is *normal* and *universal*—every engineer experiences this. The difference between people who become great engineers and people who quit is not talent; it's resilience. It's the ability to say, "That didn't work. Why? Let me try again." This week, you'll learn pseudocode, a beginner-friendly programming exercise that teaches core programming concepts without overwhelming syntax complexity. You'll work on logic and problem-solving. These habits of persistence and debugging will carry you through harder challenges ahead. Resilience isn't about never struggling; it's about struggling, learning, and trying again.
 
-## Objectives
+### Objectives
 By the end of this session, participants will:
 - Write their first programmatic pseudocode
 - Understand that programming requires iterating, testing, and debugging
@@ -51,7 +51,7 @@ By the end of this session, participants will:
 - See resilience as a core engineering skill
 - Understand the connection between logical thinking (PrerequisiteWeek 2) and code execution
 
-## Specific Things to Learn
+### Specific Things to Learn
 
 **Technical Skills:**
 - Sequential execution (commands run in order)
@@ -69,7 +69,7 @@ By the end of this session, participants will:
 - Debugging mindset: systematic problem-solving, not random guessing
 - Learning from mistakes: "What went wrong and why?"
 
-## Independent Practice
+### Independent Practice
 
 _**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
@@ -176,7 +176,7 @@ END
 **Submission:**
 - Google Doc with image/photo of your maze, a description, pseudo-code, peer feedback, and reflection
 
-### Task 2: "Resilience Log" (20–30 minutes) 
+#### Task 2: "Resilience Log" (20–30 minutes) 
 **Objective:** Develop metacognitive awareness of frustration and build resilience practices. A resilience log is a private record of your experience with challenge. It's not graded. It's not perfect. It's honest. You're documenting what you felt, what you did when stuck, and what you learned.
 
 **Instructions:**
@@ -214,9 +214,9 @@ After completing the log, write 3–5 sentences addressing:
 - **Article - "Why Debugging Teaches Resilience" (Medium):** Search for this topic; many free articles on learning through struggle
 - **[Mindfulness App - "Insight Timer"](https://insighttimer.com)** (free guided meditations on frustration and focus)
 
-## Guided Practice (In-Session: 2 hours)
+### Guided Practice (In-Session: 2 hours)
 
-### Part 1: Welcome & Session Overview (5 minutes)
+#### Part 1: Welcome & Session Overview (5 minutes)
 Programming isn't about getting it right on the first try. It's about iterating, testing, debugging, and trying again. That's not a failure mode; that's the process. This week is about resilience: your ability to face frustration, pause, reflect, and persist. That skill matters more than any code you'll write today.
 
 <!-- Program Staff Talking Points:**
@@ -226,7 +226,7 @@ Programming isn't about getting it right on the first try. It's about iterating,
 - "By the end of today, you'll understand sequences, loops, and conditionals—not by memorizing definitions, but by seeing them in the pseudo-code you wrote."
 -->
 
-### Part 2: Breakout Room Sharing (40 minutes)
+#### Part 2: Breakout Room Sharing (40 minutes)
 <!-- Program Staff Notes: 
 Format: Divide participants into breakout groups of 4–5 (vary groups from previous weeks to build community).
 -->
@@ -277,7 +277,7 @@ Each participant shares:
 - One frustration moment from writing their pseudocode and how they responded (1–2 minutes per person)
 - One insight from their reflection (30 seconds per person)
 
-### Part 3: Group Debrief (15 minutes)
+#### Part 3: Group Debrief (15 minutes)
 Here's what I want you to notice: you didn't write Python or JavaScript. You wrote instructions in English. And that's enough to teach the core concepts. The programming language is just the tool. The thinking is what matters.
 <!-- Program Staff Talking Points:
 "Your pseudo-code showed real programming thinking. I heard loops ('repeat until'), conditionals ('if/else'), and sequences (ordered steps). You didn't use those terms, but you were using those concepts."
@@ -293,7 +293,7 @@ Now we're going to visualize your thinking using flowcharts. A flowchart is a di
 
 -->
 
-### Part 4: Staff-Led Introduction to Flowcharts (35 minutes)
+#### Part 4: Staff-Led Introduction to Flowcharts (35 minutes)
 **Objective:** Teach flowchart notation. Show how flowcharts represent the same logic as pseudo-code. Demonstrate decomposition.
 
 **Demo 1: Flowchart Basics (10 minutes)**
@@ -438,7 +438,7 @@ Loops are how we avoid writing the same instruction 100 times. Instead of 'Eat c
 - Discuss: "What's different? What's the same?"
 --> 
 
-### Part 5: Mini-Challenge - Debug Pseudo-Code Instructions (20 minutes)
+#### Part 5: Mini-Challenge - Debug Pseudo-Code Instructions (20 minutes)
 **Objective:** Practice finding and fixing errors in instructions. Understand debugging as logical problem-solving.
 
 <!-- Program Staff Note about Format: staff presents broken pseudo-code. Participants identify what's wrong and how to fix it. -->
@@ -546,7 +546,7 @@ End
 ```
 -->
 
-### Part 6: Resilience, Precision in Problem-Solving, & Growth Mindset (5 minutes)
+#### Part 6: Resilience, Precision in Problem-Solving, & Growth Mindset (5 minutes)
 The pseudocode didn't work perfectly on the first try. That's not a failure; that's the process. Every programmer — from beginners to experts — writes pseudocode (and yes even code!) that doesn't work. Then they debug it. Your resilience log showed something powerful: when you got stuck, you didn't give up. You took a break, tried again, asked for help, looked at documentation. Those are the habits of successful engineers.
 <!-- Program Staff Talking Points:
 - "This week, you experienced something programmers experience constantly: the frustration of being imprecise."
@@ -559,7 +559,7 @@ The pseudocode didn't work perfectly on the first try. That's not a failure; tha
 - "Next session, we're going to write more complex code using loops. It'll be harder. You'll get stuck again. And you'll get unstuck, just like you did today. That's how you grow."
 -->
 
-### Part 7: Q&A (5 minutes)
+#### Part 7: Q&A (5 minutes)
 
 Q: "Is pseudo-code a real programming language?" \
 A: No, it's a planning tool. Programmers use it before writing actual code to think through logic.
@@ -585,8 +585,7 @@ A: Not really. You have to think through it. But you'll develop intuition over t
 Q: "What if I can't figure out what's wrong?" \
 A: You ask for help. You take a break and come back. You use print statements or add comments. You Google the error message. You pair program with someone.
 
-
-## Continued Learning
+### Continued Learning
 
 **Debugging Flowchart**
 1. Step 1: Work through your pseudocode
