@@ -26,15 +26,15 @@ Participants should have a basic understanding of the following foundational con
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Independent Practice](#independent-practice)
-  - [Task 1: Karel World No.1 - "Clean the Room"](#task-1-karel-world-no1---clean-the-room-6090-minutes)
+  - [Task 1: Write Pseudo-Code Instructions for a Maze](#write-pseudo--code-instructions-for-a-maze-6090-minutes)
   - [Task 2: "Resilience Log"](#task-2-resilience-log-2030-minutes)
 - [Guided Practice (In-Session: 2 hours)](#guided-practice-in-session-2-hours)
   - [Segment 1: Welcome & Session Overview](#segment-1-welcome--session-overview-5-minutes)
   - [Segment 2: Breakout Room Sharing](#segment-2-breakout-room-sharing-40-minutes)
   - [Segment 3: Group Debrief](#segment-3-group-debrief-15-minutes)
-  - [Segment 4: Staff-Led Live Code Debugging](#segment-4-staff-led-live-code-debugging-35-minutes)
-  - [Segment 5: Mini-Challenge - Predict What This Code Will Do](#segment-5-mini-challenge---predict-what-this-code-will-do-20-minutes)
-  - [Segment 6: Resilience & Growth Mindset](#segment-6-resilience--growth-mindset-5-minutes)
+  - [Segment 4: Staff-Led Introduction to Flowcharts](#segment-4-staff-led-introduction-to-flowcharts-35-minutes)
+  - [Segment 5: Mini-Challenge - Debug Pseudo-Code Instructions](#segment-5-mini-challenge---debug-pseudo--code-instructions-35-minutes)
+  - [Segment 6: Resilience, Precision in Problem-Solving, & Growth Mindset](#segment-6-precision-in-problem--solving--resilience--growth-mindset-5-minutes)
   - [Segment 7: Q&A](#segment-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
@@ -91,7 +91,111 @@ By the end of this session, participants will:
 
 _**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
-### Task 1: "Resilience Log" (20–30 minutes)
+### Task 1: Write Pseudo-Code Instructions for a Maze (60–90 minutes)
+
+**Background — What is Pseudo-Code?**
+Pseudo-code is instructions written in plain English (or any language), not in programming syntax. It describes *what* to do without requiring you to know any programming language. Programmers use pseudo-code to plan before writing actual code. Note, "Task 2" will be dependent upon this work, read that task before beginning Task 1.
+
+Example:
+
+```plaintext
+Start at entrance of maze
+Repeat until cheese is found:
+  If path is clear ahead:
+    Move forward
+  Else:
+    Turn left
+Pick up cheese
+Exit maze
+```
+
+**The Task: "Navigate a Maze to Get Cheese"**
+You have a maze (physical or drawn). There's cheese somewhere in it. Write pseudo-code instructions that tell someone (or a robot) how to navigate from start to cheese.
+
+**Setup Instructions:**
+
+1. **Create or Print a Maze:**
+  - Draw one on paper (simple 5x5 grid with walls)
+  - Use an online maze generator to print or draw a replication of what's generated
+  - Or describe a real-world maze (classroom layout, hallway, etc.)
+2. **Mark the Maze:**
+  - Mark START position
+  - Mark CHEESE position
+  - Mark WALLS clearly
+3. **Write Your Pseudo-Code:**
+Start with this template:
+
+```plaintext
+START at [location]
+
+Repeat until [condition is met]:
+  If [something is true]:
+    [action]
+  Else:
+    [different action]
+
+[final action]
+END
+```
+
+4. **Example Pseudo-Code:**
+
+```plaintext
+START at entrance (bottom left)
+
+Repeat until cheese is found:
+  If there is a path to the right:
+    Move right
+  Else if there is a path forward:
+    Move forward
+  Else if there is a path to the left:
+    Move left
+  Else:
+    Turn around
+
+Pick up cheese
+Return to start
+END
+```
+
+5. **Test Your Instructions:**
+  - Give your pseudo-code to a peer
+  - They follow it **exactly** like a robot (no interpreting, no shortcuts)
+  - Do they reach the cheese?
+  - If not, where did your instructions fail?
+
+**Common Issues (and What They Teach):**
+- "Your instructions were ambiguous" → Precision matters; computers can't guess
+- "You forgot to tell me what to do in X situation" → You need to handle all cases
+- "I got stuck in a loop" → Your exit condition wasn't clear
+- "You said 'go forward' but I don't know how many steps" → Specificity is crucial
+
+**Write-Up: Explain Your Thinking in a Google Doc (2 pages)**
+1. **What maze did you create/use?** (Describe it or paste a screenshot)
+2. **Your pseudo-code:** (Paste your full instructions)
+3. **What happened when your peer tested it?**
+  - Did they reach the cheese?
+  - Where did instructions fail (if at all)?
+  - What was ambiguous?
+4. **How you'd fix it:**
+  - What would you change to make instructions clearer?
+  - What cases did you not anticipate?
+5. **Reflection:**
+  - What was hardest about writing instructions in plain English?
+  - How is this related to programming?
+  - What did you learn about clarity and precision?
+
+**Free Resources:**
+- [Maze Generator (to create mazes)](https://www.mazegenerator.net)
+- ["Algorithms Unplugged" (free book, Chapter 1)](https://www.csunplugged.org) (code-free algorithm teaching)
+- [Khan Academy - "Algorithms"](https://www.khanacademy.org/computing/computer-science/algorithms) (scroll to "Intro" level)
+- **Article - "Pseudo-Code: How to Write It":** Search "writing pseudo-code for beginners" (many free blog posts)
+
+**Submission:**
+- Google Doc with image/photo of your maze, a description, pseudo-code, peer feedback, and reflection
+
+### Task 2: "Resilience Log" (20–30 minutes) 
+<!-- New Title: Write Pseudo-Code Instructions for a Maze (60–90 minutes)-->
 **Objective:** Develop metacognitive awareness of frustration and build resilience practices.
 
 **Instructions:**
@@ -129,106 +233,16 @@ After completing the log, write 3–5 sentences addressing:
 - **Article - "Why Debugging Teaches Resilience" (Medium):** Search for this topic; many free articles on learning through struggle
 - **[Mindfulness App - "Insight Timer"](https://insighttimer.com)** (free guided meditations on frustration and focus)
 
-### Task 1: Karel World No.1 - "Clean the Room" (60–90 minutes)
-**Objective:** Write your first Python program. Experience the debugging process. Learn core programming concepts through doing.
-
-**Background — What is Karel?**
-Karel is a robot that lives in a grid world. You control Karel using Python commands. Karel can:
-
-- **move()** — Move forward one square
-- **turn_left()** — Turn left 90 degrees
-- **put_beeper()** — Place a beeper (marker) on the current square
-- **pick_beeper()** — Pick up a beeper from the current square
-- **front_is_clear()** — Check if the path ahead is clear (returns True/False)
-- **beepers_present()** — Check if there are beepers on the current square (returns True/False)
-
-Your job: Write commands to instruct Karel to do a task.
-
-**The Task: "Clean the Room"**
-
-Karel is in a room (at position 1, 1) that looks like this (simplified):
-
-```plaintext
-        1   2   3   4   5
-    5   .   .   .   .   .
-    4   .   *   *   *   .
-    3   .   *   *   *   .
-    2   .   *   *   *   .
-    1   K   .   .   .   .
-```
-
-- K = Karel's starting position (1, 1)
-- * = Beepers (trash) scattered in the room
-- . = Empty spaces
-
-**Your Goal:** Write a program that instructs Karel to:
-1. Move through the room
-2. Pick up all the beepers (check if beepers are present before picking)
-3. Return to the starting position
-
-**Setup Instructions:**
-1. **Access Karel:** Go to https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html (Lessons 5-6 cover loops)
-2. **Set Up Python:** Follow the Stanford Karel Reader's setup guide to install the necessary files and run Karel in your Python environment
-3. **Explore the "Lesson 1" or starter worlds** to understand how the environment works
-4. **Write Your Program:** Create a Python file (e.g., `clean_room.py`) with your code
-
-**Example Code Structure:**
-
-```python
-from karel.stanfordkarel import *
-
-def main():
-    # Your code here
-    move()
-    move()
-    
-    if beepers_present():
-        pick_beeper()
-    
-    # Continue...
-    
-if __name__ == "__main__":
-    main()
-```
-
-**Common Challenges (Normal!):**
-- "ModuleNotFoundError: No module named 'karel'" → You need to set up the Karel files properly. Follow the Stanford Reader setup guide.
-- "IndentationError: unexpected indent" → Python requires consistent indentation. Make sure all code inside functions is indented.
-- "Karel picked up a beeper but I didn't expect it" → You called `pick_beeper()` at the wrong location. Debug by checking where Karel is before picking.
-- "I don't know how to pick up all the beepers efficiently" → Check if beepers exist before picking. Use conditionals: `if beepers_present(): pick_beeper()`
-- "This is taking forever" → Take a break! Come back with fresh eyes.
-
-**Record a Video Explaining Your Thinking (5–10 minutes)**
-Once you've solved the task (or spent 60+ minutes trying), record a video explaining:
-
-1. **What confused you?** Example: "I didn't understand how `if beepers_present():` works. I thought it meant Karel would automatically pick up beepers, but I had to call `pick_beeper()` explicitly."
-
-2. **How did you solve it? (Or how did you approach it?)** Example: "I started by writing simple move commands to navigate the room. Then I added a conditional to check for beepers. Once I found a beeper, I called pick_beeper(). Then I looped through the room to find all beepers."
-
-3. **Where did you get stuck? How did you respond?** Example: "I got an IndentationError and had to debug the spacing in my code. I looked at the example code structure and noticed my indentation was wrong. I fixed it and it worked."
-
-4. **Explain how this task is related to programming:** Example: "This is programming because I had to give the computer exact instructions in Python. If I made a mistake, the program failed. It's like debugging: I had to figure out what went wrong and fix it."
-
-**Free Resources:**
-- **[Stanford Karel Reader - Python](https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html)** (official source; includes lessons and example worlds — follow lessons 1-3 from the Karel Reader to understand basics)
-- **YouTube - "Python Karel Introduction":** Search for "Stanford Karel Python tutorial" for video walkthroughs
-- **[Python.org - "Python for Beginners"](https://www.python.org/about/gettingstarted/)** (if you need Python basics)
-- **[Replit Karel (Optional Web-Based Alternative)](https://replit.com)** (if you prefer not to install locally)
-
-**Submission:**
-- Successfully complete the "Clean the Room" world (or document how far you got)
-- Submit recorded video link explaining your thinking
-- Include a note: "This was easy / medium / hard for me because..."
-- Share your `clean_room.py` code file
-
 ## Guided Practice (In-Session: 2 hours)
 
 ### Part 1: Welcome & Session Overview (5 minutes)
 Programming isn't about getting it right on the first try. It's about iterating, testing, debugging, and trying again. That's not a failure mode; that's the process. This week is about resilience: your ability to face frustration, pause, reflect, and persist. That skill matters more than any code you'll write today.
 
 <!-- Program Staff Talking Points:**
-- "This is the moment we shift from theory to practice. Some of it will work beautifully. Some of it won't. Both are essential."
-- "You just tracked every moment of frustration in your resilience log. That practice—naming what's hard—is how you build resilience. You're already doing it."
+- "This week, we're learning the foundations of programming without writing any code. That might sound strange, but it's how professionals actually start: they plan in pseudo-code before they type a single line."
+- "You just wrote instructions in plain English. That's what programming is: giving computers very clear, very specific instructions. The language changes (Python, JavaScript, etc.), but the thinking is the same."
+- "Today, we're going to look at your instructions, talk about what makes them good or unclear, and learn the patterns programmers use to solve problems."
+- "By the end of today, you'll understand sequences, loops, and conditionals—not by memorizing definitions, but by seeing them in the pseudo-code you wrote."
 -->
 
 ### Part 2: Breakout Room Sharing (40 minutes)
@@ -236,276 +250,351 @@ Programming isn't about getting it right on the first try. It's about iterating,
 Format: Divide participants into breakout groups of 4–5 (vary groups from previous weeks to build community).
 -->
 
-**Part A: Karel World Demos (20 minutes)**
+**Part A: Pseudo-Code Presentations (25 minutes)**
 <!-- Program Staff Notes: 
 Copy/Paste Discussion Prompts in Zoom Chat:
 - "Who took a different approach to solve this? Tell us about it."
 - "Did anyone discover a command or pattern that surprised them?"
 - "Who didn't finish the task? Where did you get stuck? That's totally okay—let's talk about it."
 - "What made this easier or harder than you expected?"
--->
-Have each participant share:
-- A 1–2 minute screen share of their Karel solution (or as far as they got)
-- One moment from their recorded video: What confused them? How did they solve it?
 
-**Part B: Resilience Log Sharing (17 minutes)**
-<!-- Program Staff Notes: 
 Copy/Paste Discussion Prompts in Zoom Chat:
-- "Who had a similar frustration? How did you handle it?"
-- "Who took a break? Did it help?"
-- "Did anyone use a strategy (drawing a map, writing it out, asking a friend) that worked?"
-- "Looking at everyone's logs, what's the most common frustration?" (Likely: commands in the wrong order, forgetting a command, confusion about turn_left())
+- "Whose instructions were the clearest? What made them clear?"
+- "Who had to rewrite their instructions after peer testing? What changed?"
+- "Did anyone use words like 'repeat,' 'if,' or 'while'? That's programming thinking!"
+- "What was the hardest part to explain in plain English?"
+- "Did anyone discover a pattern (e.g., 'always turn left' or 'follow the wall')? That's algorithmic thinking."
 
 Facilitation Notes:
 - Document common frustration points (these inform the staff-led portion)
 - Celebrate persistence: "I love that you tried X different approaches"
 - Normalize struggle: "Everyone got stuck. That's the point."
 - Highlight growth moments: "Notice how you responded to frustration? That's resilience."
+-->
 
-Tone: Frame debugging as detective work, not failure. "You're being scientists: form a hypothesis, test it, observe the results, adjust."
+Have each participant share:
+- Their maze (draw it on screen, show photo, or describe it)
+- Their pseudo-code (read it aloud)
+- One moment where their peer got confused or stuck
+
+**Part B: Resilience Log Sharing (13 minutes)**
+<!-- Program Staff Notes: 
+Tone: Frame pseudo-code as *problem-solving communication*, not coding. "You're learning to think like an engineer."
+
+Discussin Prompts to copy and paste: 
+- "Who found it frustrating to be precise? That's normal—precision is hard."
+- "Who felt satisfied when their peer finally understood the instructions?"
+- "What did you learn about communication this week?"
+
+Facilitator Listening & Notes:
+- Document which concepts participants naturally used (loops, conditionals, sequences)
+- Note common struggles: ambiguity, edge cases, unclear language
+- Celebrate clarity: "I love how specific you were about turning"
+- Normalize struggle: "Everyone struggles with precision at first"
 -->
 Each participant shares:
-- One frustration moment from their log and how they responded (1–2 minutes per person)
+- One frustration moment from writing their pseudocode and how they responded (1–2 minutes per person)
 - One insight from their reflection (30 seconds per person)
 
 ### Part 3: Group Debrief (15 minutes)
-Here's the reality: your code didn't work perfectly on the first try. Everyone's code was like that. That's not a sign you're bad; it's a sign you're learning.
+Here's what I want you to notice: you didn't write Python or JavaScript. You wrote instructions in English. And that's enough to teach the core concepts. The programming language is just the tool. The thinking is what matters.
 <!-- Program Staff Talking Points:
-- "Your Karel solutions were creative. I saw different approaches—some moved east-west in rows, some zigzagged, some did something I hadn't even thought of. There's rarely one 'right' solution."
-- "Common frustration: turn_left(). People thought it meant 'turn towards the left' but it means 'rotate your body left.' Once you understood that, everything clicked. That's debugging."
-- "Several people said their frustration level hit 8–9. But notice: you didn't quit. You took a break, tried a different approach, talked it through. That's resilience. That's what engineers do."
+"Your pseudo-code showed real programming thinking. I heard loops ('repeat until'), conditionals ('if/else'), and sequences (ordered steps). You didn't use those terms, but you were using those concepts."
+"Your peer testing revealed something important: what's clear in your head isn't always clear to someone else. That's why engineers write clear code—so teammates can understand it."
+"Several people mentioned frustration with being precise. That's exactly right. Programming requires precision. And it's hard. But that's the skill you're building: the ability to communicate clearly, step by step."
 
 Prompt for Celebration:
-- "Who felt proud when their code finally ran? That feeling—that's why engineers do this."
-- "Who wants to tackle a harder Karel world after this session?" (Gauge interest for supplemental materials)
+- "Who feels more confident about what programming actually is?" (Raise hands)
+- "Who's surprised that precision and clarity are the hard parts, not syntax?"
 
 Frame for Next Part:
-"Now we're going to dive into debugging. I'm going to write some code live, make mistakes intentionally, and show you how to fix it. Because debugging is a skill you'll use every single day as an engineer."
+Now we're going to visualize your thinking using flowcharts. A flowchart is a diagram that shows the flow of logic. It's another way to write pseudo-code—using pictures instead of words.
 
 -->
 
-### Part 4: Staff-Led Live Code Debugging (35 minutes)
-**Objective:** Teach systematic debugging approaches. Show that mistakes are normal and fixable.
+### Part 4: Staff-Led Introduction to Flowcharts (35 minutes)
+**Objective:** Teach flowchart notation. Show how flowcharts represent the same logic as pseudo-code. Demonstrate decomposition.
 
-<!-- Program Staff Notes:
-**Format:** Facilitator writes code in Karel (or pseudocode on screen), makes intentional errors, then debugs them live.
--->
-**Demo 1: Missing Command (5 minutes)**
+**Demo 1: Flowchart Basics (10 minutes)**
+A flowchart uses shapes to represent different types of steps:
+- **Rectangle** = Action (something the robot does)
+- **Diamond** = Decision (a yes/no question)
+- **Arrow** = Direction of flow
+- **Oval** = Start or End"
 
-**Program Staff's Live Coding:**
-
-Observe this broken code:
+**Making Tea**
 
 ```plaintext
-move()
-move()
-turn_left()
-move()
-// Missing pick_beeper() here
-move()
+        ┌─────┐
+        │START│
+        └──┬──┘
+           │
+        ┌──▼──────────────────┐
+        │Boil water in kettle │
+        └──┬───────────────────┘
+           │
+        ┌──▼──────────────────┐
+        │Pour water in cup    │
+        └──┬───────────────────┘
+           │
+        ┌──▼──────────────────┐
+        │Add tea bag to cup   │
+        └──┬───────────────────┘
+           │
+        ┌──▼──────────────────┐
+        │Wait 3 minutes       │
+        └──┬───────────────────┘
+           │
+        ┌──▼──────────────────────────┐
+        │Remove tea bag; add milk/honey│
+        └──┬───────────────────────────┘
+           │
+        ┌──▼─────┐
+        │Drink! ☕│
+        └──┬─────┘
+           │
+        ┌──▼──────┐
+        │ END     │
+        └─────────┘
 ```
+
+Each rectangle is an action. Arrows show the order. This is the same as saying: 'Boil water. Pour water in cup. Add tea bag. Wait. Remove bag. Drink.'
+
+**Demo 2: Adding Decisions (12 minutes)**
+Now let's add a decision. A diamond asks a yes/no question.
+
+**Making Toast**
+
+```plaintext
+        ┌─────┐
+        │START│
+        └──┬──┘
+           │
+        ┌──▼────────────────┐
+        │Put bread in toaster│
+        └──┬─────────────────┘
+           │
+        ◇──What darkness level?
+       /│\
+    Light│Medium│Dark
+     /   │      \
+    ┌▼──┐ ┌▼──┐ ┌▼──┐
+    │Set│ │Set│ │Set│
+    │2  │ │5  │ │8  │
+    └┬──┘ └┬──┘ └┬──┘
+     │     │     │
+     └──┬──┴──┬──┘
+        │
+    ┌──▼──────────┐
+    │Press button │
+    └──┬───────────┘
+       │
+    ◇──Toast ready?
+   /NO  YES\
+  ┌▼──────┐ └─────────────┐
+  │Wait 5s│              │
+  │more   │              │
+  └───────┘              │
+      │                  │
+      │        ┌────────▼────┐
+      │        │Remove toast │
+      │        └────────┬────┘
+      │                 │
+      └─────────────────┘
+           │
+        ┌──▼──────┐
+        │ END ☕  │
+        └─────────┘
+```
+
+The diamond asks a question. If the answer is YES, follow the YES arrow. If NO, follow the NO arrow. This is how we represent conditionals (if/else) in a flowchart.
+
+<!-- Program Staff Talking Point:** "A flowchart and pseudo-code say the same thing, just in different formats. Pseudo-code is words. Flowcharts are pictures. Both help you think through logic before coding.-->
+
+**Demo 3: Loops in Flowcharts (8 minutes)**
+How do we show repetition? We loop back.
+
+**Eating Cookies**
+
+```plaintext
+        ┌──────┐
+        │ START│
+        └───┬──┘
+            │
+    ┌───────▼────────┐
+    │Take cookie jar │
+    └───┬────────────┘
+        │
+    ┌───▼──────────────────┐
+    │  Cookies in jar?     │
+    └───┬────────┬─────────┘
+        │YES     NO
+        │        │
+    ┌───▼──────┐ │
+    │Eat cookie│ │
+    └───┬──────┘ │
+        │        │
+    └───┴────────┤
+        │        │
+    ┌───▼──────────────┐
+    │ Put jar away     │
+    └───┬──────────────┘
+        │
+    ┌───▼──────┐
+    │   END    │
+    └──────────┘
+```
+
+The diamond asks: 'Cookies in jar?' If YES, eat a cookie, then loop back and ask again. If NO, stop. This is a loop—repeat until a condition is false.
+
+Loops are how we avoid writing the same instruction 100 times. Instead of 'Eat cookie. Eat cookie. Eat cookie...' we write 'Repeat: If cookies exist, eat cookie.'
+
+<!-- Program Staff Interactive Element:
+"Let's convert one of your pseudo-code instructions into a flowchart together. Who wants to share their maze instructions?"
+- Have a volunteer share their pseudo-code
+- Facilitator draws a flowchart on screen/whiteboard based on their instructions
+- Ask: "Does this flowchart match your pseudo-code?"
+- Discuss: "What's different? What's the same?"
+--> 
+
+### Part 5: Mini-Challenge - Debug Pseudo-Code Instructions (20 minutes)
+**Objective:** Practice finding and fixing errors in instructions. Understand debugging as logical problem-solving.
+
+<!-- Program Staff Note about Format: staff presents broken pseudo-code. Participants identify what's wrong and how to fix it. -->
+
+**Challenge 1: Ambiguous Instructions (5 minutes)**
+
+**Given Broken Pseudo-Code:** What's wrong with these instructions? Will someone successfully navigate a maze?
+
+```plaintext
+Start at entrance
+Move forward
+Turn left
+Move forward
+Pick up cheese
+End
+```
+
+**Discussion:**
+- "How many steps forward? Where exactly is the cheese?"
+- "What if there's a wall ahead?"
+- "What does 'left' mean if you've already moved?"
+
+<!-- Program Staff Answer: The instructions are too vague. They don't handle what happens if there's a wall, don't specify distances, don't explain what to do if the cheese isn't where you expect.
+
+**Better Version:**
+
+```plaintext
+Start at entrance
+Repeat until cheese is found:
+  If there's a path ahead:
+    Move forward one step
+  Else:
+    Turn left
+    
+Pick up cheese
+End
+```
+
+Talking Point: "Debugging means finding where the instructions fail and making them clearer. This is exactly what programmers do when code doesn't work."
+-->
+
+**Challenge 2: Missing Conditions (5 minutes)**
+
+**Given Broken Pseudo-Code:** What could go wrong with these instructions?
+
+```plaintext
+Start at entrance
+Move forward
+Move forward
+Move forward
+Pick up cheese
+End
+```
+
+**Discussion:**
+- "What if there's a wall after 1 step?"
+- "What if cheese isn't at 'forward 3 steps'?"
+
+<!--  Program Staff Answer: The instructions assume a specific path with no obstacles. They don't check conditions.
+
+Better Version:
+
+```plaintext
+Start at entrance
+Repeat:
+  If path is clear ahead:
+    Move forward
+  Else:
+    Turn left
+    
+  If cheese is here:
+    Pick up cheese
+    End
+```
+
+-->
+
+**Challenge 3: Infinite Loop (5 minutes)**
+
+**Given Broken Pseudo-Code:** What happens if someone follows these instructions?
+
+```plaintext
+Repeat:
+  Move forward
+  Turn left
+```
+
+**Discussion:**
+- "Will they ever stop?"
+- "What's missing?"
+
+<!-- Program Staff Answer: There's no exit condition. The loop never ends (infinite loop).
+
+Better Version:
+
+```plaintext
+Repeat until cheese is found:
+  If path is clear:
+    Move forward
+  Else:
+    Turn left
+    
+Pick up cheese
+End
+```
+-->
+
+### Part 6: Resilience, Precision in Problem-Solving, & Growth Mindset (5 minutes)
+The pseudocode didn't work perfectly on the first try. That's not a failure; that's the process. Every programmer — from beginners to experts — writes pseudocode (and yes even code!) that doesn't work. Then they debug it. Your resilience log showed something powerful: when you got stuck, you didn't give up. You took a break, tried again, asked for help, looked at documentation. Those are the habits of successful engineers.
 <!-- Program Staff Talking Points:
-"I wrote this code to move to a beeper and pick it up. But when I run it, Karel moves past the beeper without picking it up. What's wrong?"
-
-Debugging:
-- Runs the code and observes
-- Pauses and re-reads the code
-- Says: "I moved to the right location, but I never called pick_beeper(). That's the bug."
-- Fixes it: Adds pick_beeper() in the right spot
-- Runs again: Success
-
-Talking Point (about Debugging):
-- Step 1: Read the error or observe what happened. 
-- Step 2: Compare it to what you expected. Step 3: Look for the difference. Step 4: Fix it.
--->
-
-**Demo 2: Wrong Turn Logic (8 minutes)**
-
-**Program Staff's Live Coding:**
-
-Observe this code:
-
-```plaintext
-move()
-turn_left()
-move()
-turn_left()
-move()
-```
-<!-- Program Staff Talking Points:
-"I want Karel to move right, then down, then left (like a zigzag). But when I run it, Karel ends up going in the wrong direction. What's wrong?"
-
-Debugging
-- Runs and observes
-- Says: "I called turn_left() twice. That's a 180-degree turn. But I wanted a 90-degree turn." (or "I wanted to turn right, but turn_left() twice actually turns around")
-- Explains: "turn_left() once = 90 degrees left. turn_left() three times = 90 degrees right (because 3 × 90 = 270, which is the same as -90)."
-- Fixes it: Either remove one turn_left(), or add a third one, depending on the goal
-- Runs again: Success
-
-Talking Point: "Debugging means understanding what each command does. Once I understood turn_left(), I could see the mistake."
---->
-
-**Demo 3: Logic Error (8 minutes)**
-
-**Program Staff's Live Coding:**
-We want Karel to move in a square (right, up, left, down) and pick up beepers at each corner. Here's the code:
-
-```plaintext
-move()
-pick_beeper()
-turn_left()
-move()
-pick_beeper()
-turn_left()
-move()
-pick_beeper()
-turn_left()
-move()
-pick_beeper()
-turn_left()
-```
-
-But when I run it, Karel ends up in the wrong position. The logic seems right, but it's not working.
-
-<!-- Program Staff Debugging & Talking Points:
-- Runs and observes the path Karel takes
-- Draws on screen or describes: "Karel moved right and picked up a beeper. Then turned left (now facing up) and moved up. But I'm confused about where the beepers are."
-- Says: "I think I made an assumption about where the beepers are, but they're actually in different locations. Let me check the problem statement."
-- Re-reads the problem and realizes the beepers are placed differently
-- Adjusts the code accordingly
-
-Talking Point: "Sometimes the bug isn't in the code; it's in your understanding of the problem. Read the problem carefully. Understand the world before you code."
--->
-
-**Demo 4: Interactive Debugging (10 minutes)**
-
-**Program Staff Presents Buggy Code:**
-
-Observe this code and run it (with a bug):
-
-```plaintext
-move()
-move()
-turn_left()
-move()
-move()
-turn_left()
-turn_left()
-turn_left()
-move()
-move()
-move()
-```
-
-This code is supposed to navigate a specific world. But something's wrong. Your job: watch it run, spot the problem, and tell the group how to fix it.
-
-<!-- Program Staff Notess:
-**Participants Watch & Think:**
-- Facilitator runs the code
-- Pauses at key moments
-- Asks: "What do you see? What went wrong?"
-
-**Group Answers:**
-- Let 2–3 people call out what they observe
-- Ask: "How would you fix it?"
-- Facilitate discussion on the fix
-- Facilitator implements the fix and re-runs
-
-**Talking Point:** "Debugging is teamwork. One person might spot something another misses. When you're stuck on your own code, show it to a peer. Fresh eyes help."
--->
-
-### Part 5: Mini-Challenge - Predict What This Code Will Do (20 minutes)
-**Objective:** Build predictive thinking—the ability to trace code execution in your head.
-
-<!-- Program Staff Notes:
-**Format:** Facilitator shows code. Participants predict the output without running it. Then facilitator runs it to verify.
--->
-**Challenge 1: Simple Sequence (3 minutes)**
-
-**Observe This Code:** Where does Karel end up? What direction is it facing?
-
-```plaintext
-move()
-turn_left()
-turn_left()
-move()
-```
-
-**Participants Predict:**
-- Give 2 minutes to think (can discuss in chat or with neighbor)
-- Collect answers
-- Run the code
-- Discuss: "Who got it right? How did you think about it?"
-
-<!--
-Answer: Karel moved right, turned around (now facing left), moved left. Ends up at starting position facing left.
--->
-
-**Challenge 2: Beeper Placement (5 minutes)**
-
-**Observe This Code:** Where are the beepers placed? How many are there?
-
-```plaintext
-move()
-move()
-put_beeper()
-turn_left()
-move()
-put_beeper()
-turn_left()
-turn_left()
-turn_left()
-move()
-put_beeper()
-```
-**Participants Predict:**
-- Sketch the world on paper or describe positions
-- Discuss approaches: "How did you trace through this?"
-
-<!-- Answer: Three beepers placed at different locations in the world.
-
-Talking Point: "This is called 'tracing through code.' It's a crucial debugging skill. You read each line, predict what happens, verify, and move to the next line. If your prediction matches the output, great. If it doesn't, that's where the bug is."
--->
-
-**Challenge 3: Complex with Multiple Turns (8 minutes)**
-
-**Observe This Code:** At the end, where is Karel? What direction is it facing? How many beepers were placed?
-
-```plaintext
-move()
-move()
-turn_left()
-turn_left()
-turn_left()
-move()
-move()
-put_beeper()
-turn_left()
-move()
-turn_left()
-turn_left()
-move()
-```
-
-<!-- Program Staff Notes:
-**Participants Predict:**
-- This is harder; let them think and discuss (4–5 minutes)
-- Facilitate discussion on strategy: "How do you keep track of direction?"
-- Collect answers
-- Run the code and verify
-
-**Talking Point:** "If you get stuck tracing through code, write down Karel's position and direction after every few commands. That's a valid debugging technique."
--->
-
-### Part 6: Resilience & Growth Mindset (5 minutes)
-The code didn't work perfectly on the first try. That's not a failure; that's the process. Every programmer —from beginners to experts— writes code that doesn't work. Then they debug it. Your resilience log showed something powerful: when you got stuck, you didn't give up. You took a break, tried again, asked for help, looked at documentation. Those are the habits of successful engineers.
-<!-- Program Staff Talking Points:
-- "You wrote your first program. Some of you felt confident. Some of you felt frustrated. Both are completely normal."
+- "This week, you experienced something programmers experience constantly: the frustration of being imprecise."
+- "You wrote instructions in English. Your peer followed them exactly. If something was ambiguous, they got stuck."
+- "That's not a failure. That's learning. You discovered that clarity matters more than cleverness."
+- "Resilience this week isn't about bouncing back from frustration. It's about leaning into frustration as feedback. Your peer's confusion told you exactly where to be clearer."
+- "As you move into actual programming languages, you'll have the same experience: the computer follows your instructions exactly. If they're unclear or wrong, it fails. The skill is learning to debug—to read the error, identify the issue, and fix it."
+- "You're building that skill right now."
 - "Here's what I want you to remember: Frustration is temporary. Failure is feedback. Persistence is the skill. You have it."
 - "Next session, we're going to write more complex code using loops. It'll be harder. You'll get stuck again. And you'll get unstuck, just like you did today. That's how you grow."
 -->
 
 ### Part 7: Q&A (5 minutes)
+
+Q: "Is pseudo-code a real programming language?" \
+A: No, it's a planning tool. Programmers use it before writing actual code to think through logic.
+
+Q: "Will we learn actual code next week?" \
+A: Yes. You now understand the thinking. Next, we'll learn the syntax (the symbols and rules of a language).
+
+Q: "Why do we spend time on pseudo-code if we're eventually coding?" \
+A: Because the logic is what matters. Any language can express the same logic. Understanding logic first makes learning syntax easier.
+
+Q: "Is being this precise always necessary?" \
+A: Yes, for code. For everyday instructions, you can be casual. But computers can't guess.
+
+Q: "What if my pseudo-code is 'wrong'?" \
+A: There's no one right pseudo-code. If it works (your peer reaches the cheese), it's good. If it fails, debug it.
+
 Q: "Will I always struggle this much when I write code?" \
 A: Struggle phases are normal. As you practice, you'll recognize patterns and debug faster. But even experts encounter code that takes time to debug.
 
@@ -515,17 +604,8 @@ A: Not really. You have to think through it. But you'll develop intuition over t
 Q: "What if I can't figure out what's wrong?" \
 A: You ask for help. You take a break and come back. You use print statements or add comments. You Google the error message. You pair program with someone.
 
-Q: "Do I need to memorize all the Karel commands?" \
-A: No. You'll use them so often that they'll stick. In real programming, you reference documentation constantly.
 
 ## Continued Learning
-
-**Karel Commands Practice**
-1. `move()` — What it does, example, common mistakes
-2. `turn_left()` — Explanation of rotation, why 3 turns ≠ turn right
-3. `put_beeper()` — Placing a marker
-4. `pick_beeper()` — Collecting a marker
-5. (Optional: `if_beepers_present()`, `while_beepers_present()` for future use)
 
 **Debugging Flowchart**
 1. Step 1: Run your code
@@ -542,19 +622,11 @@ A: No. You'll use them so often that they'll stick. In real programming, you ref
 3. Debugging when frustrated: pause first, don't debug when angry, go for a walk
 4. Celebrating wins: completed a line of code? That's progress. Stuck but kept trying? That's resilience.
 
-**Common Karel Mistakes & Fixes**
-1. "Karel moved but didn't pick up the beeper" → Forgot pick_beeper() command
-2. "Karel moved in the wrong direction" → Miscounted `turn_left()` calls
-3. "My code runs but ends in the wrong place" → Check position step-by-step
-4. "I don't understand the problem" → Re-read the problem. Draw it out. Visualize the world.
-
 **Community Practices:**
-- Use the #pre-applicant Slack channel to celebrate fixes, ask for synchronous and asynchronous help
+- Use the Slack channel to celebrate fixes, ask for synchronous and asynchronous help
 - Celebrate mistakes: "I debugged this and learned X"
 - Share debugging techniques: "I use pen and paper to trace through code"
 
 **Challenging Extensions (for those who want more):**
 - Explore loops (for loops, while loops) conceptually
-- Harder Karel worlds (provided on Code.org or Stanford's site)
-- Explore functions in Karel
-- Try out otimization: "Write the shortest code possible to solve this world"
+- Try out optimization: "Write the shortest pseudocode possible to solve a task"
