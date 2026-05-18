@@ -318,8 +318,8 @@ You'll pair with **one peer**.
 
 ### Optional: Dive Deeper
 
-| Resource | Type | For Those Interested
-|-----|-----|-----
+| Resource | Type | For Those Interested |
+|-----|-----|-----|
 | **["On the Dangers of Stochastic Parrots"](https://arxiv.org/abs/2107.03374)** | Research Paper (accessible summary) | Academic perspective on LLM limitations |
 | **[LangChain Prompting](https://python.langchain.com/docs/guides/rag/)** | Code Examples | If you want to build multi-step prompting workflows |
 
