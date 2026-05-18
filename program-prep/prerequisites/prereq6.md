@@ -8,7 +8,7 @@ Participants should have a basic understanding of the following foundational con
 - Willingness to pair with a peer and discuss challenges
 - Completed [Prerequisites Session 5: Resilience + Programming Foundation](../prereq5.md)
 
-## Table of Contents
+### Table of Contents
 - [Motivation](#motivation)
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
@@ -25,14 +25,14 @@ Participants should have a basic understanding of the following foundational con
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
-## Projected Time
+### Projected Time
 - Independent Practice (Pre-Session): ~2.5 hours**
 - Guided Practice (In-Session): 2 hours
 
-## Motivation
+### Motivation
 If Prerequisite Session 5 introduced programming as step-by-step instructions, Session 6 teaches you how to write *smart* instructions. Loops (`for`, `while`) let you repeat commands without rewriting them. Functions let you repackage logic for reuse. Together, these concepts transform programming from tedious line-by-line coding to elegant problem-solving. But they also introduce new complexity. Bugs become harder to trace. Logic becomes more abstract. This is where resilience deepens. You won't just bounce back from frustration; you'll use frustration as information. "My while loop isn't terminating correctly—what's wrong?" "I called this function but it didn't produce the output I expected—why?" These are sophisticated debugging questions that require persistence and systematic thinking. Additionally, this session emphasizes peer collaboration: checking in with a partner about struggles, learning from their approaches, and building psychological safety around vulnerability. By week's end, you won't just be a programmer; you'll be part of an engineering community that values growth, resilience, and mutual support.
 
-## Objectives
+### Objectives
 By the end of this session, participants will:
 - Understand loops (for loops, while loops) and when to use each
 - Write programs that use loops to reduce repetition
@@ -44,7 +44,7 @@ By the end of this session, participants will:
 - Understand that smart code is often code that looks simple (because it abstracts complexity)
 - Build psychological safety and peer support in a learning community
 
-## Specific Things to Learn
+### Specific Things to Learn
 
 **Technical Skills:**
 - For loops: when and how to use them
@@ -65,9 +65,9 @@ By the end of this session, participants will:
 - Balancing confidence in your solution with openness to better ways
 - Ownership of your learning and your code
 
-## Independent Practice
+### Independent Practice
 
-### Task 1: Design a Flowchart for a More Complex Problem (75–120 minutes)
+#### Task 1: Design a Flowchart for a More Complex Problem (75–120 minutes)
 **Objective:** Create flowcharts for a multi-step process. Practice decomposition (breaking problems into smaller parts). Learn how functions work through decomposition.
 
 **Background — What is Decomposition?**
@@ -246,7 +246,7 @@ Record a video showing:
 - Video record yourself explaining your solution (5 minutes)
 - Note: "The hardest part was ___ because ___" or "I used loops / functions / both because..."
 
-### Task 2: "Resilience Partner Check-In" (30–45 minutes)
+#### Task 2: "Resilience Partner Check-In" (30–45 minutes)
 **Objective:** Build psychological safety and peer support. Learn from others' resilience practices. Deepen self-awareness about your own growth.
 
 **Instructions:**
@@ -302,9 +302,9 @@ In a Google Doc, write 1–2 pages answering:
 - **"Empathy in Tech Teams" (Article):** Search for this; many free articles on peer support in engineering
 - **[Podcast - "Brené Brown on Vulnerability"](https://brenebrown.com/podcasts/unlocking-us)** (episodes on building connection through honesty)
 
-## Guided Practice (In-Session: 2 hours)
+### Guided Practice (In-Session: 2 hours)
 
-### Part 1: Welcome & Session Overview (5 minutes)
+#### Part 1: Welcome & Session Overview (5 minutes)
 Flowcharts let you see the whole problem at once. You can spot where things repeat (loops), where decisions matter (conditionals), and where the process might break down.
 <!-- Program Staff Talking Points:
 - "Last week, you learned that precision matters. You wrote instructions and learned from peer feedback when they got confused."
@@ -313,7 +313,7 @@ Flowcharts let you see the whole problem at once. You can spot where things repe
 - "By the end of today, you'll understand why programmers break problems apart. You'll see that every complex program is really just simple pieces combined."
 -->
 
-### Part 2: Breakout Room Sharing (45 minutes)
+#### Part 2: Breakout Room Sharing (45 minutes)
 
 **Part A: Flowchart Presentations (25 minutes)**
 
@@ -355,7 +355,7 @@ Program Staff Listening & Notes:
 Tone: Frame flowcharts as *powerful tools for thinking*, not just diagrams. "Look at how much you can communicate with shapes and arrows.
 -->
 
-### Part 3: Group Debrief (10 minutes)
+#### Part 3: Group Debrief (10 minutes)
 <!-- Program Staff Talking Points:
 - "Your flowcharts showed sophisticated thinking. You broke complex processes into steps. You included decisions. You showed loops. You're thinking like engineers."
 - "Several of you identified repeating patterns (mini-functions). That's the key insight. A video game's 'Fight Obstacle' isn't written 50 times. It's written once as a function and called 50 times. That's what makes code efficient and maintainable."
@@ -368,7 +368,7 @@ Prompt Celebration:
 -->
 Now let's talk about how flowcharts translate into programming. We're going to see how the structures you drew (loops, conditionals, functions) become actual code. And we're going to practice debugging by finding errors in pseudo-code.
 
-### Part 4: Staff-Led Translating Flowcharts to Pseudo-Code (40 minutes)
+#### Part 4: Staff-Led Translating Flowcharts to Pseudo-Code (40 minutes)
 **Objective:** Identify how flowcharts become pseudo-code become real code. Teach decomposition as function-creation. Demonstrate how loops and conditionals work in flowchart form.
 
 **Demo 1: Flowchart → Pseudo-Code Translation (12 minutes)**
@@ -555,7 +555,7 @@ By creating a `fightObstacle()` function, we write the logic once and reuse it. 
 - Example: "My restaurant flowchart has 'Take Order' happening multiple times (for each course). That would be a function: `takeOrder()` called 3 times."
 -->
 
-### Part 5: Mini-Challenge - Find and Fix Errors in Pseudo-Code (20 minutes)
+#### Part 5: Mini-Challenge - Find and Fix Errors in Pseudo-Code (20 minutes)
 **Objective:** Debug pseudo-code. Practice reading instructions critically. Find logical errors (not just typos).
 
 <!--Program Staff Notes on Format: Facilitator presents flawed pseudo-code. Participants identify problems and suggest fixes.
@@ -679,7 +679,7 @@ Main:
 Now you write the fighting logic once and call it three times, instead of writing it three times.
 -->
 
-### Part 6: Decomposition & Independence in Problem-Solving (10 minutes)
+#### Part 6: Decomposition & Independence in Problem-Solving (10 minutes)
 **Objective:** Reflect on decomposition as a professional skill. Connect to independence and resilience.
 - **Prompt 1:** "This week, you broke complex problems into smaller pieces. Why is that valuable?"
 <!-- Program Staff Facilitation Notes:
@@ -714,7 +714,7 @@ Independence this week means: you can take a complicated problem, analyze it, an
 That skill will serve you in programming and beyond. It's how you tackle any complex problem."
 -->
 
-### Part 7: Q&A (5 minutes)
+#### Part 7: Q&A (5 minutes)
 
 Q: "Are flowcharts used in real programming?" \
 A: Yes. Professionals use them to plan before coding. Very common.
@@ -749,7 +749,7 @@ A: Break it into baby steps. Define a function for each step. Combine them. That
 Q: "What if my loop runs forever?" \
 A: You have an infinite loop. Check your condition. Make sure it will eventually become false. Add a `break` statement if needed.
 
-## Continued Learning
+### Continued Learning
 - **[Podcast - "Code Newbie"](https://www.codenewbie.org/podcast)** (stories of people learning to code)
 - **[Khan Academy - "Algorithms & Data Structures"](https://www.khanacademy.org/computing/computer-science/algorithms)** (intro to algorithmic thinking)
 - **[YouTube - "Big-O Notation Explained"](https://www.youtube.com/watch?v=v4cd1O4zkGw)** (optional; introduces code efficiency)
