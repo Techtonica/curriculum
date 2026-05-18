@@ -7,14 +7,11 @@
 **Technical Focus:** Programming basics (sequences, functions, loops, conditionals), debugging, problem decomposition
 **Total Week Time Commitment:** ~5.5 hours (Independent Practice + Guided Practice combined)
 
-**Context:** This is the moment when abstract concepts become concrete code. Participants will write their first programs using Karel, a beginner-friendly programming environment. Karel teaches core programming concepts without syntax complexity, allowing focus on logic and problem-solving. Critically, this week emphasizes resilience because programming *will* feel frustrating. Code won't work. Logic errors will happen. That moment of frustration—and how you respond—is where the real learning happens. This week normalizes struggle as part of the engineering process and teaches participants to debug, persist, and problem-solve collaboratively.
+**Context:** This is the moment when abstract concepts become concrete psuedocode. Participants will write their first instances of pseudocode, a beginner-friendly programming exercise teaching core programming concepts without syntax complexity, allowing focus on logic and problem-solving. Critically, this week emphasizes resilience because programming *will* feel frustrating. Code won't work. Logic errors will happen. That moment of frustration—and how you respond—is where the real learning happens. This week normalizes struggle as part of the engineering process and teaches participants to debug, persist, and problem-solve collaboratively.
 -->
 
 Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Comfort with basic logic and Boolean thinking (from Week 2)
-- Access to a computer with a web browser and Python 3.x installed (or willingness to install)
-- Access to Stanford Karel Reader: https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html
-- Basic Python syntax familiarity (function calls, indentation)
 - Willingness to make mistakes and learn from them
 - Growth mindset: belief that struggling is part of learning
 - Completed [Prerequisite Session 4: Logic + Ownership](../prereq4.md)
@@ -39,27 +36,16 @@ Participants should have a basic understanding of the following foundational con
 - [Continued Learning](#continued-learning)
 
 ## Projected Time
-**Independent Practice (Pre-Session): ~2.5 hours**
-- Karel World No.1 - "Clean the Room": 60–90 minutes
-- "Resilience Log": 20–30 minutes
-
-**Guided Practice (In-Session): 2 hours**
-- Welcome & Overview: 5 minutes
-- Breakout Room Sharing (Karel Demos + Resilience Logs): 40 minutes
-- Group Debrief: 15 minutes
-- Staff Led Live Code Debugging: 35 minutes
-- Mini-Challenge: Predict What This Code Will Do: 20 minutes
-- Resilience & Growth Mindset: 5 minutes
-- Q&A: 5 minutes
+Independent Practice (Pre-Session): ~2.5 hours
+Guided Practice (In-Session): 2 hours
 
 ## Motivation
-Programming is inherently frustrating at first. Your code won't do what you expect. You'll spend 10 minutes debugging only to realize you forgot indentation or a function call. You'll write logic that seems right but produces the wrong output. This is *normal* and *universal*—every engineer experiences this. The difference between people who become great engineers and people who quit is not talent; it's resilience. It's the ability to say, "That didn't work. Why? Let me try again." This week, you'll learn Python Karel, a beginner-friendly programming environment that teaches core programming concepts without overwhelming syntax complexity. You'll write Python code to control a robot, allowing focus on logic and problem-solving. These habits of persistence and debugging will carry you through harder challenges ahead. Resilience isn't about never struggling; it's about struggling, learning, and trying again.
+Programming is inherently frustrating at first. Your code won't do what you expect. You'll spend 10 minutes debugging only to realize you forgot indentation or a function call. You'll write logic that seems right but produces the wrong output. This is *normal* and *universal*—every engineer experiences this. The difference between people who become great engineers and people who quit is not talent; it's resilience. It's the ability to say, "That didn't work. Why? Let me try again." This week, you'll learn pseudocode, a beginner-friendly programming exercise that teaches core programming concepts without overwhelming syntax complexity. You'll work on logic and problem-solving. These habits of persistence and debugging will carry you through harder challenges ahead. Resilience isn't about never struggling; it's about struggling, learning, and trying again.
 
 ## Objectives
 By the end of this session, participants will:
-- Write their first Python programs using Karel commands
+- Write their first programmatic pseudocode
 - Understand that programming requires iterating, testing, and debugging
-- Learn to read Python error messages and debug systematically
 - Recognize frustration as a signal to pause, reflect, and try a different approach
 - Understand that getting stuck is normal and universal among programmers
 - Practice asking for help without shame
@@ -69,14 +55,11 @@ By the end of this session, participants will:
 ## Specific Things to Learn
 
 **Technical Skills:**
-- Python Karel commands: `move()`, `turn_left()`, `put_beeper()`, `pick_beeper()`, `front_is_clear()`, `beepers_present()`
-- Sequential execution in Python (commands run in order)
-- Understanding how Python code maps to robot behavior (cause and effect)
-- Basic debugging: reading Python errors, testing commands, isolating problems
+- Sequential execution (commands run in order)
+- Understanding how pseudocode maps to actual behavior (cause and effect)
+- Basic debugging: understanding errors, thingking through commands, isolating problems
 - Problem decomposition: breaking a task into smaller steps
-- Function definition and calls in Python
 - Reading and interpreting problem specifications
-- Python indentation and syntax
 
 **Core "Soft" Skills:**
 - Recognizing and naming frustration without judgment
@@ -195,17 +178,16 @@ END
 - Google Doc with image/photo of your maze, a description, pseudo-code, peer feedback, and reflection
 
 ### Task 2: "Resilience Log" (20–30 minutes) 
-<!-- New Title: Write Pseudo-Code Instructions for a Maze (60–90 minutes)-->
-**Objective:** Develop metacognitive awareness of frustration and build resilience practices.
+**Objective:** Develop metacognitive awareness of frustration and build resilience practices. A resilience log is a private record of your experience with challenge. It's not graded. It's not perfect. It's honest. You're documenting what you felt, what you did when stuck, and what you learned.
 
 **Instructions:**
-As you work on the Karel task, track every moment of frustration or confusion. In a Google Doc, create a log with the following columns, but different content (below is simply an example):
+As you work on the maze task, track every moment of frustration or confusion. In a Google Doc, create a log with the following columns, but different content (below is simply an example):
 
 | Moment | What Happened | Frustration Level (1-10) | How I Responded | What I Learned
 |-----|-----|-----|-----|-----
-| 1 | Karel moved but didn't pick up beeper | 6 | Paused, re-read the code, realized I forgot pick_beeper() | I need to check that all commands are in the right order
-| 2 | I can't figure out how to pick up all beepers | 8 | Took a 5-minute break, then drew a map on paper | Breaking the problem into sections helps
-| 3 | Turned left three times instead of once (by accident) | 4 | Laughed, then fixed it | Turn_left() is about rotation, not direction
+| 1 | Psuedocode was incomplete | 6 | Paused, re-read the pseudocode, realized I forgot a step | I need to check that all instructions are in the right order
+| 2 | I can't figure out how to navigate all turns | 8 | Took a 5-minute break, then drew a map on paper | Breaking the problem into sections helps
+| 3 | Turned left three times instead of once (by accident) | 4 | Laughed, then fixed it | instructions about turning left is about rotation, not direction
 
 **Columns Explained:**
 - **Moment:** Number each frustration (Moment 1, Moment 2, etc.)
