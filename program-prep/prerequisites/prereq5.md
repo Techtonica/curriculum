@@ -590,7 +590,7 @@ A: You ask for help. You take a break and come back. You use print statements or
 ## Continued Learning
 
 **Debugging Flowchart**
-1. Step 1: Run your code
+1. Step 1: Work through your pseudocode
 2. Step 2: What happened? (vs. what did you expect?)
 3. Step 3: Read error message
 4. Step 4: Trace through code line by line
@@ -602,7 +602,7 @@ A: You ask for help. You take a break and come back. You use print statements or
 1. Signs you're frustrated (getting impatient, blaming the computer, wanting to quit)
 2. What to do when frustrated: take a break, move your body, drink water, call a friend, go outside
 3. Debugging when frustrated: pause first, don't debug when angry, go for a walk
-4. Celebrating wins: completed a line of code? That's progress. Stuck but kept trying? That's resilience.
+4. Celebrating wins: completed a success pseudocode write up? That's progress. Stuck but kept trying? That's resilience.
 
 **Community Practices:**
 - Use the Slack channel to celebrate fixes, ask for synchronous and asynchronous help
