@@ -21,7 +21,7 @@ Participants should have a basic understanding of the following foundational con
 - Growth mindset: belief that math skills can be learned and improved
 - Completion of [Prerequisite Session 2: Digital Literacy + Curiosity](../prereq2.md)
 
-## Table of Contents
+### Table of Contents
 - [Motivation](#motivation)
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
@@ -37,7 +37,7 @@ Participants should have a basic understanding of the following foundational con
   - [Part 6: Ownership in Learning](#part-6-ownership-in-learning-5-minutes)
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 
-## Projected Time
+### Projected Time
 
 **Independent Practice (Pre-Session): ~2 hours**
 - "Math Without a Calculator" Challenge: 90 minutes
@@ -52,10 +52,10 @@ Participants should have a basic understanding of the following foundational con
 - Ownership in Learning: 5 minutes
 - Q&A: 5 minutes
 
-## Motivation
+### Motivation
 Math anxiety is real and common among people entering tech. This session normalizes that struggle and repositions math as a *thinking tool*, not a memorization challenge. In programming, you won't calculate square roots by hand; computers do that. But you *will* think logically about sequences, conditions, and relationships. That's what arithmetic, logic, and Boolean operators are training. More importantly, this session emphasizes **ownership**: showing your work, asking for help, and taking responsibility for filling gaps in your understanding. Ownership is what transforms an applicant into a professional. You own your learning. You own your mistakes. You own your growth.
 
-## Objectives
+### Objectives
 By the end of this session, participants will:
 - Understand that arithmetic is a foundation for logical thinking, not just calculation
 - Recognize gaps in their math knowledge without shame or fear
@@ -65,7 +65,7 @@ By the end of this session, participants will:
 - Develop confidence solving logic puzzles collaboratively
 - See ownership as a core professional skill that applies to learning, feedback, and growth
 
-## Specific Things to Learn
+### Specific Things to Learn
 
 **Technical Skills:**
 - Order of operations (PEMDAS: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction)
@@ -88,11 +88,11 @@ By the end of this session, participants will:
 - Collaborative problem-solving
 - Receiving feedback constructively
 
-## Independent Practice
+### Independent Practice
 
 _**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
-### Task 1: "Math Without a Calculator" Challenge (90 minutes)
+#### Task 1: "Math Without a Calculator" Challenge (90 minutes)
 
 **Objective:** Assess your current math skills, identify gaps, and practice showing your work.
 
@@ -176,7 +176,7 @@ Complete the following arithmetic and mathematical reasoning problems. **Show al
 - **[Mathway (Free Tier)](https://www.mathway.com)** (plug in a problem, see step-by-step solution; use to check your work or learn a method)
 - **[Brilliant.org - "Number Bases"](https://brilliant.org/courses/number-systems)** (free intro course on binary and hexadecimal)
 
-### Task 2: "Ownership Reflection" (30 minutes)
+#### Task 2: "Ownership Reflection" (30 minutes)
 **Objective:** Reflect on what ownership means to you and set intentions for how you'll practice it during the program.
 
 **Instructions:**
@@ -212,9 +212,9 @@ Write a one-page reflection (250–400 words) in a Google Doc addressing the pro
 - **[Mindfulness for Students](https://www.headspace.com/work/students)** (free guided meditations on focus and responsibility; limited free tier)
 - **[Podcast: "How to Fail" by Elizabeth Day](https://www.elizabethdayonline.com/howtofail)** (episodes on taking ownership of mistakes and growth; Spotify/Apple Podcasts)
 
-## Guided Practice (In-Session: 2 hours)
+### Guided Practice (In-Session: 2 hours)
 
-### Part 1: Welcome & Session Overview (5 minutes)
+#### Part 1: Welcome & Session Overview (5 minutes)
 Program staff will provide an overview of this week being about ownership—taking responsibility for participant learning, growth, and their work. Math is the vehicle, but mindset is the point.
 
 <!-- Program Staff Talking Points:
@@ -223,7 +223,7 @@ Program staff will provide an overview of this week being about ownership—taki
 - "Remember: there are no stupid questions. If you don't know something, raise your hand. That's ownership."
 -->
 
-### Part 2: Breakout Room Sharing (40 minutes)
+#### Part 2: Breakout Room Sharing (40 minutes)
 
 **Session 1: Math Strategies & Reflections (25 minutes)**
 Considering the following context:
@@ -252,7 +252,7 @@ Answer the following prompts in your breakout rooms:
   - Where to find help if you get stuck
 - Participants wiill share the cheat sheet back in the main room, to becomes a resource for all
 
-### Part 3: Group Debrief (15 minutes)
+#### Part 3: Group Debrief (15 minutes)
 Here's the truth: the people who become great engineers aren't the ones who know everything. They're the ones who aren't afraid to say 'I don't know' and then figure it out.
 
 <!-- Program Staff Talking Points:
@@ -264,7 +264,7 @@ Talking Point to Frame for Next Part of Group In Session:
 "Now we're going to warm up on arithmetic—the fundamentals—and then dive into logic puzzles. Because here's where it gets fun: logic is the foundation of *every* decision your code makes."
 -->
 
-### Part 4: Staff-Led Arithmetic Warm-Ups (43 minutes)
+#### Part 4: Staff-Led Arithmetic Warm-Ups (43 minutes)
 **Objective:** Review key arithmetic concepts and build confidence through guided practice.
 
 - Order of Operations using PEMDAS (8 minutes)
@@ -393,7 +393,7 @@ Interactive Element:
 Talking Point: "Every decision your code makes uses Boolean logic. If you want to display a button only for users who are logged in, that's a Boolean check. If you want to send an email to users who have notifications enabled AND haven't been emailed in a week, that's multiple Boolean checks combined."
 -->
 
-### Part 5: Mini-Challenge - Collaborative Logic Puzzles (20 minutes)
+#### Part 5: Mini-Challenge - Collaborative Logic Puzzles (20 minutes)
 **Objective:** Apply arithmetic and logic thinking collaboratively. Experience how ownership shows up in a team. Work through together as a whole group or in smaller teams on 3-4 logic puzzles.
 
 **Puzzle 1: The Logic Grid (5 minutes)**
@@ -462,7 +462,7 @@ Group Discussion Prompts:
 Talking Point: "Complex problems require breaking them into steps and testing assumptions. We did that as a team. That's how real engineering works."
 -->
 
-### Part 6: Ownership in Learning (5 minutes)
+#### Part 6: Ownership in Learning (5 minutes)
 Ownership doesn't mean you have to know everything. It means when you don't know something, you take responsibility for learning it. You ask a question. You find a resource. You work with a peer. You try, fail, ask for help, and try again. That's ownership.
 <!-- Program Staff Talking Points:
 - "You started this session with a math problems completed. Some problems you knew. Some you didn't. That gap is where ownership comes in."
@@ -471,7 +471,7 @@ Ownership doesn't mean you have to know everything. It means when you don't know
 - "I'm betting on you. I think you'll choose to own your learning. And I think you'll be amazed at what you can do."
 -->
 
-### Part 7: Q&A (5 minutes)
+#### Part 7: Q&A (5 minutes)
 Q: "Will I need to memorize all these math formulas?"
 A: No. We'll provide references, and you'll internalize what matters through practice.
 
