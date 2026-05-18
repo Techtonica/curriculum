@@ -7,7 +7,7 @@ Participants should have a basic understanding of the following foundational con
 - Google Drive access (for documentation)
 - Willingness to explore unfamiliar settings without fear of "breaking" the computer
 
-## Table of Contents
+### Table of Contents
 - [Projected Time](#projected-time)
 - [Motivation](#motivation)
 - [Objectives](#objectives)
@@ -26,7 +26,7 @@ Participants should have a basic understanding of the following foundational con
 - [Summary](#summary)
 
 
-## Projected Time
+### Projected Time
 
 **Independent Practice (Pre-Session): ~2 hours**
 - "Explore Your Mac Scavenger Hunt": 60–90 minutes
@@ -41,12 +41,10 @@ Participants should have a basic understanding of the following foundational con
 - Mini-Challenge: 10 minutes
 - Q&A: 5 minutes
 
-
-## Motivation
+### Motivation
 Everyone has a varying levels of familiarity with their own computer or the computers around them. This session normalizes curiosity as a learning tool or a means to explore systems which is an essential professional skill beyond simply coding. By exploring a Mac without a rigid checklist, the participants are practicing exactly what engineers do daily: investigate, experiment, and learn through exploration building critical foundational mindset for remote work and self-directed learning.
 
-
-## Objectives
+### Objectives
 By the end of this session, participants will:
 - Develop confidence navigating Mac settings and features without fear of mistakes
 - Understand that curiosity and exploration are core engineering competencies
@@ -55,8 +53,7 @@ By the end of this session, participants will:
 - Practice articulating technical discoveries to peers
 - Recognize the value of asking questions when confused
 
-
-## Specific Things to Learn
+### Specific Things to Learn
 
 **Technical Skills:**
 - Mac system features: Mission Control, Spotlight, Activity Monitor
@@ -73,10 +70,10 @@ By the end of this session, participants will:
 - Overcoming fear of "breaking" technology
 - Peer teaching and knowledge sharing
 
-## Independent Practice
+### Independent Practice
 🎗️ _**All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
-### Task 1: "Explore Your Mac Scavenger Hunt" (60–90 minutes)
+#### Task 1: "Explore Your Mac Scavenger Hunt" (60–90 minutes)
 
 **Objective:** Participants will actively explore their Mac's features and document their discoveries.
 
@@ -113,7 +110,7 @@ By the end of this session, participants will:
 - Which one was hardest to find?
 - Did you discover anything beyond the 12 required items?
 
-### Task 2: "Curiosity Log" (20 minutes)
+#### Task 2: "Curiosity Log" (20 minutes)
 
 **Objective:** Practice intentional exploration and reflection.
 
@@ -133,7 +130,7 @@ _"I found that you can have multiple desktops in Mission Control—I had no idea
 - Built-in Mac dictionary: Highlight any word and press Command+Control+D for a quick definition
 
 
-### Task 3: "Basic Computer Hardware Vocab" (30 minutes)
+#### Task 3: "Basic Computer Hardware Vocab" (30 minutes)
 
 **Objective:** Understand the fundamental hardware components that power Mac computers.
 
@@ -162,9 +159,9 @@ _"I found that you can have multiple desktops in Mission Control—I had no idea
 Write 2–3 sentences: "How does understanding hardware help me as a future software engineer?"
 
 
-## Guided Practice
+### Guided Practice
 
-### Part 1: Welcome & Session Overview (5 minutes)
+#### Part 1: Welcome & Session Overview (5 minutes)
 Engineers are professional problem-solvers and explorers—curiosity is not just encouraged, it's essential
 
 <!-- 
@@ -177,7 +174,7 @@ Discussion Points:
 - We're all learning from each other
 -->
 
-### Part 2: Breakout Room Demos & Sharing (40 minutes)
+#### Part 2: Breakout Room Demos & Sharing (40 minutes)
 
 <!-- Program Staff Note: 
 Copy and Paste the Following Discussion Prompt into the Video Call Chat
@@ -202,7 +199,7 @@ Participants will be divided into breakout rooms where everyone will share
 - Reinforce that confusion is data—it tells us what to learn next
 
 
-### Part 3: Group Debrief (15 minutes)
+#### Part 3: Group Debrief (15 minutes)
 Participants will return to main room to highlight patterns and surprises.
 
 <!-- Program Staff Note: 
@@ -220,7 +217,7 @@ Core Talking Points:
 Discuss the following question for 5-minutes: "What's ONE thing from the scavenger hunt you'll use regularly going forward?"
 
 
-### Part 4: Program Staff Led Mac Workflow Demo (45 minutes)
+#### Part 4: Program Staff Led Mac Workflow Demo (45 minutes)
 Show practical, daily workflows that leverage the features participants explored independently.
 
 <!-- Program Staff Note: 
@@ -262,7 +259,7 @@ When your computer is slow, Activity Monitor helps you figure out why. As a deve
 - Demonstrate force-quitting an unresponsive app
 
 
-### Part 5: Mini-Challenge (10 minutes)
+#### Part 5: Mini-Challenge (10 minutes)
 
 **Challenge:** "Find the Fastest Way to Do X"
 
@@ -291,7 +288,7 @@ Engineers are always looking for the fastest, most efficient solution. This mind
 -->
 
 
-### Part 6: Deeper Dive - Curiosity as an Engineering Skill (10 minutes)
+#### Part 6: Deeper Dive - Curiosity as an Engineering Skill (10 minutes)
 Participants will reflect on the relevance of the tasks undertaken with program staff support.
 <!-- Program Staff Notes: 
 
@@ -308,7 +305,7 @@ Facilitating Q&A:
 - Celebrate all questions (no question is too basic)
 -->
 
-## Summary
+### Summary
 
 1. **"Essential Mac Keyboard Shortcuts Cheat Sheet"**
     - Command+Space (Spotlight)
