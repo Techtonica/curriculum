@@ -434,8 +434,8 @@ Peer review focuses on:
 
 ### Free Tools & Platforms
 
-| Tool | Purpose | Free Tier | Best For
-|-----|-----|-----|-----
+| Tool | Purpose | Free Tier | Best For |
+|-----|-----|-----|-----|
 | [**ChatGPT**](https://openai.com) | AI chatbot | 3 GPT-4 queries/month; unlimited GPT-3.5 | General debugging & documentation
 | [**Claude**](https://claude.ai) | AI chatbot | Generous free tier; 100K tokens/month | Detailed explanations; good for tracing logic
 | **GitHub Copilot** | IDE integration | Free tier with limits; free for students | Inline code suggestions; debugging hints
