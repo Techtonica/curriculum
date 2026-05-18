@@ -1,12 +1,12 @@
 # Job Seeker AI Session Week 1: Ethical AI & Prompting Foundations
 
-## Prerequisites
+### Prerequisites
 - Completion of 1000+ hours of PERN full stack development experience
 - Familiarity with basic software development workflows (debugging, code review, documentation)
 - A free account with at least one AI tool (ChatGPT, Claude, or similar—details provided in resources)
 - Basic understanding of ethical frameworks (no prior ethics coursework required; foundational concepts covered in this session)
 
-## Table of Contents
+### Table of Contents
 - [Motivation](#motivation)
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
@@ -15,12 +15,12 @@
 - [Supplemental Materials](#supplemental-materials)
 - [Showing Up for Yourself During Session](#showing-up-for-yourself-during-session)
 
-## Projected Timeline
+### Projected Timeline
 - **Independent Practice:** 30 minutes
 - **Guided Practice:** 45 minutes
 - **Total Session Time:** 75 minutes
 
-## Motivation
+### Motivation
 As a software engineer entering the job market, you'll face the question: **"How do you use AI in your workflow?"** This is no longer optional. Employers are actively seeking engineers who can ethically leverage AI as a tool while maintaining code quality, security, and team trust.
 
 The reality: AI is a powerful amplifier. It amplifies good practices *and* bad ones. Developers who understand **ethical AI use** and **prompt fundamentals** gain competitive advantages:
@@ -31,7 +31,7 @@ The reality: AI is a powerful amplifier. It amplifies good practices *and* bad o
 
 This topic outline establishes your foundation: ethical reasoning + technical prompting skills that you'll build upon across all six weeks.
 
-## Objectives
+### Objectives
 By the end of this session, you will be able to:
 1. **Articulate an ethical framework for AI tool use** in software development contexts, identifying when AI assistance is appropriate vs. problematic.
 2. **Craft effective prompts** that yield high-quality, usable responses from AI tools by applying principle-based prompt engineering techniques.
@@ -39,16 +39,16 @@ By the end of this session, you will be able to:
 4. **Communicate your AI usage** clearly to peers, interviewers, and team members in professional contexts.
 5. **Recognize personal and organizational biases** in AI tooling and data, and consider mitigation strategies.
 
-## Specific Things to Learn
+### Specific Things to Learn
 
-### Ethical Foundations
+#### Ethical Foundations
 - **AI's role as a tool, not a substitute** for developer judgment and responsibility
 - **Transparency vs. opacity:** When (and why) to disclose AI usage
 - **Hallucination, bias, and limitation awareness:** What AI-generated code/documentation can get wrong
 - **Organizational responsibility:** How your company's AI governance and data practices affect ethical use
 - **Personal accountability:** The developer remains responsible for code quality, security, and correctness regardless of AI assistance
 
-### Prompting Fundamentals
+#### Prompting Fundamentals
 - **Prompt anatomy:** Context, instruction, constraints, output format
 - **Specificity matters:** Vague prompts yield generic/incorrect results; precise prompts yield usable outputs
 - **Iterative refinement:** How to follow up, ask clarifying questions, and improve outputs
@@ -56,26 +56,26 @@ By the end of this session, you will be able to:
 - **Prompt anti-patterns:** Common mistakes (unclear context, conflicting instructions, unrealistic constraints)
 - **Token/context limits:** Understanding that AI has memory limits and how to structure multi-turn conversations
 
-### Practical Developer Scenarios
+#### Practical Developer Scenarios
 - Prompting for code generation (with guardrails)
 - Prompting for code explanation and debugging support
 - Prompting for documentation and test case generation
 - Prompting for research and learning assistance
 
-## Independent Practice
+### Independent Practice
 
 **Time Allocation:** 30 minutes
 
-### Overview
+#### Overview
 You will complete a series of **self-guided prompting activities** that build from basic to advanced, documenting your decisions and results. Your goal is to experience firsthand how prompt quality directly impacts output quality, and to practice the ethical reasoning process before bringing questions to the guided session.
 
-### How to Show Up for Yourself, Prepared to Do the Work!
+#### How to Show Up for Yourself, Prepared to Do the Work!
 - **Complete all three activities below** before the session.
 - **Use a free AI tool** (ChatGPT, Claude, Copilot, or similar—see resources).
 - **Document your process in a shared format** (Google Doc, notion, markdown file, or screenshot) so you can screen-share and narrate your findings during the guided practice session.
 - **Be ready to explain one specific moment** where you refined a prompt and noticed the output improve (you'll share this during the session).
 
-### Activity 1: Ethical Framework Application (10 minutes)
+#### Activity 1: Ethical Framework Application (10 minutes)
 **Objective:** Ground yourself in the ethical considerations *before* prompting.
 
 **Task:**
@@ -107,7 +107,7 @@ Write a **2-3 sentence response** to your chosen scenario that addresses:
 
 **Resource:** The [Techtonica AI Ethics module](../ai-for-learning.md) provides helpful frameworks. You can reference it, but your response should reflect *your* reasoning.
 
-### Activity 2: Prompt Refinement Sequence (15 minutes)
+#### Activity 2: Prompt Refinement Sequence (15 minutes)
 **Objective:** Experience how specificity, context, and constraints improve outputs.
 
 **Task:**
@@ -144,7 +144,7 @@ Create a **comparison document** with three sections (one for each version). For
 2. The first 2-3 lines of the AI response
 3. A 1-sentence note on whether this was actionable for you
 
-### Activity 3: Critical Evaluation & Hallucination Detection (5 minutes)
+#### Activity 3: Critical Evaluation & Hallucination Detection (5 minutes)
 **Objective:** Practice spotting when AI gets it wrong.
 
 **Task:**
@@ -177,7 +177,7 @@ def calculate_average(numbers):
 **Deliverable:**
 Add a section to your comparison document answering these four questions.
 
-### Independent Practice Showcase Format
+#### Independent Practice Showcase Format
 **What to prepare for Zoom:**
 1. **Your comparison document** (Activities 1-3 in one file)
 2. **Plan to screen-share for 2-3 minutes** and narrate:
@@ -187,13 +187,13 @@ Add a section to your comparison document answering these four questions.
 
 You won't present all details—just highlight the learning moments. Program staff will ask follow-up questions.
 
-## Guided Practice
+### Guided Practice
 
 **Time Allocation:** 45 minutes
 
 Program staff will facilitate interactive discussion and activities. Come ready to participate, ask questions, and engage with peers.
 
-### Part 1: Ethical Framework Debrief & Discussion (15 minutes)
+#### Part 1: Ethical Framework Debrief & Discussion (15 minutes)
 
 **Activity:**
 Staff will briefly present a **scaffolded ethical framework** for AI use in software development:
@@ -216,7 +216,7 @@ Discuss common themes and clarify misconceptions. You'll hear diverse perspectiv
 - Listen actively to peers—you'll learn from how others reasoned through the same scenario
 - Ask clarifying questions if the ethical framework doesn't feel clear
 
-### Part 2: Live Prompt Refinement Workshop (20 minutes)
+#### Part 2: Live Prompt Refinement Workshop (20 minutes)
 
 **Activity:**
 Program staff will **live-code a prompting session** in front of the group, using a real developer scenario:
@@ -247,7 +247,7 @@ Program staff spot-check 3-4 participant prompts and give live feedback on speci
 - When it's your turn (Step 5), apply the refinement pattern you observed
 - Ask program staff to clarify if you're unsure why a specific addition improved the prompt
 
-### Part 3: Peer Prompt Review & Hallucination Catch (10 minutes)
+#### Part 3: Peer Prompt Review & Hallucination Catch (10 minutes)
 
 **Small Group Activity:**
 You'll pair with **one peer**.
@@ -269,9 +269,9 @@ You'll pair with **one peer**.
 - Ask questions if feedback isn't clear
 - Be open to suggestions; this is low-stakes practice
 
-## Supplemental Materials
+### Supplemental Materials
 
-### Free AI Tools (All Free Tier Sufficient for This Course)
+#### Free AI Tools (All Free Tier Sufficient for This Course)
 
 | Tool | Free Tier | Best For|
 |-----|-----|-----|
@@ -283,7 +283,7 @@ You'll pair with **one peer**.
 
 **Recommendation:** For this course, ChatGPT (free tier) and Claude (free tier) are sufficient. No paid subscriptions required.
 
-### Prompt Engineering Resources
+#### Prompt Engineering Resources
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
@@ -292,7 +292,7 @@ You'll pair with **one peer**.
 | **[AI Prompt Engineering for Everyone](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)** (DeepLearning.AI) | Free Video Course | Practical, code-focused examples; ~1 hour total |
 | **[How to Prompt v0](https://vercel.com/blog/how-to-prompt-v0)** (Vercel AI Blog) | Blog Post | Developer-specific; practical scenarios |
 
-### Ethical AI in Software Development
+#### Ethical AI in Software Development
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
@@ -301,7 +301,7 @@ You'll pair with **one peer**.
 | **[Microsoft Responsible Principles and Approaches](https://www.microsoft.com/en-us/ai/principles-and-approach)** | Written Guides | Industry perspective on responsible AI; governance frameworks | 
 | **[Stanford HAI (Human-Centered AI) Intro](https://hai.stanford.edu/news/what-ai-can-do-and-what-it-cannot-ai-ethics-101)** | Free Course | Broad perspective on AI's societal impact and ethics |
 
-### Hallucination, Bias, and Limitation Resources
+#### Hallucination, Bias, and Limitation Resources
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
@@ -309,21 +309,21 @@ You'll pair with **one peer**.
 | **[Advanced Prompt Engineering for Reducing Hallucination](https://medium.com/@bijit211987/advanced-prompt-engineering-for-reducing-hallucination-bb2c8ce62fc6)** | Blog Post | Real-world examples and detection strategies | 
 | **[Are LLMs Good at Making Predictions?](https://www.lesswrong.com/posts/CkhJAxHeyFCg2EcET/are-language-models-good-at-making-predictions)** | Informal Guide | Humorous but practical—learn what not to do |
 
-### Interview & Communication Resources
+#### Interview & Communication Resources
 
 | Resource | Type | Why It Matters |
 |-----|-----|-----|
 | **"How to Discuss AI Usage in Interviews"** | Blog/Guide | Frame your AI experience positively and honestly | Vercel blog, Y Combinator startup resources, or Blind.com community posts
 | **[Behavioral Interview Questions](https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions)** (Sample) | Reference | Practice articulating your decision-making process | 
 
-### Optional: Dive Deeper
+#### Optional: Dive Deeper
 
 | Resource | Type | For Those Interested |
 |-----|-----|-----|
 | **["On the Dangers of Stochastic Parrots"](https://arxiv.org/abs/2107.03374)** | Research Paper (accessible summary) | Academic perspective on LLM limitations |
 | **[LangChain Prompting](https://python.langchain.com/docs/guides/rag/)** | Code Examples | If you want to build multi-step prompting workflows |
 
-## Showing Up for Yourself During Session
+### Showing Up for Yourself During Session
 
 **Before the Session:**
 - Aim to complete all independent practice activities. If you run into time constraints, at minimum complete Activities 2 and 3.
