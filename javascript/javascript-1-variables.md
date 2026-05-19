@@ -46,7 +46,8 @@ JavaScript is used on the frontend of almost every website. It's also a widely-u
 
 - **JavaScript provides several built-in methods**, to manipulate and interact with strings. Below are some of the most useful methods for string manipulation:
 
-![String buils-in methods in JavaScript](https://raw.githubusercontent.com/Yosolita1978/screenshoots/8873567a7e90336256403f1d2037a44a21ef2216/2023/h2/Screen%20Shot%202023-07-19%20at%2010.38.20%20AM.png)
+![String buils-in methods in JavaScript](https://github.com/user-attachments/assets/6970f708-95c7-46a2-855b-3b002d9efc77)
+
 
 - **In computer science, we usually begin counting with 0 instead of 1.** When you are indexing into a string, JavaScript begins counting at 0. When you are finding the length of a string, JavaScript begins counting at 1.
 
