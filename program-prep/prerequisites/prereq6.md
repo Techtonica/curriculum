@@ -307,8 +307,8 @@ In a Google Doc, write 1–2 pages answering:
 #### Part 1: Welcome & Session Overview (5 minutes)
 Flowcharts let you see the whole problem at once. You can spot where things repeat (loops), where decisions matter (conditionals), and where the process might break down.
 <!-- Program Staff Talking Points:
-- "Last week, you learned that precision matters. You wrote instructions and learned from peer feedback when they got confused."
-- "This week, you're tackling bigger, more complex problems. You can't just write a simple list anymore. You need a structure. That structure is a flowchart."
+- "Last session, you learned that precision matters. You wrote instructions and learned from peer feedback when they got confused."
+- "This session, you're tackling bigger, more complex problems. You can't just write a simple list anymore. You need a structure. That structure is a flowchart."
 - "You also learned something critical: breaking big problems into smaller pieces. That's decomposition. In programming, each small piece becomes a function—reusable code you don't have to rewrite."
 - "By the end of today, you'll understand why programmers break problems apart. You'll see that every complex program is really just simple pieces combined."
 -->
@@ -369,7 +369,7 @@ Prompt Celebration:
 Now let's talk about how flowcharts translate into programming. We're going to see how the structures you drew (loops, conditionals, functions) become actual code. And we're going to practice debugging by finding errors in pseudo-code.
 
 #### Part 4: Staff-Led Translating Flowcharts to Pseudo-Code (40 minutes)
-**Objective:** Identify how flowcharts become pseudo-code become real code. Teach decomposition as function-creation. Demonstrate how loops and conditionals work in flowchart form.
+**Objective:** Identify how flowcharts become pseudo-code. Teach decomposition as function-creation. Demonstrate how loops and conditionals work in flowchart form.
 
 **Demo 1: Flowchart → Pseudo-Code Translation (12 minutes)**
 A flowchart is a visual. Pseudo-code is words. Code is syntax. They all say the same thing—just in different formats.
