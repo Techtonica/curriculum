@@ -22,13 +22,17 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Read and review [Techtonica&#39;s Participant Handbook](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ez75on7s6lo4)
 - [ ] Read and review this [pair programming roles definition](https://gist.github.com/jordanpoulton/607a8854673d9f22c696)
 - [ ] Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
-- [ ] Configure your zsh terminal, according with [these instructions](https://drive.google.com/file/d/1BaUWobXXujWZ3JS2Y1TP-fx7Xba3CMYQ/view?usp=sharing)
+- [ ] Configure your zsh terminal, according to [these instructions](https://drive.google.com/file/d/1BaUWobXXujWZ3JS2Y1TP-fx7Xba3CMYQ/view?usp=sharing)
 - [ ] Listen to [Fixed and Growth Mindset with Carol Dweck](https://www.oneyoufeed.net/fixed-and-growth-mindset/) (28 minute podcast episode)
 - [ ] Look through [Techtonica's Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
+- [ ] Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
+- [ ] [Install Homebrew](https://brew.sh/)
+- [ ] Install [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+- [ ] [GitHub](https://github.com/signup?user_email=&source=form-home-signup) — make sure your Terminal is connected to your GitHub account so when you make a commit, GitHub knows it was from you via [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) 
 - [ ] Complete the free course [freeCodeCamp's Learn JavaScript Debugging](https://www.freecodecamp.org/learn/learn-javascript-debugging/) course
 - [ ] Complete the free course "Basic Git Workflow with GitHub" - [Free course from Udemy](https://www.udemy.com/course/git-started-with-github/) (If section 3, step 13 shows password authentication read these notes about [GitHub SSH authentication](https://docs.google.com/document/d/1V596QwRYzMAwYtCpTBXCHj-ykRqDxo42TokENLgkulk/edit?usp=sharing) or instead try this read about [managing personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens))
 - [ ] Schedule times to get to know the program staff, ahead of your program start date. Here are some good guiding questions:
-  - [ ] Life story? Greatest accomplishment? What is it important for people who are getting to know you to know about you?
+  - [ ] Life story? Greatest accomplishment? What is important for people to learn about you?
   - [ ] Fears for the program?
   - [ ] Advice for the program?
   - [ ] Deal with frustration?
@@ -48,7 +52,6 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Prep your mindset by learning about [the Growth Mindset](https://github.com/Techtonica/curriculum/blob/main/onboarding/YCLA_LessonPlan_v10.pdf)
 - [ ] Listen the podcast: [Learning How to Learn with Dr. Barbara Oakley](https://www.leadinglearning.com/episode-104-barbara-oakley/)
 - [ ] Play, learn, and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
-- [ ] Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
 - [ ] Read through the [Financial Literacy](/program-prep/financial-literacy.md) topic outline
 - [ ] Adjust your sleep schedules to be prepared to work in Pacific Time — this is important, don't skip this!
 
@@ -84,6 +87,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Complete and submit the knowledge check about [Objects from the Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/objects-and-object-constructors#knowledge-check) via your prework repo's GitHub link shared on your Pre-Work checklist
 - [ ] Practice your intro (1 minute max) for program calls until you have it memorized. Include your name, one small phrase about what you did before Techtonica, why you haven’t been able to get into tech, why you’ll make a great software engineer, and why you’re excited for Techtonica. Here are some [examples of personal pitches that you can read](https://medium.com/techtonica/participant-story-abby-f7c4bce3d657).
 
+Modify the following items if you're not sure where to start, but please make the pitch your own. We don't want everyone's pitch to sound the same.
 ```plaintext
 “I’m [name] and my pronouns are [pronouns]. 
 I’m a former [old jobs] and I love to [hobbies]. 
@@ -95,22 +99,19 @@ I believe I’ll make a good software engineer because _______./I want to contri
 
 ### Set Up Your MacBook Laptop
 
-If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, set up your new laptop.
+If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, set up your new laptop. Ignore any suggestions to use the "Agents window".
 - [ ] [Install VS Code](https://code.visualstudio.com/download)
 - [ ] Set [Chrome](https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en) as the default browser
-- [ ] Install [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
-- [ ] [GitHub](https://github.com/signup?user_email=&source=form-home-signup) — make sure your Terminal is connected to your GitHub account so when you make a commit, GitHub knows it was from you via [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) 
 - [ ] [Install the LanguageTool Chrome](https://languagetool.org/)
-- [ ] Install the [Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) and the [Jiffy Reader extension](https://chrome.google.com/webstore/detail/jiffy-reader/lljedihjnnjjefafchaljkhbpfhfkdic)
+- [ ] Install the [Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) and a Bionic Reading technology such as Selection Reader, Reader View, Just Read, Natural Reader, Speechify, or Text-to-Speech Extensions
 - [ ] For security reasons: adhere a movable camera cover (a Post-it note works for this)
 - [ ] See if you can secure a monitor, mouse, keyboard, and any necessary cables  on Buy Nothing, Freecycle, Craigslist, from a friend, etc.
 - [ ] Install [Rectangle](https://rectangleapp.com/) for quickly resizing windows
 - [ ] Set up a password so your laptop can’t be used without it
-- [ ] [Install Homebrew](https://brew.sh/)
 - [ ] [Install npm](https://www.npmjs.com/get-npm)
-- [ ] [Install nvm](https://github.com/Techtonica/curriculum/blob/main/node-js/node-lab-exercise-part-1.md)
+- [ ] [Install nvm by running the following command in the terminal curl](https://github.com/Techtonica/curriculum/blob/main/node-js/node-lab-exercise-part-1.md#:~:text=Visit%20the%20nvm%20repository%20on%20GitHub) or https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 - [ ] Install Node using `nvm install node`
-- [ ] [Download and install Postman](https://www.softwaretestingmaterial.com/install-postman/)
+- [ ] [Download and install Postman](https://www.postman.com/downloads/)
 - [ ] [Install Postgres](https://wiki.postgresql.org/wiki/Homebrew) and [create your username database](https://github.com/Techtonica/curriculum/blob/main/databases/installing-postgresql.md) (we highly recommend that you ask one of the mentors for help for this process)
 - [ ] Add your cohort calendar to your Google Calendar
 - [ ] [Download and install Slack](https://slack.com/downloads/mac) and look over [Techtonica’s Slack tips](https://docs.google.com/document/d/1xcRvH7F2Fj-AH1Q3Ji4UWPZ9NHyrHTn8Tz7kkmW8Rlw/edit?usp=sharing).
