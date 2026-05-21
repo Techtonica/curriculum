@@ -9,7 +9,7 @@ Participants should have a basic understanding of the following foundational con
 - Basic typing proficiency
 - Completed [Prerequisites Session 6: Loops + Resilience](prereq6.md)
 
-## Table of Contents
+### Table of Contents
 - [Projected Time](#projected-time)
 - [Motivation](#motivation)
 - [Objectives](#objectives)
@@ -37,7 +37,7 @@ Participants should have a basic understanding of the following foundational con
 **Context:** This is the moment when the training wheels come off. Participants have learned programming concepts (Karel in Python), understood resilience and ownership, and built community with peers. Now they face the tools and workflows that professional engineers use daily: JavaScript (a mainstream programming language), GitHub (the industry standard for version control), and the independence required to navigate unfamiliar tools. This week emphasizes initiative—not waiting for someone to tell you exactly what to do, but exploring, experimenting, and solving problems on your own. Independence doesn't mean isolation; it means resourcefulness. When stuck, you'll know how to find help (documentation, peers, Stack Overflow). When confused, you'll know how to break the problem down and try a different approach. By week's end, participants will have written JavaScript code and pushed it to GitHub—real artifacts of their learning that they own and can share.
 -->
 
-## Projected Time
+### Projected Time
 
 **Independent Practice (Pre-Session): ~2 hours**
 - JavaScript Sandbox Exercise No.1 - Variables + Conditionals: 60–90 minutes
@@ -52,10 +52,10 @@ Participants should have a basic understanding of the following foundational con
 - Independence in Learning & Problem-Solving: 5 minutes
 - Q&A: 5 minutes
 
-## Motivation
+### Motivation
 By this point in the program, you've learned to code in Python using Karel. You've built resilience through frustration and debugging. You've learned ownership and how to work in teams. Now you're learning the tools that real engineers use every day. JavaScript is the language of the web—it runs in every browser and powers interactive websites. GitHub is where every professional engineer stores their code and collaborates with teams. Learning these tools independently—by exploring documentation, trying things out, asking questions strategically—is how you'll grow as an engineer. This week, the instructor won't hold your hand through every step. You'll be expected to figure some things out on your own. You'll hit roadblocks. That's the point. This is where you practice initiative: breaking problems down, searching for solutions, trying again. This is professional engineering. And you're ready for it.
 
-## Objectives
+### Objectives
 By the end of this session, participants will:
 - Write JavaScript code to solve simple problems (variables, conditionals)
 - Understand JavaScript syntax and how it compares to Python
@@ -67,7 +67,7 @@ By the end of this session, participants will:
 - Understand GitHub as the place where engineers store and share code
 - See themselves as independent learners who can find resources and solve problems
 
-## Specific Things to Learn
+### Specific Things to Learn
 
 **Technical Skills:**
 - JavaScript variables: `let`, `const`, naming conventions
@@ -92,9 +92,9 @@ By the end of this session, participants will:
 - Digital citizenship: thoughtful GitHub profile and repository descriptions
 - Communication: documenting your work clearly for others (and your future self)
 
-## Independent Practice
+### Independent Practice
 
-### Task 1: JavaScript Sandbox Exercise No.1 - Variables + Conditionals (60–90 minutes)
+#### Task 1: JavaScript Sandbox Exercise No.1 - Variables + Conditionals (60–90 minutes)
 **Objective:** Write and test your first JavaScript code. Learn JavaScript syntax in an interactive environment.
 
 **Background — What is JavaScript?**
@@ -187,7 +187,7 @@ Record a video showing:
 - Share video explaining your code (2–5 minutes)
 - Note: "JavaScript syntax felt ___ compared to Python because ___"
 
-### Task 2: GitHub Onboarding Step 1 - Create Your First Repository (30–45 minutes)
+#### Task 2: GitHub Onboarding Step 1 - Create Your First Repository (30–45 minutes)
 **Objective:** Set up GitHub, create a repository, and upload your work. Understand GitHub as your professional portfolio.
 
 **Background — What is GitHub?**
@@ -256,9 +256,9 @@ GitHub is where engineers store code and collaborate. It's like Google Drive for
 - **[Markdown Guide](https://www.markdownguide.org)** (if you want to style your README nicely)
 - **[FreeCodeCamp - "Git & GitHub for Beginners"](https://www.youtube.com/watch?v=RGOj5yH7evk)** (full tutorial)
 
-## Guided Practice (In-Session: 2 hours)
+### Guided Practice (In-Session: 2 hours)
 
-## Part 1: Welcome & Session Overview (5 minutes)
+#### Part 1: Welcome & Session Overview (5 minutes)
 This week, we're entering the real world of engineering. You're learning JavaScript, a language used by millions of engineers. You're learning GitHub, the platform where all professional code lives. And you're learning independence—how to learn when no one is holding your hand. Last week, you had Karel to guide you. This week, you have documentation, sandboxes, and your own problem-solving skills. That's a big shift. Some of it will feel hard. That's okay. Struggle is where growth happens.
 
 <!-- Program Staff Talking Points:
@@ -266,7 +266,7 @@ This week, we're entering the real world of engineering. You're learning JavaScr
 - "Let's dig in."
 -->
 
-### Part 2: Breakout Room Sharing (40 minutes)
+#### Part 2: Breakout Room Sharing (40 minutes)
 **Format:** Divide participants into breakout groups of 4–5.
 
 **Part A: JavaScript Code Demos (20 minutes)**
@@ -303,7 +303,7 @@ Program Staff Listening & Notes:
 Tone: Frame independence as strength. "You didn't have a step-by-step guide, and you figured it out. That's exactly the skill engineers need."
 -->
 
-### Part 3: Group Debrief (15 minutes)
+#### Part 3: Group Debrief (15 minutes)
 Here's what's remarkable: you've now written code in two languages (Python and JavaScript). You understand the core concepts transfer. You've stored code on GitHub. You're setting up the building blocks for a portfolio. You're not beginners anymore; you're developers.
 <!-- Program Staff Talking Points:
 - "Your JavaScript code was well-structured. I saw clear variable declarations, multiple conditions, and logical flow. That's solid foundational thinking."
@@ -318,7 +318,7 @@ Frame for Next Part:
 "Now let's deepen your JavaScript knowledge. We're going to talk about variables and conditionals more formally, then we'll do a prediction exercise where you trace through code. This is where you level up."
 -->
 
-### Part 4: Staff-Led JavaScript Fundamentals (35 minutes)
+#### Part 4: Staff-Led JavaScript Fundamentals (35 minutes)
 **Objective:** Formalize JavaScript concepts. Show common patterns and pitfalls. Build confidence and framework for problem-solving.
 
 **Demo 1: Variables and Data Types in JavaScript (8 minutes)**
@@ -653,7 +653,7 @@ Can drive with restrictions.
 **Talking Point:** "AND requires all parts to be true. OR requires at least one to be true. Understanding this is crucial for debugging conditionals."
 -->
 
-### Part 6: Independence in Learning & Problem-Solving (5 minutes)
+#### Part 6: Independence in Learning & Problem-Solving (5 minutes)
 When you got stuck on JavaScript syntax, you didn't give up. You looked at examples, tried again, searched for answers. That's independence. When you created your GitHub account and repository, you took ownership. You didn't wait for someone to do it for you. You did it. Independence doesn't mean you never ask for help. It means when you do ask, it's a strategic choice—you've tried on your own first. That's professional. As you move forward, hold this mindset: You have the ability to learn. You have access to resources. You have peers to learn from. Use all three.
 
 <!-- Program Staff Talking Points
@@ -661,7 +661,7 @@ When you got stuck on JavaScript syntax, you didn't give up. You looked at examp
 - "Some of you felt confident from the start. Some of you felt lost initially, but figured it out. Both are independence. It's not about confidence; it's about resourcefulness."
 -->
 
-### Part 7: Q&A (5 minutes)
+#### Part 7: Q&A (5 minutes)
 Q: "Why JavaScript?" \
 A: It's the language of the web. Every browser runs it. It's everywhere.
 
@@ -677,7 +677,7 @@ A: That's what office hours and Slack are for. GitHub has great docs too. Take a
 Q: "Can I work on my code locally (on my computer) instead of in a sandbox?" \
 A: Yes! But that requires setup (installing Node.js, a code editor). We'll cover that later if interested.
 
-## Continued Learning
+### Continued Learning
 
 **JavaScript**
 1. Variable declaration: `let`, `const` with examples

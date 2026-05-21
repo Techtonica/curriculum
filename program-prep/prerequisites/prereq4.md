@@ -9,7 +9,7 @@ Participants should have a basic understanding of the following foundational con
 - Familiarity with basic set theory concepts (helpful but not required)
 - Completed [Prerequisite Session 3: Ownership + Arithmetic](../prereq3.md)
 
-## Table of Contents
+### Table of Contents
 - [Motivation](#motivation)
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
@@ -26,7 +26,7 @@ Participants should have a basic understanding of the following foundational con
   - [Part 6: Q&A](#part-6-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
-## Projected Time
+### Projected Time
 
 **Independent Practice (Pre-Session): ~2 hours**
 - Truth Table Construction: 60–75 minutes
@@ -41,19 +41,19 @@ Participants should have a basic understanding of the following foundational con
 - Ownership in Feedback Culture: 15 minutes
 - Q&A: 5 minutes
 
-## Motivation
+### Motivation
 Boolean logic is the DNA of programming. Every conditional (if/else), loop (while, for), and data filter you write is built on logical operators. This session takes the true/false thinking from Session 3 and goes deeper: How do complex logical expressions evaluate? How do you know if your logic is right? How do you catch bugs in your reasoning?
 
 Additionally, this session emphasizes **ownership in feedback culture**. Giving and receiving feedback is how teams grow. But it requires vulnerability, clarity, and psychological safety. By practicing peer review of logic (low-stakes) in this session, participants build the muscle for high-stakes feedback later (code reviews). Ownership isn't just taking responsibility for your work; it's taking responsibility for helping others improve, and for being open when others help you.
 
-## Objectives
+### Objectives
 By the end of this session, participants will:
 - Use logical reasoning to break down and assess conditions
 - Understand how programs make decisions
 - Practice explaining reasoning clearly and refining it through collaborative discussion and feedback
 - Recognize ownership in feedback culture: giving clear feedback, receiving it without defensiveness
 
-## Specific Things to Learn
+### Specific Things to Learn
 
 **Technical Skills:**
 - Creating and reading truth tables
@@ -73,10 +73,10 @@ By the end of this session, participants will:
 - Communicating complex ideas clearly (explaining logic to peers)
 - Ownership in collaborative environments
 
-## Independent Practice
+### Independent Practice
 _**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
 
-### Task 1: Truth Table Construction (60–75 minutes)
+#### Task 1: Truth Table Construction (60–75 minutes)
 **Objective:** Master truth tables as a tool for evaluating and verifying logical expressions.
 
 Create truth tables for 5 logical expressions. For each prompt:
@@ -138,7 +138,7 @@ Create a Google Doc or PDF with the following to share with program staff:
   - Explanations for each
   - Link to your recorded video(s)
 
-### Task 2: "Debug My Logic" Peer Exercise (30–45 minutes)
+#### Task 2: "Debug My Logic" Peer Exercise (30–45 minutes)
 **Objective:** Practice giving and receiving constructive feedback. Build ownership through peer accountability.
 
 **Create a "Buggy" Truth Table (15–20 minutes)**
@@ -200,7 +200,7 @@ In a Google Doc, write 3–4 sentences answering:
 - People who receive your feedback are also being vulnerable.
 - Mistakes in logic are opportunities to learn, not reasons to feel ashamed.
 
-### Task 3: "Combine & Compare Logic" - Venn Diagrams (45–60 minutes)
+#### Task 3: "Combine & Compare Logic" - Venn Diagrams (45–60 minutes)
 **Objective:** Understand set operations (union, intersection, difference) and visualize them with Venn diagrams. Deepen understanding of how logic combines and filters.
 
 **Part A: Review Set Operations Conceptually (15 minutes)**
@@ -277,9 +277,9 @@ Answer these questions in a Google Doc (3–5 sentences each):
 - **[YouTube - "Sets in Real-World Applications"](https://www.youtube.com/watch?v=Cm_0jB8_MZs)** (6 minutes)
 - **[Brilliant.org - "Set Theory Fundamentals"](https://brilliant.org/courses/set-theory-fundamentals/)** (optional deeper dive)
 
-## Guided Practice (In-Session: 2 hours)
+### Guided Practice (In-Session: 2 hours)
 
-### Part 1: Welcome & Session Overview (5 minutes)
+#### Part 1: Welcome & Session Overview (5 minutes)
 Truth tables are your verification tool. They let you check every possible scenario and know your logic is sound.
 
 <!-- **Program Staff Talking Points:**
@@ -288,7 +288,7 @@ Truth tables are your verification tool. They let you check every possible scena
 - "By the end of today, you'll understand conditionals (if/else)—the most fundamental building block of programming. And you'll see how Boolean logic powers every decision your code makes."
 -->
 
-### Part 2: Breakout Room Sharing (45 minutes)
+#### Part 2: Breakout Room Sharing (45 minutes)
 
 **Truth Table Showcase & Recorded Video Screening (25 minutes)**
 
@@ -328,7 +328,7 @@ Each participant shares:
 - One piece of feedback they received from their peer (and how they responded)
 - One Venn diagram they created (showing union, intersection, or difference)
 
-### Part 3: Group Debrief (10 minutes)
+#### Part 3: Group Debrief (10 minutes)
 <!-- Program Staff Talking Points:
 
 - "Your truth tables were sophisticated. I saw expressions with three, four, even five variables. And you explained them clearly. That's how engineers communicate: show your work, explain your reasoning."
@@ -340,7 +340,7 @@ Each participant shares:
 **Connection to Coding:**
 Everything you practiced — truth tables, feedback, set operations — you'll do this constantly in a coding team. You'll write code, a peer will review it, you'll explain your logic, they'll suggest improvements. You'll receive feedback without taking it personally. You'll give feedback that helps rather than hurts. Those skills are learned now.
 
-### Part 4: Staff-Led Logic Puzzles & Introduction to Conditionals (40 minutes)
+#### Part 4: Staff-Led Logic Puzzles & Introduction to Conditionals (40 minutes)
 **Objective:** Deepen understanding of logical thinking and introduce conditionals as the practical application of Boolean logic in code.
 
 **Complex Logic Puzzles (15 minutes)**
@@ -455,7 +455,7 @@ END
 -->
 
 
-### Part 5: Ownership in Feedback Culture (15 minutes)
+#### Part 5: Ownership in Feedback Culture (15 minutes)
 **Objective:** Reflect on what happened this week (exchanging peer feedback) and build a shared commitment to a feedback culture.
 
 **Prompt 1:** "When you sent your peer a 'buggy' truth table and asked them to find errors, what did you feel?"
@@ -492,7 +492,7 @@ Let's commit to a feedback culture where:
 Talking Point: "This isn't just about niceness. This is about how real engineering teams work. The best teams aren't the ones where everyone is perfect. They're the ones where people trust each other enough to be honest, and are confident enough to receive honesty."
 -->
 
-### Part 6: Q&A (5 minutes)
+#### Part 6: Q&A (5 minutes)
 Q: "I still don't fully understand truth tables. Will we need to memorize them?" \
 A: No memorization. We'll reference them. Understanding the concept (how logic combines) matters more than perfection. Keep practicing.
 
@@ -505,7 +505,7 @@ A: Test it. Create a truth table. Walk through different scenarios. Ask a peer t
 Q: "Is feedback always going to feel this scary?"\
 A: It usually gets easier with practice. You'll build trust with your team. And you'll see that feedback helps you grow faster. 
 
-## Continued Learning
+### Continued Learning
 **Week 2 Reflection Prompt**
 - What's one arithmetic or logic concept that you now feel confident about?
 - What's one concept that still feels confusing or unclear?

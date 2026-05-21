@@ -10,7 +10,7 @@ Participants should have a basic understanding of the following foundational con
 - GitHub account with existing repository
 - Completed [Prerequisites Session 7: Independence + JavaScript Basics](prereq7.md)
 
-## Table of Contents
+### Table of Contents
 - [Projected Time](#projected-time)
 - [Prerequisites](#prerequisites)
 - [Motivation](#motivation)
@@ -29,7 +29,7 @@ Participants should have a basic understanding of the following foundational con
   - [Segment 7: Q&A](#segment-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
-## Projected Time
+### Projected Time
 
 **Independent Practice (Pre-Session): ~2.5 hours**
 - JavaScript Sandbox Exercise No.2 - Loops + Functions: 75–120 minutes
@@ -44,10 +44,10 @@ Participants should have a basic understanding of the following foundational con
 - Independence in Engineering & Problem-Solving: 10 minutes
 - Q&A: 5 minutes
 
-## Motivation
+### Motivation
 In Prerequisite Session 7, you wrote JavaScript and uploaded it to GitHub manually. That works for small projects, but professional engineers use Git—a version control system—to manage code changes, track history, and collaborate with teams. Learning Git (the technology behind GitHub) means learning to commit changes (save snapshots), push to the remote repository (upload to GitHub), and pull changes (download from GitHub). This session feels more technical, and it is. But it's also the moment when you start working like a real engineer. When you clone a repository, make changes, commit them, and push them, you're using the exact workflow that powers companies like Google, Meta, and every startup. By the end of this week, you'll have hands-on experience with the tools professional engineers use daily. You'll be ready to collaborate on real projects. You'll have proven independence: you can learn, use documentation, solve problems, and ask for help strategically. That's not just programming skill; that's professional maturity.
 
-## Objectives
+### Objectives
 By the end of this session, participants will:
 - Write JavaScript functions and understand scope
 - Use loops in JavaScript (for, while)
@@ -62,7 +62,7 @@ By the end of this session, participants will:
 - Understand the professional Git workflow
 - See themselves as engineers using industry-standard tools
 
-## Specific Things to Learn
+### Specific Things to Learn
 
 **Technical Skills:**
 - JavaScript functions: `function`, parameters, return statements
@@ -85,9 +85,9 @@ By the end of this session, participants will:
 - Professional communication: meaningful commit messages
 - Ownership: your code, your repository, your learning
 
-## Independent Practice
+### Independent Practice
 
-### Task 1: JavaScript Sandbox Exercise No.2 - Loops + Functions (75–120 minutes)
+#### Task 1: JavaScript Sandbox Exercise No.2 - Loops + Functions (75–120 minutes)
 **Objective:** Apply loops and functions in JavaScript. Deepen problem-solving skills. Build confidence with more complex code.
 
 **Background:**
@@ -211,7 +211,7 @@ Record a video showing:
 - Record a video explaining your code (5 minutes)
 - Note: "I found ___ most challenging, and here's how I solved it"
 
-### Task 2: GitHub Onboarding Step 2 - Clone, Edit, Commit, Push (45–60 minutes)
+#### Task 2: GitHub Onboarding Step 2 - Clone, Edit, Commit, Push (45–60 minutes)
 **Objective:** Learn the Git workflow. Use Git locally to manage code changes. Understand version control.
 
 **Background — What is Git and Why It Matters?**
@@ -330,9 +330,9 @@ Record a video showing:
 - Record a video showing your git workflow (5 minutes)
 - Note: "The scariest part was ___, but I figured it out by ___"
 
-## Guided Practice (In-Session: 2 hours)
+### Guided Practice (In-Session: 2 hours)
 
-### Part 1: Welcome & Session Overview (5 minutes)
+#### Part 1: Welcome & Session Overview (5 minutes)
 This is the week where everything comes together. You've learned programming concepts. You've built resilience. Now you're using professional tools.
 <!-- Program Staff Talking Points:
 - "Today, you're learning Git—version control. This is how every engineer manages code. When you push code to GitHub, you're doing what engineers at Google, Meta, and Apple do daily."
@@ -340,7 +340,7 @@ This is the week where everything comes together. You've learned programming con
 - "Independence reaches its peak this week. If something goes wrong with Git, you won't have a step-by-step guide. You'll have documentation and your problem-solving skills. That's intentional. That's professional development."
 -->
 
-### Part 2: Breakout Room Sharing (45 minutes)
+#### Part 2: Breakout Room Sharing (45 minutes)
 
 **Part A: JavaScript Functions & Sandbox Demos (22 minutes)**
 Have each participant share:
@@ -374,7 +374,7 @@ Program Staff Listening & Notes:
 Tone: Frame Git as professional empowerment. "You're not just writing code; you're managing it professionally."
 -->
 
-### Part 3: Group Debrief (10 minutes)
+#### Part 3: Group Debrief (10 minutes)
 Here's what's remarkable: you've now written code in two languages, used version control, stored code on GitHub, and proven you can learn independently. You're not beginners anymore; you're developers with real tools and workflows.
 <!-- Program Staff Talking Points:
 - "Your JavaScript functions showed sophisticated thinking. You used loops to iterate, conditionals to compare, and functions to package logic. You're thinking like engineers."
@@ -389,7 +389,7 @@ Frame for Next Part:
 "Now let's deepen your Git and JavaScript knowledge. We're going to do a live GitHub workflow demo, then tackle a debugging challenge. This is where you level up."
 -->
 
-### Part 4: Staff-Led GitHub Workflow & Live Demo (40 minutes)
+#### Part 4: Staff-Led GitHub Workflow & Live Demo (40 minutes)
 **Objective:** Formalize Git concepts. Show professional workflow. Demonstrate debugging in Git and JavaScript.
 
 **Demo 1: Git Workflow Deep Dive (12 minutes)**
@@ -579,7 +579,7 @@ git reset --hard HEAD~1  # Undo most recent commit AND lose changes
 
 These are powerful commands. Use them carefully. For now, just know they exist. If you need them, ask for help or check the docs.
 
-### Part 5: Mini-Challenge - Fix Broken JavaScript Code (20 minutes)
+#### Part 5: Mini-Challenge - Fix Broken JavaScript Code (20 minutes)
 **Objective:** Debug JavaScript code. Use problem-solving strategies. Prove independence.
 
 **Format:** Facilitator presents broken JavaScript code. Participants work in pairs or individually to fix it.
@@ -755,7 +755,7 @@ As you move into the actual program, hold this: You have the ability to learn. Y
 Engineers face problems no one has solved before. That's the whole job. The difference between a junior engineer and a senior engineer isn't that the senior knows everything; it's that the senior knows how to figure things out. You're learning that skill right now."
 -->
 
-### Part 7: Q&A (5 minutes)
+#### Part 7: Q&A (5 minutes)
 Q: "Will I always need to use Git?" \
 A: Yes, in any professional setting. It's non-negotiable.
 
@@ -771,7 +771,7 @@ A: That's normal. You'll use it constantly in the program, and it'll click. Come
 Q: "Can I use GitHub for other projects?" \
 A: Create repositories for personal projects. You're already a GitHub user.
 
-## Continued Learning
+### Continued Learning
 - **["You Don't Know JS Yet" (Free Book)](https://github.com/getify/You-Dont-Know-JS)** (deep dive into JavaScript)
 - **[FreeCodeCamp - "The Complete JavaScript Course"](https://www.youtube.com/watch?v=PkZNo7MFNFg)** (full course)
 - **[JavaScript.info - Advanced Topics](https://javascript.info)** (once comfortable with basics)
