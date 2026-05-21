@@ -218,6 +218,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Fenwick (Binary Indexed) Tree](/algorithms/fenwick-binary-indexed-tree.md)
 1. [Fractional Knapsack (Greedy)](/algorithms/fractional-knapsack-greedy.md)
 1. [Knapsack (Dynamic Programming)](/algorithms/knapsack-dynamic-programming.md)
+1. [Ford–Fulkerson (Maximum Flow)](/algorithms/ford-fulkerson.md)
 1. [Longest Common Sequence](/algorithms/longest-common-sequence.md)
 1. [Longest Increasing Sequence](/algorithms/longest-increasing-sequence.md)
 1. [Minimum Spanning Tree](/algorithms/minimum-spanning-tree.md)
