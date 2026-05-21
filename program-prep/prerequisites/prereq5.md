@@ -262,7 +262,7 @@ Have each participant share:
 <!-- Program Staff Notes: 
 Tone: Frame pseudo-code as *problem-solving communication*, not coding. "You're learning to think like an engineer."
 
-Discussin Prompts to copy and paste: 
+Discussion Prompts to copy and paste: 
 - "Who found it frustrating to be precise? That's normal—precision is hard."
 - "Who felt satisfied when their peer finally understood the instructions?"
 - "What did you learn about communication this week?"
@@ -396,8 +396,10 @@ The diamond asks a question. If the answer is YES, follow the YES arrow. If NO, 
 How do we show repetition? We loop back.
 
 **Eating Cookies**
+The diamond asks a question. If the answer is YES, follow the YES arrow. If NO, follow the NO arrow. This is how we represent conditionals (if/else) in a flowchart.
 
 ```plaintext
+
         ┌──────┐
         │ START│
         └───┬──┘
