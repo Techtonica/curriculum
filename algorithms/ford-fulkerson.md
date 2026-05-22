@@ -1,25 +1,86 @@
-## Ford–Fulkerson Algorithm (Maximum Flow)
+# Ford-Fulkerson Algorithm (Maximum Flow)
 
-## What is Maximum Flow? — Concept Introduction
+### Projected Time
 
-Maximum Flow is the problem of sending as much "stuff" as possible from a source to a sink through a network of pipes (edges) that each have a capacity limit. The goal is to maximize the total amount leaving the source and arriving at the sink while never exceeding any pipe’s capacity.
+About 90 minutes
+
+- Lesson: 35 min
+- Guided Practice: 25 min
+- Independent Practice: 20 min
+- Check for Understanding: 10 min
+
+### Prerequisites
+
+- [Intro to Algorithms](/algorithms/intro-to-algorithms)
+- [Algorithms: Searching](/algorithms/searching)
+- [Data Structures: Queues](/data-structures/queues)
+- [Runtime Complexity](/runtime-complexity/runtime-complexity)
+- Basic JavaScript arrays, loops, and functions
+
+### Motivation
+
+Maximum flow problems ask: "What is the most we can send from one place to another when every connection has a limit?"
+
+This pattern appears in many real systems:
+
+- Network routing, where links have bandwidth limits
+- Transportation planning, where roads or delivery routes have capacity limits
+- Scheduling, matching, and resource allocation
+- Image segmentation, baseball elimination, and bipartite matching problems
+
+Ford-Fulkerson is worth learning because it connects graphs, greedy choices, search, and optimization. It also introduces the idea of a residual graph, which is a powerful way to represent how an algorithm can undo and improve earlier decisions.
+
+### Objectives
+
+**Participants will be able to:**
+
+- Define source, sink, capacity, flow, residual capacity, augmenting path, and bottleneck.
+- Explain the maximum flow problem in plain language.
+- Trace the Ford-Fulkerson method on a small graph by hand.
+- Describe why backward edges are included in a residual graph.
+- Implement the Edmonds-Karp version of Ford-Fulkerson using breadth-first search.
+- Explain the relationship between maximum flow and minimum cut at a high level.
+- Compare the runtime behavior of arbitrary Ford-Fulkerson path selection and Edmonds-Karp path selection.
+
+### Specific Things To Learn
+
+- Flow network - A directed graph where each edge has a capacity.
+- Capacity constraint - Flow on an edge cannot exceed that edge's capacity.
+- Flow conservation - Except at the source and sink, total incoming flow equals total outgoing flow.
+- Augmenting path - A path from source to sink in the residual graph where every edge has positive residual capacity.
+- Bottleneck - The smallest residual capacity on an augmenting path.
+- Residual graph - A graph showing where flow can still increase or be reduced.
+- Backward edge - An edge in the residual graph that represents the option to cancel or reroute existing flow.
+- Edmonds-Karp - Ford-Fulkerson with breadth-first search used to choose augmenting paths.
+- Max-flow min-cut theorem - When no augmenting path remains, the current flow equals the capacity of a minimum source-to-sink cut.
+
+### Materials
+
+- [Ford-Fulkerson Algorithm for Maximum Flow Problem](https://www.geeksforgeeks.org/dsa/ford-fulkerson-algorithm-for-maximum-flow-problem/) - Read for another implementation and explanation.
+- [Maximum flow - Ford-Fulkerson and Edmonds-Karp](https://cp-algorithms.com/graph/edmonds_karp.html) - Use for a more formal explanation and pseudocode.
+- [Visualgo Max Flow](https://visualgo.net/en/maxflow) - Use during guided practice to step through augmenting paths visually.
+
+### Lesson
+
+#### What is Maximum Flow? - Concept Introduction
+
+Maximum flow is the problem of sending as much "stuff" as possible from a source to a sink through a network where each connection has a capacity limit. The goal is to maximize the total amount leaving the source and arriving at the sink while never exceeding any edge's capacity.
 
 Key terms:
 
 - **Source (S)**: where flow starts.
 - **Sink (T)**: where flow must end.
 - **Capacity**: the maximum amount an edge can carry.
-- **Flow**: how much is currently being sent through an edge (must be ≤ capacity).
+- **Flow**: how much is currently being sent through an edge.
+- **Residual capacity**: how much more flow can still be pushed through an edge.
 
 Real-world analogies:
 
-- Water pushed through pipes from a reservoir (source) to a treatment plant (sink).
-- Trucks carrying packages through a roadway network.
-- Data packets sent from a server to a client through routers with bandwidth limits.
+- Water pushed through pipes from a reservoir to a treatment plant
+- Packages moving through a delivery network
+- Data packets sent through routers with bandwidth limits
 
-This page gives an intuitive, story-driven explanation, a small worked example, a visual residual-graph view, a beginner-friendly JavaScript implementation (Edmonds–Karp / BFS), complexity notes, guided and independent practice, and quick checks.
-
-## Interactive Narrative Scenario — The Bakery Delivery Network 🍞
+#### Interactive Bakery Delivery Network Scenario
 
 Imagine a bakery (`S`) that sends fresh bread to a city plaza (`T`) through a small distribution network of bike couriers and transfer hubs.
 
@@ -29,26 +90,22 @@ Nodes:
 - `A`, `B`, `C` = Hubs
 - `T` = City Plaza (sink)
 
-Capacities (loaves per hour) and a simple ASCII diagram:
+Capacities are measured in loaves per hour.
 
-Capacity table
+| Edge | Capacity |
+| ---- | -------- |
+| S->A | 10       |
+| S->B | 5        |
+| A->B | 15       |
+| A->C | 4        |
+| B->C | 8        |
+| A->T | 5        |
+| B->T | 10       |
+| C->T | 15       |
 
-| Edge  | Capacity |
-| ----- | -------- |
-| S → A | 10       |
-| S → B | 5        |
-| A → B | 15       |
-| A → C | 4        |
-| B → C | 8        |
-| A → T | 5        |
-| B → T | 10       |
-| C → T | 15       |
+ASCII diagram:
 
-ASCII diagram
-
-S = source, T = sink
-
-```
+```text
       (10)        (5)
   S --------> A ------> T
   |           | \      ^
@@ -61,206 +118,143 @@ S = source, T = sink
           (8)
 ```
 
-- Source: `S`
-- Sink: `T`
-- We'll run the Ford–Fulkerson method (Edmonds–Karp variant using BFS) to find augmenting paths and push flow until no augmenting path exists.
+The Ford-Fulkerson method repeatedly finds augmenting paths and pushes as much flow as possible through each path. This lesson uses Edmonds-Karp, a version of Ford-Fulkerson that chooses augmenting paths with breadth-first search.
 
-## Step-by-Step Walkthrough (Augmenting Paths)
+#### Step-by-Step Walkthrough
 
-We start with all flows = 0.
+Start with all flows equal to `0`.
 
-Edge list summary (initial):
+| Edge | Capacity | Flow | Residual capacity |
+| ---- | -------: | ---: | ----------------: |
+| S->A |       10 |    0 |                10 |
+| S->B |        5 |    0 |                 5 |
+| A->B |       15 |    0 |                15 |
+| A->C |        4 |    0 |                 4 |
+| B->C |        8 |    0 |                 8 |
+| A->T |        5 |    0 |                 5 |
+| B->T |       10 |    0 |                10 |
+| C->T |       15 |    0 |                15 |
 
-| Edge  | Capacity | Flow | Residual capacity |
-| ----- | -------: | ---: | ----------------: |
-| S → A |       10 |    0 |                10 |
-| S → B |        5 |    0 |                 5 |
-| A → B |       15 |    0 |                15 |
-| A → C |        4 |    0 |                 4 |
-| B → C |        8 |    0 |                 8 |
-| A → T |        5 |    0 |                 5 |
-| B → T |       10 |    0 |                10 |
-| C → T |       15 |    0 |                15 |
+1. Augmenting path: `S -> A -> T`
 
-We find augmenting paths (using BFS to find the shortest path in terms of edges):
+- Bottleneck: `min(10, 5) = 5`
+- Push 5 units.
+- Updated flow: `S->A = 5`, `A->T = 5`
+- Total flow: `5`
 
-1. Augmenting path: S → A → T
+2. Augmenting path: `S -> B -> T`
 
-- Residual along that path: min(10, 5) = 5 (bottleneck)
-- Push 5 units:
-  - Flow S→A = 5
-  - Flow A→T = 5
-- Updated totals: total flow = 5
+- Bottleneck: `min(5, 10) = 5`
+- Push 5 units.
+- Updated flow: `S->B = 5`, `B->T = 5`
+- Total flow: `10`
 
-Updated table (after path 1):
+3. Augmenting path: `S -> A -> B -> T`
 
-| Edge  | Capacity | Flow | Residual |
-| ----- | -------: | ---: | -------: |
-| S → A |       10 |    5 |        5 |
-| S → B |        5 |    0 |        5 |
-| A → B |       15 |    0 |       15 |
-| A → C |        4 |    0 |        4 |
-| B → C |        8 |    0 |        8 |
-| A → T |        5 |    5 |        0 |
-| B → T |       10 |    0 |       10 |
-| C → T |       15 |    0 |       15 |
+- Bottleneck: `min(5, 15, 5) = 5`
+- Push 5 units.
+- Updated flow: `S->A = 10`, `A->B = 5`, `B->T = 10`
+- Total flow: `15`
 
-2. Augmenting path: S → A → C → T
+Final flow table:
 
-- Residual: min(S→A:5, A→C:4, C→T:15) = 4
-- Push 4 units:
-  - Flow S→A increases to 9
-  - Flow A→C = 4
-  - Flow C→T = 4
-- Total flow = 5 + 4 = 9
+| Edge | Capacity | Flow | Residual |
+| ---- | -------: | ---: | -------: |
+| S->A |       10 |   10 |        0 |
+| S->B |        5 |    5 |        0 |
+| A->B |       15 |    5 |       10 |
+| A->C |        4 |    0 |        4 |
+| B->C |        8 |    0 |        8 |
+| A->T |        5 |    5 |        0 |
+| B->T |       10 |   10 |        0 |
+| C->T |       15 |    0 |       15 |
 
-Updated table (after path 2):
+There is no remaining path from `S` to `T` with positive residual capacity because both outgoing source edges are saturated. The final maximum flow is 15 loaves per hour.
 
-| Edge  | Capacity | Flow | Residual |
-| ----- | -------: | ---: | -------: |
-| S → A |       10 |    9 |        1 |
-| S → B |        5 |    0 |        5 |
-| A → B |       15 |    0 |       15 |
-| A → C |        4 |    4 |        0 |
-| B → C |        8 |    0 |        8 |
-| A → T |        5 |    5 |        0 |
-| B → T |       10 |    0 |       10 |
-| C → T |       15 |    4 |       11 |
+#### Residual Graph and Backward Edges
 
-3. Augmenting path: S → B → T
+For each original edge `u -> v` with capacity `c` and current flow `f`, the residual graph can include:
 
-- Residual: min(S→B:5, B→T:10) = 5
-- Push 5 units:
-  - Flow S→B = 5
-  - Flow B→T = 5
-- Total flow = 9 + 5 = 14
+- A forward edge `u -> v` with residual capacity `c - f`
+- A backward edge `v -> u` with residual capacity `f`
 
-Updated table (after path 3):
+Backward edges let the algorithm cancel earlier choices. If one augmenting path sends flow in a way that blocks a better later route, the residual graph can route flow backward along an edge and reassign that capacity.
 
-| Edge  | Capacity | Flow | Residual |
-| ----- | -------: | ---: | -------: |
-| S → A |       10 |    9 |        1 |
-| S → B |        5 |    5 |        0 |
-| A → B |       15 |    0 |       15 |
-| A → C |        4 |    4 |        0 |
-| B → C |        8 |    0 |        8 |
-| A → T |        5 |    5 |        0 |
-| B → T |       10 |    5 |        5 |
-| C → T |       15 |    4 |       11 |
+The method stops when no augmenting path from `S` to `T` exists in the residual graph. At that point, the reachable nodes from `S` define a cut whose capacity equals the current flow. This is the intuition behind the max-flow min-cut theorem.
 
-4. Augmenting path: S → A → B → T
+#### JavaScript Implementation - Edmonds-Karp (BFS)
 
-- Note: S→A residual is 1; A→B residual is 15; B→T residual is 5
-- Bottleneck = min(1, 15, 5) = 1
-- Push 1 unit:
-  - Flow S→A = 10 (now full)
-  - Flow A→B = 1
-  - Flow B→T = 6
-- Total flow = 14 + 1 = 15
-
-Updated table (after path 4 - final):
-
-| Edge  | Capacity | Flow | Residual |
-| ----- | -------: | ---: | -------: |
-| S → A |       10 |   10 |        0 |
-| S → B |        5 |    5 |        0 |
-| A → B |       15 |    1 |       14 |
-| A → C |        4 |    4 |        0 |
-| B → C |        8 |    0 |        8 |
-| A → T |        5 |    5 |        0 |
-| B → T |       10 |    6 |        4 |
-| C → T |       15 |    4 |       11 |
-
-Now try to find another augmenting path from `S` to `T` in the residual graph: there is no path from `S` that reaches `T` with positive capacity (both S→A and S→B residuals are 0), so we stop.
-
-Final maximum flow = 15 loaves/hour.
-
-## Residual Graph & Backward Edges — Visual Explanation
-
-Residual graph intuition:
-
-- Every original edge u → v with capacity c and current flow f gives:
-  - A **forward residual capacity** of c − f (how much more we can push forward).
-  - A **backward residual capacity** of f (how much we could undo / push back).
-- The residual graph contains both forward and backward edges. Augmenting paths are found in this residual graph.
-
-Backward edge explanation:
-
-- Backward edges let the algorithm "cancel" earlier choices. For example, if we later discover pushing some flow along an earlier path blocks a better combination, the algorithm can route flow backwards along an edge and reassign it elsewhere.
-
-Why it works (intuitively):
-
-- Each augmenting path strictly increases total flow by at least 1 unit (or more). We stop only when no path from S to T exists in the residual graph — at that point, you've saturated all S→T capacity possibilities.
-- The Max-Flow Min-Cut Theorem: the maximum flow value equals the capacity of the minimum S–T cut (a partition of nodes separating S and T). When no augmenting path exists, the set of reachable nodes from S in the residual graph defines a cut whose capacity equals the current flow.
-
-## JavaScript Implementation — Edmonds–Karp (BFS)
-
-This implementation is beginner-friendly and logs each augmenting path, its bottleneck, and the running total flow. Paste into a file like `fordFulkerson.js` and run with `node fordFulkerson.js`.
+Paste this code into a file named `fordFulkerson.js` and run it with `node fordFulkerson.js`.
 
 ```javascript
-// fordFulkerson.js
-// Edmonds-Karp (Ford-Fulkerson with BFS) implementation for teaching purposes.
-//
-// Graph represented as an adjacency matrix of capacities.
-// We maintain a residual graph (capacities that can still be used).
-//
-// The code logs each augmenting path, the bottleneck, and the updated total flow.
+/* fordFulkerson.js
+Edmonds-Karp (Ford-Fulkerson with BFS) implementation
+- Graph represented as an adjacency matrix of capacities.
+- We maintain a residual graph (capacities that can still be used).
+- The code logs each augmenting path, the bottleneck, and the updated total flow.
+*/
 
 function edmondsKarp(capacity, source, sink) {
   const n = capacity.length;
-  // Copy capacity into residual (we'll modify residual)
   const residual = capacity.map((row) => row.slice());
   let totalFlow = 0;
 
-  // Helper: BFS to find shortest augmenting path, returns parent array
   function bfs() {
     const parent = Array(n).fill(-1);
     const visited = Array(n).fill(false);
-    const queue = [];
-    queue.push(source);
+    const queue = [source];
+
     visited[source] = true;
-    parent[source] = -1;
 
     while (queue.length) {
       const u = queue.shift();
+
       for (let v = 0; v < n; v++) {
         if (!visited[v] && residual[u][v] > 0) {
           parent[v] = u;
           visited[v] = true;
           queue.push(v);
-          if (v === sink) return parent;
+
+          if (v === sink) {
+            return parent;
+          }
         }
       }
     }
-    return null; // no path
+
+    return null;
   }
 
   while (true) {
     const parent = bfs();
-    if (!parent) break; // no augmenting path
-    // Reconstruct path and find bottleneck
+
+    if (!parent) {
+      break;
+    }
+
     const path = [];
     let v = sink;
     let bottleneck = Infinity;
+
     while (v !== source) {
       const u = parent[v];
       path.push(v);
       bottleneck = Math.min(bottleneck, residual[u][v]);
       v = u;
     }
+
     path.push(source);
     path.reverse();
 
-    // Log the augmenting path and bottleneck
     console.log('Augmenting path:', path.map((i) => nodeName(i)).join(' -> '));
     console.log('Bottleneck:', bottleneck);
 
-    // Update residual capacities (forward and backward edges)
     v = sink;
+
     while (v !== source) {
       const u = parent[v];
-      residual[u][v] -= bottleneck; // use capacity on forward edge
-      residual[v][u] += bottleneck; // add capacity on backward edge
+      residual[u][v] -= bottleneck;
+      residual[v][u] += bottleneck;
       v = u;
     }
 
@@ -273,16 +267,13 @@ function edmondsKarp(capacity, source, sink) {
   return totalFlow;
 }
 
-// Helper to map indices to node names for readable logs
 function nodeName(i) {
   const labels = ['S', 'A', 'B', 'C', 'T'];
   return labels[i] || String(i);
 }
 
-// Example graph matched to the page example:
-// node order: 0:S, 1:A, 2:B, 3:C, 4:T
 const capacity = [
-  //S  A   B   C   T
+  // S   A   B   C   T
   [0, 10, 5, 0, 0], // S
   [0, 0, 15, 4, 5], // A
   [0, 0, 0, 8, 10], // B
@@ -290,78 +281,84 @@ const capacity = [
   [0, 0, 0, 0, 0] // T
 ];
 
-// Run Edmonds-Karp
 edmondsKarp(capacity, 0, 4);
 ```
 
-What you should see when running:
+Expected final output:
 
-- Lines logging each augmenting path found (e.g., `S -> A -> T`), its bottleneck (e.g., `5`), and the running total flow (e.g., `Total flow now: 5`).
-- Final output `Max flow (final): 15`.
+```text
+Max flow (final): 15
+```
 
-Notes for students:
+#### Complexity Analysis
 
-- This code uses an adjacency matrix for clarity. For larger graphs, adjacency lists are more memory-efficient.
-- The `residual` matrix keeps both forward and backward capacities so we can undo and reroute flow.
+| Operation                              | Complexity  |
+| -------------------------------------- | ----------- |
+| One BFS to find an augmenting path     | O(V + E)    |
+| Number of augmentations (Edmonds-Karp) | O(V \* E)   |
+| Total time (Edmonds-Karp)              | O(V \* E^2) |
+| Space with adjacency matrix            | O(V^2)      |
+| Space with adjacency list              | O(V + E)    |
 
-## Complexity Analysis
+Edmonds-Karp uses BFS to find the shortest augmenting path by number of edges. Arbitrary Ford-Fulkerson path choices can be inefficient on some graphs, but BFS gives Edmonds-Karp a predictable polynomial worst-case bound.
 
-| Operation                              | Complexity                                                     |
-| -------------------------------------- | -------------------------------------------------------------- |
-| One BFS to find augmenting path        | O(V + E)                                                       |
-| Number of augmentations (Edmonds–Karp) | O(V \* E)                                                      |
-| Total time (Edmonds–Karp)              | O(V \* E^2) in worst-case bound; often much faster in practice |
-| Space                                  | O(V^2) for adjacency matrix, O(V + E) for adjacency list       |
+### Common Mistakes & Misconceptions
 
-Explanation:
+- Assuming Ford-Fulkerson always chooses the same augmenting paths. The method does not specify how to choose paths; Edmonds-Karp specifically uses BFS.
+- Forgetting backward edges. Without backward edges, the algorithm cannot undo or reroute earlier flow decisions.
+- Treating capacity and flow as the same thing. Capacity is the limit; flow is the current amount using that limit.
+- Ignoring flow conservation. Intermediate nodes should not create or destroy flow.
+- Thinking the algorithm is finished just because one route is full. It is finished only when no augmenting path remains in the residual graph.
+- Confusing maximum flow with shortest path. Maximum flow optimizes total amount sent, not distance.
 
-- Edmonds–Karp uses BFS to find the shortest augmenting path (by number of edges). Each BFS is O(V + E).
-- Each augmentation increases the shortest-path distance of at least one edge on some path or saturates an edge; theoretical bounds give O(V \* E) augmentations in the worst case.
-- Therefore total worst-case time is O(V \* E^2) when using adjacency matrix operations; with adjacency lists and smart implementations the practical performance is often much better.
-- Using BFS avoids very deep/long augmenting sequences that naive DFS-based Ford–Fulkerson might fall into (which can be exponential for pathological cases).
+### Guided Practice
 
-## Guided Practice
+- Try [this visualizer](https://cp-algorithms.com/graph/edmonds_karp.html) for a formal Edmonds-Karp walkthrough.
+- Or try an [interactive web visualizer](https://visualgo.net/en/maxflow) to enter the network and watch augmentations.
 
-Try this visualizer: https://cp-algorithms.com/graph/ford_fulkerson.html (contains runnable examples)  
-Or try an interactive web visualizer: https://visualgo.net/en/flow (enter the network and watch augmentations).
+Instructions:
 
-Instructions for students:
-
-- Open the visualizer and enter the example network (nodes `S, A, B, C, T`) and the capacities listed above.
-- Run the Edmonds–Karp simulation step-by-step and observe:
-  - Which augmenting path is chosen first (shortest path).
-  - The bottleneck for each path.
-  - How backward edges appear in the residual view.
+- Open the visualizer and enter the example network with nodes `S`, `A`, `B`, `C`, and `T`.
+- Add the capacities from the table in the lesson.
+- Run the Edmonds-Karp simulation step by step.
+- Track each augmenting path, its bottleneck, and the total flow after each augmentation.
+- Notice when backward edges appear in the residual graph.
 
 Guided questions:
 
-- Which edge became saturated first?
-- After the second augmentation, which nodes are still reachable from `S` in the residual graph?
+- Which edge becomes saturated first?
+- After the second augmentation, which edges still have residual capacity from `S`?
+- Why does the final flow stop at `15`?
 
-## Independent Practice
+### Independent Practice
 
-1. New problem: Modify the network by adding a new edge `S → C` with capacity 7 and recompute max flow. What changes in the augmenting sequence and final max flow?
-2. Modify the JS code to:
-   - Use an adjacency list instead of a matrix.
-   - Track and print the actual flow per original edge in human-friendly form.
-3. Identify the minimum cut for the original example. Which edges separate `S` from `T` when you partition reachable vs non-reachable nodes in the final residual graph?
-4. Try swapping BFS for DFS in the code (naive Ford–Fulkerson). Does the number of augmentations change? Does runtime for larger random graphs change?
+1. Add a new edge `S -> C` with capacity `7` and recompute the maximum flow. What changes in the augmenting sequence and final maximum flow?
+2. Modify the JavaScript code to print the final flow on each original edge.
+3. Rewrite the implementation to use an adjacency list instead of an adjacency matrix.
+4. Identify the minimum cut for the original example. Which edges cross from reachable nodes to non-reachable nodes in the final residual graph?
+5. Replace BFS with DFS and compare the augmenting paths chosen on the original graph.
 
-## Check-for-Understanding (5 Questions)
+### Challenge
 
-1. What is an augmenting path and why does it matter?
-2. What is a bottleneck capacity on a path and how does it affect flow updates?
-3. Why do we need backward edges in the residual graph? Give an example scenario where a backward edge is useful.
-4. How does using BFS (Edmonds–Karp) help keep the algorithm efficient compared to arbitrary DFS paths?
-5. Explain in plain language the Max-Flow Min-Cut Theorem and how it tells you that the algorithm has finished.
+Use Ford-Fulkerson or Edmonds-Karp to solve a bipartite matching problem:
 
-## Quick Tips for Contributors
+- Create two groups, such as volunteers and available tasks.
+- Add a source connected to each volunteer with capacity `1`.
+- Add task nodes connected to a sink with capacity `1`.
+- Add edges from volunteers to the tasks they can do.
+- Run maximum flow to find the largest possible assignment.
 
-- Keep the examples small and numerically easy for hand-tracing.
-- Include a runnable JS snippet and sample output.
-- Prefer BFS for teaching Edmonds–Karp; show DFS as a variant and explain pitfalls.
-- When you add images or SVGs, include an accessible text version (ASCII or table) for screen readers.
+### Check for Understanding
 
----
+1. What is an augmenting path?
+2. How is the bottleneck capacity of a path calculated?
+3. Why does the residual graph include backward edges?
+4. What makes Edmonds-Karp different from the general Ford-Fulkerson method?
+5. How do you know the algorithm has found the maximum flow?
+6. In the bakery example, why can the final maximum flow not exceed `15`?
 
-Created for the Techtonica curriculum.
+### Supplemental Materials
+
+- [Ford-Fulkerson method - Wikipedia](https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm) - Optional reference for definitions, history, and variants.
+- [Max-flow min-cut theorem - Brilliant](https://brilliant.org/wiki/max-flow-min-cut-algorithm/) - Optional deeper explanation of why maximum flow and minimum cut are connected.
+- [Maximum Bipartite Matching](https://www.geeksforgeeks.org/maximum-bipartite-matching/) - Optional extension showing a common maximum flow application.
