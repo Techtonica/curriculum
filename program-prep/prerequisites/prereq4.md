@@ -7,7 +7,7 @@ Participants should have a basic understanding of the following foundational con
 - Ability to record videos with tools such as Loom or QuickTime Player
 - Willingness to give and receive peer feedback
 - Familiarity with basic set theory concepts (helpful but not required)
-- Completed [Prerequisite Session 3: Ownership + Arithmetic](../prereq3.md)
+- Completed [Prerequisite Session 3: Ownership + Arithmetic](./prereq3.md)
 
 ### Table of Contents
 - [Motivation](#motivation)

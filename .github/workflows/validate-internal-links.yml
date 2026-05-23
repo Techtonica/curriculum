@@ -1,0 +1,27 @@
+name: Validate internal markdown links
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-internal-md-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Validate internal links
+        run: npm run validate-links
+

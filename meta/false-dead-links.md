@@ -92,7 +92,7 @@ open-source\open-source.md
 71:304-71:390 warning Link to https://github.com/OperationCode/operationcode_frontend is dead
 80:1-80:74 warning Link to https://github.com/OperationCode/operationcode_frontend is dead
 
-projects\eventonica\eventonica-part3-jquery-ui.md
+projects\eventonica-updated\README.md
 101:143-101:199 warning Link to https://gist.github.com/PurpleBooth/109311bb0361f32d87a2 is dead
 **_Doesn't always load in time, but is not dead_**
 **_I put a ticket into Github. There are so many comments on this page that it keeps it from loading properly a lot of the time.

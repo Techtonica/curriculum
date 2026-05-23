@@ -141,7 +141,7 @@ Different platforms have different strengths:
 - Platform-specific guides:
   - [Deploying to Heroku](/deploying/deploying-to-heroku.md)
   - [Deploying to Vercel](/deploying/deploying-to-vercel.md)
-  - [Deploying to Netlify](/deploying/deploying-1-personal-site-to-netflify.md)
+  - [Deploying to Netlify](/deploying/deploying-1-personal-site-to-netlify.md)
   - [Deploying to AWS](/deploying/deploying-to-aws.md)
   - [Deploying to Google Cloud](/deploying/deploying-to-google-cloud.md)
   - [Deploying to Render](/deploying/deploying-to-render.md)

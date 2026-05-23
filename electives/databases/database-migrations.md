@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [Relational Databases](/databases/relational-databases.md)
+- [Relational Databases](/databases/database-intro.md)
 
 ### Motivation
 

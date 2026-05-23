@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [How the Internet Works Topic Outline](/requests-and-responses/requests-and-responses.md)
+- [How the Internet Works](/networking-computing/how-the-internet-works.md)
 
 - [Intro to Security](../../security/web-security.md)
 

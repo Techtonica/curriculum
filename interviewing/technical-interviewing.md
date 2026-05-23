@@ -5,7 +5,7 @@
 - General
   - [Data Structures](../../data-structures/)
   - [AJAX](/web/ajax.md)
-  - [APIs and JSON](../../api/apis-and-json.md)
+  - [APIs and JSON](../api/apis-and-json.md)
   - [CSS](/web/css.md)
 - Databases
 

@@ -1,6 +1,6 @@
 _Template Intro_
 
-Here is an example of a well-defined project, [Eventonica Part 3 (jQuery)](../projects/eventonica/eventonica-part3-jquery-ui.md)
+Here is an example of a well-defined project, [Eventonica](/projects/eventonica-updated/README.md)
 
 # Project Template
 

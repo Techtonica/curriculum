@@ -110,4 +110,4 @@ Read this, but no need to try it now. This may come in handy later. (2 min): [Ef
 
 ### Supplemental Materials
 
-- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview).

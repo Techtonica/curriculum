@@ -18,7 +18,7 @@ Required:
 
 - [Runtime Complexity](/runtime-complexity/runtime-complexity.md)
 - [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
-- [Big-O Notation](/runtime-complexity/big-o-notation.md)
+- [Big-O Notation](/runtime-complexity/runtime-complexity.md)
 
 Recommended:
 

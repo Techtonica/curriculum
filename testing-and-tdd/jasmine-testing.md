@@ -412,7 +412,7 @@ _Challenge 2:_ You can also run Jasmine tests in the browser for a nicer UI! Fol
 
 - JS testing with Jasmine blog post, [link](https://automationpanda.com/2018/01/26/javascript-testing-with-jasmine/#project_structure)
 - Video by Dylan C. Israel [Unit Testing in JavaScript and Jasmine](https://www.youtube.com/watch?v=h2eWfvcAOTI) _starts at 12:00 minutes to show mocha test._
-- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview).
 
 ### Check for Understanding
 

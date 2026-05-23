@@ -13,19 +13,19 @@ We value all contributions, but especially to this doc, where there are always n
 Looking for info on a topic? This is our main list of resources, both internal to our curriculum, and externally.
 
 - Language Fundamentals
-  - Array - [common array functions in JavaScript](../../javascript/common-functions-cheatsheet.md#commonly-used-functions-on-array)
-  - String - [common string functions in JavaScript](../../javascript/common-functions-cheatsheet.md#common-string-functions)
-  - [**Object-oriented**](../../javascript/javascript-7-oop.md) or [**functional**](../../functional-programming/FP.md) constructs (depends on your language(s))
+  - Array - [common array functions in JavaScript](../javascript/common-functions-cheatsheet.md#commonly-used-functions-on-array)
+  - String - [common string functions in JavaScript](../javascript/common-functions-cheatsheet.md#common-string-functions)
+  - [**Object-oriented**](../javascript/javascript-7-oop.md) or [**functional**](../functional-programming/FP.md) constructs (depends on your language(s))
   - Note: if you claim proficiency in JavaScript, you need to understand both well 😱
-- [Data Structures](../../data-structures)
-  - [Tree](../../data-structures/trees.md)
+- [Data Structures](../data-structures)
+  - [Tree](../data-structures/trees.md)
   - [Graph](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)
-  - [Linked-List](../../data-structures/linked-lists.md)
-  - [Stack](../../data-structures/stacks.md) / [Queue](../../data-structures/queues.md)
-- [Algorithms](../../algorithms) - Searching & Sorting are the most common
+  - [Linked-List](../data-structures/linked-lists.md)
+  - [Stack](../data-structures/stack.md) / [Queue](../data-structures/queues.md)
+- [Algorithms](../algorithms) - Searching & Sorting are the most common
 - [Whiteboarding](whiteboarding.md)
 - [Phone Screen Questions](./phone-screen-questions.md) - brush up on your language/framework fundamentals
-- Take Home Challenges - [Techtonica Practice Examples](../../projects/take-home-problems)
+- Take Home Challenges - [Techtonica Practice Examples](../projects/take-home-problems)
 
 ### Why is prep needed?
 

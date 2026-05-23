@@ -9,8 +9,8 @@
 
 ### Prerequisites
 
-- [Professionalism](../professionalism.md)
-- [Building Confidence](../building-confidence.md)
+- [Professionalism](../onboarding/professionalism.md)
+- [Building Confidence](./building-confidence.md)
 
 ### Motivation
 

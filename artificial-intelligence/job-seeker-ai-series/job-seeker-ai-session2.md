@@ -2,7 +2,7 @@
 
 ### Prerequisites
 - Completion of 1000+ hours of PERN full stack development experience
-- Completion of [Job Seeker AI Session Week 1 (Ethical AI + Prompting Foundations)](../job-seeker-ai-session1.md), you should understand ethical frameworks and basic prompt refinement techniques
+- Completion of [Job Seeker AI Session Week 1 (Ethical AI + Prompting Foundations)](./job-seeker-ai-session1.md), you should understand ethical frameworks and basic prompt refinement techniques
 - Familiarity with debugging workflows (reading error messages, using browser/server dev tools, tracing execution)
 - Comfort reading code in JavaScript or Python (examples provided in both languages)
 - A free account with at least one AI tool (ChatGPT, Claude, or similar)

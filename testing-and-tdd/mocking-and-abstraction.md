@@ -330,7 +330,7 @@ You can learn a lot about mocking (and programming in general!) by writing your 
 ### Supplemental Materials
 
 - [Mocking External HTTP Requests in Node Tests with Nock](https://semaphoreci.com/community/tutorials/mocking-external-http-requests-in-node-tests-with-nock)
-- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview).
 
 [simplemock-home]: https://www.npmjs.com/package/simple-mock
 [nock-home]: https://github.com/nock/nock

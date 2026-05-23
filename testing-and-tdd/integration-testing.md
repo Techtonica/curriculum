@@ -225,4 +225,4 @@ And, of course, write unit tests for each of your new features!
 - [Guide to Express](https://expressjs.com/en/4x/api.html) (Website)
 - [Guide to Superagent](https://github.com/ladjs/superagent) (Website)
 - [Database Testing - Software Testing](https://www.geeksforgeeks.org/software-testing-database-testing/) (Article)
-- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview).

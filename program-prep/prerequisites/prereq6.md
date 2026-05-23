@@ -8,7 +8,7 @@ Participants should have a basic understanding of the following foundational con
 - Access to Stanford Karel Reader https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html
 - Ability to video record and write reflections
 - Willingness to pair with a peer and discuss challenges
-- Completed [Prerequisites Session 5: Resilience + Programming Foundation](../prereq5.md)
+- Completed [Prerequisites Session 5: Resilience + Programming Foundation](./prereq5.md)
 
 ### Table of Contents
 - [Motivation](#motivation)

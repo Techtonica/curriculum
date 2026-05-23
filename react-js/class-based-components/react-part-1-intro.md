@@ -12,8 +12,8 @@
 
 ### Prerequisites
 
-- [HTML](../web/html.md)
-- [JavaScript 6 - OOP or above](../javascript/javascript-7-oop.md)
+- [HTML](../../web/html.md)
+- [JavaScript 6 - OOP or above](../../javascript/javascript-7-oop.md)
 
 ### Motivation
 

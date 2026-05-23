@@ -12,9 +12,9 @@ About 60 - 90 minutes
 
 ### Prerequisites
 
-- [JSON](../api/apis-and-json.md)
-- [Node.js: Server](../node-js/node-js.md)
-- [Express.js: Framework](../express-js/express.md)
+- [JSON](/api/apis-and-json.md)
+- [Node.js: Server](/node-js/node-js.md)
+- [Express.js: Framework](/express-js/express.md)
 - [MongoDB](../databases/mongo-db.md)
 
 ### Motivation

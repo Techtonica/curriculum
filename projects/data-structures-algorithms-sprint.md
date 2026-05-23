@@ -33,8 +33,8 @@ While these topics are distributed across the broader curriculum, this topic out
 - Heap data structures
 - Double-ended queues (deque)
 - [Hash Tables](../data-structures/hash-tables.md)
-- [JS Map](../javascript/javascript-maps.md)
-- [JS Set](../javascript/javascript-maps.md#set)
+- [JS Map](../javascript/javascript-maps-and-sets.md)
+- [JS Set](../javascript/javascript-maps-and-sets.md)
 - Collision resolution strategies
 - [Sorting Algorithms](../algorithms/sorting.md)
 - Bubble sort implementation
@@ -112,8 +112,8 @@ During the 2-3 week sprint, each group will work through all the DSA topics, wit
 **Group B**
 
 - [Hash Tables](../data-structures/hash-tables.md)
-- [JS Map](../javascript/javascript-maps.md)
-- [JS Set](../javascript/javascript-maps.md#set)
+- [JS Map](../javascript/javascript-maps-and-sets.md)
+- [JS Set](../javascript/javascript-maps-and-sets.md)
 
 **Group C**
 

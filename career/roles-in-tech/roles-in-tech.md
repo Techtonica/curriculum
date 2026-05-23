@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [Professionalism](../professionalism.md)
+- [Professionalism](../../onboarding/professionalism.md)
 
 ### Motivation
 

@@ -50,7 +50,7 @@ Here are links to lessons that should be completed before this lesson:
 - [JS Playground&#39;s 5 free videos on React testing](https://www.youtube.com/watch?v=aSQ8v9JH5C8&list=PLGDf0elkI13EfDa45q-q1YpAIMBl5mjab)
 - [React Testing with Jest and Enzyme](https://www.udemy.com/course/react-testing-with-jest-and-enzyme/) created by the volunteer [Bonnie Schulkin](https://github.com/bonnie).
 - Want to dive deep into learning testing and automation, do check [Test Automation University - Applitools](https://testautomationu.applitools.com/)
-- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview).
 
 ### Common Mistakes / Misconceptions
 

@@ -3,8 +3,8 @@
 ### Prerequisites
 
 - [Object Literals](/javascript/javascript-6-object-literals.md)
-- [JSON](../api/apis-and-json.md)
-- [Relational Databases](/databases/relational-databases.md)
+- [JSON](/api/apis-and-json.md)
+- [Relational Databases](/databases/database-intro.md)
 - [.env](/command-line/env.md)
 
 ### Motivation

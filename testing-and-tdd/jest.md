@@ -82,4 +82,4 @@ The nice thing about using Jest with React is that it is already included in pro
 
 - 🎦 [Jest with Chris Jaure](https://www.dropbox.com/s/mw13houixd30lf5/video1500769867.mp4?dl=0)
 - 🎦 [Jest with Christina](https://www.dropbox.com/s/x64ux3q5kqj8v6l/video1604871754.mp4?dl=0)
-- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview).

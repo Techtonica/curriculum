@@ -5,7 +5,7 @@
 - [JavaScript](https://github.com/Techtonica/curriculum/tree/main/javascript)
 - [Git](../git/git-version-control.md)
 - [bash](../dev-tools/dot-profile.md)
-- [SQL](../databases/sql.md)
+- [SQL](../databases/sql-1.md)
 
 ### Frameworks
 

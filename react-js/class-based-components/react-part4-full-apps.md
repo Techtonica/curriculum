@@ -323,7 +323,7 @@ To create new todos, add an input form that will create a new todo item and add 
 
 #### Add `reactstrap` npm package to your CRA project
 
-If you haven't yet reviewed it, review the lesson on [React Styling](./styling-react.md).
+If you haven't yet reviewed it, review the lesson on [React Styling](../styling-react.md).
 
 Let's use some prebuilt and prestyled components to make our Todo App look snazzier 😎
 

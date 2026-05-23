@@ -289,7 +289,7 @@ Do the [Mocha](https://github.com/mochajs/mocha/tree/master/test) and [Chai](htt
   - [Node JS - Authentication - Login/Logout Mocha Testing by Web Dev Journey](https://youtu.be/2q62EhBy0sE)
   - github repo with mocha test included, [link](https://github.com/webdevjourneyWDJ/Todo-API).
 
-- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](<[/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview](https://github.com/Techtonica/curriculum/blob/main/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview)>).
+- For an overview of how this framework compares to others, see the [General Testing Framework Comparison Chart](/testing-and-tdd/compared-testing-frameworks.md#testing-frameworks-overview).
 
 ### Check for Understanding
 

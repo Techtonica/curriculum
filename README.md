@@ -243,7 +243,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Career Week: QA Engineer](/career/roles-in-tech/qa.md)
 1. [Career Week: Developer Advocate](/career/roles-in-tech/developer-advocate.md)
 1. [Career Week: Sales Engineering](/career/roles-in-tech/sales-engineering.md)
-1. [Career Week: Technical Program Manager](/career/roles-in-tech/technical-program-manager.md)
+1. [Career Week: Technical Program Manager](/career/roles-in-tech/management_roles/technical-program-manager.md)
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: Planning Your Project](/projects/final-project/planning-your-project.md)
 
@@ -315,7 +315,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Sass](/electives/sass.md)
 - [Python](/electives/python.md)
 - [Data Visualization](/electives/data-visualization.md)
-- [Adding Chai/Mocha Tests to your project](/electives/mocha-testing.md)
+- [Adding Chai/Mocha Tests to your project](/testing-and-tdd/chai-mocha-testing.md)
 - [MongoDB](/electives/databases/mongo-db.md)
 - [Mongoose](/electives/databases/mongoose.md)
 - [Auth0](/electives/oauth/o-auth.md)
@@ -327,7 +327,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Backend](/electives/1_intro_to_backend.md)
 - [Angular](/electives/angular.md)
 - [Intro to Optimization](/electives/optimization/optimization.md)
-- [Artificial Intelligence](/artificial-intelligence.md)
+- [Artificial Intelligence](/artificial-intelligence/README.md)
 - [Server Side Rendering & Static Site Generation](/best-practice-in-development/server-side-rendering-static-site-generation.md)
 - [Service Workers, Progressive Web Apps (PWAs), and PWA Development](/electives/progressive-web-apps-and-service-workers.md)
 

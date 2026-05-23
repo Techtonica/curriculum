@@ -2,7 +2,7 @@
 
 ### Prerequisites
 - Completion of 1000+ hours of PERN full-stack development experience
-- Completion of [Job Seeker AI Session Week 3: AI for Testing & Code Quality](../job-seeker-ai-session3.md)
+- Completion of [Job Seeker AI Session Week 3: AI for Testing & Code Quality](./job-seeker-ai-session3.md)
 - Experience working on teams with code review processes (GitHub pull requests, in-person review, or similar)
 - Familiarity with collaborative development workflows and communication tools
 - Understanding of version control basics (Git, commits, branches)

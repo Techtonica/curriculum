@@ -15,7 +15,8 @@
   "scripts": {
     "precommit": "lint-staged",
     "postcommit": "git update-index --again",
-    "validate-links": "remark .",
+    "validate-links": "node scripts/validate-internal-md-links.mjs",
+    "validate-external-urls": "node ./node_modules/remark-cli/cli.js .",
     "prettier": "prettier --write ."
   },
   "devDependencies": {
@@ -33,6 +34,7 @@
       [
         "remark-lint-no-dead-urls",
         {
+          "skipOffline": true,
           "skipLocalhost": true,
           "skipUrlPatterns": [
             "^(https?://)(codepen.io)",

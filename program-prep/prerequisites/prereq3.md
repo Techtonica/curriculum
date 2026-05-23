@@ -19,7 +19,7 @@ Participants should have a basic understanding of the following foundational con
 - Google Drive access for uploading documents
 - Familiarity with order of operations (PEMDAS)
 - Growth mindset: belief that math skills can be learned and improved
-- Completion of [Prerequisite Session 2: Digital Literacy + Curiosity](../prereq2.md)
+- Completion of [Prerequisite Session 2: Digital Literacy + Curiosity](./prereq2.md)
 
 ### Table of Contents
 - [Motivation](#motivation)

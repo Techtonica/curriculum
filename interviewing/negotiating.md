@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [Confidence!](/professionalism/building-confidence.md)
+- [Confidence!](/career/building-confidence.md)
 
 ### Objectives
 

@@ -8,7 +8,7 @@
 
 ### Prerequisites
 
-- [Asking Good Questions lesson](/asking-good-questions/asking-good-questions.md)
+- [Asking Good Questions lesson](/onboarding/asking-good-questions.md)
 - [Interpersonal Conflict Resolution lesson](/career/conflict-resolution.md)
 - [Professionalism lesson](/onboarding/professionalism.md)
 

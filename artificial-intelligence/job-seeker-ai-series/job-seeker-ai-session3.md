@@ -6,7 +6,7 @@
 - Experience writing unit tests and understanding concepts like assertions, test cases, and test structure
 - Understanding of code coverage basics (lines covered, branches, functions)
 - A free account with at least one AI tool (ChatGPT, Claude, or similar)
-- Completion of [Job Seeker AI Session Week 2: AI for Debugging & Documentation](../job-seeker-ai-session2.md)
+- Completion of [Job Seeker AI Session Week 2: AI for Debugging & Documentation](./job-seeker-ai-session2.md)
 
 ### Table of Contents
 

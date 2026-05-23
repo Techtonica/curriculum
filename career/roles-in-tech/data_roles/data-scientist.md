@@ -83,7 +83,7 @@ A data scientist will:
 
 ### Supplemental Materials
 
-- [Python](../electives/python.md)
+- [Python](/electives/python.md)
 - [Pandas Complete (1 hour video)](https://www.youtube.com/watch?v=vmEHCJofslg)
 - [Amazing Resources](https://github.com/frontbenchHQ/Data-Science-Free)
 - [Data School](https://www.dataschool.io/resources/)

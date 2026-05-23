@@ -4,7 +4,7 @@
 
 Here are topics that should be understood before this topic:
 
-- [Node](node-js/node-js.md)
+- [Node](/node-js/node-js.md)
 
 ### Motivation
 

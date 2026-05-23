@@ -7,7 +7,7 @@ Participants should have a basic understanding of the following foundational con
 - Access to a friend or family member for the interview (can be done async)
 - [Loom account](https://www.loom.com) (free tier) or access to video recording
 - Microphone and camera on your computer (can be built-in)
-- Completion of [Prerequisite Session 1: Curiosity + Mac Basics](../prereq1.md)
+- Completion of [Prerequisite Session 1: Curiosity + Mac Basics](./prereq1.md)
 
 ### Table of Contents
 - [Prerequisites](#prerequisites-1)

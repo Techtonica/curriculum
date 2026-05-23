@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- [Command Line Interface](/command-line/command-line-interface.md)
+- [Command Line Interface](/dev-tools/command-line-interface.md)
 
 ### Motivation
 
