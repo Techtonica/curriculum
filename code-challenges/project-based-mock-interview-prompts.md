@@ -2,11 +2,11 @@
 The following prompts are to assist with project based interviewing (ideal for curriculum weeks 11+ participants). Challenge yourself to see how much problem solving breakdown and implementation you can work through within the stated amount of time. [Evaluate your work](#evaluation-criteria) when done to determine what you can continue working towards. 
 
 ### Prompt List
-- [1: Book Library Management API](#prompt-1-book-library-management-api)
-- [2: Student Grade Management System](#prompt-2-student-grade-management-system)
-- [3: Restaurant Menu and Order System](#prompt-3-restaurant-menu-and-order-system)
-- [4: Fitness Gym Membership System](#prompt-4-fitness-gym-membership-system)
-- [5: Blog Platform with Comments](#prompt-5-blog-platform-with-comments)
+- [1: Book Library Management API (API Only)](#prompt-1-book-library-management-api)
+- [2: Student Grade Management System (API Only)](#prompt-2-student-grade-management-system)
+- [3: Restaurant Menu and Order System (API Only)](#prompt-3-restaurant-menu-and-order-system)
+- [4: Fitness Gym Membership System (API Only)](#prompt-4-fitness-gym-membership-system)
+- [5: Blog Platform with Comments (API Only)](#prompt-5-blog-platform-with-comments)
 - [6: Todo List Application (Full-Stack)](#prompt-6-todo-list-application-full-stack)
 - [7: Weather Dashboard (Full-Stack)](#prompt-7-weather-dashboard-full-stack)
 - [8: Note-Taking App with Tags (Full-Stack)](#prompt-8-note-taking-app-with-tags-full-stack)
