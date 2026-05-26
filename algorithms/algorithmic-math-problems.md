@@ -34,7 +34,6 @@ For instance, prime number generation and factorization are the mathematical bed
 
 - [Sieve of Eratosthenes - Video](https://www.youtube.com/watch?v=klcIklsWzrY)
 - [Euclidean Algorithm - Video](https://www.youtube.com/watch?v=JUzYl1TYMcU)
-- [Primality Testing - Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography/comp-number-theory/v/primality-test)
 
 ## Lesson (30mins)
 
@@ -303,5 +302,4 @@ console.log(isCoprime(14, 21)); // Should return false (both divisible by 7)
 ## Additional Resources
 
 - [VisuAlgo - Math Algorithms](https://visualgo.net/en)
-- [CP-Algorithms - Algebra](https://cp-algorithms.com/algebra/fundament-algebra.html)
 - [GeeksForGeeks - Sieve of Eratosthenes](https://www.geeksforgeeks.org/sieve-of-eratosthenes/)
