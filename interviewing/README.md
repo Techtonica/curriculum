@@ -102,7 +102,7 @@ _Varies_ — Study consistently and track your progress. Focus on improvement, n
 - Start small using the [edabit.com](https://edabit.com/challenges) difficulty accelerator ranging from "Very Easy" to "Expert" levels
 - Avoid picking random Leetcode questions. Use curated lists like [Grind 75](https://www.techinterviewhandbook.org/grind75) which select key problems based on how much time you have to study.
 - Gamify your technical code challenge problem solving with [codewars](https://www.codewars.com/)
-
+- [Project Based Mock Interview Prompts](/code-challenges/project-based-mock-interview-prompts.md#project-based-mock-interview-prompts)
 ## Recommended Videos
 
 _Keep adding more — different formats work for different learners!_
