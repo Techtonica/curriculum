@@ -573,7 +573,7 @@ Peer review focuses on:
 
 ### Optional: Going Deeper
 
-| Resource | Type | For Those Interested
+| Resource | Type | For Those Interested |
 |-----|-----|-----|
 | **[CI/CD Pipeline Automation](https://docs.github.com/en/actions)** | Advanced | Automating testing and deployment workflows | 
 | **[Infrastructure as Code](https://www.terraform.io/) (example tool)** | Advanced | Automating infrastructure with code | 
