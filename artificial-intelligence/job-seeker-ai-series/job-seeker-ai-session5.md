@@ -1,7 +1,7 @@
 # Job Seeker AI Session Week 5: AI for Productivity & Workflow Automation
 
 ## Prerequisites
-- Completion of 1000+ hours of PERN full stack development experience
+- Completion of 1000+ hours of PERN full-stack development experience
 - Completion of [Job Seeker AI Session Week 4: AI in Collaborative Development](../job-seeker-ai-session4.md)
 - Familiarity with personal development workflows (daily tasks, repetitive processes, project management tools)
 - Understanding of task automation basics (scripts, scheduled tasks, or similar concepts)
