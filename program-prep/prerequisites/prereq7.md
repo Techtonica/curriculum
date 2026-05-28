@@ -53,7 +53,7 @@ Participants should have a basic understanding of the following foundational con
 - Q&A: 5 minutes
 
 ### Motivation
-By this point in the program, you've learned to code in Python using Karel. You've built resilience through frustration and debugging. You've learned ownership and how to work in teams. Now you're learning the tools that real engineers use every day. JavaScript is the language of the web—it runs in every browser and powers interactive websites. GitHub is where every professional engineer stores their code and collaborates with teams. Learning these tools independently—by exploring documentation, trying things out, asking questions strategically—is how you'll grow as an engineer. This week, the instructor won't hold your hand through every step. You'll be expected to figure some things out on your own. You'll hit roadblocks. That's the point. This is where you practice initiative: breaking problems down, searching for solutions, trying again. This is professional engineering. And you're ready for it.
+By this point, you've begun learning the basics of programming. You've begun learning programming basics, built resilience through managing frustration and debugging code, and practiced ownership and teamwork. Now you'll start learning JavaScript, which runs in every browser and enables website interactivity. You'll also learn to use GitHub, a code storage and collaboration platform. As an aspiring engineer, you'll explore documentation and try things out independently. When you get stuck, you'll ask questions. Practicing initiative—breaking down problems, searching for solutions, and trying again— is professional engineering. You're ready for it.
 
 ### Objectives
 By the end of this session, participants will:
@@ -64,24 +64,24 @@ By the end of this session, participants will:
 - Upload files to GitHub manually (web interface)
 - Write a clear README to document their work
 - Practice independence: exploring tools without complete hand-holding
-- Understand GitHub as the place where engineers store and share code
-- See themselves as independent learners who can find resources and solve problems
 
 ### Specific Things to Learn
 
 **Technical Skills:**
-- JavaScript variables: `let`, `const`, naming conventions
-- JavaScript data types: strings, numbers, booleans
-- JavaScript conditionals: `if`, `else if`, `else`
-- Console output: `console.log()`
-- Comments in JavaScript: `//` and `/* */`
-- Comparison operators: `===`, `!==`, `>`, `<`, `>=`, `<=`
-- Logical operators: `&&`, `||`, `!`
-- GitHub account creation and setup
-- Creating a GitHub repository (public/private options)
-- Uploading files via GitHub web interface
-- Writing a README file (markdown basics)
-- GitHub repository structure and navigation
+- JavaScript
+  - JavaScript variables: `let`, `const`, naming conventions
+  - JavaScript data types: strings, numbers, booleans
+  - JavaScript conditionals: `if`, `else if`, `else`
+  - Console output: `console.log()`
+  - Comments in JavaScript: `//` and `/* */`
+  - Comparison operators: `===`, `!==`, `>`, `<`, `>=`, `<=`
+  - Logical operators: `&&`, `||`, `!`
+- GitHub
+  - GitHub account creation and setup
+  - Creating a GitHub repository (public/private options)
+  - Uploading files via GitHub web interface
+  - Writing a README file (markdown basics)
+  - GitHub repository structure and navigation
 
 **Core "Soft" Skills:**
 - Independent learning: exploring tools without complete step-by-step guidance
@@ -205,7 +205,7 @@ GitHub is where engineers store code and collaborate. It's like Google Drive for
 **Part A: Create a GitHub Account (5 minutes)**
 1. Go to [https://github.com](https://github.com)
 2. Click "Sign up"
-3. Enter your email, create a password, choose a username. **Username tip:** Use something professional (you'll share this). Examples: `firstname-lastname`, `firstname1989`, or your name if available. Avoid numbers or special characters if possible.
+3. Enter your email, create a password, choose a username. **Username tip:** Use something professional (you'll share this). Examples: `firstname-lastname`, `firstname1989`, or your name if available. Avoid exclusively using numbers or special characters if possible.
 4. Verify your email
 5. Done! You now have a GitHub account.
 
@@ -214,7 +214,7 @@ GitHub is where engineers store code and collaborate. It's like Google Drive for
 2. Click the "+" icon (top right) and select "New repository"
 3. Fill in the form:
   - **Repository name:** `techtonica-prerequisites`
-  - **Description:** "Prework for [Program Name] - JavaScript and GitHub practice"
+  - **Description:** "Prerequisite Work for Techtonica - JavaScript and GitHub practice"
   - **Public / Private:** Select "Public" (so you can share it and it shows on your profile)
   - **Initialize with a README:** Check this box (GitHub will create a README automatically)
 4. Click "Create repository"
@@ -224,7 +224,7 @@ GitHub is where engineers store code and collaborate. It's like Google Drive for
 1. In your repository, click "Add file" → "Upload files"
 2. Drag and drop your JavaScript file (or click to browse and select it)
   - You can copy your sandbox code into a text file and save it as `temperature-feedback.js`
-  - Or take a screenshot of your code and upload that (not ideal, but acceptable)
+  - Or (not ideal, but acceptable) take a screenshot of your code and upload that
 3. Add a commit message: "Add temperature feedback system"
 4. Click "Commit changes"
 5. Your file is now on GitHub!
@@ -322,7 +322,7 @@ Frame for Next Part:
 **Objective:** Formalize JavaScript concepts. Show common patterns and pitfalls. Build confidence and framework for problem-solving.
 
 **Demo 1: Variables and Data Types in JavaScript (8 minutes)**
-In Python, you just write `x = 5`. In JavaScript, it's slightly different. Let's understand why.
+In Python, you just write `x = 5`. In JavaScript, it's slightly different. Let's understand how.
 
 **Variables in JavaScript:**
 
@@ -336,10 +336,10 @@ const PI = 3.14159;
 
 **`let` vs `const`:**
 - `let`: Variable that can change (mutable)
-- `const`: Variable that cannot change (immutable)
+- `const`: Variable that cannot change (constant or immutable)
 - Rule of thumb: Use `const` by default. Use `let` only when you know the value will change.
 
-**Why the distinction?** It prevents bugs. If you accidentally overwrite a constant, JavaScript throws an error. That's good—it helps you catch mistakes early.
+**Why the distinction?** It prevents bugs. If you accidentally overwrite a constant, JavaScript throws an error. That's good—it helps you catch mistakes early. You might see an older keyword (`var`) instead of `let` or `const`. Avoid using it; `let` and `const` were meant to solve some of the `var` keyword's problems.
 
 **Data Types:**
 - **Strings:** `"Hello"`, `'World'` (use quotes)
@@ -560,7 +560,7 @@ console.log(y);
 
 **Challenge 2: String Concatenation (4 minutes)**
 
-**Observe This Code This Code:** What will the console output?
+**Observe This Code:** What will the console output?
 
 ```javascript
 let greeting = "Hello";
@@ -582,6 +582,9 @@ Hello, Alex!
 ```
 
 **Talking Point:** "When you use `+` with strings, JavaScript concatenates (joins) them. It's one of JavaScript's quirks."
+
+Encourage Possible Critical Thinking Opportunity:
+Remove the space in the string and when the output prints with no spaces, wait to see if anyone comments, and if not, point it out and ask why that happened.
 -->
 
 **Challenge 3: Conditional Logic (6 minutes)**
@@ -669,13 +672,13 @@ Q: "Is JavaScript hard?" \
 A: Different, not hard. Once you know Python, JavaScript syntax is just new symbols. The logic is the same.
 
 Q: "Do I need to memorize JavaScript?" \
-A: No. You'll reference documentation constantly. I do, and I've been coding for 20 years.
+A: No. Software engineers who have been coding for 20 years reference documentation constantly.
 
 Q: "What if I get really stuck on GitHub?" \
 A: That's what office hours and Slack are for. GitHub has great docs too. Take a break and come back.
 
 Q: "Can I work on my code locally (on my computer) instead of in a sandbox?" \
-A: Yes! But that requires setup (installing Node.js, a code editor). We'll cover that later if interested.
+A: Yes! But that requires setup (installing Node.js, a code editor). We'll cover that later if interested or feel free to take the initiative to investigate and try this on your own (it's a good opportunity to practice resilience and mindfulness)
 
 ### Continued Learning
 
