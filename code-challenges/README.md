@@ -14,7 +14,7 @@ Participants should review review the feedback of their session from the previou
 
 ### 🧠 How to Solve Code Challenges
 
-Review the [lesson](/solving-coding-challenges/solving-coding-challenges.md) on how to address problem-solving technical questions. Practice in your own time with this code challenge. Explore this list of [core and general questions](/core_skills_questions.md) as well as the [project based mock interview prompts](/code-challenges/project-based-mock-interview-prompts.md#project-based-mock-interview-prompts). [More problems for grads of the program](/grad_core_skills_and_code_challenges.md).
+Review the [lesson](/solving-coding-challenges/solving-coding-challenges.md) on how to address problem-solving technical questions. Practice in your own time with this code challenge. Explore this list of [core and general questions](/core_skills_questions.md) as well as the [project based mock interview prompts](/code-challenges/project-based-mock-interview-prompts.md#project-based-mock-interview-prompts). [More problems for grads of the program](/code-challenges/grad_core_skills_and_code_challenges.md).
 
 ### 🧑‍💻 Live Weekly Code Challenges
 
