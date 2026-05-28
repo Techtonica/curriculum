@@ -143,8 +143,8 @@ Repetitive Tasks in My Workflow:
 For each task, estimate how long it takes and how often you do it. Fill in a simple table:
 
 
-Task | Time Per Instance | Frequency | Weekly Time Spent
------|------------------|-----------|-------------------
+Task | Time Per Instance | Frequency | Weekly Time Spent |
+-----|------------------|-----------|-------------------|
 React component setup | 5 minutes | 3x/week | ~15 minutes
 Git branch + PR creation | 2 minutes | 1x/day | ~10 minutes
 Test scaffolds | 8 minutes | 2x/week | ~16 minutes
