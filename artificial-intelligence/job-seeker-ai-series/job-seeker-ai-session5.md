@@ -559,9 +559,9 @@ Peer review focuses on:
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **GitHub CLI Use Cases** | Examples | Real examples of automating with gh | [https://cli.github.com/manual/gh_repo_create](https://cli.github.com/manual/gh_repo_create)
-| **Awesome Automation Scripts** | Curated List | Community-shared automation for developers | [https://github.com/awesome-lists/awesome-shell](https://github.com/awesome-lists/awesome-shell)
-| **Developer Productivity Tools** | Resource List | Popular tools for automation and workflow | [https://www.producthunt.com](https://www.producthunt.com) (search "developer productivity")
+| **[GitHub CLI Use Cases](https://cli.github.com/manual/gh_repo_create)** | Examples | Real examples of automating with gh |
+| **[Awesome Automation Scripts](https://github.com/alebcay/awesome-shell)** | Curated List | Community-shared automation for developers |
+| **[Developer Productivity Tools](https://www.producthunt.com)** | Resource List | Popular tools for automation and workflow (search "developer productivity") |
 | **Engineering Blog Automation Posts** | Case Study | How real teams automate workflows | Search "engineering automation" on Stripe, Vercel, or GitHub blogs
 
 ### Interview Prep: Talking About Productivity & Efficiency
