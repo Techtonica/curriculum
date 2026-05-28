@@ -505,8 +505,8 @@ Peer review focuses on:
 
 ### Automation & Workflow Tools
 
-| Tool | Purpose | Free Tier | Best For
-|-----|-----|-----|-----
+| Tool | Purpose | Free Tier | Best For |
+|-----|-----|-----|-----|
 | **GitHub CLI (gh)** | GitHub automation | Free, open-source | Automating Git, PR, and GitHub workflows
 | **npm scripts** | JavaScript automation | Built-in (npm) | Running repetitive tasks in Node projects
 | **Python scripts** | Python automation | Built-in (Python) | Writing custom automation in Python
