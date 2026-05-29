@@ -21,9 +21,9 @@ Participants should have a basic understanding of the following foundational con
   - [Part 1: Welcome & Session Overview](#part-1-welcome--session-overview-5-minutes)
   - [Part 2: Breakout Room Sharing](#part-2-breakout-room-sharing-40-minutes)
   - [Part 3: Group Debrief](#part-3-group-debrief-15-minutes)
-  - [Part 4: Staff-Led JavaScript Concepts Through Code Reading](#part-4-staff-led-concepts-through-code-reading-35-minutes)
+  - [Part 4: Staff-Led JavaScript Concepts Through Code Reading](#part-4-staff-led-javascript-concepts-through-code-reading-35-minutes))
   - [Part 5: Mini-Challenge - Find the Bug in JavaScript Code](#part-5-mini-challenge---find-the-bug-in-javascript-code-20-minutes)
-  - [Part 6: Independence & Code Literacy as a Professional Skill](#part-6-independence-and-code-literacy-as-a-professional-skill-5-minutes)
+  - [Part 6: Independence & Code Literacy as a Professional Skill](#part-6-independence--code-literacy-as-a-professional-skill-5-minutes)
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
