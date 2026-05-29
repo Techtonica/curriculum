@@ -232,7 +232,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 12 - Final Assessments
 
 1. [Open-source Projects](/open-source/open-source.md)
-1. [Blog App](/projects/blog-app)
+1. [Blog App with AI Feature](/projects/blog-app)
 
 ### Week 13 - Career Week & Final Project Prep Week
 
