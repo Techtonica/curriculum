@@ -309,6 +309,7 @@ These are not blockers for any of the core sequence and so they are worked into 
 1. [Machine Learning & Language Models](/artificial-intelligence/machine-learning-language-models.md)
 1. [Software Engineering in the Age of AI](/artificial-intelligence/software-engineering-in-the-age-of-ai.md)
 1. [Ethical AI Prompting for Supportive Learning & Development](/artificial-intelligence/ai-for-learning.md)
+2. [Project Based Mock Interview Prompts](/code-challenges/project-based-mock-interview-prompts.md)
 
 ### Optional / Elective Lessons
 
