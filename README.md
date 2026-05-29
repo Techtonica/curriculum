@@ -188,6 +188,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [JavaScript Dequeue](/data-structures/deque.md)
 
 ### Week 11 - Data Structures & Algorithms
+2 mini projects in 1 week! [Contact App](/projects/pern-contact-list-app.md) and choice of [Weather App](/projects/pern-weather-app.md) or [Game App](/projects/pern-game-app.md)
 
 #### Data Structures
 
@@ -200,7 +201,6 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [JavaScript Hash Maps / Tables](/data-structures/hash-tables.md)
 1. [Data Structures: Trees](/data-structures/trees.md)
 1. [NP versus P](/algorithms/p-versus-np.md)
-1. 2 mini projects in 1 week! [Contact App](/projects/pern-contact-list-app.md) and choice of [Weather App](/projects/pern-weather-app.md) or [Game App](/projects/pern-game-app.md)
 
 #### Algorithms
 
