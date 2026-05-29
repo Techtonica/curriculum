@@ -21,9 +21,9 @@ Participants should have a basic understanding of the following foundational con
   - [Part 1: Welcome & Session Overview](#part-1-welcome--session-overview-5-minutes)
   - [Part 2: Breakout Room Sharing](#part-2-breakout-room-sharing-40-minutes)
   - [Part 3: Group Debrief](#part-3-group-debrief-15-minutes)
-  - [Part 4: Staff-Led JavaScript Fundamentals](#part-4-staff-led-javascript-fundamentals-35-minutes)
-  - [Part 5: Mini-Challenge - Predict the Output](#part-5-mini-challenge---predict-the-output-20-minutes)
-  - [Part 6: Independence in Learning & Problem-Solving](#part-6-independence-in-learning--problem-solving-5-minutes)
+  - [Part 4: Staff-Led JavaScript Concepts Through Code Reading](#part-4-staff-led-concepts-through-code-reading-35-minutes)
+  - [Part 5: Mini-Challenge - Find the Bug in JavaScript Code](#part-5-mini-challenge---find-the-bug-in-javascript-code-20-minutes)
+  - [Part 6: Independence & Code Literacy as a Professional Skill](#part-6-independence-and-code-literacy-as-a-professional-skill-5-minutes)
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
@@ -441,7 +441,7 @@ let temperature = 75;
 **Demo 2: Conditionals in JavaScript (10 minutes)**
 Conditionals are if/else statements. You've drawn them as diamonds in flowcharts. Now let's see them as code.
 
-<details><summary>Flowchart:</summary>
+<details><summary>Flowchart</summary>
   
 ```
 ◇ Is temperature > 85?
@@ -450,7 +450,7 @@ Conditionals are if/else statements. You've drawn them as diamonds in flowcharts
 ```
 </details>
 
-<details><summary>Pseudo-Code Snippet:</summary>
+<details><summary>Pseudo-Code Snippet</summary>
   
 ```
 If temperature > 85:
@@ -460,7 +460,7 @@ Else:
 ```
 </details>
 
-<details><summary>JavaScript Code Snippet:</summary>
+<details><summary>JavaScript Code Snippet</summary>
   
 ```javascript
 if (temperature > 85) {
@@ -469,6 +469,7 @@ if (temperature > 85) {
   console.log("It's not hot");
 }
 ```
+</details>
 
 <details><summary>Explanation</summary>
   
@@ -478,7 +479,7 @@ if (temperature > 85) {
 - `else { }` = the code to run if false
 </details>
 
-<details><summary>Comparison Operators (the conditions):</summary>
+<details><summary>Comparison Operators (the conditions)</summary>
 
 ```javascript
 temperature > 85    // Greater than
@@ -511,7 +512,7 @@ Let participants answer.
 **Demo 3: Loops in JavaScript (10 minutes)**
 Loops repeat code. You've seen loops in flowcharts. Here they are in JavaScript.
 
-<details><summary>For Loop (most common):</summary>
+<details><summary>For Loop (most common)</summary>
 
 ```javascript
 for (let i = 1; i <= 5; i++) {
@@ -543,7 +544,7 @@ Iteration 6: i = 6, is 6 <= 5? No → exit loop
 ```
 </details>
 
-<details><summary>While Loop (simpler):</summary>
+<details><summary>While Loop (simpler)</summary>
 
 ```javascript
 let cookies = 5;
