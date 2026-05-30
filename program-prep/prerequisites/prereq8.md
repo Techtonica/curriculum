@@ -12,21 +12,20 @@ Participants should have a basic understanding of the following foundational con
 
 ### Table of Contents
 - [Projected Time](#projected-time)
-- [Prerequisites](#prerequisites)
 - [Motivation](#motivation)
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Independent Practice](#independent-practice)
-  - [Task 1: JavaScript Sandbox Exercise No.2 - Loops + Functions](#task-1-javascript-sandbox-exercise-no2---loops--functions-75120-minutes)
-  - [Task 2: GitHub Onboarding Step 2 - Clone, Edit, Commit, Push](#task-2-github-onboarding-step-2---clone-edit-commit-push-4560-minutes)
+  - [Task 1: Simulate a GitHub Workflow with a Peer](#task-1-simulate-a-github-workflow-with-a-peer-75120-minutes)
+  - [Task 2: Code Review Exercise](#task-2-code-review-exercise-3045-minutes)
 - [Guided Practice (In-Session: 2 hours)](#guided-practice-in-session-2-hours)
-  - [Segment 1: Welcome & Session Overview](#segment-1-welcome--session-overview-5-minutes)
-  - [Segment 2: Breakout Room Sharing](#segment-2-breakout-room-sharing-45-minutes)
-  - [Segment 3: Group Debrief](#segment-3-group-debrief-10-minutes)
-  - [Segment 4: Staff-Led GitHub Workflow & Live Demo](#segment-4-staff-led-github-workflow--live-demo-40-minutes)
-  - [Segment 5: Mini-Challenge - Fix Broken JavaScript Code](#segment-5-mini-challenge---fix-broken-javascript-code-20-minutes)
-  - [Segment 6: Independence in Engineering & Problem-Solving](#segment-6-independence-in-engineering--problem-solving-10-minutes)
-  - [Segment 7: Q&A](#segment-7-qa-5-minutes)
+  - [Part 1: Welcome & Session Overview](#segment-1-welcome--session-overview-5-minutes)
+  - [Part 2: Breakout Room Sharing](#segment-2-breakout-room-sharing-45-minutes)
+  - [Part 3: Group Debrief](#segment-3-group-debrief-10-minutes)
+  - [Part 4: Staff-Led Version Control Concepts & How Git Enables Collaboration](#segment-4-staff-led-version-control-concepts--how-git-enables-collaboration-40-minutes)
+  - [Part 5: Mini-Challenge - Resolve a Git Conflict Scenario](#segment-5-mini-challenge---resolve-a-git-conflict-scenario-20-minutes)
+  - [Part 6: Collaboration & Independence in Team Contexts](#segment-6-collaboration--independence-in-team-contexts-10-minutes)
+  - [Part 7: Q&A](#segment-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
 ### Projected Time
@@ -87,675 +86,708 @@ By the end of this session, participants will:
 
 ### Independent Practice
 
-#### Task 1: JavaScript Sandbox Exercise No.2 - Loops + Functions (75–120 minutes)
-**Objective:** Apply loops and functions in JavaScript. Deepen problem-solving skills. Build confidence with more complex code.
+#### Task 1: Simulate a GitHub Workflow with a Peer (75–120 minutes)
+**Objective:** Understand version control conceptually. See why teams use it. Practice collaboration and conflict resolution without Git CLI complexity.
 
-**Background:**
-In Prerequisite Session 7, you wrote a temperature feedback system with conditionals. Now you're adding loops and functions—the tools that turn code into elegant solutions.
+**Background — What is Version Control and Why Does It Matter?**
+Version control is a system that tracks changes to files over time. It answers questions like:
+- Who changed this file?
+- What did they change?
+- When did they change it?
+- Why did they change it?
+- Can we revert to an earlier version?
 
-**The Task: "Number Analyzer"**
-Write JavaScript functions that:
-1. Analyze an array of numbers
-2. Calculate statistics (sum, average, max, min)
-3. Use loops to iterate through the numbers
-4. Return results and display them with `console.log()`
+In a team, version control lets multiple people work on the same project without overwriting each other's work. It's essential to professional software development.
 
-**Your Goal:** Create functions that can answer questions like:
-- "What's the sum of these numbers?"
-- "What's the average?"
-- "What's the largest number?"
-- "What's the smallest number?"
+You won't use Git commands this week. You'll simulate a version control workflow to understand the concepts.
 
-**Setup Instructions:**
-1. Choose a JavaScript sandbox (CodePen, Replit, JSFiddle, etc.)
-2. Create a new project
-3. Use the template below as a starting point
-4. Test your code with different arrays
-5. Record a 5-minute demo
+**The Task: Collaborate on a Shared Document**
+You and a peer will:
+1. Create a shared document (Google Doc)
+2. Simulate a version control workflow: create versions, make changes, merge them, resolve conflicts
+3. Document what happens at each step
 
-<!--
-**Example Code Template:**
+**Setup:**
+1. **Find a partner:** Someone from the cohort you haven't worked with yet
+2. **Create a Google Doc:** Title it "GitHub Simulation: [Your Names]"
+3. **Choose a scenario:** What document are you collaborating on?
+   - **Option A:** A restaurant menu (both of you add dishes)
+   - **Option B:** A movie database (both add movie reviews)
+   - **Option C:** A travel guide (both add city descriptions)
+   - **Option D:** A meeting agenda (both add items)
 
-```javascript
-// Number Analyzer
+**Scenario Walkthrough: Restaurant Menu Example**
 
-// Array of numbers to analyze
-let numbers = [5, 12, 8, 23, 15, 7, 19];
+<details><summary>Step 1: Initial Commit (Create Version 1)</summary>
+  
+Start with a simple menu:
 
-// Function to calculate the sum
-function calculateSum(arr) {
-  let sum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    sum += arr[i];  // Add each number to the sum
-  }
-  return sum;
-}
-
-// Function to calculate the average
-function calculateAverage(arr) {
-  let sum = calculateSum(arr);  // Reuse the sum function!
-  let average = sum / arr.length;
-  return average;
-}
-
-// Function to find the maximum
-function findMax(arr) {
-  let max = arr[0];  // Start with the first number
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > max) {
-      max = arr[i];
-    }
-  }
-  return max;
-}
-
-// Function to find the minimum
-function findMin(arr) {
-  let min = arr[0];  // Start with the first number
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] < min) {
-      min = arr[i];
-    }
-  }
-  return min;
-}
-
-// Call the functions and display results
-console.log("Array:", numbers);
-console.log("Sum:", calculateSum(numbers));
-console.log("Average:", calculateAverage(numbers));
-console.log("Max:", findMax(numbers));
-console.log("Min:", findMin(numbers));
 ```
--->
+RESTAURANT MENU - Version 1
 
-**What to Do:**
-1. Paste the template into your sandbox
-2. Click Run and observe the output
-3. Modify the `numbers` array and test again
-4. Try adding more functions (e.g., count how many numbers are even, find the median, etc.)
-5. Experiment: change a loop, see what breaks, fix it
-6. Record a 5-minute demo
+Appetizers:
+- Bruschetta - $8
+- Calamari - $10
 
-**Common Issues:**
-- "My function doesn't return what I expect" → Trace through the loop step by step. Log intermediate values: `console.log("Current sum:", sum)`
-- "I don't understand array indexing" → Arrays start at 0: `arr[0]` is the first element, `arr[1]` is the second, etc.
-- "My loop is going out of bounds" → Check the condition: `i < arr.length` (not `i <= arr.length`)
-- "I'm overwhelmed by the template" → Start with just one function. Write the simplest version. Test it. Then add more.
+Main Courses:
+- Pasta Carbonara - $16
+- Grilled Salmon - $20
 
-**Video: Demonstrate & Explain (5 minutes)**
-Record a video showing:
-1. **Run Your Code:** Show the console output with sample numbers
-2. **Change the Array:** Modify the `numbers` array and re-run to show functions adapting to different inputs
-3. **Walk Through a Function:** Narrate through one function line by line:
-  - "Here I initialize `sum` to 0"
-  - "Then I loop through each number"
-  - "For each number, I add it to the sum"
-  - "Finally, I return the sum"
-4. **Explain Key Concepts:**
-  - What's a function? (Reusable block of code)
-  - What's a parameter? (Input to the function)
-  - What's a return statement? (Output from the function)
-  - How do loops help? (We don't have to write separate code for each number)
-5. **Reflect:** "What was challenging? What clicked?"
+Desserts:
+- Tiramisu - $7
+- Chocolate Cake - $6
+```
+
+**Record:** "Initial menu created. This is our baseline."
+</details>
+
+<details><summary>Step 2: Both Make Changes (Create Version 2a and 2b)</summary>
+
+**You decide:** "I'm going to add an appetizer and update prices"
+- Change Bruschetta price from $8 to $9
+- Add "Shrimp Saute - $12" to appetizers
+
+**Your version (2a):**
+```
+RESTAURANT MENU - Version 2a
+
+Appetizers:
+- Bruschetta - $9 (UPDATED PRICE)
+- Calamari - $10
+- Shrimp Saute - $12 (NEW)
+
+Main Courses:
+- Pasta Carbonara - $16
+- Grilled Salmon - $20
+
+Desserts:
+- Tiramisu - $7
+- Chocolate Cake - $6
+```
+
+**Your peer decides:** "I'm going to add main courses and a dessert"
+- Add "Risotto - $18" to main courses
+- Add "Panna Cotta - $8" to desserts
+
+**Peer's version (2b):**
+```
+RESTAURANT MENU - Version 2b
+
+Appetizers:
+- Bruschetta - $8
+- Calamari - $10
+
+Main Courses:
+- Pasta Carbonara - $16
+- Grilled Salmon - $20
+- Risotto - $18 (NEW)
+
+Desserts:
+- Tiramisu - $7
+- Chocolate Cake - $6
+- Panna Cotta - $8 (NEW)
+```
+
+**Record:** "You made changes to version 1. Peer made different changes to version 1. Now we have two diverging versions."
+</details>
+
+<details><summary>Step 3: Merge the Versions (Resolve Conflicts)</summary>
+
+**The Challenge:** How do you combine both changes? No changes overlap, so this is easy:
+
+**Final Merged Version (3):**
+```
+RESTAURANT MENU - Version 3 (MERGED)
+
+Appetizers:
+- Bruschetta - $9 (from your version)
+- Calamari - $10
+- Shrimp Saute - $12 (from your version)
+
+Main Courses:
+- Pasta Carbonara - $16
+- Grilled Salmon - $20
+- Risotto - $18 (from peer's version)
+
+Desserts:
+- Tiramisu - $7
+- Chocolate Cake - $6
+- Panna Cotta - $8 (from peer's version)
+```
+
+**Record:** "We merged both versions. All changes coexist because they affected different parts."
+</details>
+
+<details><summary>Step 4: Conflict! Overlapping Changes</summary>
+
+Now do another round where changes overlap:
+
+**You decide:** "Update Tiramisu price from $7 to $8"
+
+**Your version (4a):**
+```
+Desserts:
+- Tiramisu - $8 (UPDATED)
+- Chocolate Cake - $6
+- Panna Cotta - $8
+```
+
+**Peer decides:** "Update Tiramisu description, keep price at $7"
+
+**Peer's version (4b):**
+```
+Desserts:
+- Tiramisu - $7 (Classic Italian dessert)
+- Chocolate Cake - $6
+- Panna Cotta - $8
+```
+
+**The Conflict:** Both changed Tiramisu, but differently. Which version is correct?
+
+**Record:** "We have a CONFLICT. Both of us changed Tiramisu. How do we resolve this?"
+</details>
+
+<details><summary>Resolution Discussion</summary>
+- You discuss: "What should Tiramisu be?"
+- Option 1: Keep your price change ($8) and add peer's description
+- Option 2: Keep peer's price ($7) and add description
+- Option 3: Find a compromise
+
+**Final Resolved Version (5):**
+```
+Desserts:
+- Tiramisu - $8 (Classic Italian dessert)
+- Chocolate Cake - $6
+- Panna Cotta - $8
+```
+
+**Record:** "CONFLICT RESOLVED. We kept the price update ($8) and added the description. Both of us agreed this was the best version."
+</details>
+
+**Write-Up: Document Your Simulation (2–3 pages)**
+
+In a Google Doc, answer:
+
+**Part 1: Your Collaboration Story**
+- What scenario did you choose?
+- How many rounds did you do?
+- Which changes were easy to merge? Which were hard?
+- Did you have conflicts? If so, how did you resolve them?
+
+**Part 2: Understanding Version Control**
+- "Why did we create multiple versions instead of just editing one document?"
+- "What would happen if one person's changes overwrote the other's?"
+- "Why is it helpful to track who made what changes?"
+- "In real programming, why would a team care about version control?"
+
+**Part 3: Reflection**
+- "What surprised you about collaboration?"
+- "What's hard about merging changes?"
+- "How is this simulation related to what real engineers do with Git?"
+- "What's one thing you'd do differently next time?"
 
 **Free Resources:**
-- **[JavaScript.info - "Functions"](https://javascript.info/function-basics)** (interactive, comprehensive)
-- **[MDN - "Functions"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)** (official reference)
-- **[MDN - "Loops and Iteration"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)** (detailed guide)
-- **[FreeCodeCamp - "JavaScript Functions Tutorial"](https://www.youtube.com/watch?v=FOD408a0EzQ)** (20-minute YouTube video)
-- **[Codecademy - "JavaScript Functions"](https://www.codecademy.com/learn/introduction-to-javascript)** (free tier)
+- **[Article - "An introduction to Git: what it is, and how to use it"](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)** (conceptual explanation)
+- **[Atlassian - "Git Concepts"](https://www.atlassian.com/git/tutorials/what-is-version-control)** (clear explanations)
 
 **Submission:**
-- Link to your sandbox (CodePen, Replit, etc.)
-- Record a video explaining your code (5 minutes)
-- Note: "I found ___ most challenging, and here's how I solved it"
+- Shared Google Doc link (showing your simulation history)
+- Write-up document with reflection and answers
+- Screenshot showing your final merged version
 
-#### Task 2: GitHub Onboarding Step 2 - Clone, Edit, Commit, Push (45–60 minutes)
-**Objective:** Learn the Git workflow. Use Git locally to manage code changes. Understand version control.
+#### Task 2: Code Review Exercise (30–45 minutes)
+**Objective:** Practice evaluating code critically. Provide constructive feedback. Understand what makes code "good."
 
-**Background — What is Git and Why It Matters?**
-Git is version control software. It tracks changes to files over time. GitHub is where you store Git repositories online. When you use Git, you:
-1. Clone a repository (download it to your computer)
-2. Make changes locally
-3. Commit changes (save a snapshot with a message)
-4. Push changes (upload to GitHub)
+**Background — What is Code Review?**
+Code review prevents bugs and ensures quality. It's a critical professional skill. Code review is when engineers read each other's code before it's merged into the project. They ask:
+- Does this code do what it's supposed to do?
+- Is it clear and easy to understand?
+- Could it be more efficient?
+- Are there potential bugs?
+- Does it follow the team's standards?
 
-This is the professional workflow. Every engineer uses this.
+**The Task: Review Two Versions of Pseudo-Code**
+You'll receive two different versions of the same program (pseudo-code, not JavaScript). Compare them. Evaluate which is better and why. Provide constructive feedback.
 
-**Setup Instructions:**
+**Program: "Calculate Student Grades"**
 
-**Part A: Install Git Locally (5 minutes)**
+<details><summary>Version A: Simple but Repetitive</summary>
 
-If you don't have Git installed:
-1. Go to https://git-scm.com/download
-2. Choose your operating system (Windows, Mac, Linux)
-3. Download and install (use default settings if unsure)
-4. Verify installation: Open terminal/command prompt and type `git --version`. If it shows a version number, you're good!
-
-**Part B: Configure Git (5 minutes)**
-1. Open terminal/command prompt
-2. Run these commands (replace with your info):
-
-```shellscript
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
 ```
+Read student name
+Read score 1
+Read score 2
+Read score 3
+Read score 4
+Read score 5
 
-This tells Git who you are when you make commits.
+Calculate average:
+  Add all scores
+  Divide by 5
 
-**Part C: Clone Your Repository (10 minutes)**
-1. Go to your GitHub repository (the one you created in Session 7: `techtonica-prerequisites`)
-2. Click the green "Code" button
-3. Copy the HTTPS link (looks like: `https://github.com/yourusername/techtonica-prerequisites.git`)
-4. Open terminal/command prompt
-5. Navigate to where you want to store your code (e.g., `cd Desktop` or `cd Documents`)
-6. Run: `git clone https://github.com/yourusername/techtonica-prerequisites.git`. This downloads a copy of your repository to your computer
-7. Navigate into the folder: `cd techtonica-prerequisites`
-8. You're now in your local repository!
+Check grade:
+  If average >= 90: Print "A"
+  Else if average >= 80: Print "B"
+  Else if average >= 70: Print "C"
+  Else if average >= 60: Print "D"
+  Else: Print "F"
 
-**Part D: Make Changes Locally (15 minutes)**
-In your repository folder, create a new JavaScript file:
-1. Use a text editor (VS Code, Sublime Text, Notepad++, or even Notepad)
-2. Name it: `number-analyzer.js`
-3. Paste your number analyzer code into this file
-4. Save it. Verify it's there: In terminal, type `ls` (Mac/Linux) or `dir` (Windows). You should see `number-analyzer.js` listed
-
-**Part E: Stage, Commit, and Push (15 minutes)**
-
-1. **Stage your changes:** This tells Git: "I want to save this file."
-
-```shellscript
-git add number-analyzer.js
+Print: [Name] has average [average] and grade [grade]
 ```
+</details>
 
-2. **Commit your changes:** This saves a snapshot with a message explaining what you did.
+<details><summary>Version B: Better Structured</summary>
 
-```shellscript
-git commit -m "Add number analyzer functions"
 ```
+Function: GetScores()
+  Create empty list: scores
+  Repeat 5 times:
+    Read score from user
+    Add score to list
+  Return scores
 
-3. **Push to GitHub:** This uploads your changes to GitHub (makes them visible on the website).
+Function: CalculateAverage(scores)
+  sum = 0
+  For each score in scores:
+    Add score to sum
+  average = sum / number of scores
+  Return average
 
-```shellscript
-git push origin main
+Function: DetermineGrade(average)
+  If average >= 90: Return "A"
+  Else if average >= 80: Return "B"
+  Else if average >= 70: Return "C"
+  Else if average >= 60: Return "D"
+  Else: Return "F"
+
+Main Program:
+  name = Read student name
+  scores = GetScores()
+  average = CalculateAverage(scores)
+  grade = DetermineGrade(average)
+  Print: [name] has average [average] and grade [grade]
 ```
+</details>
 
-4. **Verify:** Go to your GitHub repository in the browser. Refresh. You should see `number-analyzer.js` there!
+**Your Task: Code Review**
 
-**Understanding the Workflow:**
+<details><summary>Part 1: Compare the Versions</summary>
+Create a comparison document (Google Doc). For each question, answer for both Version A and B:
 
-```plaintext
-Local Computer          GitHub (Remote)
-    |                        |
-    |-- git clone ---------> (copy repo)
-    |                        |
-    |-- make changes         |
-    |   (edit files)         |
-    |                        |
-    |-- git add             |
-    |-- git commit          |
-    |-- git push ----------> (upload changes)
-    |                        |
-```
+1. **Clarity:** Is it easy to understand what this code does?
+   - Version A: Simple to read top-to-bottom, but repetitive
+   - Version B: More organized, but requires understanding functions
 
-**Common Issues:**
-- "Fatal: Not a git repository" → Make sure you're in the correct folder (the one you cloned)
-- "Permission denied" → You might need to set up SSH keys. For now, use HTTPS (what we did above)
-- "Everything up to date" → Your changes didn't commit. Make sure you used `git add` first.
-- "I can't see my changes on GitHub" → Refresh the page. Make sure you pushed (`git push`).
+2. **Efficiency:** Does it avoid repetition?
+   - Version A: Repetitive (reads 5 scores one by one, calculates grade with long if/else)
+   - Version B: Uses loops and functions to avoid repetition
 
-**Video: Demonstrate Your Process (5 minutes)**
+3. **Reusability:** Could you use this code again easily?
+   - Version A: Hard to reuse (grade logic mixed with student input)
+   - Version B: Easy to reuse (functions are independent)
 
-Record a video showing:
-1. **Clone Step:** Screen share terminal showing `git clone` command and the repo being downloaded
-2. **Local Edits:** Show creating/editing a file in your code editor
-3. **Git Commands:** Show running:
-  - `git status` (shows what changed)
-  - `git add filename`
-  - `git commit -m "message"`
-  - `git push origin main`
-4. **Verification:** Go to GitHub website and show the updated repository
-5. **Reflect:** "What was confusing about Git? What clicked?"
+4. **Maintainability:** If the requirements changed (e.g., 6 scores instead of 5, different grading scale), how hard would it be to update?
+   - Version A: Hard (need to change multiple places)
+   - Version B: Easy (change the loop or function)
 
-**Free Resources:**
-- **[GitHub Docs - "Git Basics"](https://docs.github.com/en/get-started/using-git)** (official guide)
-- **[GitHub Skills - "Introduction to GitHub"](https://skills.github.com)** (interactive course, covers git basics)
-- **[Pro Git Book (Free)](https://git-scm.com/book/en/v2)** (comprehensive, readable)
-- **[YouTube - "Git & GitHub for Beginners"](https://www.youtube.com/watch?v=tYKLsBUruKA)** (20-minute overview)
-- **[Atlassian - "Git Tutorial"](https://www.atlassian.com/git/tutorials)** (practical, free)
+5. **Potential Bugs:** Are there issues you notice?
+   - Version A: If you want to grade 6 students, you'd have to rewrite the whole thing
+   - Version B: You can call the functions 6 times (loop around the main program)
+</details>
+
+<details><summary>Part 2: Written Feedback</summary>
+Write a brief review (1 paragraph each) for both versions
+</details>
+
+<details><summary>Part 3: Which Version Would You Choose?</summary>
+
+Write 3–4 sentences:
+- Which version is better for a professional team? Why?
+- Which version is better for learning? Why?
+- Are there cases where Version A would be preferable?
+- What would you combine from both?
+</details>
+
+<details><summary>Part 4: Reflection
+
+Answer:
+- "What makes code 'good' in your opinion?"
+- "What did this exercise teach you about writing code for others?"
+- "As you move toward writing actual code, what will you prioritize: simplicity or structure?"
+</details>
 
 **Submission:**
-- Link to your GitHub repository
-- Record a video showing your git workflow (5 minutes)
-- Note: "The scariest part was ___, but I figured it out by ___"
+- Google Doc with comparison, reviews, recommendation, and reflection
+- Video (5 minutes) where you explain which version you'd choose and why
 
 ### Guided Practice (In-Session: 2 hours)
 
 #### Part 1: Welcome & Session Overview (5 minutes)
-This is the week where everything comes together. You've learned programming concepts. You've built resilience. Now you're using professional tools.
+This session, you're not learning Git commands. You're understanding the problem version control solves and the workflow teams use.By the end, you'll understand why Git exists and why every professional team uses it. Then learning the actual commands becomes logical — they're just tools for doing what you understand conceptually.
 <!-- Program Staff Talking Points:
-- "Today, you're learning Git—version control. This is how every engineer manages code. When you push code to GitHub, you're doing what engineers at Google, Meta, and Apple do daily."
-- "Session 7 felt like introduction. Session 8 feels like the real deal. You're going to clone repositories, make changes, commit, and push. By the end, you'll have a workflow you can use for any project."
-- "Independence reaches its peak this week. If something goes wrong with Git, you won't have a step-by-step guide. You'll have documentation and your problem-solving skills. That's intentional. That's professional development."
+- "Last session, you learned to read and understand code. This week, you're learning to work with code in a team."
+- "Most professional engineers don't work alone. They work with teams. Multiple people touching the same files, the same projects. How do you coordinate that without chaos?"
+- "That's what version control solves. Git, GitHub, version control—it's all about enabling collaboration."
 -->
 
 #### Part 2: Breakout Room Sharing (45 minutes)
 
-**Part A: JavaScript Functions & Sandbox Demos (22 minutes)**
-Have each participant share:
-- Their recorded video showing their number analyzer functions running
-- Quick explanation of one function they're proud of
+**Part A: Version Control Simulation Presentations (25 minutes)**
+Have each pair share:
+- Their scenario (menu, movie database, travel guide, etc.)
+- How many rounds they went through
+- One moment where changes merged smoothly
+- One moment where there was a conflict
 
 <!-- Program Staff Copy/Paste Discussion Prompts into Zoom Chat:
-- "Who added extra functions beyond the template (e.g., count even numbers, find median)?"
-- "Did anyone reuse one function inside another, like we did with average using sum?"
-- "What was hardest about writing functions? What clicked?"
-- "For those with loops: did you trace through the loop step-by-step to understand it?"
+- "Whose scenario had the most conflicts? How did you resolve them?"
+- "Was it helpful to track who made what changes? Why?"
+- "If you were doing this with a real programming team (10 people), how would this get more complicated?"
+- "What would be impossible to do manually that Git does automatically?"
 -->
 
-**Part B: Git Workflow & GitHub Push (21 minutes)**
+**Part B: Code Review Sharing (18 minutes)**
 Each participant shares:
-- Their recorded video showing the git workflow (clone → edit → commit → push)
-- Their GitHub repository showing the new commits
+- Which version they preferred (A or B)
+- One strength and one weakness of each version
+- What surprised them about code review
 
 <!-- Program Staff Copy/Paste Discussion Prompts into Zoom Chat:
-- "Who's excited that their code is now tracked on GitHub?"
-- "Did anyone run into errors with Git? How did you solve it?"
-- "What command felt most powerful to you?"
-- "Did anyone look at the commit history on GitHub? Notice how it tracked your changes?"
+- "Did everyone prefer the same version? If not, why the differences?"
+- "What makes code 'professional' vs. 'amateur'?"
+- "How is code review different from testing or debugging?"
 
 Program Staff Listening & Notes:
-- Document common Git errors (these inform the staff-led portion)
-- Celebrate successful commits: "You just used industry-standard tools"
-- Normalize struggle: "Git errors are universal—everyone encounters them"
-- Build confidence: "You cloned, edited, committed, and pushed. That's a real engineer workflow."
+- Note understanding of version control concepts
+- Document any misconceptions (address in staff-led)
+- Celebrate conflict resolution: "You worked through disagreement"
+- Note code quality insights (professional thinking)
 
-Tone: Frame Git as professional empowerment. "You're not just writing code; you're managing it professionally."
+Tone: Frame collaboration and review as *professional norms*. "This is how real teams work."
 -->
 
 #### Part 3: Group Debrief (10 minutes)
-Here's what's remarkable: you've now written code in two languages, used version control, stored code on GitHub, and proven you can learn independently. You're not beginners anymore; you're developers with real tools and workflows.
+Here's what I want you to see: version control isn't just a tool. It's a way of working that enables teams. Git, GitHub—they're tools. But the mindset is: I'm not working alone, I'm collaborating. My code needs to be clear for others. We need to track changes.
 <!-- Program Staff Talking Points:
-- "Your JavaScript functions showed sophisticated thinking. You used loops to iterate, conditionals to compare, and functions to package logic. You're thinking like engineers."
-- "Your Git workflows were clean. I saw meaningful commit messages, successful pushes, and visible changes on GitHub. That's professional practice."
-- "Independence showed up in different ways this week: some of you figured out Git errors on your own, others asked Slack strategically and learned from peers. Both are professional."
+- "Your version control simulations showed something important: collaboration requires communication. When changes conflicted, you couldn't just pick one. You had to discuss, agree, decide. That's team work."
+- "Your code reviews showed professional thinking. You evaluated code not just on 'does it work' but on 'is it maintainable, reusable, clear.' That's how senior engineers think."
+- "In weeks 1–7, you've been learning individual skills: logic, problem-solving, reading code. Week 8 is where it becomes team work."
 
 Prompt Celebration:
-- "Whose commit history are they most proud of?" (Show GitHub)
-- "Who feels ready to use GitHub for more complex projects?" (Gauge confidence)
+- "Who feels ready to learn actual Git now?" (Gauge readiness)
+- "Who sees why version control matters?" (Gauge understanding)
 
 Frame for Next Part:
-"Now let's deepen your Git and JavaScript knowledge. We're going to do a live GitHub workflow demo, then tackle a debugging challenge. This is where you level up."
+"Now let's talk about what version control really is and why Git is designed the way it is. We're going to see how the concepts you just experienced translate into Git commands."
 -->
 
-#### Part 4: Staff-Led GitHub Workflow & Live Demo (40 minutes)
-**Objective:** Formalize Git concepts. Show professional workflow. Demonstrate debugging in Git and JavaScript.
+#### Part 4: Staff-Led Version Control Concepts & How Git Enables Collaboration (40 minutes)
+**Objective:** Connect the simulation to real version control. Explain Git concepts. Show why Git is structured the way it is.
 
-**Demo 1: Git Workflow Deep Dive (12 minutes)**
-Let's talk about the full Git workflow and what each command does.
+**Demo 1: What is Version Control? (10 minutes)**
+Version control is a system that answers these questions about your project:
+- What changed?
+- Who changed it?
+- When did they change it?
+- Why did they change it?
+- Can we revert to an old version?
 
-**The Three Stages of Git:**
+**Scenario: Two Programmers Without Version Control**
 
-```plaintext
-Working Directory      Staging Area          Repository (Local)
-(Your Files)           (git add)             (git commit)
-    |                      |                      |
-    | -- git add --------> |                      |
-    |                      | -- git commit ----> |
-    |                                             |
-    |                                             | -- git push ---> GitHub (Remote)
+```
+Programmer A: Working on main.js
+Programmer B: Also working on main.js
+
+Time 1:00 PM
+A uploads their version (main.js)
+
+Time 1:05 PM
+B uploads their version (main.js)
+
+Result: B's version overwrites A's. A's changes are lost forever.
 ```
 
-**Each Stage Explained:**
-1. **Working Directory:** Your computer. Where you edit files.
-2. **Staging Area:** The files you've told Git to track (via `git add`).
-3. **Repository:** The saved history of your code (via `git commit`).
-4. **Remote (GitHub):** The cloud version (via `git push`).
+**With Version Control:**
 
+```
+Time 1:00 PM
+A makes changes, commits "Add login function"
+B makes changes, commits "Add user validation"
 
-**The Commands:**
-
-**`git status`:**
-- Shows which files changed, which are staged, which are committed
-- Always safe to run; it just reports status
-
-
-```shellscript
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to stage changes)
-        modified:   number-analyzer.js
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        new-file.js
+System tracks both commits.
+When they merge, the system combines both changes.
+If something goes wrong, they can revert to any commit.
 ```
 
-Translation: "You changed `number-analyzer.js` but haven't staged it. You have a new file `new-file.js` that Git doesn't know about."
+**Key Concepts:**
+1. **Commit:** A snapshot of your code at a point in time with a message explaining what changed
+2. **Branch:** Parallel version of the project (A works on login, B works on validation)
+3. **Merge:** Combining two branches
+4. **History:** Complete record of all commits (when, who, what)
+5. **Conflict:** When two changes affect the same line (needs human decision)
 
-**`git add <filename>`:**
-- Stages a file: tells Git "I want to include this in my next commit"
-- Can stage multiple files: `git add file1.js file2.js`
-- Stage all changes: `git add .`
+<!-- Program Staff Talking Points: 
+"Version control solves a fundamental problem: how do multiple people work on the same files without losing each other's work?"
 
-**`git commit -m "message"`:**
-- Creates a snapshot of your code with a message
-- Message describes what you changed (for future you and your team)
-- Every commit is a point you can return to
+Program Staff Interactive Element:
+"In your simulation, you had versions 1, 2a, 2b, 3, etc. In Git, each of these is a commit. Every commit has:
+- A unique ID
+- A timestamp
+- The author's name
+- A message ('Added appetizers')
+- The actual code/files at that point
 
-**`git push origin main`:**
-- Uploads your commits to GitHub
-- `origin` = the remote location (GitHub)
-- `main` = the branch (usually your main code branch)
-
-**Good Commit Messages:**
-- "Add number analyzer functions" ✅ (clear, describes change)
-- "Fix bug in loop" ✅ (specific, actionable)
-- "wip" ❌ (unclear, unhelpful)
-- "AHHH THIS WORKS NOW" ❌ (emotional, not professional)
-- "Updated code" ❌ (vague, doesn't say what changed)
-
-Your commit message is a note to your future self and your teammates. Be kind to them. Write clear messages.
-
-<!--Program Staff Interactive Element:*
-
-"I'm going to make a change to a file and show you the git workflow. Watch what happens at each stage."
-
-- Show terminal: `git status` (shows modified file)
-- Edit a file and save
-- Show terminal: `git status` (shows the change)
-- Run `git add filename`
-- Show terminal: `git status` (now shows staged)
-- Run `git commit -m "Add new function"`
-- Show terminal: `git log` (shows commit history)
-- Run `git push origin main`
-- Show GitHub: the new commit appears
-
-Questions to Participants:
-- "Why do we need both `git add` and `git commit`?" → You can make multiple changes and group them logically. One `git add .` + `git commit` = one logical unit.
-- "What if I commit something by accident?" → You can undo commits, but we'll cover that later. For now, just be careful.
+So if you made a mistake and wanted to go back to version 2, Git can show you exactly what was there."
 -->
 
-**Demo 2: GitHub Interface & Commit History (10 minutes)**
-Let's explore GitHub's interface. Your commits live here.
+**Demo 2: Commits, Branches, and Merging (12 minutes)**
 
-**On GitHub Repository Page:**
-1. **File List:** Shows all files in your repository
-2. **Commits History:** Click "Commits" to see all your commits. Each commit shows: message, author, date, hash (unique identifier)
-3. **Code:** Click on a file to see its content
-  - Green highlights = additions
-  - Red highlights = deletions
-4. **Pull Requests & Branches:** (Intro only for now)
+**Flowchart of a Typical Git Workflow:**
 
-**Understanding Commit History:**
-Here's a commit. The message says 'Add number analyzer functions.' The author is you. The date is today. If you click on this commit, you can see exactly what changed.
+```
+Main Branch (production code)
+    |
+    o--o--o (commits: "Initial", "Add login", "Fix bugs")
+         \
+          \ Feature Branch (experimental code)
+           \
+            o--o--o (commits: "Add dark mode", "Style tweaks")
+             \
+              Merge back to main
+              |
+    o--o--o--o (commits combined)
+```
+
+**Explained:**
+The main branch is where stable code lives. When you want to add a feature, you create a branch (parallel version). You make commits on that branch. Other people make commits on other branches. When ready, you merge branches back into main.
 
 **Why This Matters:**
-- **Accountability:** Everyone can see who changed what and when
-- **Debugging:** You can find when a bug was introduced by looking at commits
-- **Collaboration:** Teammates can see your progress
-- **Professional:** This is what real engineers use
+- **Safety:** You can experiment on a branch without breaking main
+- **Clarity:** Each commit is a complete, tested change
+- **History:** You can see the entire evolution of the project
+- **Collaboration:** Multiple branches mean multiple people can work in parallel
 
-**Interactive Element:**
-Look at your own repository's commit history on GitHub. Click one of your commits. You'll see the changes highlighted in green (additions) and red (deletions). This is how GitHub shows you what you changed.
-**Demo 3: Common Git Mistakes & How to Fix Them (10 minutes)**
+**Conflict Scenario:**
 
-**Program Staff Shows Common Errors:**
-
-**Error 1: Forgot to `git add`**
-```shellscript
-$ git commit -m "Add new function"
-On branch main
-nothing to commit, working tree clean
 ```
+Branch A: "Update login function"
+Branch B: "Update login function" (different way)
 
-Translation: "Nothing is staged. You forgot `git add`."
+When merging:
+Git says: "Both branches changed login function. 
+Programmer, you decide which version is correct."
 
-**Fix:** Run `git add filename`, then `git commit -m "message"` again.
-
-**Error 2: Typo in Commit Message**
-
-```shellscript
-$ git commit -m "Add nuber analyzer"  # Typo: "nuber" instead of "number"
+Programmer reviews both, decides, merges.
 ```
-
-**Fix:** For the most recent commit only:
-
-```shellscript
-git commit --amend -m "Add number analyzer"
-```
-
-This replaces the most recent commit message.
-
-**Error 3: Tried to Push but Got an Error**
-
-```shellscript
-$ git push origin main
-error: failed to push some refs to 'origin'
-hint: Updates were rejected because the remote contains work that you do not have locally
-```
-
-Translation: "Someone else (or a different computer) pushed changes that you don't have yet."
-
-**Fix:** Pull first, then push:
-
-```shellscript
-git pull origin main
-git push origin main
-```
-
-**Error 4: "Permission denied" or "Authentication failed"**
-
-Translation: "GitHub doesn't recognize you."
-
-**Fix:** You need to set up authentication. For now, use personal access tokens or SSH keys (we'll cover later if needed).
-
-Git errors look scary, but they're usually telling you exactly what's wrong. Read the error message. It's usually right.
-
-**Demo 4: Undoing Changes (5 minutes)**
-Sometimes you make a mistake. Git lets you undo.
-
-**Undo Uncommitted Changes:**
-
-```shellscript
-git checkout filename  # Revert to last commit
-```
-
-**Undo a Commit (keep changes):**
-
-```shellscript
-git reset HEAD~1  # Undo most recent commit, keep changes locally
-```
-
-**Undo Everything (last resort):**
-
-```shellscript
-git reset --hard HEAD~1  # Undo most recent commit AND lose changes
-```
-
-These are powerful commands. Use them carefully. For now, just know they exist. If you need them, ask for help or check the docs.
-
-#### Part 5: Mini-Challenge - Fix Broken JavaScript Code (20 minutes)
-**Objective:** Debug JavaScript code. Use problem-solving strategies. Prove independence.
-
-**Format:** Facilitator presents broken JavaScript code. Participants work in pairs or individually to fix it.
-
-**Challenge 1: Logic Error (5 minutes)**
-
-**Given Broken Code:**
-
-```javascript
-function findEven(arr) {
-  let evenNumbers = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 2 == 0) {  // This checks if number is even
-      evenNumbers.push(arr[i]);
-    }
-  }
-  return evenNumbers;
-}
-
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-console.log(findEven(numbers));
-```
-
-**What's the problem?** (There isn't one! It's actually correct. This is a teaching moment.)
-
-**Actually, here's the REAL broken version:**
-
-```javascript
-function findEven(arr) {
-  let evenNumbers = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 2 = 0) {  // BUG: Using = instead of ==
-      evenNumbers.push(arr[i]);
-    }
-  }
-  return evenNumbers;
-}
-
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-console.log(findEven(numbers));
-```
-
-**Task:** Identify and fix the bug.
-
-<!-- **Answer:** Change `if (arr[i] % 2 = 0)` to `if (arr[i] % 2 === 0)` -->
-
-**Explanation:** `=` assigns; `===` compares. We want to compare, not assign.
-
-**Challenge 2: Off-by-One Error (5 minutes)**
-
-**Given Broken Code:**
-
-```javascript
-function sumFirstN(n) {
-  let sum = 0;
-  for (let i = 1; i <= n; i++) {
-    sum += i;
-  }
-  return sum;
-}
-
-console.log(sumFirstN(5));  // Should be 1+2+3+4+5 = 15
-```
-
-**What's the problem?** (Again, this is actually correct!)
-
-**REAL broken version:**
-
-```javascript
-function sumFirstN(n) {
-  let sum = 0;
-  for (let i = 0; i <= n; i++) {  // BUG: Starts at 0, includes n+1 extra iteration
-    sum += i;
-  }
-  return sum;
-}
-
-console.log(sumFirstN(5));  // Outputs 15, but sum includes 0
-```
-
-**Task:** Identify and fix the bug.
-
-<!-- **Answer:** The loop should be `for (let i = 1; i <= n; i++)` (start at 1, not 0)
-
-**Explanation:** The sum is technically correct (0+1+2+3+4+5 = 15), but conceptually, we want 1+2+3+4+5. Starting at 0 is an off-by-one error.
--->
-
-**Challenge 3: Missing Return Statement (5 minutes)**
-
-**Given Broken Code:**
-
-```javascript
-function doubleNumbers(arr) {
-  let doubled = [];
-  for (let i = 0; i < arr.length; i++) {
-    doubled.push(arr[i] * 2);
-  }
-  // BUG: Forgot to return!
-}
-
-console.log(doubleNumbers([1, 2, 3]));  // Outputs: undefined
-```
-
-**Task:** Identify and fix the bug.
-
-<!-- **Answer:** Add `return doubled;` before the closing brace
-
-**Explanation:** Without a return statement, the function returns `undefined` (the default). We need to explicitly return the result.
-
--->
-
-**Challenge 4: Complex Logic (5 minutes)**
-
-**Given Broken Code:**
-
-```javascript
-function countVowels(str) {
-  let vowels = "aeiouAEIOU";
-  let count = 0;
-  for (let i = 0; i < str.length; i++) {
-    if (vowels.includes(str[i])) {
-      count++;
-    }
-  }
-  return count;
-}
-
-console.log(countVowels("Hello World"));  // Should be 3 (e, o, o)
-```
-
-**What's the problem?** (This is actually correct!)
-
-**Discussion:**
-- "Does this look right to you?"
-- "Try running it. What's the output?"
-- "Is it what you expected?"
-
-This is a working function. The teaching point: sometimes code works perfectly, and you should verify that by testing.
-
-Debugging involves reading the code, predicting what should happen, running it, observing the output, and comparing. If prediction matches output, great! If not, there's a bug. Always test your code.
-
-### Part 6: Independence in Engineering & Problem-Solving (10 minutes)
-**Objective:** Reflect on independence as a core engineering skill. Prepare for the transition from training to real projects.
-
-**Facilitator Facilitates Discussion:**
-
-**Prompt 1:** "This week was about independence—learning Git, writing functions, using professional tools. How do you feel about your independence as a learner and engineer?"
-- Let 4–5 people answer (1 minute each)
-- Listen for: confidence, nervousness, pride, questions
-- Affirm: "Independence is a skill. You're building it right now."
-
-**Prompt 2:** "When you got stuck on Git or JavaScript this week, what did you do?"
-- Answers might include: looked at docs, asked Slack, tried a different approach, took a break
-- Affirm: "That's professional problem-solving. Stuck doesn't mean you're bad; it means you're at the edge of learning."
-
-**Prompt 3:** "What's the difference between where you started (Week 1) and where you are now?"
-- This is a reflection on growth
-- Listen for: learning languages, using real tools, confidence, skills
-- Celebrate: "Look at the journey you've taken."
-
-**Prompt 4:** "As you move into the actual program after this prework, what's one thing you want to commit to?"
-- Answers might include: ask for help sooner, take breaks, debug systematically, celebrate small wins
-- Have people state their commitment aloud
 
 <!-- Program Staff Talking Points:
+"Conflicts aren't failures. They're Git saying 'Hey, two people changed the same thing. You need to decide what's right.' That's exactly what happened in your simulation."
 
-"Independence isn't about doing everything alone. It's about being resourceful, asking for help strategically, and knowing how to find answers. You've demonstrated all three this week.
+Program Staff Interactive Element:
+"You and your peer both changed the Tiramisu in your simulation. Git would do the same thing: flag the conflict, let you decide. That's why version control is powerful—it doesn't just overwrite. It forces you to be intentional."
+-->
 
-You looked at documentation when confused. You asked Slack when stuck. You tried different approaches and learned from failure. That's professional.
+**Demo 3: Why Git is Designed This Way (10 minutes)**
+Git is designed for one fundamental purpose: enable collaboration at scale.
 
-As you move into the actual program, hold this: You have the ability to learn. You have access to resources (docs, Google, peers, instructors). You have proven you can use all three. That's not just a programming skill; that's a life skill.
+**Git's Key Features (and Why):**
 
-Engineers face problems no one has solved before. That's the whole job. The difference between a junior engineer and a senior engineer isn't that the senior knows everything; it's that the senior knows how to figure things out. You're learning that skill right now."
+| Feature | Why It Matters |
+|---------|---|
+| **Commits with messages** | You can understand *why* a change was made, not just *what* changed |
+| **Unique commit IDs** | You can reference any point in history. Easy to revert if needed. |
+| **Branches** | Multiple people work independently. No stepping on each other's toes. |
+| **Merge tools** | When branches come together, Git helps identify conflicts, not overwrites silently. |
+| **Remote (GitHub)** | The project lives online. Accessible from anywhere. Acts as backup. |
+| **History/Log** | Complete record of who changed what when. Accountability and learning. |
+
+**Why Not Just Use Google Drive or Email?**
+
+```
+Google Drive:
+✓ Easy to share
+✗ Hard to track who changed what
+✗ Hard to revert to old versions
+✗ Merging changes is manual and error-prone
+
+Email:
+✓ Everyone has a copy
+✗ Multiple versions floating around
+✗ Easy to lose track of which is current
+✗ Merging requires manual copy-paste
+
+Git:
+✓ Complete history
+✓ Easy to see who changed what
+✓ Merging is built-in
+✓ One source of truth (the remote repository)
+```
+
+<!-- Program Staff Talking Points:
+"Git was invented by Linus Torvalds (who created Linux) to manage thousands of programmers contributing to the same project. It's powerful because it solves real collaboration problems."
+
+Program Staff Interactive Element:
+"Think about your simulation. You and your peer had to manually merge changes, communicate about conflicts, track who did what. Git automates a lot of that. It still requires you to decide when there's a conflict, but it handles the tracking and combining."
+-->
+
+#### Part 5: Mini-Challenge - Resolve a Git Conflict Scenario (20 minutes)
+**Objective:** Practice collaborative problem-solving. Practice conflict resolution. See that conflicts are normal and manageable.
+
+**Challenge 1: Simple Non-Overlapping Changes (5 minutes)**
+
+**Scenario:**
+
+```
+Programmer A commits: "Add email validation function"
+Programmer B commits: "Add password strength checker"
+
+Both worked on different parts of the codebase.
+Git tries to merge. No conflicts. Merge succeeds automatically.
+```
+
+**Question:** "Will this merge succeed or fail? Why?"
+
+<!--Program Staff Notes: 
+- Answer: Succeed. They changed different files/functions. Git automatically combines them.
+- Talking Point: "Most merges are simple. Different people changing different parts. Git handles these automatically."
+-->
+
+**Challenge 2: Same File, Different Functions (5 minutes)**
+
+**Scenario:**
+
+```
+File: user.js
+
+Programmer A changes:
+  - Function: validateEmail() (lines 1-10)
+  
+Programmer B changes:
+  - Function: validatePassword() (lines 15-25)
+
+Same file, but different functions.
+```
+
+**Question:** "Will this merge successfully?"
+
+<!--Program Staff Notes: 
+- Answer: Yes. Git is smart enough to merge changes in different parts of the same file.
+- Talking Point: "Git doesn't lock entire files. It can merge different changes within the same file if they don't overlap."
+-->
+
+**Challenge 3: True Conflict (5 minutes)**
+
+**Scenario:**
+
+```
+Original code:
+  let userAge = 18;
+
+Programmer A changes to:
+  let userAge = 21;  // Legal drinking age
+  
+Programmer B changes to:
+  let userAge = 16;  // Driving age
+
+Both changed the same line. Git can't decide.
+```
+
+**Question:** "How would you resolve this conflict?"
+
+**Discussion:**
+- "You'd look at why each programmer made their change"
+- "Maybe the context is: what are we validating for?"
+- "Maybe you need two variables: drivingAge and drinkingAge"
+- "You talk to both programmers and decide together"
+
+<!--Program Staff Notes: 
+- Answer: Git flags the conflict. Programmers discuss and decide: use both ages, pick one, or restructure.
+- Talking Point: "True conflicts require human judgment. But they're rare if people communicate about what they're working on."
+-->
+
+**Challenge 4: Merge Conflict with Clear Resolution (5 minutes)**
+
+**Scenario:**
+
+```
+Original code:
+  function greet(name) {
+    console.log("Hello, " + name);
+  }
+
+Programmer A changes to:
+  function greet(name) {
+    console.log("Hello, " + name + "!");  // Added exclamation
+  }
+
+Programmer B changes to:
+  function greet(name) {
+    return "Hello, " + name;  // Changed to return instead of log
+  }
+
+Conflict: Both changed the function body.
+```
+
+**Question:** "How would you resolve this? What's the best outcome?"
+
+<!--Program Staff Discussion Notes: 
+- "Do we log or return?"
+- "Maybe we need both: log AND return?"
+- "Or maybe we need to understand the context: why did each person make their change?"
+
+Best resolution: Combine both insights:
+```javascript
+function greet(name) {
+  const greeting = "Hello, " + name + "!";
+  console.log(greeting);
+  return greeting;
+}
+```
+
+Talking Point: "Conflicts, when resolved thoughtfully, often lead to better code. They force conversation and integration of multiple ideas."
+-->
+
+#### Part 6: Collaboration & Independence in Team Contexts (10 minutes)
+**Objective:** Reflect on independence within a team. Show independence isn't isolation.
+
+**Prompt 1:** "In your simulation, when you had a conflict, what did you do? Did you just pick your version, or did you negotiate?"
+- Let 3–4 people answer
+- Listen for: communication, compromise, mutual decision-making
+- Affirm: "That's teamwork. That's professional."
+
+**Prompt 2:** "How is independence different when you're working with a team?"
+- Independence alone: "I figure things out by myself"
+- Independence in team: "I figure things out, but I also listen to my teammates and integrate their ideas"
+- Affirm: "Both are independence. One is solitary, one is collaborative."
+
+**Prompt 3:** "As you move into the actual program and start working on team projects with Git, what's one thing you want to remember about version control?"
+- Answers might include: "It's not scary," "Conflicts are normal," "Communicate before conflicts happen," "History is valuable"
+- Have people state it aloud
+
+<!-- Program Staff Talking Points:
+"Version control is a tool, but it represents a mindset: we're working together. My code might need to merge with yours. I need to be clear about what I'm changing and why. I need to be open to your changes improving mine.
+
+That's not just professional. That's a life skill. Collaboration requires clarity, respect, and willingness to integrate ideas.
+
+You've practiced that this week—in your simulation and your code review. You did it without Git. Now, when you use actual Git, the tool will automate what you did manually. But the mindset stays the same: we're working together, and that's powerful."
 -->
 
 #### Part 7: Q&A (5 minutes)
+Q: "When do we learn actual Git commands?" \
+A: Next stage of the program. You have the foundation now.
+
+Q: "Will Git be hard?" \
+A: The commands are simple. Understanding why you're running them (which you do now) is the hard part. You have that.
+
+Q: "What if I forget a Git command?" \
+A: You reference documentation. Everyone does, even senior engineers.
+
+Q: "Can I mess up my project with Git?" \
+A: Yes, but Git is designed to be reversible. You can undo almost anything. That's why professionals trust it.
+
+Q: "Is version control important if I'm coding alone?" \
+A: Yes. Even solo, you benefit from history, being able to revert, and having a backup online.
+
 Q: "Will I always need to use Git?" \
 A: Yes, in any professional setting. It's non-negotiable.
 
@@ -770,6 +802,7 @@ A: That's normal. You'll use it constantly in the program, and it'll click. Come
 
 Q: "Can I use GitHub for other projects?" \
 A: Create repositories for personal projects. You're already a GitHub user.
+
 
 ### Continued Learning
 - **["You Don't Know JS Yet" (Free Book)](https://github.com/getify/You-Dont-Know-JS)** (deep dive into JavaScript)
@@ -843,7 +876,6 @@ A: Create repositories for personal projects. You're already a GitHub user.
 - What question do you want to explore in the actual program?
 
 **From Sandbox to Professional Tools: Your Engineering Journey**
-- Reflect on: Week 1 (digital literacy) → Week 2 (logic) → Week 3 (programming in Python) → Week 4 (JavaScript + GitHub)
 - Connect each week's mindset (Curiosity → Ownership → Resilience → Independence) to real engineering
 - See yourself as a developer: you've used professional tools, written code in multiple languages, stored work on GitHub
 
