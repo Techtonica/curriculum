@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Monaco", sans-serif;
+}
+
+#main-title {
+  margin: 10px;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  font-size: 12px;
+}
+
+#randomColorId {
+  background-color: white;
+  width: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.item {
+  width: 30%;
+  height: 150px;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.image1 {
+  background-image: url("https://i.pinimg.com/736x/52/bc/39/52bc3928fd63daa22ebfb555f9ae07dd.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#animatedElement {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-right: 80px;
+  transition: margin 1s;
+}
+
+.hidden {
+  display: none;
+}
+
+#hidden-text {
+  font-size: 12px;
+  margin: 5px;
+}
+
+#showMore {
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+}
