@@ -34,7 +34,7 @@ Participants should have a basic understanding of the following foundational con
 **Technical Focus:** JavaScript fundamentals (variables, conditionals, loops, functions), GitHub basics (account creation, repository management, git workflow), remote work etiquette
 **Total Week Time Commitment:** ~5.5 hours (Independent Practice + Guided Practice combined)
 
-**Context:** This is the moment when the training wheels come off. Participants have learned programming concepts (Karel in Python), understood resilience and ownership, and built community with peers. Now they face the tools and workflows that professional engineers use daily: JavaScript (a mainstream programming language), GitHub (the industry standard for version control), and the independence required to navigate unfamiliar tools. This week emphasizes initiative—not waiting for someone to tell you exactly what to do, but exploring, experimenting, and solving problems on your own. Independence doesn't mean isolation; it means resourcefulness. When stuck, you'll know how to find help (documentation, peers, Stack Overflow). When confused, you'll know how to break the problem down and try a different approach. By week's end, participants will have written JavaScript code and pushed it to GitHub—real artifacts of their learning that they own and can share.
+**Context:** This is the moment when the training wheels come off. Participants have learned programming concepts, understood resilience and ownership, and built community with peers. Now they face the tools and workflows that professional engineers use daily: JavaScript (a mainstream programming language), GitHub (the industry standard for version control), and the independence required to navigate unfamiliar tools. This week emphasizes initiative—not waiting for someone to tell you exactly what to do, but exploring, experimenting, and solving problems on your own. Independence doesn't mean isolation; it means resourcefulness. When stuck, you'll know how to find help (documentation, peers, Stack Overflow). When confused, you'll know how to break the problem down and try a different approach. By week's end, participants will have written JavaScript code and pushed it to GitHub—real artifacts of their learning that they own and can share.
 -->
 
 ### Projected Time
@@ -57,9 +57,7 @@ By this point, you've begun learning the basics of programming. You've begun lea
 
 ### Objectives
 By the end of this session, participants will:
-- Write JavaScript code to solve simple problems (variables, conditionals)
-- Understand JavaScript syntax and how it compares to Python
-- Execute and test JavaScript code in an online sandbox
+- Understand basic JavaScript syntax such as variables and conditionals to solve simple problems
 - Create and navigate a GitHub repository
 - Upload files to GitHub manually (web interface)
 - Write a clear README to document their work
@@ -708,9 +706,6 @@ Independence, as it applies to code, means: you can read documentation, you can 
 Q: "Why JavaScript?" \
 A: It's the language of the web. Every browser runs it. It's everywhere.
 
-Q: "Is JavaScript hard?" \
-A: Different, not hard. Once you know Python, JavaScript syntax is just new symbols. The syntax takes practice. But the logic? It's the same logic. You already know it.
-
 Q: "Do I need to memorize JavaScript?" \
 A: No. You reference documentation constantly. Even senior engineers look up syntax.
 
@@ -745,13 +740,6 @@ A: Yes. You understand concepts. Syntax is just the vehicle for those concepts.
 2. Repository structure explained
 3. How to edit files on GitHub
 4. README basics and markdown formatting
-
-**JavaScript vs Python Comparison**
-1. Variables: Python `x = 5` vs JavaScript `let x = 5`
-2. Conditionals: syntax comparison
-3. Loops: for/while (both languages)
-4. Functions: definition and calling
-5. Common gotchas when switching languages
 
 **Debugging JavaScript in the Console**
 1. How to open browser console (Chrome, Firefox, Safari)
