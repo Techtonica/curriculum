@@ -2,12 +2,12 @@
 
 <!-- Program Staff Notes: 
 
-**Week Theme:** Resilience + Programming Foundations
+Week Theme: Resilience + Programming Foundations
 **Mindset Focus:** Resilience, persistence, frustration tolerance, learning from failure
 **Technical Focus:** Programming basics (sequences, functions, loops, conditionals), debugging, problem decomposition
 **Total Week Time Commitment:** ~5.5 hours (Independent Practice + Guided Practice combined)
 
-**Context:** This is the moment when abstract concepts become concrete psuedocode. Participants will write their first instances of pseudocode, a beginner-friendly programming exercise teaching core programming concepts without syntax complexity, allowing focus on logic and problem-solving. Critically, this week emphasizes resilience because programming *will* feel frustrating. Code won't work. Logic errors will happen. That moment of frustration—and how you respond—is where the real learning happens. This week normalizes struggle as part of the engineering process and teaches participants to debug, persist, and problem-solve collaboratively.
+Context: Participants will write their first instances of pseudocode, a beginner-friendly programming exercise teaching core programming concepts without syntax complexity, allowing focus on logic and problem-solving. Critically, this week emphasizes resilience because programming *will* feel frustrating. Code won't work. Logic errors will happen. That moment of frustration—and how you respond—is where the real learning happens. This week normalizes struggle as part of the engineering process and teaches participants to debug, persist, and problem-solve collaboratively.
 -->
 
 Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
@@ -39,7 +39,7 @@ Independent Practice (Pre-Session): ~2.5 hours
 Guided Practice (In-Session): 2 hours
 
 ### Motivation
-Programming is inherently frustrating at first. Your code won't do what you expect. You'll spend 10 minutes debugging only to realize you forgot indentation or a function call. You'll write logic that seems right but produces the wrong output. This is *normal* and *universal*—every engineer experiences this. The difference between people who become great engineers and people who quit is not talent; it's resilience. It's the ability to say, "That didn't work. Why? Let me try again." This week, you'll learn pseudocode, a beginner-friendly programming exercise that teaches core programming concepts without overwhelming syntax complexity. You'll work on logic and problem-solving. These habits of persistence and debugging will carry you through harder challenges ahead. Resilience isn't about never struggling; it's about struggling, learning, and trying again.
+Programming is inherently frustrating at first. Your code won't do what you expect. You'll spend 10 minutes debugging only to realize you forgot indentation or a function call. You'll write logic that seems right but produces the wrong output. This is *normal* and *universal*—every engineer experiences this. The difference between people who become great engineers and people who quit is not talent; it's resilience. It's the ability to say, "That didn't work. Why? Let me try again." This session, you'll learn pseudocode, a beginner-friendly programming exercise that teaches core programming concepts without overwhelming syntax complexity. You'll work on logic and problem-solving. These habits of persistence and debugging will carry you through harder challenges ahead. Resilience isn't about never struggling; it's about struggling, learning, and trying again.
 
 ### Objectives
 By the end of this session, participants will:
@@ -49,7 +49,7 @@ By the end of this session, participants will:
 - Understand that getting stuck is normal and universal among programmers
 - Practice asking for help without shame
 - See resilience as a core engineering skill
-- Understand the connection between logical thinking (PrerequisiteWeek 2) and code execution
+- Understand the connection between logical thinking (Prerequisite Week 2) and code execution
 
 ### Specific Things to Learn
 
@@ -217,12 +217,12 @@ After completing the log, write 3–5 sentences addressing:
 ### Guided Practice (In-Session: 2 hours)
 
 #### Part 1: Welcome & Session Overview (5 minutes)
-Programming isn't about getting it right on the first try. It's about iterating, testing, debugging, and trying again. That's not a failure mode; that's the process. This week is about resilience: your ability to face frustration, pause, reflect, and persist. That skill matters more than any code you'll write today.
+Programming isn't about getting it right on the first try. It's about iterating, testing, debugging, and trying again. That's not a failure mode; that's the process. This session is about resilience: your ability to face frustration, pause, reflect, and persist. That skill matters more than any code you'll write today.
 
 <!-- Program Staff Talking Points:**
-- "This week, we're learning the foundations of programming without writing any code. That might sound strange, but it's how professionals actually start: they plan in pseudo-code before they type a single line."
+- "This session, we're learning the foundations of programming without writing any code. That might sound strange, but it's how professionals actually start: they plan in pseudo-code before they type a single line."
 - "You just wrote instructions in plain English. That's what programming is: giving computers very clear, very specific instructions. The language changes (Python, JavaScript, etc.), but the thinking is the same."
-- "Today, we're going to look at your instructions, talk about what makes them good or unclear, and learn the patterns programmers use to solve problems."
+- "Today, we're going to look at your instructions, talk about what makes them clear or unclear, and learn the patterns programmers use to solve problems."
 - "By the end of today, you'll understand sequences, loops, and conditionals—not by memorizing definitions, but by seeing them in the pseudo-code you wrote."
 -->
 
@@ -396,39 +396,37 @@ The diamond asks a question. If the answer is YES, follow the YES arrow. If NO, 
 How do we show repetition? We loop back.
 
 **Eating Cookies**
-The diamond asks a question. If the answer is YES, follow the YES arrow. If NO, follow the NO arrow. This is how we represent conditionals (if/else) in a flowchart.
 
 ```plaintext
 
-        ┌──────┐
-        │ START│
-        └───┬──┘
-            │
-    ┌───────▼────────┐
-    │Take cookie jar │
-    └───┬────────────┘
-        │
-    ┌───▼──────────────────┐
-    │  Cookies in jar?     │
-    └───┬────────┬─────────┘
-        │YES     NO
-        │        │
-    ┌───▼──────┐ │
-    │Eat cookie│ │
-    └───┬──────┘ │
-        │        │
-    └───┴────────┤
-        │        │
-    ┌───▼──────────────┐
-    │ Put jar away     │
-    └───┬──────────────┘
-        │
-    ┌───▼──────┐
-    │   END    │
-    └──────────┘
+         ┌───────┐
+         │ START │
+         └───┬───┘
+             │
+    ┌────────▼────────┐
+    │ Take cookie jar │
+    └────┬────────────┘
+         │
+         ▼
+  ┌——————◇──Cookies in jar?
+  |     /YES        NO \
+  |     │              │
+  | ┌───▼──────┐       │
+  | │Eat cookie│       │
+  | └───┬──────┘       │
+  |     │              │
+  └─────┘              |
+                       │
+         ┌─────────────▼────┐
+         │ Put jar away     │
+         └───┬──────────────┘
+             │
+         ┌───▼──────┐
+         │   END    │
+         └──────────┘
 ```
 
-The diamond asks: 'Cookies in jar?' If YES, eat a cookie, then loop back and ask again. If NO, stop. This is a loop—repeat until a condition is false.
+The diamond asks: 'Cookies in jar?' If YES, eat a cookie, then loop back and ask again. In the second example, if NO, stop. This is a loop—repeat until a condition is false.
 
 Loops are how we avoid writing the same instruction 100 times. Instead of 'Eat cookie. Eat cookie. Eat cookie...' we write 'Repeat: If cookies exist, eat cookie.'
 
@@ -551,10 +549,10 @@ End
 #### Part 6: Resilience, Precision in Problem-Solving, & Growth Mindset (5 minutes)
 The pseudocode didn't work perfectly on the first try. That's not a failure; that's the process. Every programmer — from beginners to experts — writes pseudocode (and yes even code!) that doesn't work. Then they debug it. Your resilience log showed something powerful: when you got stuck, you didn't give up. You took a break, tried again, asked for help, looked at documentation. Those are the habits of successful engineers.
 <!-- Program Staff Talking Points:
-- "This week, you experienced something programmers experience constantly: the frustration of being imprecise."
+- "This session, you experienced something programmers experience constantly: the frustration of being imprecise."
 - "You wrote instructions in English. Your peer followed them exactly. If something was ambiguous, they got stuck."
 - "That's not a failure. That's learning. You discovered that clarity matters more than cleverness."
-- "Resilience this week isn't about bouncing back from frustration. It's about leaning into frustration as feedback. Your peer's confusion told you exactly where to be clearer."
+- "Resilience this session isn't about bouncing back from frustration. It's about leaning into frustration as feedback. Your peer's confusion told you exactly where to be clearer."
 - "As you move into actual programming languages, you'll have the same experience: the computer follows your instructions exactly. If they're unclear or wrong, it fails. The skill is learning to debug—to read the error, identify the issue, and fix it."
 - "You're building that skill right now."
 - "Here's what I want you to remember: Frustration is temporary. Failure is feedback. Persistence is the skill. You have it."
@@ -566,7 +564,7 @@ The pseudocode didn't work perfectly on the first try. That's not a failure; tha
 Q: "Is pseudo-code a real programming language?" \
 A: No, it's a planning tool. Programmers use it before writing actual code to think through logic.
 
-Q: "Will we learn actual code next week?" \
+Q: "Will we learn actual code next session?" \
 A: Yes. You now understand the thinking. Next, we'll learn the syntax (the symbols and rules of a language).
 
 Q: "Why do we spend time on pseudo-code if we're eventually coding?" \
