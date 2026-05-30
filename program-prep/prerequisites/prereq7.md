@@ -69,19 +69,20 @@ By the end of this session, participants will:
 
 **Technical Skills:**
 - JavaScript
-  - JavaScript variables: `let`, `const`, naming conventions
-  - JavaScript data types: strings, numbers, booleans
-  - JavaScript conditionals: `if`, `else if`, `else`
+  - Variables: `let`, `const`, naming conventions
+  - Data types: strings, numbers, booleans
+  - Conditionals: `if`, `else if`, `else`
   - Console output: `console.log()`
   - Comments in JavaScript: `//` and `/* */`
   - Comparison operators: `===`, `!==`, `>`, `<`, `>=`, `<=`
   - Logical operators: `&&`, `||`, `!`
 - GitHub
-  - GitHub account creation and setup
-  - Creating a GitHub repository (public/private options)
-  - Uploading files via GitHub web interface
+  - Account creation and setup
+  - Repositories
+    - Creating (public/private options)
+    - Structure and navigation
+  - Uploading files via web interface
   - Writing a README file (markdown basics)
-  - GitHub repository structure and navigation
 
 **Core "Soft" Skills:**
 - Independent learning: exploring tools without complete step-by-step guidance
