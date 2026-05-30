@@ -49,7 +49,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Go through [“Working and Collaborating Remotely”](https://github.com/Techtonica/curriculum/blob/main/career/working-and-collaborating-remotely.md)
 - [ ] Listen to [Hans Krueger on the Cycle of Emotions](https://theinformed.life/2021/11/21/episode-75-hans-krueger/) (or read the transcript for the podcast)
 - [ ] Watch and practice with [JavaScript Arrays and Objects Basic Data Structures](https://www.udemy.com/course/javascript-coding/) (free course)
-- [ ] Prep your mindset by learning about [the Growth Mindset](https://github.com/Techtonica/curriculum/blob/main/onboarding/YCLA_LessonPlan_v10.pdf)
+- [ ] Prep your mindset by learning more about [the Growth Mindset](https://github.com/Techtonica/curriculum/blob/main/onboarding/YCLA_LessonPlan_v10.pdf)
 - [ ] Listen the podcast: [Learning How to Learn with Dr. Barbara Oakley](https://www.leadinglearning.com/episode-104-barbara-oakley/)
 - [ ] Play, learn, and practice how to use Git with [Atlassian interactive course](https://www.atlassian.com/git)
 - [ ] Read through the [Financial Literacy](/program-prep/financial-literacy.md) topic outline
@@ -99,8 +99,8 @@ I believe I’ll make a good software engineer because _______./I want to contri
 
 ### Set Up Your MacBook Laptop
 
-If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, set up your new laptop. Ignore any suggestions to use the "Agents window".
-- [ ] [Install VS Code](https://code.visualstudio.com/download)
+If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, set up your new laptop.
+- [ ] [Install VS Code](https://code.visualstudio.com/download). Ignore any suggestions to use the "Agents window".
 - [ ] Set [Chrome](https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en) as the default browser
 - [ ] [Install the LanguageTool Chrome](https://languagetool.org/)
 - [ ] Install the [Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) and a Bionic Reading technology such as Selection Reader, Reader View, Just Read, Natural Reader, Speechify, or Text-to-Speech Extensions
@@ -125,7 +125,7 @@ If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, se
 - [ ] If you feel comfortable, create or update your social media accounts (LinkedIn & GitHub) to say you’re a Software Engineer in Training at @TechtonicaOrg. 
 - [ ] **Mandatory**: Update your LinkedIn with info about Techtonica, like so:
   - [ ] Add new experience with “Software Engineer in Training” as the title.
-  - [ ] Type “Techtonica” as the company and select Techtonica from the list of companies (it’s the one with the blue image).
+  - [ ] Type “Techtonica” as the company and select Techtonica from the list of companies (it’s the one with the teal image).
   - [ ] Add this paragraph to the description: _"Techtonica is a part-time, virtual, hands-on, project-based, collaborative software engineering learning program with a focus on PERN full-stack implementation. The last month is spent preparing to join Techtonica’s partner companies for employment."_
   - [ ] Also, please beware that LinkedIn scammers will see whenever you add a new company and you may receive fraud text messages from team members. This has also happened with Techtonica, so please remember we use Slack and email, not texts. You should always confirm via Slack or email if you’re unsure.
 - [ ] If your LinkedIn URL is not easily remembered, [edit it to be more simple](https://www.linkedin.com/help/linkedin/answer/87/customizing-your-public-profile-url?lang=en).
