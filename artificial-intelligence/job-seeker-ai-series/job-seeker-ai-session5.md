@@ -76,6 +76,7 @@ By the end of this session, you will be able to:
 - **Documentation and reference creation:** Using AI to build internal docs and quick references
 - **GitHub CLI and automation:** Using AI to generate commands for common Git workflows
 - **IDE automation:** Using AI tools integrated with your editor (GitHub Copilot, Cursor, etc.)
+- **Writing tests**
 
 ### Balancing Speed & Learning
 - **When automation is healthy:** Routine tasks, known patterns, low-risk operations
@@ -380,7 +381,7 @@ Maintenance:
 
 **Deliverable:** Add your documentation to your document.
 
-### Activity 2 Showcase Format (Continued)
+### Activity 2 Showcase Format
 
 **What to prepare for Zoom (Activities 1 & 2 Combined):**
 1. **Your completed document** with both activities
@@ -500,6 +501,7 @@ Peer review focuses on:
 - Offer specific, constructive feedback using the structure above
 - Ask honest questions: "Would this actually work in practice?"
 - Share one automation idea you hadn't considered before
+- Look at the [Techtonica website repo](https://github.com/Techtonica/techtonica.org) and determine which pieces of code could be automated if you were writing it. For example, repeated structures like API routes, code formatting, or form validations.
 
 ## Supplemental Materials
 
