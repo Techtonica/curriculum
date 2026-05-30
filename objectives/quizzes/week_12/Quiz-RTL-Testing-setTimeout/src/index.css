@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  color: blue;
+}
+
+.app-container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-container > header > h1 {
+  text-align: center;
+}
+
+.code-container {
+  padding: 20px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+}
+
+.code-link {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-top: 1px solid #aaa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+footer a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer a:visited {
+  color: blue;
+}
+
+.scenario-container {
+  padding-bottom: 20px;
+}
+
+.info {
+  background-color: #f8ffff;
+  color: #276f86;
+  padding: 15px 20px;
+  box-shadow: 0 0 0 1px #a9d5de inset, 0 0 0 0 transparent;
+  border-radius: 5px;
+}
+
+.info > p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media all and (max-width: 800px) {
+  .app-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
