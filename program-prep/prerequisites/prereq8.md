@@ -1,7 +1,6 @@
 # Prerequisite Session 8: JavaScript + GitHub + Independence
 
 Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
-- Completion of Session 7 (JavaScript basics, GitHub account setup)
 - Comfort with JavaScript variables and conditionals
 - Understanding of loops and functions from Week 3 (Karel)
 - Access to a code sandbox (CodePen, Replit, or similar)
