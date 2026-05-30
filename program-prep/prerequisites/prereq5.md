@@ -388,8 +388,6 @@ Now let's add a decision. A diamond asks a yes/no question.
         └─────────┘
 ```
 
-The diamond asks a question. If the answer is YES, follow the YES arrow. If NO, follow the NO arrow. This is how we represent conditionals (if/else) in a flowchart.
-
 <!-- Program Staff Talking Point:** "A flowchart and pseudo-code say the same thing, just in different formats. Pseudo-code is words. Flowcharts are pictures. Both help you think through logic before coding.-->
 
 **Demo 3: Loops in Flowcharts (8 minutes)**
