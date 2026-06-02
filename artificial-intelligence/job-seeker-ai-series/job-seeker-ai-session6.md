@@ -168,7 +168,7 @@ Your answer should include:
 - The outcome (what did you learn or build?)
 - What you did beyond AI (your thinking, verification, adaptation)
 
-**Deliverable:** Write 2-3 paragraph response to this question. Example structure:
+**Deliverable:** Write a 2-3 paragraph response to this question. Example structure:
 
 ```plaintext
 "Sure. Last month, I was building a user authentication flow and wasn't sure about the edge cases 
