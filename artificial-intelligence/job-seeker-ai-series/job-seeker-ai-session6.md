@@ -582,7 +582,7 @@ Peer review focuses on:
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **[Vercel Learning](https://vercel.com/docs)** | Free Courses | Next.js, web development, and modern tooling | 
+| **[Vercel Learning](https://vercel.com/docs)** | Documentation | Next.js, web development, and modern tooling | 
 | **[Frontend Masters Free Content](https://frontendmasters.com/learn/)** | Courses | Deep dives on modern development (free tier available) | 
 | **[MIT OpenCourseWare](https://ocw.mit.edu/)** | University Courses | Computer science fundamentals from MIT, free | 
 | **[Postgres Documentation](https://www.postgresql.org/docs/)** | Reference | Deep expertise in databases | 
