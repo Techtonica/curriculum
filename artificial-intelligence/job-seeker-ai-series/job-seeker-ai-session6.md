@@ -1,7 +1,7 @@
 # Job Seeker AI Session Week 6: AI Career Tools & Long-Term Skill Strategy
 
 ## Prerequisites
-- Completion of 1000+ hours of PERN full stack development experience
+- Completion of 1000+ hours of PERN full-stack development experience
 - Completion of [Job Seeker AI Session Week 5: AI for Productivity & Workflow Automation](../job-seeker-ai-session5.md‎)
 - Active job search or career development mode (or preparing for one)
 - Familiarity with interview preparation basics (behavioral questions, technical interviews, resume writing)
