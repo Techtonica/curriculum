@@ -544,7 +544,7 @@ Peer review focuses on:
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **Automation vs. Learning** | Article | When to automate vs. when to learn manually | Search "automation stints learning" on dev blogs
+| **Automation vs. Learning** (Article) | When to automate vs. when to learn manually | Search "automation stints learning" on dev blogs |
 | **[Deliberate Practice for Developers](https://en.wikipedia.org/wiki/Deliberate_practice)** | Guide | Maintaining learning while automating routine work | 
 | **[Technical Debt & Automation](https://martinfowler.com/bliki/TechnicalDebt.html)** | Blog Post | When automation creates more problems than it solves | 
 
@@ -564,13 +564,13 @@ Peer review focuses on:
 | **[GitHub CLI Use Cases](https://cli.github.com/manual/gh_repo_create)** | Examples | Real examples of automating with gh |
 | **[Awesome Automation Scripts](https://github.com/alebcay/awesome-shell)** | Curated List | Community-shared automation for developers |
 | **[Developer Productivity Tools](https://www.producthunt.com)** | Resource List | Popular tools for automation and workflow (search "developer productivity") |
-| **Engineering Blog Automation Posts** | Case Study | How real teams automate workflows | Search "engineering automation" on Stripe, Vercel, or GitHub blogs
+| **Engineering Blog Automation Posts** | How real teams automate workflows | Search "engineering automation" on Stripe, Vercel, or GitHub blogs |
 
 ### Interview Prep: Talking About Productivity & Efficiency
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **"How Do You Stay Productive?"** | Interview Question | Common question; frame your AI usage naturally | Blind.com, interview prep blogs
+| **"How Do You Stay Productive?"** | Common question; frame your AI usage naturally | Blind.com, interview prep blogs
 | **[Behavioral Questions About Learning](https://www.indeed.com/career-advice/interviewing/behavioral-interview-questions)** | Reference | How to show you balance automation with growth | 
 
 ### Optional: Going Deeper
