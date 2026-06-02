@@ -476,7 +476,7 @@ Program staff will present **strategic approaches to portfolio projects**:
 
 **Portfolio Projects to Build:**
 - Something solving a real problem (your problem, not a hypothetical)
-- Shows full stack skills (database, backend, frontend all present)
+- Shows full-stack skills (database, backend, frontend all present)
 - Has thoughtful AI integration (not AI for the sake of AI)
 - Is well-documented and explained (hiring managers can understand your thinking)
 - Shows resilience and iteration (doesn't have to be perfect, but shows you tested and refined)
