@@ -282,7 +282,7 @@ You'll plan a real project you could build in the next 2-3 months that demonstra
 **Step 1: Choose Your Project Concept (3 minutes)**
 Pick a project that:
 - Solves a real problem you care about (authenticity matters)
-- Showcases your fullstack PERN skills (database, backend, frontend)
+- Showcases your full-stack PERN skills (database, backend, frontend)
 - Offers natural opportunities to use AI *and* opportunities to show deep engineering thinking
 - Is achievable in 2-3 months of focused work
 
