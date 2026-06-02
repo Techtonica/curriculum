@@ -551,7 +551,7 @@ Peer review focuses on:
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[GitHub README Best Practices](https://www.makeareadme.com/)** | Guide | Writing READMEs that sell your projects | 
-| **Project Documentation Examples** | Reference | Study well-documented projects on GitHub | Search GitHub for popular projects; examine their README, wiki, and contribution guides
+| **Project Documentation Examples** | Reference | Study well-documented projects on GitHub |
 | **[Open Source Contribution Strategy](https://opensource.guide/how-to-contribute/)** | Guide | How to contribute meaningfully and visibly | 
 
 ### Long-Term Career Development
@@ -560,23 +560,23 @@ Peer review focuses on:
 |-----|-----|-----|
 | **[Career Development for Software Engineers](https://www.codementor.io/blog/career-guide-for-engineers)** | Guide | Navigating career growth and transitions | 
 | **[Continuous Learning Strategies](https://en.wikipedia.org/wiki/Deliberate_practice)** | Article | Balancing breadth and depth in skill development | 
-| **Building Expertise Over Time** | Essay | How to develop deep expertise while AI accelerates surface learning | Search "expertise development software engineers"
+| **Building Expertise Over Time** | Essay | How to develop deep expertise while AI accelerates surface learning | 
 
 ### AI & Career Strategy
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **The Future of Developers & AI** | Essay | Thoughtful perspectives on AI's role in developer careers | Search "future of developers with AI" on Medium or Substack
+| **The Future of Developers & AI** | Essay | Thoughtful perspectives on AI's role in developer careers |
 | **[Developing Resilience Against AI Disruption](https://www.mckinsey.com/insights) (search "AI skills development")** | Article | Building sustainable career practices as tools change | 
-| **Managing Imposter Syndrome with AI Tools** | Blog | Confidence and authenticity when using AI | Search "imposter syndrome AI development"
+| **Managing Imposter Syndrome with AI Tools** | Blog | Confidence and authenticity when using AI | 
 
 ### Negotiation & Career Conversations
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[Negotiating Salary & Benefits](https://www.levels.fyi/) (salary data and negotiation tips)** | Guide | Advocating for yourself effectively | 
-| **Discussing AI Usage on Teams** | Guide | How to bring up preferences and concerns with employers | Search "discussing AI tools with management"
-| **Advocating for Technical Standards** | Blog Post | How to push for quality and responsibility in your organization | Search "advocating for engineering standards" on engineering blogs
+| **Discussing AI Usage on Teams** | Guide | How to bring up preferences and concerns with employers | 
+| **Advocating for Technical Standards** | Blog Post | How to push for quality and responsibility in your organization | 
 
 ### Continuing Education & Skill Development
 
@@ -593,17 +593,17 @@ Peer review focuses on:
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
 | **[AI Tools Landscape 2024](https://www.producthunt.com) (search "AI development tools")** | Overview | Understanding what's available and what's emerging | 
-| **The State of Developer Tools** | Annual Report | Industry snapshot and trends | Search "State of Developer Tools [year]" report
-| **Engineering Blogs** | Thought Leadership | Stay informed by reading how real companies think | Vercel, Stripe, GitHub, Facebook Engineering blogs
-| **Developer Communities** | Network | Engage with peers on new tools and practices | Reddit r/webdev, Dev.to, Hacker News
+| **The State of Developer Tools** | Annual Report | Industry snapshot and trends | 
+| **Engineering Blogs** | Thought Leadership | Stay informed by reading how real companies think | 
+| **Developer Communities** | Network | Engage with peers on new tools and practices |
 
 ### Optional: Going Deeper
 
 | Resource | Type | For Those Interested
 |-----|-----|-----|
 | **[Speaking & Public Speaking](https://www.dev.to/t/speaking)** | Skill | Presenting at conferences or meetups | 
-| **[Building a Company or Starting Projects](https://www.startupschool.org/)** | Advanced | Turning your ideas into products | Y Combinator Startup School: 
-| **Mentoring Others** | Giving Back | Teaching others what you've learned (including about AI) | Search "tech mentorship programs"
+| **[Building a Company or Starting Projects](https://www.startupschool.org/)** | Advanced | Turning your ideas into products |
+| **Mentoring Others** | Giving Back | Teaching others what you've learned (including about AI) | 
 
 ## Showing Up for Yourself During Session
 
