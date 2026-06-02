@@ -99,6 +99,9 @@ By the end of this session, participants will:
     - Why it might be useful
 3. Compile all 12 screen recordings (or one long 2–3 minute compilation) and submit the link.
 
+**Submission:**
+Share a link to screen recorded interaction with 12 Mac features
+
 **Free Resources:**
 - **[Apple Support Official Guides](https://support.apple.com/mac)**: (search for specific features like "Mission Control" or "Spotlight")
 - **YouTube Channel - "Mac Basics by Apple":** Apple's official YouTube channel has short tutorials on Mac features
@@ -122,8 +125,8 @@ By the end of this session, participants will:
     - **2 questions for peers:** What do you want to ask classmates about their Mac experience?
 3. Share the Google Doc link with program staff.
 
-**Example Reflection:**
-_"I found that you can have multiple desktops in Mission Control—I had no idea! I also discovered System Information but I don't really understand what most of it means. I'm still confused about what 'extensions' are in System Settings. I want to ask: Do other people ever accidentally close all their browser tabs, and how do you prevent it? Also, what's the best way to organize your desktop?"_
+**Submission:**
+Share a link to google doc with 5-10 reflection “Curiosity Log” sentences 
 
 **Free Resources:**
 - [Apple Support](https://support.apple.com/mac) for any terms you encounter and want to understand better
@@ -146,6 +149,9 @@ _"I found that you can have multiple desktops in Mission Control—I had no idea
     - CPU usage for different applications
     - How storage is used (use Finder: About This Mac > Storage)
 4. Answer: "Why might an engineer care about understanding RAM, CPU, and storage?"
+
+**Submission:**
+Share 2-3 sentences about understanding hardware as a future software engineer
 
 **Free Resources:**
 - **[Crash Course Computer Science - "Computer Hardware" (YouTube)](https://www.youtube.com/watch?v=QZwneRb-zqA) (18 minutes)**: excellent visual explanation of hardware components
