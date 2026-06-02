@@ -129,6 +129,12 @@ Create a Google Doc to document each step with screenshots. For each item below,
 - Your bio doesn't need to be formal — be authentic! "I'm excited to learn, I love problem-solving, I'm from Texas" is perfect.
 - If you're nervous about messaging peers, remember: everyone else is nervous too. Keep it friendly and ask a question.
 
+**Submission:** 
+Submit a google doc with: 
+- 5 Slack screenshots (photo/bio, scheduled message, DM to peer, group staff DM, thread reply to peer intro post)
+- 2 Zoom screenshots (self video square muted with name and pronouns; video with peer and blurred background with name and pronouns)
+- 1 bookmark screenshot (organized “Program” folder with three links)
+
 **Free Resources:**
 - **[Slack Help Center](https://slack.com/help)** (search for "profile setup" or "messaging")
 - **[Zoom Support](https://support.zoom.us/)** (search for "test audio and video" or "background settings")
@@ -170,6 +176,9 @@ Create a Google Doc to document each step with screenshots. For each item below,
 - If someone is less tech-savvy, that's perfect—you'll learn the most from perspectives different from yours.
 - Listen for *patterns*: Do they learn by clicking around? By asking friends? By watching videos?
 - Loom is intuitive—just hit record and talk. The goal is authenticity, not production quality.
+
+**Submission:**
+In your previous Google doc with screenshots, share your “Curiosity Interview” recorded video link asking 5-7 questions for 5-10 mins
 
 **Free Resources:**
 - **[Loom Setup Guide](https://www.loom.com/learn)** (includes tutorials on recording and sharing)
