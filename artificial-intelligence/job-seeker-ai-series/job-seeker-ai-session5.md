@@ -544,7 +544,7 @@ Peer review focuses on:
 
 | Resource | Type | Why It Matters | 
 |-----|-----|-----|
-| **Automation vs. Learning** (Article) | When to automate vs. when to learn manually | Search "automation stints learning" on dev blogs |
+| **Automation vs. Learning** (Search "automation stints learning" on dev blogs) | Article | When to automate vs. when to learn manually |
 | **[Deliberate Practice for Developers](https://en.wikipedia.org/wiki/Deliberate_practice)** | Guide | Maintaining learning while automating routine work | 
 | **[Technical Debt & Automation](https://martinfowler.com/bliki/TechnicalDebt.html)** | Blog Post | When automation creates more problems than it solves | 
 
