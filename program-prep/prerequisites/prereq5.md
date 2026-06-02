@@ -97,13 +97,13 @@ You have a maze (physical or drawn). There's cheese somewhere in it. Write pseud
 **Setup Instructions:**
 
 1. **Create or Print a Maze:**
-  - Draw one on paper (simple 5x5 grid with walls)
-  - Use an online maze generator to print or draw a replication of what's generated
-  - Or describe a real-world maze (classroom layout, hallway, etc.)
+    - Draw one on paper (simple 5x5 grid with walls)
+    - Use an online maze generator to print or draw a replication of what's generated
+    - Or describe a real-world maze (classroom layout, hallway, etc.)
 2. **Mark the Maze:**
-  - Mark START position
-  - Mark CHEESE position
-  - Mark WALLS clearly
+    - Mark START position
+    - Mark CHEESE position
+    - Mark WALLS clearly
 3. **Write Your Pseudo-Code:**
 Start with this template:
 
@@ -141,10 +141,10 @@ END
 ```
 
 5. **Test Your Instructions:**
-  - Give your pseudo-code to a peer
-  - They follow it **exactly** like a robot (no interpreting, no shortcuts)
-  - Do they reach the cheese?
-  - If not, where did your instructions fail?
+    - Give your pseudo-code to a peer
+    - They follow it **exactly** like a robot (no interpreting, no shortcuts)
+    - Do they reach the cheese?
+    - If not, where did your instructions fail?
 
 **Common Issues (and What They Teach):**
 - "Your instructions were ambiguous" → Precision matters; computers can't guess
@@ -156,16 +156,16 @@ END
 1. **What maze did you create/use?** (Describe it or paste a screenshot)
 2. **Your pseudo-code:** (Paste your full instructions)
 3. **What happened when your peer tested it?**
-  - Did they reach the cheese?
-  - Where did instructions fail (if at all)?
-  - What was ambiguous?
+    - Did they reach the cheese?
+    - Where did instructions fail (if at all)?
+    - What was ambiguous?
 4. **How you'd fix it:**
-  - What would you change to make instructions clearer?
-  - What cases did you not anticipate?
+    - What would you change to make instructions clearer?
+    - What cases did you not anticipate?
 5. **Reflection:**
-  - What was hardest about writing instructions in plain English?
-  - How is this related to programming?
-  - What did you learn about clarity and precision?
+    - What was hardest about writing instructions in plain English?
+    - How is this related to programming?
+    - What did you learn about clarity and precision?
 
 **Free Resources:**
 - [Maze Generator (to create mazes)](https://www.mazegenerator.net)
