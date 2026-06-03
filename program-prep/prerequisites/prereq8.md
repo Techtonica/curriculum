@@ -285,14 +285,14 @@ In a Google Doc, answer:
 - "How is this simulation related to what real engineers do with Git?"
 - "What's one thing you'd do differently next time?"
 
-**Free Resources:**
-- **[Article - "An introduction to Git: what it is, and how to use it"](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)** (conceptual explanation)
-- **[Atlassian - "Git Concepts"](https://www.atlassian.com/git/tutorials/what-is-version-control)** (clear explanations)
-
 **Submission:**
 - Shared Google Doc link (showing your simulation history)
 - Write-up document with reflection and answers
 - Screenshot showing your final merged version
+
+**Free Resources:**
+- **[Article - "An introduction to Git: what it is, and how to use it"](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/)** (conceptual explanation)
+- **[Atlassian - "Git Concepts"](https://www.atlassian.com/git/tutorials/what-is-version-control)** (clear explanations)
 
 #### Task 2: Code Review Exercise (30–45 minutes)
 **Objective:** Practice evaluating code critically. Provide constructive feedback. Understand what makes code "good."
@@ -407,7 +407,7 @@ Write 3–4 sentences:
 - What would you combine from both?
 </details>
 
-<details><summary>Part 4: Reflection
+<details><summary>Part 4: Reflection</summary>
 
 Answer:
 - "What makes code 'good' in your opinion?"
