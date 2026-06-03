@@ -352,6 +352,25 @@ Write a 1-2 sentence note: "The refactored tests are [better/worse/similar in] m
   - **Activity 2:** Show the "before" poor test suite, the AI-refactored version, and one specific improvement that stood out
 3. **Be ready to answer:** "What's one thing you'll do differently when generating tests with AI in your projects?"
 
+### Showing Up for Yourself During Session
+
+**Before the Session:**
+- Complete both Activity 1 and Activity 2. If time is tight, prioritize Activity 1 (test generation is the core skill).
+- Have your testing framework documentation open (Jest or pytest) during the session.
+- If you have a function from your own project you'd like to test, bring it as a backup example.
+- Think about: *What's the difference between a test that passes and a test that's actually testing something?*
+
+**During the Session:**
+- In Part 1 (Test Quality Standards), pay close attention to the distinction between strong and weak tests—this is the foundation for evaluating AI output.
+- In Part 2 (Coverage Analysis), trace through the code paths yourself as program staff walk through them. This mental exercise is how you develop coverage intuition.
+- In Part 3 (Peer Review), listen for edge cases your peer identified that you missed. That's valuable learning.
+- Take notes on specific edge cases discussed; you'll encounter similar patterns in your projects.
+
+**After the Session:**
+- Review your Activity 1 coverage gaps with fresh eyes. Can you write one test for each gap?
+- Consider: "If I introduced a bug in the code I tested, would the AI-generated tests catch it?" This is the ultimate test of test quality.
+- Week 4 builds on this foundation by exploring AI in **collaborative development**—keep your testing discipline sharp as you integrate with teams!
+
 ### Guided Practice
 
 **Time Allocation:** 45 minutes
@@ -592,22 +611,3 @@ Peer review focuses on:
 | **Property-Based Testing** | Advanced | Generate test cases automatically; ensures robustness | [Python](https://hypothesis.readthedocs.io/) or [JavaScript](https://fast-check.dev/)
 | **Mutation Testing** | Advanced | Test the tests; ensure your assertions catch real bugs | [https://stryker-mutator.io/](https://stryker-mutator.io/)
 | **Contract Testing** | Advanced | Test API contracts between services; relevant for full-stack | [https://pact.foundation/](https://pact.foundation/)
-
-### Showing Up for Yourself During Session
-
-**Before the Session:**
-- Complete both Activity 1 and Activity 2. If time is tight, prioritize Activity 1 (test generation is the core skill).
-- Have your testing framework documentation open (Jest or pytest) during the session.
-- If you have a function from your own project you'd like to test, bring it as a backup example.
-- Think about: *What's the difference between a test that passes and a test that's actually testing something?*
-
-**During the Session:**
-- In Part 1 (Test Quality Standards), pay close attention to the distinction between strong and weak tests—this is the foundation for evaluating AI output.
-- In Part 2 (Coverage Analysis), trace through the code paths yourself as program staff walk through them. This mental exercise is how you develop coverage intuition.
-- In Part 3 (Peer Review), listen for edge cases your peer identified that you missed. That's valuable learning.
-- Take notes on specific edge cases discussed; you'll encounter similar patterns in your projects.
-
-**After the Session:**
-- Review your Activity 1 coverage gaps with fresh eyes. Can you write one test for each gap?
-- Consider: "If I introduced a bug in the code I tested, would the AI-generated tests catch it?" This is the ultimate test of test quality.
-- Week 4 builds on this foundation by exploring AI in **collaborative development**—keep your testing discipline sharp as you integrate with teams!
