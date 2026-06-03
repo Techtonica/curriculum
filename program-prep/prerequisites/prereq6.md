@@ -110,12 +110,12 @@ A customer enters a restaurant. The flowchart should show:
 A student's day from arrival to dismissal. Flowchart shows:
 - Arrive at school
 - Repeat for each class period:
-  - Go to classroom
-  - Attend class
-  - Turn in assignments
-  - Go to next class
+    - Go to classroom
+    - Attend class
+    - Turn in assignments
+    - Go to next class
 - Repeat for each break:
-  - Eat and socialize
+    - Eat and socialize
 - Leave school
 - Go home
 
@@ -125,29 +125,29 @@ Any multi-step process: cooking a meal, getting ready for a date, building a Leg
 **Instructions:**
 1. **Choose your scenario**
 2. **Break it into steps** (on paper):
-  - What's the first thing that happens?
-  - What decisions get made?
-  - What repeats?
-  - When does it end?
+    - What's the first thing that happens?
+    - What decisions get made?
+    - What repeats?
+    - When does it end?
 3. **Create a detailed flowchart:**
-  - Use ovals for START and END
-  - Use rectangles for actions
-  - Use diamonds for decisions (yes/no questions)
-  - Use arrows to show flow
-  - Label everything clearly
+    - Use ovals for START and END
+    - Use rectangles for actions
+    - Use diamonds for decisions (yes/no questions)
+    - Use arrows to show flow
+    - Label everything clearly
 4. **Identify patterns** (mini-functions):
-  - What steps repeat?
-  - What steps are similar?
-  - Could you group any steps under a name?
+    - What steps repeat?
+    - What steps are similar?
+    - Could you group any steps under a name?
 
 Example: In "Video Game," you could create a mini-function called "Fight Obstacle" that happens repeatedly.
 
 5. **Document your process** (in writing):
-  - Describe your scenario
-  - Paste/draw your flowchart
-  - List the decisions (diamonds)
-  - List the loops (places where it repeats)
-  - Identify "mini-functions" (groups of steps that repeat)
+    - Describe your scenario
+    - Paste/draw your flowchart
+    - List the decisions (diamonds)
+    - List the loops (places where it repeats)
+    - Identify "mini-functions" (groups of steps that repeat)
 
 **Video Game Level**
 
@@ -220,13 +220,13 @@ Record a video showing:
 1. **Your Scenario:** Describe what process you're diagramming
 2. **Your Flowchart:** Show it on screen or camera
 3. **Walk Through:**
-  - Show the START
-  - Point to decisions (diamonds): "Here the system asks a question"
-  - Point to loops: "Here it repeats"
-  - Point to END
+    - Show the START
+    - Point to decisions (diamonds): "Here the system asks a question"
+    - Point to loops: "Here it repeats"
+    - Point to END
 4. **Decomposition:** "I identified these repeating patterns that could be mini-functions:
-  - [Pattern 1]
-  - [Pattern 2]"
+    - [Pattern 1]
+    - [Pattern 2]"
 5. **Reflect:** "What was hardest about diagramming a complex process? What did you learn?"
 
 **Free Resources:**
@@ -238,11 +238,11 @@ Record a video showing:
 
 **Submission:**
 - Google Doc with:
-  - Description of your scenario
-  - Your flowchart (image, link, or ASCII drawing)
-  - List of decisions (diamonds)
-  - List of loops (where it repeats)
-  - Identified mini-functions (repeating patterns)
+    - Description of your scenario
+    - Your flowchart (image, link, or ASCII drawing)
+    - List of decisions (diamonds)
+    - List of loops (where it repeats)
+    - Identified mini-functions (repeating patterns)
 - Video record yourself explaining your solution (5 minutes)
 - Note: "The hardest part was ___ because ___" or "I used loops / functions / both because..."
 
