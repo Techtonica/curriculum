@@ -266,7 +266,7 @@ Answer in 2–3 sentences each:
 **Submission:**
 Share a Google doc link with staff with the following:
 1. Answer all write up and reflection prompts
-2. Share the outputs that you get when running each code snippet in your Google doc
+2. Share the outputs that you get when running all 4 JavaScript code snippets in your Google doc
 
 **Free Resources:**
 - **[JSBin (Run Code)](https://www.jsbin.com)** (paste code, run, see output)
