@@ -263,6 +263,11 @@ Answer in 2–3 sentences each:
 - "What surprised you about how code works?"
 - "Did anything make you more confident about programming? Why?"
 
+**Submission:**
+Share a Google doc link with staff with the following:
+1. Answer all write up and reflection prompts
+2. Share the outputs that you get when running each code snippet in your Google doc
+
 **Free Resources:**
 - **[JSBin (Run Code)](https://www.jsbin.com)** (paste code, run, see output)
 - **[MDN - "JavaScript Basics"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)** (reference)
@@ -307,9 +312,8 @@ Write a **1-page beginner's guide** to JavaScript. Imagine your audience is some
    - "I didn't know websites use JavaScript to respond to clicks so quickly"
 
 **Format:**
-- Written (Google Doc or word processor)
-- Handwritten and scanned
-- Video (3–5 minutes, explain it aloud)
+- 1-Page Written (Google Doc or word processor)
+- Share a video explanation (3–5 minutes)
 
 **Free Resources:**
 - **[MDN - "What is JavaScript?"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#what_is_javascript)**  (official intro)
