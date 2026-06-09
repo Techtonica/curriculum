@@ -17,8 +17,11 @@ _**⚠️ Remember to complete: ⚠️**_
 
 ### Pre-Work Week 1:
 
+- [ ] Add your birthday to your cohort checklist
+- [ ] Add your name pronunciation to your cohort checklist (spell your name phonetically)
 - [ ] [Add your pronouns to your Zoom profile](https://support.zoom.us/hc/en-us/articles/4402698027533-Adding-and-sharing-your-pronouns)
 - [ ] Memorize your cohort’s names and pronouns (you can use [our pronoun practice sheet here](https://docs.google.com/document/d/1cMHY4k__TuK5qeMPdMeIPc12XmbH0_JgKnFrIxbC_FA/edit?usp=sharing)).
+- [ ] Indicate in your cohort checklist if you want Techtonica stickers sent to you
 - [ ] Read and review [Techtonica&#39;s Participant Handbook](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ez75on7s6lo4)
 - [ ] Read and review this [pair programming roles definition](https://gist.github.com/jordanpoulton/607a8854673d9f22c696)
 - [ ] Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
@@ -28,7 +31,8 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
 - [ ] [Install Homebrew](https://brew.sh/)
 - [ ] Install [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
-- [ ] [GitHub](https://github.com/signup?user_email=&source=form-home-signup) — make sure your Terminal is connected to your GitHub account so when you make a commit, GitHub knows it was from you via [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification) 
+- [ ] [GitHub](https://github.com/signup?user_email=&source=form-home-signup) — make sure your Terminal is connected to your GitHub account so when you make a commit, GitHub knows it was from you via [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
+- [ ] Set up your GitHub repos: "techtonica-assignments" (public), "techtonica-knowledge-check" (private), and "js-exercises" (public). Sign in to GitHub in the Terminal.
 - [ ] Complete the free course [freeCodeCamp's Learn JavaScript Debugging](https://www.freecodecamp.org/learn/learn-javascript-debugging/) course
 - [ ] Complete the free course "Basic Git Workflow with GitHub" - [Free course from Udemy](https://www.udemy.com/course/git-started-with-github/) (If section 3, step 13 shows password authentication read these notes about [GitHub SSH authentication](https://docs.google.com/document/d/1V596QwRYzMAwYtCpTBXCHj-ykRqDxo42TokENLgkulk/edit?usp=sharing) or instead try this read about [managing personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens))
 - [ ] Schedule times to get to know the program staff, ahead of your program start date. Here are some good guiding questions:
@@ -100,6 +104,10 @@ I believe I’ll make a good software engineer because _______./I want to contri
 ### Set Up Your MacBook Laptop
 
 If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, set up your new laptop.
+- Download Zoom
+- Send [the electronically-signed laptop agreement as a PDF](https://docs.google.com/document/d/1mRLOpx9k6GWn0vooOw56HEaxIS1kqTihyqZyvkLal3U/edit?usp=sharing) to Techtonica (reply-all) in the application process thread (if applicable, otherwise, please just check off)
+- [Set Gmail to reply-all](https://screenrant.com/gmail-reply-all-default-email-setting-how/)
+- [Turn on Gmail undo](https://support.google.com/mail/answer/2819488?hl=en&co=GENIE.Platform%3DDesktop#:~:text=Recall%20an%20email%20with%20Undo%20Send)
 - [ ] [Install VS Code](https://code.visualstudio.com/download). Ignore any suggestions to use the "Agents window".
 - [ ] Set [Chrome](https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en) as the default browser
 - [ ] [Install the LanguageTool Chrome](https://languagetool.org/)
