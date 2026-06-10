@@ -42,7 +42,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - article: [How to show tech skills on your resume](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume)
 - [Action Words to use on your resume](https://prod.wp.cdn.aws.wfu.edu/sites/41/2019/11/OPCD_ActionVerbs.pdf)
 - [(Resume Scanner Tool) Optimize your Resume with JobScan](https://www.jobscan.co/)
-- [(10-min Article) Research: How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
+- [(10-min Article) Research: How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume) [archive.is link](https://archive.is/qmpVQ).
 
 ### Lesson
 
@@ -69,7 +69,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 
 ### Independent Practice
 
-1. Read this article on [How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume).
+1. Read this article on [How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume) [archive.is link](https://archive.is/qmpVQ).
 2. Upload your resume and desired job description on <https://www.jobscan.co/>. Edit your resume or make a copy that incorporates all of the suggested missing keywords that apply to your background.
 3. Add your experience, and participation, and in some cases your resume document to your profile on these sites:
 
