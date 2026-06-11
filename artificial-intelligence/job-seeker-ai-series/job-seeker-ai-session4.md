@@ -383,14 +383,14 @@ Program staff will present a **framework for communicating about AI in code revi
 
 **The Three-Part Communication Model:**
 1. **Disclose:** Be clear and specific about what AI helped with
-  - Example: "I used ChatGPT to generate initial tests, then reviewed and adjusted each one"
-  - Not: "AI wrote this" or (silently leaving AI usage unmentioned)
+    - Example: "I used ChatGPT to generate initial tests, then reviewed and adjusted each one"
+    - Not: "AI wrote this" or (silently leaving AI usage unmentioned)
 2. **Explain Your Thinking:** Show that *you* verified and own the output
-  - Example: "I reviewed the logic, ran the tests, and verified it handles edge cases X, Y, Z"
-  - Not: "I just used what AI gave me"
+    - Example: "I reviewed the logic, ran the tests, and verified it handles edge cases X, Y, Z"
+    - Not: "I just used what AI gave me"
 3. **Invite Collaboration:** Frame feedback as team learning, not criticism
-  - Example: "I'd love feedback on this approach. Is there a better way?"
-  - Not: "Is this good or bad?" (puts reviewer in defensive position)
+    - Example: "I'd love feedback on this approach. Is there a better way?"
+    - Not: "Is this good or bad?" (puts reviewer in defensive position)
 
 **Participant Activity (12 minutes):**
 Program staff will present **3-4 realistic code review scenarios** (varying in complexity and AI usage). You'll work in **small groups (3-4 people)** for 10 minutes to:
@@ -435,17 +435,17 @@ Program staff will present **real-world perspectives on AI team dynamics**:
 
 **Common Team Concerns About AI:**
 1. **"Are people actually thinking, or just copying AI output?"**
-  - Reality: This is a valid concern; the answer is clear code review and discussion
-  - Mitigation: Encourage code review discussions about *why* this approach
+    - Reality: This is a valid concern; the answer is clear code review and discussion
+    - Mitigation: Encourage code review discussions about *why* this approach
 2. **"Will AI replace senior engineers' roles if juniors use it?"**
-  - Reality: AI accelerates routine work; what matters is learning and ownership
-  - Mitigation: Frame AI as a tool for learning faster, not replacing expertise
+    - Reality: AI accelerates routine work; what matters is learning and ownership
+    - Mitigation: Frame AI as a tool for learning faster, not replacing expertise
 3. **"Security/compliance issues—what if AI generates vulnerable code?"**
-  - Reality: Valid concern for regulated industries; requires stricter review
-  - Mitigation: Implement extra scrutiny for security-critical code
+    - Reality: Valid concern for regulated industries; requires stricter review
+    - Mitigation: Implement extra scrutiny for security-critical code
 4. **"How do we ensure AI doesn't make us dependent?"**
-  - Reality: Balance and intentional learning prevent this
-  - Mitigation: Rotate who reviews code, require explanations, don't use AI for everything
+    - Reality: Balance and intentional learning prevent this
+    - Mitigation: Rotate who reviews code, require explanations, don't use AI for everything
 
 **Participant Activity (12 minutes):**
 You'll engage in **structured discussion** about team dynamics. Program staff will prompt:
