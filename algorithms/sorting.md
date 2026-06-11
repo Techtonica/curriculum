@@ -499,7 +499,6 @@ If you're curious to read more there are lots of good resources out there!
 
 https://www.toptal.com/developers/sorting-algorithms/
 
-~~http://sorting.at/~~
 
 <a id="check-for-understanding"></a>
 
