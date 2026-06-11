@@ -493,7 +493,7 @@ Pick two or three algorithms to implement. Spend 45 minutes to 1 hour for each s
 
 If you're curious to read more there are lots of good resources out there!
 
-~~[MIT Intro to CS Slides on Sorting](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-slides-code/MIT6_0001F16_Lec12.pdf)~~ [Web Archive](https://web.archive.org/web/20210414201245/https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-slides-code/MIT6_0001F16_Lec12.pdf)
+[MIT Intro to CS Slides on Sorting (Web Archive Link)](https://web.archive.org/web/20210414201245/https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-slides-code/MIT6_0001F16_Lec12.pdf)
 
 [Harvey Mudd Lesson Plan on Sorting](https://www.cs.hmc.edu/MyCS/MyCS_all_handouts/Unit%205/PDF%20Sorting%20Algorithms%20Lesson%20Plan.pdf)
 
