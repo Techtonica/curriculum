@@ -190,4 +190,3 @@ Answer these questions independently (written or verbal), then compare with a pa
 
 - [Bit Manipulation — HackerEarth Tutorial](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) - Additional practice problems with immediate feedback.
 - [Bitmask DP Problems on LeetCode](https://leetcode.com/tag/bitmask/) - Filter by "Easy" to start; work up to "Medium" after completing independent practice.
-- [The Art of Problem Solving — Bitmask DP](https://artofproblemsolving.com/community/c90633h2354736) - Community-written explanation with more TSP variants.
