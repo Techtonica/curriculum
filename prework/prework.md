@@ -4,8 +4,7 @@ These assignments are to prepare you for starting full-time at Techtonica. There
 
 _**⚠️ Remember to complete: ⚠️**_
 
-- Your [onboarding](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) requirements (if you haven’t already)🚧🚧bring into GH🚧🚧🚧
-- Submit your Medium Profiles (see [onboarding doc](https://docs.google.com/document/d/1xI4QYg3TO-IBjPB3LlE33yRzWC-B8Dir-cnMAl-ZaSE/edit?usp=sharing) for link) 🚧🚧bring into GH🚧🚧🚧
+- Submit your Medium Profiles
 - [Submit your Techtonica photos](#submit-your-techtonica-photos)
 - [Set up your MacBook Laptop](#set-up-your-macbook-laptop)
 - [Update your Social Media Accounts](#update-your-social-media-accounts)
@@ -31,10 +30,16 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
 - [ ] [Install Homebrew](https://brew.sh/)
 - [ ] Install [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
-- [ ] [GitHub](https://github.com/signup?user_email=&source=form-home-signup) — make sure your Terminal is connected to your GitHub account so when you make a commit, GitHub knows it was from you via [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
-- [ ] Set up your GitHub repos: "techtonica-assignments" (public), "techtonica-knowledge-check" (private), and "js-exercises" (public). Sign in to GitHub in the Terminal.
-- [ ] Complete the free course [freeCodeCamp's Learn JavaScript Debugging](https://www.freecodecamp.org/learn/learn-javascript-debugging/) course
+- [ ] GitHub:
+  - [ ] [Sign up for a GitHub account](https://github.com/signup?user_email=&source=form-home-signup)
+  - [ ] Make sure your Terminal is connected to your GitHub account so when you make a commit, GitHub knows it was from you via [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
+  - [ ] Sign in to GitHub in the Terminal.
+  - [ ] Set up your GitHub repos: 
+    - [ ] "techtonica-assignments" (public)
+    - [ ] "techtonica-knowledge-check" (private)
+    - [ ] "js-exercises" (public)
 - [ ] Complete the free course "Basic Git Workflow with GitHub" - [Free course from Udemy](https://www.udemy.com/course/git-started-with-github/) (If section 3, step 13 shows password authentication read these notes about [GitHub SSH authentication](https://docs.google.com/document/d/1V596QwRYzMAwYtCpTBXCHj-ykRqDxo42TokENLgkulk/edit?usp=sharing) or instead try this read about [managing personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens))
+- [ ] Complete the free course [freeCodeCamp's Learn JavaScript Debugging](https://www.freecodecamp.org/learn/learn-javascript-debugging/) course
 - [ ] Schedule times to get to know the program staff, ahead of your program start date. Here are some good guiding questions:
   - [ ] Life story? Greatest accomplishment? What is important for people to learn about you?
   - [ ] Fears for the program?
