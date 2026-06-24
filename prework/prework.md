@@ -66,7 +66,7 @@ _**⚠️ Remember to complete: ⚠️**_
 
 ### Pre-Work Week 3:
 
-- [ ] Listen to René Brown's [Terrific First Times ](https://brenebrown.com/podcast/brene-on-ffts/) (or read the transcript)
+- [ ] Listen to Brené Brown's [Terrific First Times ](https://brenebrown.com/podcast/brene-on-ffts/) (or read the transcript)
 - [ ] Complete the free course [Javascript Array Methods](https://www.udemy.com/course/javascript-array-methods/) (2 hours)
 - [ ] Read and study the [The JavaScript Array Handbook from FreeCodeCamp ](https://www.freecodecamp.org/news/the-javascript-array-handbook/)
 - [ ] Watch the “Objects and Arrays” section from the free course [Learn to Program in Javascript: Beginner to Pro](https://www.udemy.com/course/programming-in-javascript/) (50 mins) on Udemy
