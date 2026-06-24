@@ -104,10 +104,10 @@ I believe I’ll make a good software engineer because _______./I want to contri
 ### Set Up Your MacBook Laptop
 
 If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, set up your new laptop.
-- Download Zoom
-- Send [the electronically-signed laptop agreement as a PDF](https://docs.google.com/document/d/1mRLOpx9k6GWn0vooOw56HEaxIS1kqTihyqZyvkLal3U/edit?usp=sharing) to Techtonica (reply-all) in the application process thread (if applicable, otherwise, please just check off)
-- [Set Gmail to reply-all](https://screenrant.com/gmail-reply-all-default-email-setting-how/)
-- [Turn on Gmail undo](https://support.google.com/mail/answer/2819488?hl=en&co=GENIE.Platform%3DDesktop#:~:text=Recall%20an%20email%20with%20Undo%20Send)
+- [ ] Download Zoom
+- [ ] Send [the electronically-signed laptop agreement as a PDF](https://docs.google.com/document/d/1mRLOpx9k6GWn0vooOw56HEaxIS1kqTihyqZyvkLal3U/edit?usp=sharing) to Techtonica (reply-all) in the application process thread (if applicable, otherwise, please just check off)
+- [ ] [Set Gmail to reply-all](https://screenrant.com/gmail-reply-all-default-email-setting-how/)
+- [ ] [Turn on Gmail undo](https://support.google.com/mail/answer/2819488?hl=en&co=GENIE.Platform%3DDesktop#:~:text=Recall%20an%20email%20with%20Undo%20Send)
 - [ ] [Install VS Code](https://code.visualstudio.com/download). Ignore any suggestions to use the "Agents window".
 - [ ] Set [Chrome](https://support.google.com/chrome/answer/95417?co=GENIE.Platform%3DDesktop&hl=en) as the default browser
 - [ ] [Install the LanguageTool Chrome](https://languagetool.org/)
