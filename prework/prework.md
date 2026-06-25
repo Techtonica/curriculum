@@ -4,7 +4,6 @@ These assignments are to prepare you for starting full-time at Techtonica. There
 
 _**⚠️ Remember to complete: ⚠️**_
 
-- Submit your Medium Profiles
 - [Submit your Techtonica photos](#submit-your-techtonica-photos)
 - [Set up your MacBook Laptop](#set-up-your-macbook-laptop)
 - [Update your Social Media Accounts](#update-your-social-media-accounts)
