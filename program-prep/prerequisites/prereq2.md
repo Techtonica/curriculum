@@ -325,7 +325,7 @@ The point: be aware of what the facilitator prefers. Remote meetings work best w
     - Spending 30 minutes to fix a typo in your Slack message? No. Sending a quick correction? Sure. Don't stress.
     - But do practice clear communication: "I'm stuck on this function because X, Y, Z. Here's what I tried. Can someone help?"
 - **Typing Speed:**
-    - Typing speed doesn't **_always_** determine your engineering ability. Some of the best engineers are slow typists (they're thinking deeply). Some are fast (they're used to rapid iteration). _**However, the program requires all participants to have capacity to type 50+ WPM with 80%+ accuracy**_
+    - Typing speed doesn't **_always_** determine your engineering ability. Some of the best engineers are slow typists (they're thinking deeply). Some are fast (they're used to rapid iteration). __**However, the program requires all participants to have capacity to type 50+ WPM with 80%+ accuracy**__
     - If you want to improve typing, resources exist (TypeRacer, TypingClub—both free), but it's not urgent.
     - Your fingers will speed up naturally as you code more.
 
