@@ -1,11 +1,9 @@
 # Prerequisites Session 6: Loops + Resilience
 
 Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
-- Completion of Prerequisite Session 5 (comfort with basic Karel commands)
+- Completion of Prerequisite Session 5 
 - Understanding of programming basics (sequences, commands, debugging)
 - Comfort with frustration and willingness to persist
-- Access to a computer with web browser, Python 3.x, and Karel set up
-- Access to Stanford Karel Reader https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html
 - Ability to video record and write reflections
 - Willingness to pair with a peer and discuss challenges
 - Completed [Prerequisites Session 5: Resilience + Programming Foundation](../prereq5.md)
@@ -15,35 +13,24 @@ Participants should have a basic understanding of the following foundational con
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Independent Practice](#independent-practice)
-  - [Task 1: Karel World No.2 - "Maze Runner"](#task-1-karel-world-no2---maze-runner-75120-minutes)
+  - [Task 1: Design a Flowchart for a More Complex Problem](#task-1-design-a-flowchart-for-a-more-complex-problem-75120-minutes)
   - [Task 2: "Resilience Partner Check-In"](#task-2-resilience-partner-check-in-3045-minutes)
 - [Guided Practice (In-Session: 2 hours)](#guided-practice-in-session-2-hours)
   - [Part 1: Welcome & Session Overview](#part-1-welcome--session-overview-5-minutes)
   - [Part 2: Breakout Room Sharing](#part-2-breakout-room-sharing-45-minutes)
   - [Part 3: Group Debrief](#part-3-group-debrief-10-minutes)
-  - [Part 4: Staff-Led Loops, Functions & Decomposition](#part-4-staff-led-loops-functions--decomposition-40-minutes)
-  - [Part 5: Mini-Challenge - Refactor Messy Karel Code](#part-5-mini-challenge---refactor-messy-karel-code-20-minutes)
-  - [Part 6: Resilience in Debugging & Problem-Solving](#part-6-resilience-in-debugging--problem-solving-10-minutes)
+  - [Part 4: Staff-Led Translating Flowcharts to Pseudo-Code](#part-4-staff-led-translating-flowcharts-to-pseudo-code-40-minutes)
+  - [Part 5: Mini-Challenge - Find and Fix Errors in Pseudo-Code](#part-5-mini-challenge---find-and-fix-errors-in-pseudo-code-20-minutes)
+  - [Part 6: Decomposition & Independence in Problem-Solving](#part-6-decomposition--independence-in-problem-solving-10-minutes)
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
 ### Projected Time
-
-**Independent Practice (Pre-Session): ~2.5 hours**
-- Karel World No.2 - "Maze Runner": 75–120 minutes
-- "Resilience Partner Check-In": 30–45 minutes
-
-**Guided Practice (In-Session): 2 hours**
-- Welcome & Overview: 5 minutes
-- Breakout Room Sharing (Maze Runner Demos + Partner Check-Ins): 45 minutes
-- Group Debrief: 10 minutes
-- Staff-Led Loops, Functions & Decomposition: 40 minutes
-- Mini-Challenge: Refactor Messy Karel Code: 20 minutes
-- Resilience in Debugging & Problem-Solving: 10 minutes
-- Q&A: 5 minutes
+- Independent Practice (Pre-Session): ~2.5 hours**
+- Guided Practice (In-Session): 2 hours
 
 ### Motivation
-If Prerequisite Session 5 introduced programming as step-by-step instructions, Session 6 teaches you how to write *smart* instructions. Python loops (`for`, `while`) let you repeat commands without rewriting them. Functions let you repackage logic for reuse. Together, these concepts transform programming from tedious line-by-line coding to elegant problem-solving. But they also introduce new complexity. Bugs become harder to trace. Logic becomes more abstract. This is where resilience deepens. You won't just bounce back from frustration; you'll use frustration as information. "My while loop isn't terminating correctly—what's wrong?" "I called this function but it didn't produce the output I expected—why?" These are sophisticated debugging questions that require persistence and systematic thinking. Additionally, this session emphasizes peer collaboration: checking in with a partner about struggles, learning from their approaches, and building psychological safety around vulnerability. By week's end, you won't just be a programmer; you'll be part of an engineering community that values growth, resilience, and mutual support.
+If Prerequisite Session 5 introduced programming as step-by-step instructions, Session 6 teaches you how to write *smart* instructions. Loops (`for`, `while`) let you repeat commands without rewriting them. Functions let you repackage logic for reuse. Together, these concepts transform programming from tedious line-by-line coding to elegant problem-solving. But they also introduce new complexity. Bugs become harder to trace. Logic becomes more abstract. This is where resilience deepens. You won't just bounce back from frustration; you'll use frustration as information. "My while loop isn't terminating correctly—what's wrong?" "I called this function but it didn't produce the output I expected—why?" These are sophisticated debugging questions that require persistence and systematic thinking. Additionally, this session emphasizes peer collaboration: checking in with a partner about struggles, learning from their approaches, and building psychological safety around vulnerability. By week's end, you won't just be a programmer; you'll be part of an engineering community that values growth, resilience, and mutual support.
 
 ### Objectives
 By the end of this session, participants will:
@@ -66,7 +53,7 @@ By the end of this session, participants will:
 - Functions/procedures: defining and calling reusable code
 - Function parameters: passing information into functions
 - Problem decomposition: breaking large problems into functions
-- Code refactoring: simplifying messy code
+- Refactoring: simplifying messy logic
 - Tracing through loops: predicting behavior
 
 **Core "Soft" Skills:**
@@ -80,134 +67,186 @@ By the end of this session, participants will:
 
 ### Independent Practice
 
-#### Task 1: Karel World No.2 - "Maze Runner" (75–120 minutes)
-**Objective:** Apply loops and/or functions to solve a more complex problem. Manage increased complexity. Learn advanced debugging.
+#### Task 1: Design a Flowchart for a More Complex Problem (75–120 minutes)
+**Objective:** Create flowcharts for a multi-step process. Practice decomposition (breaking problems into smaller parts). Learn how functions work through decomposition.
 
-**Background:**
-In Prerequisite Session 5, you solved simple sequencing problems. Now you'll solve a problem that *requires* loops or functions to do efficiently.
+**Background — What is Decomposition?**
+Decomposition means breaking a big, complicated problem into smaller, simpler pieces. Each piece is easier to solve. Then you combine the pieces.
 
-**The Task: "Maze Runner"**
-Karel is in a maze. It starts at one location and needs to reach the goal (marked with a beeper). The maze has:
-- Walls (boundaries that Karel can't cross)
-- A start position (S)
-- A goal position (G, marked with a beeper)
+Example:
+**Big problem:** "Design a restaurant ordering system"
 
-**Your Goal:** Write a program that instructs Karel to navigate from the start to the goal, picking up the beeper.
+**Broken down:**
+1. Check if restaurant is open
+2. Take customer's order
+3. Prepare food
+4. Deliver to customer
+5. Take payment
 
-**Constraint:** The maze is too complex to solve with just sequential `move()` commands. You MUST use at least one loop or function.
+In programming, each small piece becomes a **function** (a reusable block of code).
 
-**Example Maze Structure (ASCII):**
+**The Task: Choose One and Create a Detailed Flowchart**
 
-```plaintext
-╔═══════════╗
-║ S . . ╳   ║
-║ ╳ ╳ . ╳ . ║
-║ . . . . . ║
-║ ╳ . ╳ ╳ G ║
-╚═══════════╝
-```
+**Option A: "Video Game — Level Progression"**
+A player starts a video game level. The flowchart should show:
+- Start the level
+- Player encounters obstacles (repeat until level is complete)
+- If player defeats obstacle → move to next
+- If player loses → restart or game over
+- If player completes all obstacles → win the level
+- Offer to play next level
 
-- S = Start
-- G = Goal
-- . = Open path
-- ╳ = Wall
+**Option B: "Restaurant Ordering System"**
+A customer enters a restaurant. The flowchart should show:
+- Greet customer
+- Seat customer
+- Present menu
+- Take order (repeat for each course)
+- Prepare and serve food
+- Take payment
+- Thank customer and goodbye
 
+**Option C: "School Day Schedule"**
+A student's day from arrival to dismissal. Flowchart shows:
+- Arrive at school
+- Repeat for each class period:
+    - Go to classroom
+    - Attend class
+    - Turn in assignments
+    - Go to next class
+- Repeat for each break:
+    - Eat and socialize
+- Leave school
+- Go home
 
-**Possible Approaches:**
-1. **Simple Loop Approach:** Move forward in a straight line, loop until beeper is found
-```python
-def main():
-    while not beepers_present():
-        if front_is_clear():
-            move()
-```
-2. **Wall-Following Algorithm:** Use a loop to follow walls until reaching the goal
-```python
-def main():
-    while not beepers_present():
-        if front_is_clear():
-            move()
-        else:
-            turn_left()
-```
-3. **Function-Based Approach:** Define functions for common actions (move forward until wall, turn, etc.) then call them
-```python
-def move_forward():
-    if front_is_clear():
-        move()
-
-def turn_right():
-    for i in range(3):
-        turn_left()
-
-def main():
-    while not beepers_present():
-        move_forward()
-        if not front_is_clear():
-            turn_right()
-```
-4. **Hybrid Approach:** Combine loops and functions
-```python
-def main():
-    for i in range(5):
-        move()
-    turn_left()
-```
+**Option D: Create Your Own**
+Any multi-step process: cooking a meal, getting ready for a date, building a Lego set, planning a trip, etc.
 
 **Instructions:**
-1. **Access Karel:** Use https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html(Lesson 4-5 typically cover loops)
-2. **Find or Create the Maze World:** Use the provided intermediate challenges or create your own
-3. **Analyze the Problem:** Before coding, sketch the maze on paper. Identify:
-  - Where you start
-  - Where the goal is
-  - Possible paths (if multiple)
-4. **Plan Your Approach:** Decide: Will you use a loop? A function? Both? Write pseudocode.
+1. **Choose your scenario**
+2. **Break it into steps** (on paper):
+    - What's the first thing that happens?
+    - What decisions get made?
+    - What repeats?
+    - When does it end?
+3. **Create a detailed flowchart:**
+    - Use ovals for START and END
+    - Use rectangles for actions
+    - Use diamonds for decisions (yes/no questions)
+    - Use arrows to show flow
+    - Label everything clearly
+4. **Identify patterns** (mini-functions):
+    - What steps repeat?
+    - What steps are similar?
+    - Could you group any steps under a name?
+
+Example: In "Video Game," you could create a mini-function called "Fight Obstacle" that happens repeatedly.
+
+5. **Document your process** (in writing):
+    - Describe your scenario
+    - Paste/draw your flowchart
+    - List the decisions (diamonds)
+    - List the loops (places where it repeats)
+    - Identify "mini-functions" (groups of steps that repeat)
+
+**Video Game Level**
+
 ```plaintext
-While not at beeper:
-  If can move forward:
-    Move forward
-  Else:
-    Turn (strategy depends on wall layout)
-Pick up beeper
+┌──────────┐
+│  START   │
+│ Level 1  │
+└────┬─────┘
+     │
+┌────▼─────────────────┐
+│ Initialize player    │
+│ health = 100         │
+└────┬─────────────────┘
+     │
+◇────Obstacles remaining?
+│YES │NO
+│    │
+│  ┌─▼─────────────────┐
+│  │  You won! Play    │
+│  │  next level?      │
+│  └─┬──────────────┬──┘
+│    │YES           │NO
+│    │              │
+│  ┌─▼──────┐     ┌─▼──┐
+│  │Level 2 │     │ END │
+│  └────────┘     └─────┘
+│
+┌─▼──────────────────┐
+│ Fight next         │
+│ obstacle          │
+└─┬───────────┬─────┘
+  │           │
+  │      ┌────▼────────┐
+  │      │ You lose     │
+  │      │ health = 0   │
+  │      │ Game over?   │
+  │      └──┬────────┬──┘
+  │         │YES     │NO
+  │         │     ┌──▼──────┐
+  │         │     │ Restart │
+  │         │     │ level   │
+  │         │     └─┬───────┘
+  │         │       │
+  │         │   ┌───▼──────┐
+  │         │   │ Re-init   │
+  │         │   │ health=100│
+  │         │   └────┬──────┘
+  │         │        │
+  │      ┌──▼────┐  │
+  │      │  END  │◄─┘
+  │      └───────┘
+  │
+  └────────────────┘
+        │
+    ◇───Health > 0?
+    │YES  │NO
+    │    (goes to "You lose" above)
+    │
+ ┌──▼──────────┐
+ │ Next        │
+ │ obstacle    │
+ └──┬──────────┘
+    │
+    └──────────────────┘
+         (loop back)
 ```
-5. **Implement in Python:** Write the actual code in Karel
-6. **Test & Debug:** Run your code. If it doesn't work:
-  - Check for infinite loops (does Karel get stuck?)
-  - Trace through the loop logic
-  - Re-read the problem
-  - Adjust and test again
-7. **Optimize:** Once it works, can you simplify it? Use fewer lines? Make it clearer?
-8. **Record a Video Demo:** Show your working solution
 
-**Video: Demonstrate & Explain (5–10 minutes)**
+**Video: Demonstrate & Explain (5 minutes)**
+Record a video showing:
+1. **Your Scenario:** Describe what process you're diagramming
+2. **Your Flowchart:** Show it on screen or camera
+3. **Walk Through:**
+    - Show the START
+    - Point to decisions (diamonds): "Here the system asks a question"
+    - Point to loops: "Here it repeats"
+    - Point to END
+4. **Decomposition:** "I identified these repeating patterns that could be mini-functions:
+    - [Pattern 1]
+    - [Pattern 2]"
+5. **Reflect:** "What was hardest about diagramming a complex process? What did you learn?"
 
-Record a Loom video showing:
-1. **Run Your Code:** Screen share Karel running your program from start to goal as well as your Python code
-2. **Explain Your Logic:** Describe:
-  - What problem did you need to solve? (Navigate a maze)
-  - What approach did you use? (Loops? Functions? Both?)
-  - Why did you choose that approach?
-  - Show your code and walk through it line by line (even if complex)
-3. **Discuss Debugging:** Share:
-  - What error messages did you encounter?
-  - How did you debug infinite loops? (Added print statements? Changed the condition?)
-  - What did you learn?
-4. **Reflect:** "How is this different from Session 5? What made it harder or easier?"
 **Free Resources:**
-
-- **[Stanford Karel Reader - Python Loops](https://compedu.stanford.edu/karel-reader/docs/python/en/intro.html)** (Lessons 4-5 cover for loops and while loops)
-- **[Python.org - "For Loops"](https://docs.python.org/3/tutorial/controlflow.html#for-statements)**
-- **[Python.org - "While Loops"](https://docs.python.org/3/tutorial/controlflow.html#the-while-statement)**
-- **[YouTube - "Python While Loops":** Search for beginner tutorials (3-5 minutes each)
-- **[Real Python - "Python Loops"](https://realpython.com/loops/)** (comprehensive guide, free version available)
-- **[Article - "Problem Decomposition"](https://www.teach.codeforces.com/?article=5)** (explains breaking problems into steps)
+- **[Lucidchart - Free Flowchart Tool](https://www.lucidchart.com):** (create flowcharts online; free tier)
+- **[Draw.io (Diagrams.net)](https://www.diagrams.net):** (free, no account needed)
+- **[Figma](https://www.figma.com)**: (free tier; can create flowcharts)
+- **Article - "Flowchart Symbols":** Search "flowchart symbols and meanings" (many free guides)
+- **[YouTube - "How to Convert Psuedocode Into Flowchart"](https://youtu.be/NMUn5vIethI?si=rDNRWZJxq1qsyyio):** (8-minute tutorial)
 
 **Submission:**
-- Screen record your maze solution
-- Video record yourself explaining your code
-- Note: "I used loops / functions / both because..."
+- Google Doc with:
+    - Description of your scenario
+    - Your flowchart (image, link, or ASCII drawing)
+    - List of decisions (diamonds)
+    - List of loops (where it repeats)
+    - Identified mini-functions (repeating patterns)
+- Video record yourself explaining your solution (5 minutes)
+- Note: "The hardest part was ___ because ___" or "I used loops / functions / both because..."
 
-### Task 2: "Resilience Partner Check-In" (30–45 minutes)
+#### Task 2: "Resilience Partner Check-In" (30–45 minutes)
 **Objective:** Build psychological safety and peer support. Learn from others' resilience practices. Deepen self-awareness about your own growth.
 
 **Instructions:**
@@ -218,7 +257,7 @@ Find a partner (different from Prerequisite Session 5) via Slack. Reach out to t
 **Part B: Conduct the Interview**
 
 **Opening (2 minutes):**
-- "Hi! Thanks for doing this. We're checking in on resilience this week. I want to hear about your experience with the Karel maze challenge."
+- "Hi! Thanks for doing this. We're checking in on resilience this week. I want to hear about your experience with the  maze challenge."
 
 **Section 1: The Struggle (8 minutes)**
 - "What did you struggle with most on the maze challenge?"
@@ -266,35 +305,38 @@ In a Google Doc, write 1–2 pages answering:
 ### Guided Practice (In-Session: 2 hours)
 
 #### Part 1: Welcome & Session Overview (5 minutes)
-Last session, you wrote your first program and debugged it using Karel. You learned that struggle is normal and that persistence pays off. This session, you're going to write smarter programs using loops and functions. This is where programming becomes less 'do this, then this, then this' and more 'repeat this pattern' or 'reuse this logic.'
-<!-- Program Staff Talking Points:**
-- "You also did something powerful this week: you paired with a peer, talked about struggle, and learned from each other. That's how real engineering teams work. You're not just learning to code; you're learning to be part of a collaborative community."
-- "Today's focus: Loops, functions, and decomposition. But underneath all of that: resilience. Because more complex code means more opportunities to get stuck. And by now, you know that getting stuck isn't the end; it's the beginning of learning."
+Flowcharts let you see the whole problem at once. You can spot where things repeat (loops), where decisions matter (conditionals), and where the process might break down.
+<!-- Program Staff Talking Points:
+- "Last session, you learned that precision matters. You wrote instructions and learned from peer feedback when they got confused."
+- "This session, you're tackling bigger, more complex problems. You can't just write a simple list anymore. You need a structure. That structure is a flowchart."
+- "You also learned something critical: breaking big problems into smaller pieces. That's decomposition. In programming, each small piece becomes a function—reusable code you don't have to rewrite."
+- "By the end of today, you'll understand why programmers break problems apart. You'll see that every complex program is really just simple pieces combined."
 -->
 
 #### Part 2: Breakout Room Sharing (45 minutes)
 
-**Part A: Maze Runner Demos (25 minutes)**
+**Part A: Flowchart Presentations (25 minutes)**
 
 <!--  Program Staff Notes:
 
 Have each participant share:
-- A 2-minute screen share or video showing their maze solution
-- A brief explanation of their approach (loops? functions? both?)
-- One debugging moment and how they fixed it
+- Their scenario (video game, restaurant, school day, etc.)
+- Their flowchart (screen share, photo, or describe it)
+- One complex decision or loop they included
+- One "mini-function" (repeating pattern) they identified
 
 Copy/Paste Discussion Prompts in Zoom Chat:
-- "Who used a loop? Who used a function? Who used both?"
-- "Did anyone discover a clever approach?"
-- "Who spent the most time debugging? What did you learn?"
-- "Looking at different solutions: Did anyone solve the maze differently?"
+- "Whose flowchart is easiest to follow? What made it clear?"
+- "Did anyone discover a place where the flowchart could get stuck? How would you fix it?"
+- "Who identified the most repeating patterns (mini-functions)?"
+- "Looking at everyone's flowcharts: are there any similarities in structure across different scenarios?"
 -->
 
 **Part B: Resilience Partner Check-In Sharing (18 minutes)**
 Each participant shares:
 - One thing their partner struggled with
 - One strategy their partner used that they found interesting
-- One reflection: "How did hearing about my partner's resilience affect me?" (1 minute per person)
+- One insight they gained from the conversation
 
 <!-- Copy/Paste Discussion Prompts in Zoom Chat:
 - "Who had a similar experience to their partner?"
@@ -308,465 +350,387 @@ Program Staff Listening & Notes:
 - Listen for themes in resilience (taking breaks, getting help, stepping away, etc.)
 - Celebrate vulnerability: "I appreciated you sharing how hard this was"
 - Build community: "Notice how many people got stuck in the same places? That's universal. You're not alone."
+- Normalize complexity: "Complex problems require complex flowcharts—that's okay"
+
+Tone: Frame flowcharts as *powerful tools for thinking*, not just diagrams. "Look at how much you can communicate with shapes and arrows.
 -->
 
 #### Part 3: Group Debrief (10 minutes)
 <!-- Program Staff Talking Points:
-
-- "Your maze solutions were impressive. I saw different approaches—some used loops, some functions, some did something creative I haven't seen before. That's what I love about programming: there's usually more than one right answer."
-- "Common debugging moment: infinite loops. This happened to almost everyone. And look—everyone fixed it. You recognized the pattern, figured out the issue, and corrected it. That's exactly what engineers do daily."
-- "Your partner check-ins revealed something beautiful: you all struggled in similar ways, but you handled it differently. Some of you took breaks. Some of you pair-programmed. Some of you looked at documentation. All of these work. And knowing what works for others helps you build your own resilience toolkit."
-- "Here's what I want to emphasize: You wrote a maze solver. A week ago, you didn't know how to code. Now you're writing programs that use loops and logic to navigate complex problems. That's extraordinary growth."
-
+- "Your flowcharts showed sophisticated thinking. You broke complex processes into steps. You included decisions. You showed loops. You're thinking like engineers."
+- "Several of you identified repeating patterns (mini-functions). That's the key insight. A video game's 'Fight Obstacle' isn't written 50 times. It's written once as a function and called 50 times. That's what makes code efficient and maintainable."
+- "Your partner check-ins revealed something important: you're all struggling in similar ways. The universality of struggle means it's not personal; it's just part of learning."
+- "Here's what I want you to see: Weeks 1–3 gave you building blocks (curiosity, ownership, resilience, programming concepts). Weeks 4–5 teach you to combine those blocks. You're learning to think systematically about complex problems."
 
 Prompt Celebration:
 - "Who wants to continue with harder challenges after this program?" (Gauge interest)
 - "Who's proud of themselves?" (Encourage hands up; celebrate out loud)
 -->
-Now we're going to deepen your understanding of loops and functions. You've used them intuitively. Now let's talk about what's happening under the hood and how to write even cleaner, smarter code.
+Now let's talk about how flowcharts translate into programming. We're going to see how the structures you drew (loops, conditionals, functions) become actual code. And we're going to practice debugging by finding errors in pseudo-code.
 
-#### Part 4: Staff-Led Loops, Functions & Decomposition (40 minutes)
-**Objective:** Formalize understanding of loops, functions, and code decomposition. Show that elegant solutions require strategic thinking.
+#### Part 4: Staff-Led Translating Flowcharts to Pseudo-Code (40 minutes)
+**Objective:** Identify how flowcharts become pseudo-code. Teach decomposition as function-creation. Demonstrate how loops and conditionals work in flowchart form.
 
-**Demo 1: Loops Demystified — For vs While (8 minutes)**
-You've been using loops to repeat commands. Let's talk about two types: for loops and while loops.
+**Demo 1: Flowchart → Pseudo-Code Translation (12 minutes)**
+A flowchart is a visual. Pseudo-code is words. Code is syntax. They all say the same thing—just in different formats.
 
-**For Loops — "Do this N times"**
+**Simple Example: Making Tea**
 
-```python
-for i in range(4):
-    move()
-    turn_left()
-```
-
-Translation: "Repeat this block 4 times."
-- Use when: You know exactly how many times to repeat
-- Example: "Move forward 5 times." "Turn left 4 times to make a full rotation."
-
-**Range Explained:**
-- `range(4)` produces: 0, 1, 2, 3 (four values, starting from 0)
-- `range(1, 5)` produces: 1, 2, 3, 4 (from 1 up to but not including 5)
-
-**While Loops — "Keep doing this until a condition is false"**
-
-```python
-while(beepers_present()):
-  pick_beeper()
-  move()
-```
-
-Translation: "While there are beepers here, pick them up and move."
-- Use when: You don't know how many times you'll repeat; you're waiting for something
-- Example: "Keep moving until you hit a wall." "Pick up all beepers in this room."
-
-**Tracing Through a Loop:**
-
-```python
-for i in range(3):
-    move()
-    put_beeper()
-```
-
-"Let's trace through this:
-- Iteration 1: Move, put beeper
-- Iteration 2: Move, put beeper
-- Iteration 3: Move, put beeper
-- Loop ends (reached 3 iterations)"
-
-**Common Mistake: Off-by-One Errors**
-I want to repeat something 5 times. In Python, I write `range(5)` (not `range(6)`). This produces 0, 1, 2, 3, 4—five values.
-
-**Infinite Loops (What NOT to do):**
-
-```python
-while True:  # This is always true!
-    move()
-    # This will run forever!
-```
-
-Never use `while True` unless you have an explicit `break` statement to exit.
-
-**How to Break Out of a Loop:**
-
-```python
-while True:
-    if beepers_present():
-        pick_beeper()
-        break  # Exit the loop
-    move()
-```
-
-Never use `while(true)` unless you have an explicit break condition.
-<!-- Program Staff Led Interactive Element:
-"I have a for loop that runs 10 times. But I only want it to run 7 times. How do I fix it?"
-- Let participants call out: Change `range(10)` to `range(7)`
-- "What if I want the loop to run 7 times but I don't know the exact number in advance? Should I use a for loop or a while loop?"
-- Answer: While loop (if waiting for a condition)
--->
-
-**Demo 2: Functions & Decomposition (12 minutes)**
-Functions are reusable blocks of code. Define a function once and call it multiple times.
-
-**Observe Without Functions (Messy):**
-
-```python
-def main():
-    move()
-    turn_left()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-
-    move()
-    turn_left()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-
-    move()
-    turn_left()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-```
-
-<!-- Program Staff Talking Notes: 
-I'm repeating the same pattern (move, turn left, move, three right turns, move) three times. That's tedious and error-prone. I should use a function.
-
-**Example With Functions (Clean):**
+**Flowchart:**
 
 ```plaintext
-def move_in_L_shape():
-    move()
-    turn_left()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-
-def main():
-    move_in_L_shape()
-    move_in_L_shape()
-    move_in_L_shape()
-
-if __name__ == "__main__":
-    main()
+START
+  ↓
+[Boil water]
+  ↓
+[Pour in cup]
+  ↓
+[Add tea bag]
+  ↓
+[Wait 3 min]
+  ↓
+[Remove bag]
+  ↓
+[Drink]
+  ↓
+END
 ```
 
-Now the code is clear: 'Do this L-shaped movement three times.' Much simpler.
--->
-
-**Functions with Parameters:**
-
-```python
-def move_n_steps(steps):
-    for i in range(steps):
-        move()
-
-def main():
-    move_n_steps(5)  # Move 5 times
-    turn_left()
-    move_n_steps(3)  # Move 3 times
-```
-
-With parameters, one function can do different things based on the input.
-
-**Functions with Return Values:**
-
-```python
-def count_beepers_in_room():
-    count = 0
-    while beepers_present():
-        pick_beeper()
-        count += 1
-    return count
-
-def main():
-    total = count_beepers_in_room()
-    print(f"Found {total} beepers")
-```
-
-Functions can return data back to the caller.
-
-**Decomposition (Breaking Problems into Functions):**
-The real power of functions is decomposition: breaking a big problem into smaller, manageable pieces.
-
-**Example: The Maze Runner**
-Instead of writing one giant set of commands, I break it into functions:
-```python
-def move_forward_if_possible():
-    if front_is_clear():
-        move()
-
-def turn_right():
-    for i in range(3):
-        turn_left()
-
-def follow_left_wall():
-    while not beepers_present():
-        move_forward_if_possible()
-        if not front_is_clear():
-            turn_right()
-```
-
-Now I can read the main function and understand the high-level strategy without getting lost in details.
-
-**Why This Matters:**
-- **Readability:** Code is easier to understand
-- **Reusability:** Use the same function multiple times
-- **Debugging:** Easier to isolate problems
-- **Maintenance:** If you need to change the logic, you change it once
-
-<!-- Program Staff Led Interactive Element:
-I have a complicated Karel task. It requires
-  1. moving in a square pattern, 
-  2. picking up beepers, and 
-  3. turning at corners. 
-Should I write one big block of code, or should I use functions?
-- Let participants discuss
-- Answer: Functions! Define a function for "pick up beepers in a line" or "make a turn at a corner"
--->
-
-**Demo 3: Refactoring & Optimization (12 minutes)**
-
-**Observe Messy Code:**
+**Pseudo-Code:**
 
 ```plaintext
-def main():
-    move()
-    if beepers_present():
-        pick_beeper()
-    move()
-    if beepers_present():
-        pick_beeper()
-    move()
-    if beepers_present():
-        pick_beeper()
-    move()
-    if beepers_present():
-        pick_beeper()
-    move()
-    if beepers_present():
-        pick_beeper()
-    turn_left()
-    move()
-    put_beeper()
-    move()
-    put_beeper()
-    move()
-    put_beeper()
-    move()
-    put_beeper()
+Start
+Boil water
+Pour water in cup
+Add tea bag to cup
+Wait 3 minutes
+Remove tea bag
+Drink tea
+End
 ```
 
-This code works, but it's repetitive. How would you refactor it?
+**Actual Code (JavaScript — shown for reference):**
 
-<!-- Program Staff Refactors:
-I can see two patterns:
-1. Move and pick beeper (repeats 5 times)
-2. Move and put beeper (repeats 4 times)
-
-I can write functions:
-
-```python
-def pick_beepers_in_line(count):
-    for i in range(count):
-        move()
-        if beepers_present():
-            pick_beeper()
-
-def put_beepers_in_line(count):
-    for i in range(count):
-        move()
-        put_beeper()
-
-def main():
-    pick_beepers_in_line(5)
-    turn_left()
-    put_beepers_in_line(4)
+```javascript
+function makeTea() {
+  boilWater();
+  pourWater();
+  addTeaBag();
+  wait(3);
+  removeTeaBag();
+  drinkTea();
+}
 ```
 
-Talking Point: 
-- Now the code is 10 lines instead of 25. It's clear what's happening. It's easy to modify. 
-- Good code isn't necessarily clever code. It's code that's easy to read, maintain, and modify. Functions and loops help you write good code."
+Same logic. Different formats. The flowchart shows flow visually. Pseudo-code describes it in words. Code writes it in a language the computer understands.
 
-Interactive Element:
-- Looking at this refactored code, what if I wanted to pick beepers 10 times instead of 5? What would I change?
-- Answer: Change the argument from 5 to 10: `pick_beepers_in_line(10)`
-- That's the power of functions. One change, everywhere that function is called gets updated.
+<!-- Program Staff Interactive Element:
+"Take one of your flowcharts. Convert the first few steps into pseudo-code. What do you notice about how they translate?"
 -->
 
-#### Part 5: Mini-Challenge - Refactor Messy Karel Code (20 minutes)
-**Objective:** Practice identifying patterns and using functions to simplify code.
-**Format:** Facilitator presents messy code. Participants work in pairs or small groups to refactor it.
+**Demo 2: Conditionals in Three Formats (10 minutes)**
 
-**Challenge Code (Given):**
+**Flowchart with Decision:**
 
-```python
-def main():
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-
-if __name__ == "__main__":
-    main()
+```plaintext
+◇ Is it raining?
+ /NO  YES\
+[Sunny] [Rainy]
+  |       |
+[Wear    [Bring
+ hat]     umbrella]
+  |       |
+  └──┬──┘
+     ↓
+  [Leave]
 ```
 
-**Task 1: Identify the Pattern (3 minutes)**
-Look at this code. What's repeating?
-<!-- Answer: The entire block repeats 3 times -->
+**Pseudo-Code:**
 
-**Task 2: Write a Function (5 minutes)**
-Write a function that captures this pattern
-<!-- Expected answer:
-
-```python
-def move_and_turn():
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
+```plaintext
+Check: Is it raining?
+If yes:
+  Bring umbrella
+Else:
+  Wear hat
+Leave house
 ```
+
+**Actual Code:**
+
+```javascript
+if (isRaining === true) {
+  bringUmbrella();
+} else {
+  wearHat();
+}
+leaveHouse();
+```
+
+The flowchart shows decision with a diamond. Pseudo-code uses 'if/else.' Code uses `if () { } else { }`.
+
+<!-- Program Staff Talking Point: "Whether you draw a flowchart, write pseudo-code, or write code, the logic is the same. You're just changing the format. Learning format is easier than learning logic. You already know the logic."
 -->
 
-**Task 3: Refactor Using a Loop (5 minutes)**
-Now rewrite the entire code using this function and a loop
-<!-- Expected answer:
+**Demo 3: Loops in Three Formats (10 minutes)**
 
-```python
-def move_and_turn():
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
-    move()
-    move()
-    turn_left()
-    turn_left()
-    turn_left()
+**Flowchart with Loop:**
 
-def main():
-    for i in range(3):
-        move_and_turn()
-
-if __name__ == "__main__":
-    main()
+```plaintext
+[Get cookie jar]
+  ↓
+◇ Cookies remaining?
+ /NO  YES\
+ |  [Eat cookie]
+ |      ↓
+ └──────┘ (loop back)
+   ↓
+[Put jar away]
 ```
+
+**Pseudo-Code:**
+
+```plaintext
+Get cookie jar
+Repeat while cookies remain:
+  Eat one cookie
+Put jar away
+```
+
+**Actual Code:**
+
+```javascript
+function eatCookies(jar) {
+  while (jar.cookiesRemaining > 0) {
+    eatCookie();
+    jar.cookiesRemaining--;
+  }
+  putJarAway();
+}
+```
+
+The flowchart shows a loop by having the arrow go back. Pseudo-code uses 'repeat while.' Code uses `while () { }`.
+
+<!-- Program Staff Talking Point: "Loops save you from writing the same instruction 100 times. Imagine writing 'Eat cookie. Eat cookie. Eat cookie...' 100 times. A loop does it with 3 lines."
 -->
 
-**Task 4: Further Optimization (5 minutes)**
-Notice that `turn_left()` three times = turn right. Can you optimize the function?
-<!-- Expected answer:
+**Demo 4: Decomposition as Functions (8 minutes)**
+Decomposition means identifying repeating patterns and turning them into reusable pieces (functions).
 
-```python
-def turn_right():
-    for i in range(3):
-        turn_left()
+**Video Game**
+Your flowchart might show "Fight Obstacle" happening 10 times. In code:
 
-def move_and_turn():
-    for i in range(2):
-        move()
-    turn_right()
-    for i in range(2):
-        move()
+**Without Decomposition (tedious):**
+
+```plaintext
+// All the fighting logic written 10 times
+Fight obstacle 1 (initialize health, check damage, etc.)
+Fight obstacle 2 (initialize health, check damage, etc.)
+Fight obstacle 3 (initialize health, check damage, etc.)
+...
 ```
 
-Or even:
+**With Decomposition (elegant):**
 
-```python
-def move_and_turn():
-    move()
-    move()
-    turn_right()
-    move()
-    move()
+```javascript
+function fightObstacle(obstacle) {
+  // Fight logic once
+  setHealth(100);
+  while (health > 0 && obstacle.alive) {
+    takeDamage();
+    inflictDamage();
+  }
+  return health;
+}
+
+// Call the function 10 times
+for (let i = 1; i <= 10; i++) {
+  fightObstacle(obstacle[i]);
+}
 ```
 
-Program Staff Led Group Discussion in Main Room:
-- "Who found a different way to refactor?"
-- "Which version is easiest to read?"
-- "If you needed to modify this code later, which version would be easiest to change?"
+By creating a `fightObstacle()` function, we write the logic once and reuse it. That's decomposition. That's what makes code clean and maintainable.
 
-Talking Point: "Refactoring is about making code cleaner, shorter, and more maintainable. It's a skill you'll practice throughout your programming journey. The goal isn't to write the shortest code; it's to write the clearest code."
+<!-- Program Staff Interactive Element:Look at your flowchart. Identify one thing that repeats. How would you turn that into a mini-function?"
+- Example: "My restaurant flowchart has 'Take Order' happening multiple times (for each course). That would be a function: `takeOrder()` called 3 times."
 -->
 
-#### Part 6: Resilience in Debugging & Problem-Solving (10 minutes)
-**Objective:** Reflect on resilience as it applies to increasingly complex programming.
+#### Part 5: Mini-Challenge - Find and Fix Errors in Pseudo-Code (20 minutes)
+**Objective:** Debug pseudo-code. Practice reading instructions critically. Find logical errors (not just typos).
 
-**Program Staff Facilitates Discussion:**
+<!--Program Staff Notes on Format: Facilitator presents flawed pseudo-code. Participants identify problems and suggest fixes.
+-->
 
-**Prompt 1:** This week's code was harder than last week. You used loops and functions. Did you get stuck more, less, or about the same?
-<!-- Program Staff Notes:
+**Challenge 1: Missing Exit Condition (5 minutes)** What's wrong with this loop? Will it ever end?
+
+**Given Broken Pseudo-Code:**
+
+```plaintext
+Start video game
+Repeat:
+  Fight obstacle
+  Obstacle defeated?
+    If yes: Continue to next obstacle
+    If no: Game over
+End
+```
+
+**Reflection Prompts:**
+- "What happens after you defeat all obstacles?"
+- "There's no exit condition for the main loop"
+- "The loop says 'repeat' forever, but there's nothing stopping it"
+
+
+<!-- Program Staff Answer: The main loop never ends because there's no check for "all obstacles defeated." The code should be:
+
+```plaintext
+Start video game
+Repeat while obstacles remain:
+  Fight obstacle
+  Obstacle defeated?
+    If yes: Remove from list, continue
+    If no: Game over
+        End game
+If all obstacles defeated:
+  You won!
+End
+```
+
+Talking Point: "Infinite loops are a common bug. You need a clear exit condition."
+-->
+
+**Challenge 2: Ambiguous Condition (5 minutes)**
+
+**Given Broken Pseudo-Code:** What's wrong with the condition 'customer wants food'? How do you check that?
+
+```plaintext
+Start restaurant ordering
+Repeat while customer wants food:
+  Describe menu item
+  Customer decides to order?
+    If maybe: Ask again
+    If yes: Add to order
+    If no: Skip item
+End
+```
+
+**Reflection Prompt:**
+- "How do you know if a customer wants food?"
+- "'Wants food' is not a clear yes/no question"
+- "Better condition: 'Does customer want to order more?'"
+
+
+<!-- Program Staff Answer: The condition is too vague. Better:
+
+```plaintext
+Start restaurant ordering
+Repeat:
+  Describe menu item
+  Customer wants this item?
+    If yes: Add to order
+    If no: Skip
+  Customer wants to order more?
+    If yes: Continue
+    If no: End ordering
+End
+```
+
+Talking Point: "Conditions must be checkable. Yes/no questions. Not vague feelings."
+-->
+
+**Challenge 3: Wrong Decomposition (5 minutes)**
+
+**Given Code Structure:** How would you decompose this? What's the repeating pattern?
+
+```plaintext
+Fight Obstacle 1
+  Set health = 100
+  Check damage
+  Reduce health
+  Check if defeated
+  
+Fight Obstacle 2
+  Set health = 100
+  Check damage
+  Reduce health
+  Check if defeated
+  
+Fight Obstacle 3
+  Set health = 100
+  Check damage
+  Reduce health
+  Check if defeated
+```
+
+<!-- Program Staff Answer: Create a function:
+
+```plaintext
+Function: FightObstacle(obstacle)
+  Set health = 100
+  Repeat while not defeated:
+    Check damage
+    Reduce health
+  Return result
+
+Main:
+  For each obstacle:
+    FightObstacle(obstacle)
+```
+Now you write the fighting logic once and call it three times, instead of writing it three times.
+-->
+
+#### Part 6: Decomposition & Independence in Problem-Solving (10 minutes)
+**Objective:** Reflect on decomposition as a professional skill. Connect to independence and resilience.
+- **Prompt 1:** "This week, you broke complex problems into smaller pieces. Why is that valuable?"
+<!-- Program Staff Facilitation Notes:
 - Let 3–4 people answer
-- Listen for: differences in complexity, new types of bugs, how they handled harder problems
+- Listen for: easier to understand, less overwhelming, can focus on one piece at a time
+- Affirm: "That's exactly why engineers decompose problems."
+-->
+- **Prompt 2:** "When you created a flowchart, you had to make decisions: What's a separate step? What's a loop? When did you get stuck?"
+<!-- Program Staff Facilitation Notes:
+- Answers might include: unclear where to split, struggling with exit conditions, too many decisions
+- Affirm: "Those are hard decisions. Professional engineers debate this constantly."
+-->
+- **Prompt 3:** "You've now gone from pseudo-code (words) to flowcharts (pictures) to imagining how they'd become code. How has your thinking changed since Week 3?"
+<!-- Program Staff Facilitation Notes:
+- This is a reflection on growth
+- Listen for: more confidence, understanding logic matters more than syntax, seeing connections between concepts
+- Celebrate: "Look at the journey."
+-->
+- **Prompt 4:** "As you move into actual programming, what's one thing you want to remember from this week?"
+<!-- Program Staff Facilitation Notes:
+- Answers might include: break problems down, clarity matters, loops prevent repetition, functions are your friends
+- Have people state it aloud
 -->
 
-**Prompt 2:** When you got stuck this time, what did you do differently than last week?
-<!-- Program Staff Notes:
-- Answers might include: took breaks sooner, asked for help faster, tried a different approach more quickly
-- Affirm: "You're not just learning to code; you're learning to be better at learning."
+Decomposition is one of the most valuable skills an engineer can have. Every professional programmer breaks problems down. They don't write one giant function. They create many small functions and combine them.
+<!-- Program Staff Talking Points:
+
+"This week, you practiced decomposition without code. You drew flowcharts. You identified repeating patterns. You saw how complex problems become manageable when you break them apart.
+
+Independence this week means: you can take a complicated problem, analyze it, and break it down systematically. You don't need someone to tell you how. You ask yourself: What repeats? What are the key decisions? What's the main flow?
+
+That skill will serve you in programming and beyond. It's how you tackle any complex problem."
 -->
-
-**Prompt 3:** Your partner check-in revealed something: other people struggled too, in similar ways. How does knowing that change the way you think about programming?
-<!-- Program Staff Notes:
-- Answers might include: less shame, more confidence, more willing to ask for help
-- Affirm: "This is the culture we're building. We struggle together. We grow together."
--->
-
-**Prompt 4:** "As we move forward into harder programming, what's one thing you want to commit to?"
-<!-- Program Staff Notes:
-- Answers might include: be patient with myself, ask for help sooner, take breaks, celebrate small wins
-- Have people share commitments aloud (or in chat)
-- Affirm: "These commitments are what make the difference. They're what separate people who persevere from people who give up."
-
-
-Talking Point: "You're not going to hit a wall and suddenly start coding perfectly. You're going to hit walls and keep going. The code is going to get more complex. The bugs are going to get harder. And you're going to get better at all of it. That's what an engineer is."
---->
 
 #### Part 7: Q&A (5 minutes)
+
+Q: "Are flowcharts used in real programming?" \
+A: Yes. Professionals use them to plan before coding. Very common.
+
+Q: "Will we learn to code next?" \
+A: Yes. You've learned the thinking. Next, you'll learn the syntax (the language).
+
+Q: "What if my decomposition is different from someone else's?" \
+A: Both could be right. There are multiple valid ways to break down a problem.
+
+Q: "Is it bad if my flowchart has many loops and branches?" \
+A: No. Complex problems have complex flowcharts. That's okay.
+
+Q: "Do I need to be perfect with flowcharts before moving to code?" \
+A: Flowcharts are tools for thinking, not final products. Imperfect is fine. Use them to clarify, then build on that clarity.
+
 Q: "Why do we even need functions if loops do the same thing?" \
 A: Functions are about organization and reusability. Loops repeat. Functions package logic. Both are necessary.
 
@@ -781,9 +745,6 @@ A: Not bad, just not optimized. As you practice, you'll recognize patterns faste
 
 Q: "What if I can't figure out how to decompose a big problem?" \
 A: Break it into baby steps. Define a function for each step. Combine them. That's decomposition.
-
-Q: "What's the difference between Python loops and Karel loops?" 
-A: The syntax is slightly different, but the concept is the same. Python loops work the same way: repeat a block of code.
 
 Q: "What if my loop runs forever?" \
 A: You have an infinite loop. Check your condition. Make sure it will eventually become false. Add a `break` statement if needed.
@@ -830,12 +791,11 @@ A: You have an infinite loop. Check your condition. Make sure it will eventually
 - Post in the #pre-applicants channel for peer feedback on refactoring
 - Celebrate clean code: "I refactored this and saved 5 lines!"
 - Share debugging victories: "I found an infinite loop by adding print statements"
-- Pair programming practice: "Anyone want to mob-program solving a Karel challenge?"
+- Pair programming practice: "Anyone want to mob-program solving the independent practice challenge?"
 
 **Challenging Extensions:**
 - Introduce recursion (optional, advanced)
 - Multi-dimensional arrays or complex data structures
-- Longer Karel challenges from Code.org
 - Challenge: "Write the most elegant solution to this problem"
 
 **Week 3 Reflection Prompt**
