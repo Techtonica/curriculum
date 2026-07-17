@@ -125,12 +125,12 @@ Record a 5–10 minute video (you can do all 5 expressions in one video or separ
   - Answer: "Why is this truth table important? What does it tell us?"
   
 **Free Resources:**
-- **[Khan Academy - "Logic & Truth Tables"](https://www.khanacademy.org/computing/code-org/logic)** (interactive truth table builder)
-- **[YouTube - "Truth Tables Explained"](https://www.youtube.com/watch?v=UU_H2e-lfXs)** (10 minutes, very clear)
+- **[Khan Academy - "Logical operators"](https://www.khanacademy.org/computing/intro-to-python-fundamentals/x5279a44ae0ab15d6:designing-algorithms-with-conditionals/x5279a44ae0ab15d6:compound-boolean-conditions/a/compound-boolean-expressions-with-logical-operators)** (interactive truth table builder)
+- **[YouTube - "Truth Tables"](https://www.youtube.com/watch?v=VCEYeB3bRW0)** (11 minutes)
 - **[YouTube - "Boolean Logic & Truth Tables"](https://www.youtube.com/watch?v=gI-qXk7XojA)** (5 minutes, animated)
 - **[Interactive Tool - "Truth Table Generator"](https://web.stanford.edu/class/cs103/tools/truth-table-tool/)** (Stanford; you can input an expression and it generates the table)
-- **[Brilliant.org - "Boolean Algebra"](https://brilliant.org/courses/boolean-algebra)** (free intro course with interactive problems)
-- **[YouTube - "De Morgan's Laws"](https://www.youtube.com/watch?v=r85EHpV2DmU)** (optional; explains NOT(A AND B) = NOT(A) OR NOT(B))
+- **[Brilliant.org - "Boolean Algebra"](https://brilliant.org/wiki/boolean-algebra/)** (free intro course with interactive problems)
+- **[YouTube - "De Morgan's Laws"](https://youtu.be/gTjN417N5A0?si=uTt-KeeKdHaF8Maa)** (optional; explains NOT(A AND B) = NOT(A) OR NOT(B))
 
 **Submission:**
 Create a Google Doc or PDF with the following to share with program staff:
