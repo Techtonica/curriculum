@@ -43,7 +43,7 @@ Participants should have a basic understanding of the following foundational con
 - Q&A: 5 minutes
 
 ### Motivation
-In Prerequisite Session 7, you wrote JavaScript and uploaded it to GitHub manually. That works for small projects, but professional engineers use Git—a version control system—to manage code changes, track history, and collaborate with teams. Learning Git (the technology behind GitHub) means learning to commit changes (save snapshots), push to the remote repository (upload to GitHub), and pull changes (download from GitHub). Cloning a repository, making changes, committing and pushing them are the workflow all companies use. Using documentation to learn and solve problems, and asking for help after trying it yourself show independence and professional maturity.
+In Prerequisite Session 7, you learned to read JavaScript. That works for small projects, but professional engineers use Git—a version control system—to manage code changes, track history, and collaborate with teams. Learning Git (the technology behind GitHub) means learning to commit changes (save snapshots), push to the remote repository (upload to GitHub), and pull changes (download from GitHub). Cloning a repository, making changes, committing and pushing them are the workflow all companies use. Using documentation to learn and solve problems, and asking for help after trying it yourself show independence and professional maturity.
 
 ### Objectives
 By the end of this session, participants will:
@@ -59,6 +59,8 @@ By the end of this session, participants will:
 - Practice independence: solving Git problems using documentation
 - Understand the professional Git workflow
 - See themselves as engineers using industry-standard tools
+- Create and navigate a GitHub repository
+- Upload files to GitHub manually (web interface)
 
 ### Specific Things to Learn
 
@@ -73,6 +75,13 @@ By the end of this session, participants will:
 - Understanding repository history: commit log
 - Pushing to remote repository
 - GitHub interface: commits, history, branches (intro)
+- GitHub
+  - Account creation and setup
+  - Repositories
+    - Creating (public/private options)
+    - Structure and navigation
+  - Uploading files via web interface
+  - Writing a README file (markdown basics)
 
 **Core "Soft" Skills:**
 - Independence: using Git without hand-holding
@@ -802,12 +811,21 @@ A: That's normal. You'll use it constantly in the program, and it'll click. Come
 Q: "Can I use GitHub for other projects?" \
 A: Create repositories for personal projects. You're already a GitHub user.
 
+Q: "What if I get really stuck on GitHub?" \
+A: That's what office hours and Slack are for. GitHub has great docs too. Take a break and come back.
+
 
 ### Continued Learning
 - **["You Don't Know JS Yet" (Free Book)](https://github.com/getify/You-Dont-Know-JS)** (deep dive into JavaScript)
 - **[FreeCodeCamp - "The Complete JavaScript Course"](https://www.youtube.com/watch?v=PkZNo7MFNFg)** (full course)
 - **[JavaScript.info - Advanced Topics](https://javascript.info)** (once comfortable with basics)
 - **Coding Challenge Platforms:** Codewars, HackerRank, LeetCode (for more practice)
+
+**GitHub**
+1. Create account, create repository, upload files (step-by-step)
+2. Repository structure explained
+3. How to edit files on GitHub
+4. README basics and markdown formatting
 
 **Git Command**
 1. `git clone` — Download a repository
