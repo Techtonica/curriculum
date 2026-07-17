@@ -58,8 +58,6 @@ By this point, you've begun learning the basics of programming. You've begun lea
 ### Objectives
 By the end of this session, participants will:
 - Understand basic JavaScript syntax such as variables and conditionals to solve simple problems
-- Create and navigate a GitHub repository
-- Upload files to GitHub manually (web interface)
 - Write a clear README to document their work
 - Practice independence: exploring tools without complete hand-holding
 
@@ -74,13 +72,6 @@ By the end of this session, participants will:
   - Comments in JavaScript: `//` and `/* */`
   - Comparison operators: `===`, `!==`, `>`, `<`, `>=`, `<=`
   - Logical operators: `&&`, `||`, `!`
-- GitHub
-  - Account creation and setup
-  - Repositories
-    - Creating (public/private options)
-    - Structure and navigation
-  - Uploading files via web interface
-  - Writing a README file (markdown basics)
 
 **Core "Soft" Skills:**
 - Independent learning: exploring tools without complete step-by-step guidance
@@ -713,9 +704,6 @@ A: It's the language of the web. Every browser runs it. It's everywhere.
 Q: "Do I need to memorize JavaScript?" \
 A: No. You reference documentation constantly. Even senior engineers look up syntax.
 
-Q: "What if I get really stuck on GitHub?" \
-A: That's what office hours and Slack are for. GitHub has great docs too. Take a break and come back.
-
 Q: "Can I work on my code locally (on my computer) instead of in a sandbox?" \
 A: Yes! But that requires setup (installing Node.js, a code editor). We'll cover that later if interested or feel free to take the initiative to investigate and try this on your own (it's a good opportunity to practice resilience and mindfulness)
 
@@ -738,12 +726,6 @@ A: Yes. You understand concepts. Syntax is just the vehicle for those concepts.
 4. Logical operators: `&&`, `||`, `!`
 5. If/else/else if structure with examples
 6. Common mistakes: `=` vs `===`, type coercion
-
-**GitHub**
-1. Create account, create repository, upload files (step-by-step)
-2. Repository structure explained
-3. How to edit files on GitHub
-4. README basics and markdown formatting
 
 **Debugging JavaScript in the Console**
 1. How to open browser console (Chrome, Firefox, Safari)
