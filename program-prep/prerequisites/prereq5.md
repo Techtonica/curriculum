@@ -208,9 +208,9 @@ After completing the log, write 3–5 sentences addressing:
 - Share with program staff 
 
 **Free Resources:**
-- **["The Growth Mindset Workbook" (PDF excerpt)](https://www.mindsetworks.com/webstudy)** (free resources on reframing failure)
+- **[Fixed and Growth Mindset with Carol Dweck](https://www.oneyoufeed.net/fixed-and-growth-mindset/)** (28 minutes)
 - **[TED Talk - "The Power of Believing You Can Improve" by Carol Dweck](https://www.youtube.com/watch?v=_X0mgOOSpLU)** (10 minutes; foundational for growth mindset)
-- **[Podcast - "How to Fail" by Elizabeth Day](https://www.elizabethdayonline.com/howtofail)** (episodes on resilience and persistence; Spotify/Apple Podcasts)
+- **[TED Talk — "Resilience the Art of Failing Forward" by Sasha Shillcutt](https://www.ted.com/talks/sasha_shillcutt_resilience_the_art_of_failing_forward)** 
 - **Article - "Why Debugging Teaches Resilience" (Medium):** Search for this topic; many free articles on learning through struggle
 - **[Mindfulness App - "Insight Timer"](https://insighttimer.com)** (free guided meditations on frustration and focus)
 
