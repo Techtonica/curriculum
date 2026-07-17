@@ -15,15 +15,15 @@ Participants should have a basic understanding of the following foundational con
 - [Objectives](#objectives)
 - [Specific Things to Learn](#specific-things-to-learn)
 - [Independent Practice](#independent-practice)
-  - [Task 1: JavaScript Sandbox Exercise No.1 - Variables + Conditionals](#task-1-javascript-sandbox-exercise-no1---variables--conditionals-6090-minutes)
-  - [Task 2: GitHub Onboarding Step 1 - Create Your First Repository](#task-2-github-onboarding-step-1---create-your-first-repository-3045-minutes)
+  - [Task 1: Trace and Predict JavaScript Behavior](#task-1-trace-and-predict-javascript-behavior-6090-minutes)
+  - [Task 2: "What is JavaScript and Why Does It Matter?"](#task-2-what-is-javascript-and-why-does-it-matter-3045-minutes)
 - [Guided Practice (In-Session: 2 hours)](#guided-practice-in-session-2-hours)
   - [Part 1: Welcome & Session Overview](#part-1-welcome--session-overview-5-minutes)
   - [Part 2: Breakout Room Sharing](#part-2-breakout-room-sharing-40-minutes)
   - [Part 3: Group Debrief](#part-3-group-debrief-15-minutes)
-  - [Part 4: Staff-Led JavaScript Fundamentals](#part-4-staff-led-javascript-fundamentals-35-minutes)
-  - [Part 5: Mini-Challenge - Predict the Output](#part-5-mini-challenge---predict-the-output-20-minutes)
-  - [Part 6: Independence in Learning & Problem-Solving](#part-6-independence-in-learning--problem-solving-5-minutes)
+  - [Part 4: Staff-Led JavaScript Concepts Through Code Reading](#part-4-staff-led-javascript-concepts-through-code-reading-35-minutes))
+  - [Part 5: Mini-Challenge - Find the Bug in JavaScript Code](#part-5-mini-challenge---find-the-bug-in-javascript-code-20-minutes)
+  - [Part 6: Independence & Code Literacy as a Professional Skill](#part-6-independence--code-literacy-as-a-professional-skill-5-minutes)
   - [Part 7: Q&A](#part-7-qa-5-minutes)
 - [Continued Learning](#continued-learning)
 
@@ -34,7 +34,7 @@ Participants should have a basic understanding of the following foundational con
 **Technical Focus:** JavaScript fundamentals (variables, conditionals, loops, functions), GitHub basics (account creation, repository management, git workflow), remote work etiquette
 **Total Week Time Commitment:** ~5.5 hours (Independent Practice + Guided Practice combined)
 
-**Context:** This is the moment when the training wheels come off. Participants have learned programming concepts (Karel in Python), understood resilience and ownership, and built community with peers. Now they face the tools and workflows that professional engineers use daily: JavaScript (a mainstream programming language), GitHub (the industry standard for version control), and the independence required to navigate unfamiliar tools. This week emphasizes initiative—not waiting for someone to tell you exactly what to do, but exploring, experimenting, and solving problems on your own. Independence doesn't mean isolation; it means resourcefulness. When stuck, you'll know how to find help (documentation, peers, Stack Overflow). When confused, you'll know how to break the problem down and try a different approach. By week's end, participants will have written JavaScript code and pushed it to GitHub—real artifacts of their learning that they own and can share.
+**Context:** This is the moment when the training wheels come off. Participants have learned programming concepts, understood resilience and ownership, and built community with peers. Now they face the tools and workflows that professional engineers use daily: JavaScript (a mainstream programming language), GitHub (the industry standard for version control), and the independence required to navigate unfamiliar tools. This week emphasizes initiative—not waiting for someone to tell you exactly what to do, but exploring, experimenting, and solving problems on your own. Independence doesn't mean isolation; it means resourcefulness. When stuck, you'll know how to find help (documentation, peers, Stack Overflow). When confused, you'll know how to break the problem down and try a different approach. By week's end, participants will have written JavaScript code and pushed it to GitHub—real artifacts of their learning that they own and can share.
 -->
 
 ### Projected Time
@@ -53,35 +53,25 @@ Participants should have a basic understanding of the following foundational con
 - Q&A: 5 minutes
 
 ### Motivation
-By this point in the program, you've learned to code in Python using Karel. You've built resilience through frustration and debugging. You've learned ownership and how to work in teams. Now you're learning the tools that real engineers use every day. JavaScript is the language of the web—it runs in every browser and powers interactive websites. GitHub is where every professional engineer stores their code and collaborates with teams. Learning these tools independently—by exploring documentation, trying things out, asking questions strategically—is how you'll grow as an engineer. This week, the instructor won't hold your hand through every step. You'll be expected to figure some things out on your own. You'll hit roadblocks. That's the point. This is where you practice initiative: breaking problems down, searching for solutions, trying again. This is professional engineering. And you're ready for it.
+By this point, you've begun learning the basics of programming. You've begun learning programming basics, built resilience through managing frustration and debugging code, and practiced ownership and teamwork. Now you'll start learning JavaScript, which runs in every browser and enables website interactivity. You'll also learn to use GitHub, a code storage and collaboration platform. As an aspiring engineer, you'll explore documentation and try things out independently. When you get stuck, you'll ask questions. Practicing initiative—breaking down problems, searching for solutions, and trying again— is professional engineering. You're ready for it.
 
 ### Objectives
 By the end of this session, participants will:
-- Write JavaScript code to solve simple problems (variables, conditionals)
-- Understand JavaScript syntax and how it compares to Python
-- Execute and test JavaScript code in an online sandbox
-- Create and navigate a GitHub repository
-- Upload files to GitHub manually (web interface)
+- Understand basic JavaScript syntax such as variables and conditionals to solve simple problems
 - Write a clear README to document their work
 - Practice independence: exploring tools without complete hand-holding
-- Understand GitHub as the place where engineers store and share code
-- See themselves as independent learners who can find resources and solve problems
 
 ### Specific Things to Learn
 
 **Technical Skills:**
-- JavaScript variables: `let`, `const`, naming conventions
-- JavaScript data types: strings, numbers, booleans
-- JavaScript conditionals: `if`, `else if`, `else`
-- Console output: `console.log()`
-- Comments in JavaScript: `//` and `/* */`
-- Comparison operators: `===`, `!==`, `>`, `<`, `>=`, `<=`
-- Logical operators: `&&`, `||`, `!`
-- GitHub account creation and setup
-- Creating a GitHub repository (public/private options)
-- Uploading files via GitHub web interface
-- Writing a README file (markdown basics)
-- GitHub repository structure and navigation
+- JavaScript
+  - Variables: `let`, `const`, naming conventions
+  - Data types: strings, numbers, booleans
+  - Conditionals: `if`, `else if`, `else`
+  - Console output: `console.log()`
+  - Comments in JavaScript: `//` and `/* */`
+  - Comparison operators: `===`, `!==`, `>`, `<`, `>=`, `<=`
+  - Logical operators: `&&`, `||`, `!`
 
 **Core "Soft" Skills:**
 - Independent learning: exploring tools without complete step-by-step guidance
@@ -94,588 +84,638 @@ By the end of this session, participants will:
 
 ### Independent Practice
 
-#### Task 1: JavaScript Sandbox Exercise No.1 - Variables + Conditionals (60–90 minutes)
-**Objective:** Write and test your first JavaScript code. Learn JavaScript syntax in an interactive environment.
+#### Task 1: Trace and Predict JavaScript Behavior (60–90 minutes)
+**Objective:** Learn to read and understand JavaScript code without writing it. Develop code literacy. Build confidence that programming logic is learnable.
 
-**Background — What is JavaScript?**
-JavaScript is the programming language of the web. It runs in every web browser. Unlike Python (which runs on servers and computers), JavaScript typically runs in browsers to make web pages interactive. You'll use JavaScript to create dynamic websites, handle user input, and control what happens on the page.
+**Background — Why Read Code?**
+Professional engineers spend more time reading code than writing it. Before you write code, you need to understand it. Code literacy—the ability to read and understand what code does—is the foundation.
 
-**Key Differences from Python:**
-- Variables use `let` or `const` instead of direct assignment
-- Conditionals use the same `if/else` logic but with different syntax
-- Curly braces `{}` define code blocks instead of indentation
-- Semicolons end statements (though JavaScript is forgiving about this)
+You won't write any code this week. You'll read code, trace through it step-by-step, predict what happens, then verify your prediction. This teaches you how programmers actually think.
 
-**The Task: "Temperature Feedback System"**
-Write a JavaScript program that:
-1. Stores a temperature value in a variable
-2. Uses conditionals to determine what feedback to give
-3. Outputs the feedback using `console.log()`
+**The Task: Analyze Four JavaScript Programs**
+You will receive 4 simple JavaScript programs. For each one, you will:
+1. Read the code carefully
+2. Trace through it step-by-step (pretend you're the computer executing it)
+3. Predict the output
+4. Run it and verify your prediction
+5. Write an explanation of what each part does
 
-**Your goal:** Write code that takes a temperature (in Fahrenheit) and returns appropriate feedback:
-- Below 32°F: "Freezing! Stay warm."
-- 32–50°F: "Cold. Bring a jacket."
-- 51–70°F: "Cool. Light layer recommended."
-- 71–85°F: "Warm. Comfortable weather!"
-- Above 85°F: "Hot! Stay hydrated."
+<details><summary>Program 1: Simple Variables and Output</summary>
+  
+```javascript
+let name = "Alex";
+let age = 22;
+let city = "Portland";
 
-**Setup Instructions:**
-1. **Choose a JavaScript Sandbox:** Pick one of these (all free, no account required for basic use):
-  - **CodePen:** [https://codepen.io](https://codepen.io) (most beginner-friendly; visual feedback)
-  - **Replit:** [https://replit.com](https://replit.com) (supports many languages; great for learning)
-  - **JSFiddle:** [https://jsfiddle.net](https://jsfiddle.net) (classic; simple interface)
-  - **CodeSandbox:** [https://codesandbox.io](https://codesandbox.io) (more advanced; good for projects)
-2. **Start a New Project:** Create a new "pen" or project
-3. **Write Your Code:** Use the template below as a starting point
-4. **Test It:** Change the temperature variable and see the output
-5. **Record a 2-Minute Demo:** Show your code and explain what it does
+console.log("My name is " + name);
+console.log("I am " + age + " years old");
+console.log("I live in " + city);
+```
+**Your Task:**
+1. **Read it.** What happens first? What are the variables storing?
+2. **Predict:** What will the console output be?
+3. **Write your prediction:**
+   ```
+   Output will be:
+   My name is Alex
+   I am 22 years old
+   I live in Portland
+   ```
+4. **Run it:** Paste the code into https://www.jsbin.com or open browser console (F12) and run it
+5. **Verify:** Did your prediction match?
+6. **Explain (write):** 
+   - "Line 1-3: Create three variables storing information"
+   - "Line 5-7: Use console.log() to print each piece of information"
+   - "The `+` sign joins strings together"
 
+</details>
 
-**Example Code Template:**
+<details><summary>Program 2: Variables and Conditionals</summary>
 
 ```javascript
-// Temperature Feedback System
+let temperature = 75;
 
-let temperature = 72; // Change this value to test
-
-if (temperature < 32) {
-  console.log("Freezing! Stay warm.");
-} else if (temperature <= 50) {
-  console.log("Cold. Bring a jacket.");
-} else if (temperature <= 70) {
-  console.log("Cool. Light layer recommended.");
-} else if (temperature <= 85) {
-  console.log("Warm. Comfortable weather!");
+if (temperature > 85) {
+  console.log("It's hot!");
+} else if (temperature > 70) {
+  console.log("It's warm and pleasant");
+} else if (temperature > 50) {
+  console.log("It's cool");
 } else {
-  console.log("Hot! Stay hydrated.");
+  console.log("It's freezing!");
 }
 ```
+**Your Task:**
+1. **Read it.** What variable is created? What decisions are being made?
+2. **Trace it:** Temperature is 75. Which condition is true?
+   - Is 75 > 85? No
+   - Is 75 > 70? Yes → execute this block
+3. **Predict:** What will output?
+4. **Run it and verify**
+5. **Explain:**
+   - "Variable stores temperature value"
+   - "If/else if checks conditions in order"
+   - "Only the first true condition executes"
+   - "Temperature 75 matches the second condition"
+</details>
 
-**What to Do:**
-1. Paste the template into your sandbox
-2. Click "Run" or "Execute" to see the output in the console
-3. Change the `temperature` value and run again to test different scenarios
-4. Modify the code: maybe add another condition, or change the feedback messages
-5. Once comfortable, record a 2-minute video explaining your code
+<details><summary>Program 3: Loops (For Loop)</summary>
 
-**Common Issues (and How to Fix Them):**
-- "Nothing happens when I click Run" → Look for a "Console" tab at the bottom; output appears there
-- "I see an error message" → Read it carefully. It usually tells you what's wrong (missing bracket, typo, etc.)
-- "My condition isn't working" → Double-check the operators: `===` (equals), `<` (less than), `>` (greater than)
-- "I'm not sure what to write" → Start with the template. Change one thing. See what happens. That's how you learn.
+```javascript
+console.log("Counting from 1 to 5:");
 
-**Video: Demonstrate & Explain (2–5 minutes)**
-Record a video showing:
-1. **Your Code:** Screen share your JavaScript code in the sandbox
-2. **Run It:** Show it running with one temperature value, then change it and run again
-3. **Explain:** Walk through your code line by line:
-  - "Here I'm creating a variable `temperature` and setting it to 72"
-  - "Then I have an if statement that checks if temperature is less than 32..."
-  - "The console.log() prints the message to the console"
-4. **Reflect:** "What was confusing about JavaScript compared to Python?" or "What did you understand immediately?"
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
 
-**Free Resources:**
-- **[MDN Web Docs - "JavaScript Basics"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)** (official, comprehensive reference)
-- **[JavaScript.info - "The JavaScript Language"](https://javascript.info)** (free, interactive course starting from basics)
-- **[FreeCodeCamp - "JavaScript for Beginners"](https://www.youtube.com/watch?v=PkZNo7MFNFg)** (4-hour YouTube course)
-- **[Codecademy - "Learn JavaScript"](https://www.codecademy.com/learn/introduction-to-javascript)** (free tier available)
-- **[Khan Academy - "Intro to JavaScript"](https://www.khanacademy.org/computing/computer-programming/programming-js)** (free, interactive)
-- **[W3Schools - "JavaScript Tutorial"](https://www.w3schools.com/js/)** (reference; good for looking up syntax)
+console.log("Done!");
+```
+
+**Your Task:**
+1. **Read it.** What's the loop doing? What variable controls it?
+2. **Trace it step-by-step:**
+   - i starts at 1
+   - Check: is i <= 5? Yes → print i (prints 1)
+   - i becomes 2 (i++)
+   - Check: is 2 <= 5? Yes → print 2
+   - i becomes 3... (continue until i = 6)
+   - Check: is 6 <= 5? No → exit loop
+3. **Predict:** What's the full output?
+4. **Run it and verify**
+5. **Explain:**
+   - "The loop repeats 5 times"
+   - "Variable `i` tracks which iteration we're on"
+   - "i++ means 'add 1 to i'"
+   - "The loop stops when the condition is false"
+</details>
+
+<details><summary>Program 4: Loops with Conditionals</summary>
+
+```javascript
+let scores = [85, 92, 78, 95, 88];
+let total = 0;
+
+for (let i = 0; i < scores.length; i++) {
+  let score = scores[i];
+  
+  if (score >= 90) {
+    console.log(score + " - Excellent!");
+  } else if (score >= 80) {
+    console.log(score + " - Good");
+  } else {
+    console.log(score + " - Needs improvement");
+  }
+  
+  total = total + score;
+}
+
+console.log("Total: " + total);
+console.log("Average: " + (total / scores.length));
+```
+
+**Your Task:**
+1. **Read it.** What is `scores`? (A list of numbers) What does the loop do?
+2. **Trace the first iteration (i = 0):**
+   - score = scores[0] = 85
+   - Is 85 >= 90? No
+   - Is 85 >= 80? Yes → prints "85 - Good"
+   - total becomes 0 + 85 = 85
+3. **Trace the second iteration (i = 1):**
+   - score = scores[1] = 92
+   - Is 92 >= 90? Yes → prints "92 - Excellent!"
+   - total becomes 85 + 92 = 177
+4. **Predict:** Full output (5 lines of feedback + total and average)
+5. **Run it and verify**
+6. **Explain:**
+   - "The loop processes each score in the list"
+   - "Each score is checked with if/else"
+   - "total is updated each iteration"
+   - "After loop finishes, we calculate the average"
+</details>
+
+**Write-Up: Document Your Analysis in a Google Doc (2–3 pages)**
+
+**Part 1: Your Predictions vs Reality**
+For each of the 4 programs, write:
+- What you predicted
+- What actually happened
+- Did you match? If not, where were you wrong?
+
+**Part 2: Key Concepts You Found**
+Read through all 4 programs and answer:
+- Where did you see **variables** being used? Write an example.
+- Where did you see **conditionals** (if/else)? Write an example.
+- Where did you see **loops**? Write an example.
+- What does `console.log()` do? Why would a programmer use it?
+
+**Part 3: Reflection**
+Answer in 2–3 sentences each:
+- "What was hardest about reading this code?"
+- "What surprised you about how code works?"
+- "Did anything make you more confident about programming? Why?"
 
 **Submission:**
-- Link to your sandbox (share the project URL)
-- Share video explaining your code (2–5 minutes)
-- Note: "JavaScript syntax felt ___ compared to Python because ___"
-
-#### Task 2: GitHub Onboarding Step 1 - Create Your First Repository (30–45 minutes)
-**Objective:** Set up GitHub, create a repository, and upload your work. Understand GitHub as your professional portfolio.
-
-**Background — What is GitHub?**
-GitHub is where engineers store code and collaborate. It's like Google Drive for programmers. Every professional engineer has a GitHub profile that shows their projects. In this program, you'll use GitHub to track your work, practice version control, and build your portfolio.
-
-**What You'll Do:**
-1. Create a GitHub account
-2. Create a repository named `techtonica-prerequisites`
-3. Upload your JavaScript file to the repository
-4. Write a README explaining what you learned
-5. Share your repository link
-
-**Setup Instructions:**
-
-**Part A: Create a GitHub Account (5 minutes)**
-1. Go to [https://github.com](https://github.com)
-2. Click "Sign up"
-3. Enter your email, create a password, choose a username. **Username tip:** Use something professional (you'll share this). Examples: `firstname-lastname`, `firstname1989`, or your name if available. Avoid numbers or special characters if possible.
-4. Verify your email
-5. Done! You now have a GitHub account.
-
-**Part B: Create Your First Repository (10 minutes)**
-1. Log in to GitHub
-2. Click the "+" icon (top right) and select "New repository"
-3. Fill in the form:
-  - **Repository name:** `techtonica-prerequisites`
-  - **Description:** "Prework for [Program Name] - JavaScript and GitHub practice"
-  - **Public / Private:** Select "Public" (so you can share it and it shows on your profile)
-  - **Initialize with a README:** Check this box (GitHub will create a README automatically)
-4. Click "Create repository"
-5. Done! You now have a repository.
-
-**Part C: Upload Your JavaScript File (15 minutes)**
-1. In your repository, click "Add file" → "Upload files"
-2. Drag and drop your JavaScript file (or click to browse and select it)
-  - You can copy your sandbox code into a text file and save it as `temperature-feedback.js`
-  - Or take a screenshot of your code and upload that (not ideal, but acceptable)
-3. Add a commit message: "Add temperature feedback system"
-4. Click "Commit changes"
-5. Your file is now on GitHub!
-
-**Part D: Write a README (15 minutes)**
-1. In your repository, click the pencil icon next to the README file (or click "README.md")
-2. Edit the file to include:
-  - **Title:** "JavaScript Prework - Week 4"
-  - **Description:** What this project is about (2–3 sentences)
-  - **What I Learned:** List 3–5 things you learned about JavaScript or GitHub
-  - **How to Run:** "Open the JavaScript file in a code sandbox (CodePen, Replit, etc.) or a browser console"
-  - **Questions I Still Have:** List 1–2 things you're curious about
-3. Click "Commit changes"
-4. Done!
-
-**Common Issues:**
-- "I can't find the upload button" → Look for "Add file" near the top of the repo
-- "My README looks ugly" → GitHub uses markdown. Look up markdown syntax, or just write plain text and add line breaks
-- "I don't know what to write in the README" → Just be honest: what did you learn? What confused you? That's enough.
-
-**Submission:**
-- Share your GitHub repository link with your code and README
-- Share your GitHub username so program staff and peers can visit your profile
+Share a Google doc link with staff with the following:
+1. Answer all write up and reflection prompts
+2. Share the outputs that you get when running all 4 JavaScript code snippets in your Google doc
 
 **Free Resources:**
-- **[GitHub Docs - "Getting Started"](https://docs.github.com/en/get-started)** (official, comprehensive)
-- **[GitHub Skills - "Introduction to GitHub"](https://skills.github.com)** (interactive, free course by GitHub)
-- **[YouTube - "GitHub for Beginners"](https://www.youtube.com/watch?v=tYKLsBUruKA)** (15-minute overview)
-- **[Markdown Guide](https://www.markdownguide.org)** (if you want to style your README nicely)
-- **[FreeCodeCamp - "Git & GitHub for Beginners"](https://www.youtube.com/watch?v=RGOj5yH7evk)** (full tutorial)
+- **[JSBin (Run Code)](https://www.jsbin.com)** (paste code, run, see output)
+- **[MDN - "JavaScript Basics"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)** (reference)
+- **[JavaScript.info - "Variables"](https://javascript.info/variables)** (detailed explanation)
+- **[YouTube - "JavaScript for Beginners - Variables](https://www.youtube.com/watch?v=PkZNo7MFNFg)"** (4-hour course, watch intro section)
+
+**Submission:**
+- Google Doc with predictions, concept analysis, and reflection
+- Include a screenshot of running code with output
+
+#### Task 2: "What is JavaScript and Why Does It Matter?" (30–45 minutes)
+**Objective:** Research and explain JavaScript conceptually. Develop ability to communicate about technology. Learn independence through documentation reading.
+
+**The Task:**
+Write a **1-page beginner's guide** to JavaScript. Imagine your audience is someone who's never programmed before. They want to know: What is this thing? Where is it used? Why would I learn it? Your guide should answer:
+
+1. **What is JavaScript?** (2–3 sentences)
+   - Plain English explanation
+   - Not about syntax or code
+   - Example: "JavaScript is a programming language that makes websites interactive"
+
+2. **Where do you see JavaScript in the real world?** (3–4 examples)
+   - Think about websites you use every day
+   - Example: "When you click a button and something happens immediately (without the page reloading), that's probably JavaScript"
+   - Other examples: shopping carts, autocomplete, interactive maps, animations, games in browsers, etc.
+
+3. **What can JavaScript do?** (3–5 things)
+   - Example: "Respond to user clicks and keyboard presses"
+   - "Update the page without reloading"
+   - "Calculate things and show results"
+   - "Store information temporarily"
+   - "Create animations and interactive experiences"
+
+4. **Why would someone learn JavaScript?** (2–3 reasons)
+   - Career opportunities
+   - Building web projects
+   - Understanding the internet
+   - Creative expression
+
+5. **One thing that surprised you** (1–2 sentences)
+   - "I didn't realize JavaScript runs in every browser"
+   - "I didn't know websites use JavaScript to respond to clicks so quickly"
+
+**Format:**
+- 1-Page Written (Google Doc or word processor)
+- Share a video explanation (3–5 minutes)
+
+**Free Resources:**
+- **[MDN - "What is JavaScript?"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#what_is_javascript)**  (official intro)
+- **[JavaScript.info - "What is JavaScript?"](https://javascript.info/intro)** (beginner-friendly)
+- **[Khan Academy - "Intro to JS"](https://www.khanacademy.org/computing/computer-programming/programming-js/intro-to-programming/v/programming-intro)** (video)
+- **[FreeCodeCamp Article: "What is JavaScript Used For? More Than You Realize."](https://www.freecodecamp.org/news/the-applications-of-javascript/)** (practical examples)
+
+**Submission:**
+- Your 1-page guide (any format)
+- 3–5 minute video explaining JavaScript to someone who's never heard of it
 
 ### Guided Practice (In-Session: 2 hours)
 
 #### Part 1: Welcome & Session Overview (5 minutes)
-This week, we're entering the real world of engineering. You're learning JavaScript, a language used by millions of engineers. You're learning GitHub, the platform where all professional code lives. And you're learning independence—how to learn when no one is holding your hand. Last week, you had Karel to guide you. This week, you have documentation, sandboxes, and your own problem-solving skills. That's a big shift. Some of it will feel hard. That's okay. Struggle is where growth happens.
+This week, we're shifting gears. You're not writing code yet. You're learning to read code, understand it, and talk about it. Professional engineers spend half their time reading code—either their own from months ago, or someone else's. Learning to read code is just as important as writing it.
 
 <!-- Program Staff Talking Points:
-- "By the end of today, you'll have code on GitHub. Real code. Real platform. You'll be able to share that with anyone and say, 'I built this.' That's powerful."
-- "Let's dig in."
+- "You've spent weeks learning logic through flowcharts and pseudo-code. Now you're seeing that same logic in a real programming language: JavaScript."
+- "The symbols look different. `let`, `const`, curly braces, arrows. But underneath, it's the same thinking you've been doing. Variables. Conditionals. Loops. You know these concepts."
+- "By the end of today, you'll see that JavaScript isn't magic. It's just logic in a different format. And that takes the fear out of it."
 -->
 
 #### Part 2: Breakout Room Sharing (40 minutes)
 **Format:** Divide participants into breakout groups of 4–5.
 
-**Part A: JavaScript Code Demos (20 minutes)**
+**Part A: Code Analysis Presentations (25 minutes)**
 Have each participant share:
-- Their 2-minute recorded video of their JavaScript code running (if prepared)
-- OR screen share their CodePen/Replit sandbox showing the code and output
-- Brief explanation: "What did you find confusing? What clicked?"
-
+  - One program they analyzed (pick their favorite or most interesting)
+  - What they predicted vs. what actually happened
+  - One moment where their prediction was wrong and what they learned
+  
 <!-- Program Staff Copy/Paste Discussion Prompts into Zoom Chat:
-- "Who changed the code to test different values? What did you try?"
-- "Did anyone add extra conditions or messages to the code?"
-- "For those who found JavaScript confusing: what was the biggest difference from Python?"
-- "For those who felt confident: why did this feel easier than expected?"
+- "Whose prediction was spot-on? What made you confident in your prediction?"
+- "Who predicted wrong? Where did your thinking break down?"
+- "Did anyone notice patterns across the 4 programs? (e.g., variables used the same way, loops structured the same, etc.)"
+- "Which program was hardest to trace? Why?"
+- "Did reading code change how you think about what programming is?"
 -->
 
-**Part B: GitHub Repository Showcase (18 minutes)**
+**Part B: "What is JavaScript?" Sharing (13 minutes)**
 Each participant shares:
-- Their GitHub repository link (share screen or paste link in chat)
-- Quick walkthrough of their repository structure
-- Their README: "What did you write about what you learned?"
+  - Their 1-page guide (read key points or show it)
+  - One example of JavaScript they found in the real world
+  - One thing that surprised them
 
 <!-- Program Staff Copy/Paste Discussion Prompts into Zoom Chat:
-- "Whose README is the clearest? What made it clear?"
-- "Did anyone notice anything cool about GitHub that surprised you?"
-- "How did it feel uploading your first code to GitHub?"
-- "Who's proud of their repository being public on the internet?" (Celebrate!)
+- "Whose examples were most relatable?"
+- "Did anyone discover a JavaScript use case you didn't expect?"
+- "How would you explain JavaScript to your parents/friends?"
 
 Program Staff Listening & Notes:
-- Document common confusions with JavaScript (these inform the staff-led portion)
-- Celebrate initiative: "I love that you figured that out on your own"
-- Normalize struggle: "Everyone finds something confusing their first time"
-- Build confidence: "Look at what you accomplished in just 90 minutes"
+- Note which code concepts participants noticed (loops, variables, conditionals)
+- Document misconceptions (address in staff-led segment)
+- Celebrate analysis: "I love how you traced through that step-by-step"
+- Build confidence: "You read and understood real JavaScript code"
 
-Tone: Frame independence as strength. "You didn't have a step-by-step guide, and you figured it out. That's exactly the skill engineers need."
+Tone: Frame code reading as a skill, not magic. "You parsed actual code. That's a real engineering skill.
 -->
 
 #### Part 3: Group Debrief (15 minutes)
-Here's what's remarkable: you've now written code in two languages (Python and JavaScript). You understand the core concepts transfer. You've stored code on GitHub. You're setting up the building blocks for a portfolio. You're not beginners anymore; you're developers.
+Here's what I want you to notice: the logic inside those JavaScript programs is the same logic you've been working with for weeks. Variables (storing information). Conditionals (if/else decisions). Loops (repeat until done). The syntax is new, but the thinking is familiar.
 <!-- Program Staff Talking Points:
-- "Your JavaScript code was well-structured. I saw clear variable declarations, multiple conditions, and logical flow. That's solid foundational thinking."
-- "Your README files showed self-awareness: 'Here's what I learned, here's what confused me, here's what I'm still curious about.' That's professional. That's how engineers document their work."
-- "Independence showed up in different ways: some of you explored sandboxes without prompting, tried extra features, modified the code to test different scenarios. Others asked questions strategically in Slack. Both are forms of independence—taking initiative with the tools and resources available."
+- "You read and traced four JavaScript programs. You predicted outputs. Some predictions matched; some didn't. That's learning. Every mismatch is data: it tells you where your understanding needs adjustment."
+- "Your guides to JavaScript showed me something important: you can communicate about technology without using jargon. You explained variables, loops, and conditionals without those words. You just said what they do. That's professional communication."
+- "Several of you mentioned that reading code felt less intimidating than you expected. That's because you have the foundation. You understand the concepts. The symbols are just a new way to write the same thinking."
 
 Faciliation Celebration:
-- "Who's excited to keep going with JavaScript?" (Gauge interest)
-- "Who was surprised at how much they could do in 90 minutes?" (Celebrate self-efficacy)
+- "Who feels like they understand at least one of those programs?" (Raise hands)
+- "Who's less scared of JavaScript now than when we started?" (Gauge confidence shift)
 
 Frame for Next Part:
-"Now let's deepen your JavaScript knowledge. We're going to talk about variables and conditionals more formally, then we'll do a prediction exercise where you trace through code. This is where you level up."
+"Now let's talk about what's happening inside that code. We're going to break down JavaScript concepts: variables, conditionals, loops. Not to write it, but to understand it. And then we're going to practice reading broken code and fixing it."
 -->
 
-#### Part 4: Staff-Led JavaScript Fundamentals (35 minutes)
-**Objective:** Formalize JavaScript concepts. Show common patterns and pitfalls. Build confidence and framework for problem-solving.
 
-**Demo 1: Variables and Data Types in JavaScript (8 minutes)**
-In Python, you just write `x = 5`. In JavaScript, it's slightly different. Let's understand why.
 
-**Variables in JavaScript:**
+#### Part 4: Staff-Led JavaScript Concepts Through Code Reading (35 minutes)
 
+**Objective:** Teach JavaScript concepts by analyzing code, not by syntax memorization. Show how concepts map to the logic participants already know.
+
+**Demo 1: Variables in JavaScript (8 minutes)**
+Let's look at variables in JavaScript. You've seen variables in the code you read.
+
+**Comparison:**
+
+| Concept | Flowchart | Pseudo-Code | JavaScript |
+|---------|-----------|-------------|-----------|
+| "Store a name" | [Box labeled "name"] | `name = "Alex"` | `let name = "Alex";` |
+| "Store a number" | [Box labeled "age"] | `age = 22` | `let age = 22;` |
+
+<details><summary>JavaScript Variable Code Snippet</summary>
+  
 ```javascript
-let temperature = 72;
-let message = "Hello, World!";
-let isRaining = true;
+let name = "Alex";
+let age = 22;
+let isStudent = true;
 
-const PI = 3.14159;
+console.log(name);    // Prints: Alex
+console.log(age);     // Prints: 22
+console.log(isStudent); // Prints: true
 ```
 
-**`let` vs `const`:**
-- `let`: Variable that can change (mutable)
-- `const`: Variable that cannot change (immutable)
-- Rule of thumb: Use `const` by default. Use `let` only when you know the value will change.
+- `let` = "create a container to store information"
+- The container has a name (`name`, `age`, `isStudent`)
+- The container holds a value (`"Alex"`, `22`, `true`)
+- We can use the container later by writing its name
 
-**Why the distinction?** It prevents bugs. If you accidentally overwrite a constant, JavaScript throws an error. That's good—it helps you catch mistakes early.
+</details>
 
-**Data Types:**
-- **Strings:** `"Hello"`, `'World'` (use quotes)
-- **Numbers:** `42`, `3.14` (no quotes)
-- **Booleans:** `true`, `false`
-- **Null/Undefined:** Represent "no value" (we'll skip deep dive for now)
+<!-- Program Staff Talking Point:
+In pseudo-code, you wrote `age = 22`. In JavaScript, it's `let age = 22;`. Same idea, different syntax. The `let` tells JavaScript 'create a new variable.' The semicolon ends the statement. But the logic is identical to what you've been doing.
 
-**Type Coercion (JavaScript's Quirk):**
+Program Staff Interactive Element:
+"In the code you read, find a variable. Tell me:
+- What's its name?
+- What value does it store?
+- Where is it used?"
 
+Example from Program 2:
 ```javascript
-console.log("5" + 3);        // Output: "53" (string concatenation, not addition!)
-console.log(5 + 3);          // Output: 8 (numeric addition)
-console.log("5" === 5);      // Output: false (different types)
-console.log("5" == 5);       // Output: true (JavaScript converts types)
+let temperature = 75;
+// Name: temperature
+// Value: 75
+// Used: in the if statements to make decisions
 ```
-
-JavaScript is flexible, sometimes too flexible. Always use `===` for comparison (strict equality), not `==`.
-
-<!-- Program Staff Interactive Element:
-"I'm going to show you some code. Predict what the output will be:
-
-```javascript
-let x = 10;
-let y = "10";
-console.log(x + y);
-```
-
-Will it be `20`, `"1010"`, or an error?"
-- Let participants guess
-- Answer: `"1010"` (string concatenation because `y` is a string)
-- Explain: "JavaScript sees that one of the values is a string and converts the other one too."
 -->
 
 **Demo 2: Conditionals in JavaScript (10 minutes)**
-Conditionals work the same way in JavaScript as Python: check a condition, execute code based on the result.
+Conditionals are if/else statements. You've drawn them as diamonds in flowcharts. Now let's see them as code.
 
-**JavaScript if/else:**
+<details><summary>Flowchart</summary>
+  
+```
+◇ Is temperature > 85?
+ /YES  NO\
+[Hot]   [Not hot]
+```
+</details>
+
+<details><summary>Pseudo-Code Snippet</summary>
+  
+```
+If temperature > 85:
+  Print "It's hot"
+Else:
+  Print "It's not hot"
+```
+</details>
+
+<details><summary>JavaScript Code Snippet</summary>
+  
+```javascript
+if (temperature > 85) {
+  console.log("It's hot!");
+} else {
+  console.log("It's not hot");
+}
+```
+</details>
+
+<details><summary>Explanation</summary>
+  
+- `if ()` = check if something is true
+- `(temperature > 85)` = the condition
+- `{ }` = the code to run if true
+- `else { }` = the code to run if false
+</details>
+
+<details><summary>Comparison Operators (the conditions)</summary>
+
+```javascript
+temperature > 85    // Greater than
+temperature < 50    // Less than
+temperature === 75  // Exactly equal (use ===, not ==)
+temperature !== 70  // Not equal
+temperature >= 80   // Greater than or equal
+```
+</details>
+
+<!-- Program Staff Talking Point: 
+"The syntax changed (curly braces, semicolons, ===), but the logic is the same as flowcharts. You check a condition. If true, do X. If false, do Y."
+
+Program Staff Interactive Element:
+
+"In Program 2 that you read, the code checked:
+```javascript
+if (temperature > 85) { ... }
+else if (temperature > 70) { ... }
+else if (temperature > 50) { ... }
+else { ... }
+```
+
+Temperature was 75. Why did the code print 'It's warm and pleasant'?
+- 75 > 85? No
+- 75 > 70? Yes ← This one is true, so this code runs"
+
+Let participants answer.
+-->
+**Demo 3: Loops in JavaScript (10 minutes)**
+Loops repeat code. You've seen loops in flowcharts. Here they are in JavaScript.
+
+<details><summary>For Loop (most common)</summary>
+
+```javascript
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+// Output:
+// 1
+// 2
+// 3
+// 4
+// 5
+```
+
+**Breaking it down:**
+- `for ()` = start a loop
+- `let i = 1` = create a counter starting at 1
+- `i <= 5` = continue looping while i is less than or equal to 5
+- `i++` = add 1 to i each time
+- `{ ... }` = code to repeat
+
+**Step-by-step execution:**
+```
+Iteration 1: i = 1, is 1 <= 5? Yes → print 1
+Iteration 2: i = 2, is 2 <= 5? Yes → print 2
+Iteration 3: i = 3, is 3 <= 5? Yes → print 3
+Iteration 4: i = 4, is 4 <= 5? Yes → print 4
+Iteration 5: i = 5, is 5 <= 5? Yes → print 5
+Iteration 6: i = 6, is 6 <= 5? No → exit loop
+```
+</details>
+
+<details><summary>While Loop (simpler)</summary>
+
+```javascript
+let cookies = 5;
+
+while (cookies > 0) {
+  console.log("Eating a cookie");
+  cookies--;  // Subtract 1
+}
+```
+
+**Explanation:** While cookies remain, eat one. Each time, reduce cookies by 1. When cookies reach 0, stop."
+</details>
+
+<!-- Program Staff Talking Point: 
+"Loops prevent you from writing the same code 100 times. Instead of 'print 1, print 2, print 3...' you write a loop. That's efficiency and elegance."
+
+Program Staff Interactive Element:
+
+"Look at Program 3 that you read:
+```javascript
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+```
+
+Why does it print 1, 2, 3, 4, 5 (not 0, 1, 2, 3, 4)?
+- Because `i` starts at 1, not 0
+
+Why does it stop at 5?
+- Because the condition is `i <= 5`; when i becomes 6, the condition is false"
+-->
+
+#### Part 5: Mini-Challenge - Find the Bug in JavaScript Code (20 minutes)
+**Objective:** Practice reading code critically. Find logical errors. Practice debugging without writing code.
+
+<!-- Program Staff Facifilitation Notes: Staff presents buggy JavaScript code. Participants identify the problem. -->
+
+**Challenge 1: Off-by-One Error (5 minutes)**
+
+**Given Buggy Code:** What will this print? Is it what you'd expect?
+
+```javascript
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+```
+
+**Analysis:**
+- i starts at 0
+- Prints: 0, 1, 2, 3, 4 (five numbers, starting from 0)
+- Expected (maybe): 1, 2, 3, 4, 5
+
+<!-- Program Staff Discussion Points:
+- "If you wanted 1 through 5, what would you change?"
+- Answer: Start at 1 or change condition to `i < 6` or change to `i <= 5`
+
+Talking Point: "Off-by-one errors are one of the most common bugs in programming. Even experienced engineers make them. The fix is simple once you spot it."
+-->
+
+**Challenge 2: Infinite Loop (5 minutes)**
+
+**Given Buggy Code:** What happens if you run this code?
+
+```javascript
+let cookies = 5;
+
+while (cookies > 0) {
+  console.log("Eating a cookie");
+  // BUG: forgot to decrease cookies!
+}
+```
+
+**Analysis:**
+- cookies starts at 5
+- Loop checks: cookies > 0? Yes (5 > 0)
+- Print "Eating a cookie"
+- Check again: cookies > 0? Yes (still 5, didn't change!)
+- Infinite loop (never stops)
+
+<!-- Program Staff Notes:
+Fix:
+```javascript
+while (cookies > 0) {
+  console.log("Eating a cookie");
+  cookies--;  // Add this line
+}
+```
+
+Talking Point: "Infinite loops happen when your exit condition never becomes false. Always check: does something change that makes the condition false?"
+-->
+
+**Challenge 3: Wrong Condition (5 minutes)**
+
+**Given Buggy Code:** Person is 16 years old. What prints?
 
 ```javascript
 let age = 16;
 
-if (age >= 18) {
-  console.log("You can vote.");
-} else if (age >= 16) {
-  console.log("You can drive.");
+if (age > 18) {
+  console.log("You can vote");
 } else {
-  console.log("You're too young.");
+  console.log("You're too young");
 }
 ```
 
-**Comparison Operators:**
-- `===` Strict equality (use this!)
-- `!==` Not equal
-- `>` Greater than
-- `<` Less than
-- `>=` Greater than or equal
-- `<=` Less than or equal
+**Analysis:**
+- Check: age > 18? Is 16 > 18? No
+- Go to else block
+- Prints: "You're too young"
+- This is correct behavior, but...
 
-**Logical Operators:**
-- `&&` AND (both must be true)
-- `||` OR (at least one must be true)
-- `!` NOT (reverses true/false)
+<!-- Program Staff Discussion Points:
+- "What if we want people 16+ to drive? The condition `age > 18` is wrong."
+- "Fix: change to `age >= 16`"
 
-**Examples:**
-
-```javascript
-let temp = 75;
-let sunny = true;
-
-if (temp > 70 && sunny) {
-  console.log("Perfect day for a picnic!");
-}
-
-if (temp < 50 || raining) {
-  console.log("Stay inside.");
-}
-```
-
-**Ternary Operator (Shortcut):**
-
-```javascript
-let canVote = age >= 18 ? "Yes" : "No";
-// Translation: if (age >= 18) canVote = "Yes"; else canVote = "No";
-```
-
-**Common Mistake: Assignment vs Comparison:**
-
-```javascript
-if (age = 18) {  // WRONG! This assigns 18 to age, not comparing
-  console.log("Is 18 years old");
-}
-
-if (age === 18) {  // RIGHT! This compares age to 18
-  console.log("Is 18 years old");
-}
-```
-
-Always use `===` for comparison, not `=`. One equals sign assigns; three equals signs compares.
-
-<!-- Program Staff Interactive Element:**
-
-Share this code:
-
-```javascript
-let score = 85;
-
-if (score >= 90) {
-  console.log("A");
-} else if (score >= 80) {
-  console.log("B");
-} else if (score >= 70) {
-  console.log("C");
-} else {
-  console.log("F");
-}
-```
-
-What will the output be?"
-- Let participants predict
-- Answer: "B" (because 85 is >= 80 and < 90)
---->
-
-**Demo 3: Comments and Console Output (8 minutes)**
-Good code tells a story. Comments and clear output help.
-
-**Comments in JavaScript:**
-
-```javascript
-// Single-line comment: explains one line
-
-/*
-Multi-line comment:
-Explains a block of code
-Useful for longer explanations
-*/
-
-let temperature = 72; // Current temperature in Fahrenheit
-```
-
-**Why Comments?**
-- Future you will forget what you wrote
-- Teammates need to understand your code
-- Comments explain the "why," not the "what" (code shows what)
-
-
-**Console Output:**
-
-```javascript
-console.log("Hello, World!");
-console.log("Temperature:", temperature);
-console.log("Is it hot?", temperature > 85);
-```
-
-**Why log?**
-- Debugging: see what values are at each step
-- Testing: verify your code is doing what you expect
-- Communication: show the user what happened
-
-In real programming, you'll use console.log() constantly to debug. It's your best friend.
-
-<!-- Program Staff Interactive Element:
-
-"What will this output?
-
-```javascript
-let name = "Sarah";
-let age = 22;
-
-console.log("Name:", name);
-console.log("Age:", age);
-console.log("They are", age, "years old");
-```
-
-- Let participants predict
-- Output:
-
-```plaintext
-Name: Sarah
-Age: 22
-They are 22 years old
-```
---->
-
-### Part 5: Mini-Challenge - Predict the Output (20 minutes)
-**Objective:** Build predictive thinking. Develop ability to trace through code execution.
-
-**Format:** Facilitator shows code. Participants predict output. Then facilitator reveals the answer.
-
-**Challenge 1: Simple Variables (3 minutes)**
-
-**Observe This Code:** What will the console output?
-
-```javascript
-let x = 10;
-let y = 5;
-let z = x + y;
-
-console.log(z);
-console.log(x);
-console.log(y);
-```
-
-<!-- Program Staff Notes:
-**Participants Predict:**
-- Give 1 minute to think
-- Collect answers: "Who thinks it outputs 10, 5, 15?"
-
-**Answer:**
-
-```plaintext
-15
-10
-5
-```
-
-**Talking Point:** "You read the code line by line. Execute each line in your head. That's how debugging works."
+Talking Point: "Getting the condition right is crucial. You're checking: >= (greater than or equal) or > (greater than)? Off by one digit changes the logic."
 -->
 
-**Challenge 2: String Concatenation (4 minutes)**
+**Challenge 4: Condition with Multiple Checks (5 minutes)**
 
-**Observe This Code This Code:** What will the console output?
-
-```javascript
-let greeting = "Hello";
-let name = "Alex";
-let message = greeting + ", " + name + "!";
-
-console.log(message);
-```
-
-<!-- Program Staff Notes:
-**Participants Predict:**
-- Discuss: "Is this string concatenation or addition?"
-- Collect answers
-
-**Answer:**
-
-```plaintext
-Hello, Alex!
-```
-
-**Talking Point:** "When you use `+` with strings, JavaScript concatenates (joins) them. It's one of JavaScript's quirks."
--->
-
-**Challenge 3: Conditional Logic (6 minutes)**
-
-**Observe This Code:** What will the console output? (Both lines)
+**Given Buggy Code:** What prints?
 
 ```javascript
-let score = 78;
+let temperature = 72;
+let isRaining = false;
 
-if (score >= 90) {
-  console.log("A");
-} else if (score >= 80) {
-  console.log("B");
-} else if (score >= 70) {
-  console.log("C");
+if (temperature > 70 && isRaining) {
+  console.log("Warm and rainy");
+} else if (temperature > 70) {
+  console.log("Warm and dry");
 } else {
-  console.log("F");
-}
-
-console.log("Final grade determined.");
-```
-
-<!-- Program Staff Notes:
-**Participants Predict:**
-- Give 2 minutes to think
-- Discuss: "Which condition is score 78 >= ?"
-
-**Answer:**
-
-```plaintext
-C
-Final grade determined.
-```
-
-**Talking Point:** "Trace through step by step. First condition: 78 >= 90? No. Second condition: 78 >= 80? No. Third condition: 78 >= 70? Yes! Execute that block."
--->
-
-**Challenge 4: Complex Logic with Logical Operators (6 minutes)**
-
-**Observe This Code:** What will the console output?
-
-```javascript
-let age = 16;
-let hasLicense = true;
-let isInsured = false;
-
-if (age >= 16 && hasLicense && isInsured) {
-  console.log("Can drive.");
-} else if (age >= 16 && hasLicense) {
-  console.log("Can drive with restrictions.");
-} else {
-  console.log("Cannot drive.");
+  console.log("Cold");
 }
 ```
 
-<!-- Program Staff Notes:
-**Participants Predict:**
-- Give 2–3 minutes
-- Discuss: "Check each condition with AND logic"
+**Analysis:**
+- Check: temperature > 70 && isRaining? Is 72 > 70? Yes. Is isRaining true? No. (AND needs both true)
+- So: first condition is false
+- Check: temperature > 70? Is 72 > 70? Yes
+- Prints: "Warm and dry"
+- This is correct!
 
-**Answer:**
+<!-- Program Staff Discussion Points:
+- "The `&&` means AND (both must be true)"
+- "If you want OR (either one), you'd use `||`"
+- "This code is actually working correctly. But understanding why takes careful reading."
 
-```plaintext
-Can drive with restrictions.
-```
-
-**Explanation:** "First condition: age >= 16 (true) && hasLicense (true) && isInsured (false). Since one part is false, the whole AND is false. Second condition: age >= 16 (true) && hasLicense (true). Both are true, so this executes."
-
-**Talking Point:** "AND requires all parts to be true. OR requires at least one to be true. Understanding this is crucial for debugging conditionals."
+Talking Point: "Learning to read code and trace through it is a superpower. You can debug anything once you master this."
 -->
 
-#### Part 6: Independence in Learning & Problem-Solving (5 minutes)
-When you got stuck on JavaScript syntax, you didn't give up. You looked at examples, tried again, searched for answers. That's independence. When you created your GitHub account and repository, you took ownership. You didn't wait for someone to do it for you. You did it. Independence doesn't mean you never ask for help. It means when you do ask, it's a strategic choice—you've tried on your own first. That's professional. As you move forward, hold this mindset: You have the ability to learn. You have access to resources. You have peers to learn from. Use all three.
-
+#### Part 6: Independence & Code Literacy as a Professional Skill (5 minutes)
+Independence, as it applies to code, means: you can read documentation, you can analyze code, you can figure out what it does by tracing through it. You don't panic when you see syntax you don't recognize. You ask questions. You read carefully. You learn.
 <!-- Program Staff Talking Points
-- "This week, you stepped into independence. You didn't have a Karel world telling you exactly what to do. You had documentation, sandboxes, and your own instincts."
-- "Some of you felt confident from the start. Some of you felt lost initially, but figured it out. Both are independence. It's not about confidence; it's about resourcefulness."
+- "This week, you became code-literate. You read JavaScript, understood it, and communicated about it. That's not a small thing. That's professional."
+- "Many beginners think they need to write code immediately. But the best engineers read code first. They understand patterns. They learn from others' work. Then they write."
+- "You've proven this week that you can do all of that."
 -->
 
 #### Part 7: Q&A (5 minutes)
 Q: "Why JavaScript?" \
 A: It's the language of the web. Every browser runs it. It's everywhere.
 
-Q: "Is JavaScript hard?" \
-A: Different, not hard. Once you know Python, JavaScript syntax is just new symbols. The logic is the same.
-
 Q: "Do I need to memorize JavaScript?" \
-A: No. You'll reference documentation constantly. I do, and I've been coding for 20 years.
-
-Q: "What if I get really stuck on GitHub?" \
-A: That's what office hours and Slack are for. GitHub has great docs too. Take a break and come back.
+A: No. You reference documentation constantly. Even senior engineers look up syntax.
 
 Q: "Can I work on my code locally (on my computer) instead of in a sandbox?" \
-A: Yes! But that requires setup (installing Node.js, a code editor). We'll cover that later if interested.
+A: Yes! But that requires setup (installing Node.js, a code editor). We'll cover that later if interested or feel free to take the initiative to investigate and try this on your own (it's a good opportunity to practice resilience and mindfulness)
+
+Q: "When do we start writing JavaScript?" \
+A: Next session. You have the foundation now.
+
+Q: "What if I still don't understand loops?" \
+A: That's okay. You'll write them next week, and it'll click. Come to office hours if you want more explanation now.
+
+Q: "Is this going to prepare me for the actual program?" \
+A: Yes. You understand concepts. Syntax is just the vehicle for those concepts.
+
 
 ### Continued Learning
 
@@ -686,19 +726,6 @@ A: Yes! But that requires setup (installing Node.js, a code editor). We'll cover
 4. Logical operators: `&&`, `||`, `!`
 5. If/else/else if structure with examples
 6. Common mistakes: `=` vs `===`, type coercion
-
-**GitHub**
-1. Create account, create repository, upload files (step-by-step)
-2. Repository structure explained
-3. How to edit files on GitHub
-4. README basics and markdown formatting
-
-**JavaScript vs Python Comparison**
-1. Variables: Python `x = 5` vs JavaScript `let x = 5`
-2. Conditionals: syntax comparison
-3. Loops: for/while (both languages)
-4. Functions: definition and calling
-5. Common gotchas when switching languages
 
 **Debugging JavaScript in the Console**
 1. How to open browser console (Chrome, Firefox, Safari)
