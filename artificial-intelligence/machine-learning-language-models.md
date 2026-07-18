@@ -889,3 +889,5 @@ Choose one of the following extensions to implement:
 - [LLM University](https://docs.cohere.com/docs/llmu)
 - [Stanford CS324: Large Language Models](https://stanford-cs324.github.io/winter2022/)
 - [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
+- [Anthropic Academy](https://www.anthropic.com/learn)
+- [Claude certifications](https://www.claudecertifiedarchitects.com/register/)
