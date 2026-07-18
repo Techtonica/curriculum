@@ -157,3 +157,5 @@ This topic outline is designed to be revisited each week. Choose an activity eac
   - [UNESCO: Artificial Intelligence in Education](https://www.unesco.org/en/artificial-intelligence/education)
 - **Open-Source AI Projects**: Contribute to or explore projects that focus on ethical AI, fairness, and transparency.
   - [IBM AI Fairness 360](https://www.ibm.com/blogs/research/2020/09/ai-fairness-360/)
+- [Anthropic Academy](https://www.anthropic.com/learn)
+- [Claude certifications](https://www.claudecertifiedarchitects.com/register/)
