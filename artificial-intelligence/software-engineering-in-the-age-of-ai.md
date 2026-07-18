@@ -867,3 +867,7 @@ Preferred Qualifications:
 7. **Misconception: Once I learn to use AI tools, I'm set for my career.**
 
 - Reality: Both AI capabilities and industry needs will continue evolving rapidly. Continuous learning and adaptability remain essential for long-term career success.
+
+## Additional Resources
+- [Anthropic Academy](https://www.anthropic.com/learn)
+- [Claude certifications](https://www.claudecertifiedarchitects.com/register/)
