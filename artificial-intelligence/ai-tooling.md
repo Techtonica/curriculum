@@ -81,6 +81,8 @@ As a career changer entering the tech industry, understanding AI tooling is no l
   - Sonnet 3.7 model excels at coding tasks
   - Specialized for detailed explanations and reasoning
   - [Claude Documentation](https://docs.anthropic.com/claude/docs) - Official documentation for Claude API
+  - [Anthropic Academy](https://www.anthropic.com/learn)
+  - [Claude certifications](https://www.claudecertifiedarchitects.com/register/)
 - **Codeium**
   - Free alternative to GitHub Copilot
   - IDE extensions for multiple editors
