@@ -26,7 +26,7 @@
     "remark-cli": "^12.0.1",
     "remark-lint": "^9.1.2",
     "remark-validate-links": "^12.1.1",
-    "remark-lint-no-dead-urls": "^1.1.0"
+    "remark-lint-no-dead-urls": "^2.0.1"
   },
   "remarkConfig": {
     "plugins": [
