@@ -49,7 +49,7 @@ The Python versions of Filter and Reduce and Map Practice do not add new objecti
 
 ## Sequence and Relation
 
-**Required:**
+**JavaScript:**
 
 1. Filter and Reduce (`Filter_and_Reduce.js`)
 2. Map Practice (`Map_Practice.js`)
@@ -57,7 +57,7 @@ The Python versions of Filter and Reduce and Map Practice do not add new objecti
 
 Start with Filter and Reduce and Map Practice — both replace the manual loops from Week 3 with built-in array methods, and Map Practice is the harder of the two since it works with objects instead of plain numbers. Finish with the React project, where you will practice component-based structure.
 
-**Optional**, in any order relative to the required sequence:
+**Python**, in any order relative to the required sequence:
 
 - `Filter_and_Reduce.py` and `Map_Practice.py` — same tasks in Python, for comparison.
 - Getting Started with HTML, CSS, and Python — a separate exercise in building a small multi-file project by hand. It does not depend on, or lead into, the React exercise.
