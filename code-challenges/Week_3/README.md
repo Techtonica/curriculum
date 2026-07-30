@@ -86,7 +86,8 @@ Start with the pure loop problems so you get comfortable with the loop shapes.
 Then move on to the greeting challenge, which combines a loop with reading user
 input and joining strings.
 
-The optional Python files can be done in any order, or not at all.
+Remember that the Python files are there for practice by folks outside the
+program. Feel free to skip them if you're a participant in the program.
 
 ## Relevant Materials
 
