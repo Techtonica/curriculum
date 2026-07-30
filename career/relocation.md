@@ -75,16 +75,15 @@ A realistic relocation follows this arc:
 #### Moving Methods
 There are four primary approaches, each with different costs, effort levels, and hidden considerations:
 
-<details><summary>Option 1: Rent a Moving Truck (Cheapest for DIY)</summary>
+**Option 1: Rent a Moving Truck (Cheapest for DIY)**
 - **Cost:** Base truck rental + per-mile charges; U-Haul typically $20-60/day + mileage, or flat rates for longer distances
 - **Gas costs:** Estimate using [GasBuddy Trip Cost Calculator](https://www.gasbuddy.com/tripcostcalculator)
 - **Accommodations on the way:** Budget for 1-2 hotel nights if driving 12+ hours; or drive in one long push if <800 miles
 - **Hidden costs:** Dolly rental, equipment (dollies $10-15/day), fuel surcharges, potential mileage overages
 - **Effort level:** High (you pack, drive, unpack)
 - **Best for:** Local moves or when you have friends/family to help, and you want to minimize cost
-</details>
   
-<details><summary>Option 2: Fly + Ship Belongings (Most Flexible)</summary>
+**Option 2: Fly + Ship Belongings (Most Flexible)**
 - **Travel cost:** Flight ticket + potential gas if driving partway
 - **What goes with you:** Pack essentials and most-needed items in luggage/car
 - **Shipping the rest:** 
@@ -95,9 +94,8 @@ There are four primary approaches, each with different costs, effort levels, and
 - **Hidden costs:** Multiple smaller shipments add up; replacement cost if items are lost
 - **Effort level:** Medium (moderate packing, coordinate multiple shipments)
 - **Best for:** Long-distance moves where you can travel light, or when you want flexibility in timing
-</details>
 
-<details><summary>Option 3: Professional Packing/Moving Services (Most Expensive)</summary>
+**Option 3: Professional Packing/Moving Services (Most Expensive)**
 - **Cost:** $4,000-$15,000+ depending on distance and volume (this is hands-down the most expensive option)
 - **What's included:** They pack your belongings, drive a truck or pod to your destination, and often unpack
 - **Your role:** You either fly separately or ride along; minimal physical labor
@@ -105,12 +103,10 @@ There are four primary approaches, each with different costs, effort levels, and
 - **Hidden costs:** Unpacking surcharges, insurance, storage fees if timing doesn't align
 - **Effort level:** Low (minimal personal effort)
 - **Best for:** Long-distance moves with significant belongings, families with young children, or when time/physical ability is limited
-</details>
 
-<details><summary>Option 4: Hybrid Approaches</summary>
+**Option 4: Hybrid Approaches**
 - **Drive + ship (pack yourself, drive your car, ship the heavy stuff):** Medium cost, some effort
 - **Rent pod delivery service:** $2,000-5,000; they drop a portable storage container at your current place, you pack it, they transport and deliver. Less expensive than full-service moving but more than DIY truck rental.
-</details>
 
 #### Considerations
 Before you commit to moving, evaluate these dimensions:
