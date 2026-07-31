@@ -1,4 +1,4 @@
-# Prerequisite Session 8: JavaScript + GitHub + Independence
+# DAAIMAH WAS HEREEEEEEE!!!!
 
 Participants should have a basic understanding of the following foundational concepts ahead of consuming the topic outline:
 - Comfort with JavaScript variables and conditionals
