@@ -90,7 +90,7 @@ By the end of this session, participants will:
 
 ### Independent Practice
 
-_**🎗️ All independent practice tasks should be turned in no later than one hour ahead of the guided session's start. For example, if the guided session begins at 6pm, participant work should be turned in by 5pm.**_
+🎗️ _**All independent practice tasks should be turned in the same day of the session no later than 9pm PT. Your submission link will be provided to you during your guided session's call**_
 
 #### Task 1: "Math Without a Calculator" Challenge (90 minutes)
 
