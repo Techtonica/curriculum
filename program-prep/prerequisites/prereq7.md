@@ -84,6 +84,8 @@ By the end of this session, participants will:
 
 ### Independent Practice
 
+🎗️ _**All independent practice tasks should be turned in the same day of the session no later than 9pm PT. Your submission link will be provided to you during your guided session's call**_
+
 #### Task 1: Trace and Predict JavaScript Behavior (60–90 minutes)
 **Objective:** Learn to read and understand JavaScript code without writing it. Develop code literacy. Build confidence that programming logic is learnable.
 
