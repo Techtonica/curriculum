@@ -66,6 +66,7 @@ By the end of this session, participants will:
 - Ownership of your learning and your code
 
 ### Independent Practice
+🎗️ _**All independent practice tasks should be turned in the same day of the session no later than 9pm PT. Your submission link will be provided to you during your guided session's call**_
 
 #### Task 1: Design a Flowchart for a More Complex Problem (75–120 minutes)
 **Objective:** Create flowcharts for a multi-step process. Practice decomposition (breaking problems into smaller parts). Learn how functions work through decomposition.
