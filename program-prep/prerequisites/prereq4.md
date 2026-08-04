@@ -96,7 +96,7 @@ A AND B
 **Simple OR**
 A OR B
 
-**Combination with NOT**
+**Combination with NOT** \
 (A AND B) OR NOT(C)
 
 **Real-World Condition**
@@ -105,7 +105,7 @@ A OR B
 - Let B = "Age ≥ 10 years" (true/false)
 - Expression: A AND B
 
-**Complex Condition (Choose One)**
+**Complex Condition (Choose One)** \
 Option A: (A OR B) AND NOT(C)
 Option B: "You can attend a movie if you have a ticket AND (the theater is open OR you have a streaming service)"
 
@@ -132,7 +132,7 @@ Record a 5–10 minute video (you can do all 5 expressions in one video or separ
 - **[Brilliant.org - "Boolean Algebra"](https://brilliant.org/wiki/boolean-algebra/)** (free intro course with interactive problems)
 - **[YouTube - "De Morgan's Laws"](https://youtu.be/gTjN417N5A0?si=uTt-KeeKdHaF8Maa)** (optional; explains NOT(A AND B) = NOT(A) OR NOT(B))
 
-**Submission:**
+**Submission:** \
 Create a Google Doc or PDF with the following to share with program staff:
   - All 5 truth tables (images or text)
   - Explanations for each
@@ -183,7 +183,7 @@ Thanks for sharing!
 - If they said everything was correct, that's great! But ask them: "Was anything confusing about my explanation?"
 - Reply in Slack with: "Thanks for reviewing my work! I appreciated [specific thing]. I learned [what you learned]."
 
-**Document the Process (5 minutes)**
+**Document the Process (5 minutes)** \
 In a Google Doc, write 3–4 sentences answering:
   - What feedback did your peer give you?
   - What did you change or what did you learn?
@@ -229,7 +229,7 @@ Study the three basic set operations:
 - **[YouTube - "Venn Diagrams for Set Operations"](https://www.youtube.com/watch?v=OMaRVfMdLls)** (8 minutes, clear examples)
 - **[Interactive Venn Diagram Tool](https://www.venndiagram.com/)** (drag elements and see how sets change)
 
-**Part B: Create Your Own Venn Diagrams (30–45 minutes)**
+**Part B: Create Your Own Venn Diagrams (30–45 minutes)** \
 Create 3 Venn diagrams by hand or using a digital tool (Canva, Google Drawings, or even paint).
 
 **Diagram 1: Union (A ∪ B)**
