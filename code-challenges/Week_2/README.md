@@ -5,52 +5,58 @@ array skills, with a focus on searching, meaning finding where something lives
 inside a list or a piece of text. Take your time with each one. The goal is to
 practice and understand, so it is okay to go slow.
 
+## Who This Folder Is For
+
+If you are in the program, work through the `.js` challenges. That is your
+required track.
+
+The Python version is there for grads revisiting the material, folks in the
+seeker program, and anyone working through the curriculum on their own. If you're
+a program participant feel free to skip it.
+
 ## What is in this folder
 
 You will find these challenges here:
 
 1. **Find Last Index** (`array_search.js`) asks you to return the last position
    where a target number appears in an array, or `-1` if it is not there at all.
-2. **Search and Replace** (`search_and_replace.js`) asks you to swap one word in
+2. **Find Target Index** (`string_manipulation.js`) asks you to return the
+   starting position of a substring inside a string, or `-1` if it is not found.
+3. **Search and Replace** (`search_and_replace.js`) asks you to swap one word in
    a sentence for another, while keeping the capitalization of the first letter.
-3. **Find Target Index** (`string_manipulation.js` and `string_manipulation.py`)
-   asks you to return the starting position of a substring inside a string, or
-   `-1` if it is not found. The same challenge is given in both JavaScript and
-   Python on purpose. The next section explains why.
 
-## Why You Solve Some Challenges Twice
+**Optional:**
 
-You will notice that Find Target Index shows up two times, once as a `.js` file
-and once as a `.py` file. This is not an accident, and both are worth doing.
+- `string_manipulation.py` — the same Find Target Index task, in Python.
 
-Solving the same problem in two languages is a powerful way to learn, because it
-separates the *idea* from the *syntax*. The idea, "walk through the text and find
-where the substring starts," is the same in every language. Only the words change.
-When you solve it in JavaScript and then again in Python, you stop memorizing exact
-lines and you start understanding the actual logic underneath.
+## Duplicated Exercises
 
-There is a similar overlap between Find Last Index and Find Target Index. One
-searches an array and one searches a string, but the shape of the answer is the
-same: return where you found it, or return `-1` when you did not. Doing both lets
-you see that searching is one idea you can apply to many kinds of data.
+Find Target Index appears twice, once as a `.js` file and once as a `.py` file.
+It is the same challenge, not two different ones.
 
-So treat the repeats as a way to check yourself. If the second version feels
-clearer than the first, that is a great sign the concept has landed.
+If you are in the program, you only need the JavaScript version. The Python file
+is there for the other readers of this curriculum.
 
 **The vital concept this week is searching and the `-1` "not found" pattern.** In
 lots of languages, functions that look for something return the index when they
 find it, and a special value like `-1` when they do not. Getting comfortable
 checking for that `-1` will help you far beyond these exercises.
 
+You will see this shape twice in a row, and that is worth noticing. Find Last
+Index searches an array and Find Target Index searches a string, so the data is
+different, but the answer has the same form: return where you found it, or return
+`-1` when you did not. Searching is one idea you can apply to many kinds of data.
+
 ## Prerequisites
 
 A few things that will help you before you start:
 
-1. You know how to write a basic function in JavaScript, and you can read a little
-   Python.
+1. You know how to write a basic function in JavaScript.
 2. You are comfortable with variables, loops, and simple `if` statements.
-3. You can run a file from your terminal with `node file.js` or `python3 file.py`.
+3. You can run a file from your terminal with `node file.js`.
 4. You have seen strings and arrays before.
+5. For the optional Python challenge, you can read a little Python and run a file
+   with `python3 file.py`.
 
 If any of these feel new, that is fine. You can review them as you go.
 
@@ -58,8 +64,8 @@ If any of these feel new, that is fine. You can review them as you go.
 
 Searching through data is something you will do constantly as a developer, whether
 you are looking for a user in a list or a word in a message. These challenges give
-you a friendly place to practice the exact skill, and solving them in two languages
-builds the kind of understanding that sticks.
+you a friendly place to practice that exact skill, and to get used to the `-1`
+answer that so many built-in search functions hand back.
 
 ## Learning Objectives
 
@@ -68,7 +74,9 @@ After finishing this folder, you will be able to:
 1. Search an array and return the position of an element, or `-1` if it is absent.
 2. Search a string and return where a substring starts, or `-1` if it is absent.
 3. Replace a word in a sentence while preserving its capitalization.
-4. Explain the same searching idea in both JavaScript and Python.
+
+The Python version does not add a new objective. It is the same task written in
+Python syntax.
 
 ## Sequence and Relation
 
@@ -76,12 +84,14 @@ A gentle order to follow, from easier to harder:
 
 1. Find Last Index (`array_search.js`)
 2. Find Target Index (`string_manipulation.js`)
-3. Find Target Index again (`string_manipulation.py`)
-4. Search and Replace (`search_and_replace.js`)
+3. Search and Replace (`search_and_replace.js`)
 
-Start with the array search to warm up. Then do the string search in JavaScript,
-and right after, try the same thing in Python while the idea is fresh. Save Search
-and Replace for last, since it adds the extra twist of matching capitalization.
+Start with the array search to warm up. Then do the string search, which is the
+same idea pointed at a different kind of data. Save Search and Replace for last,
+since it adds the extra twist of matching capitalization.
+
+Remember that the Python file is there for practice by folks outside the program.
+Feel free to skip it if you're a participant in the program.
 
 ## Relevant Materials
 
@@ -91,6 +101,7 @@ Here are some resources you can keep open while you work:
 2. [MDN: String indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf)
 3. [MDN: String replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
 4. [Python: str.find()](https://docs.python.org/3/library/stdtypes.html#str.find)
+   (for the optional Python challenge)
 
 ## Common Mistakes and Misconceptions
 
@@ -105,7 +116,7 @@ Here are a few things that trip people up, so keep an eye out:
    the original word starts with a capital letter, your replacement should too.
 4. Reading the position of a substring is a little different from checking if it
    exists. These challenges want the actual index back, so return the number.
-5. When you test in Python, remember indexes still start at `0`, just like in
-   JavaScript, so the expected answers line up between the two files.
+5. If you are doing the optional Python version: indexes still start at `0`, just
+   like in JavaScript, so the expected answers line up between the two files.
 
 Happy coding! You have got this.
