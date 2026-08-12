@@ -43,7 +43,7 @@ Almost all wealthy people make money from investments.
 
 Depending on how much money you make, you will be required to pay Federal and State Taxes. There are different tax rates if you are single or if you are married (see the link below for more details about the tax brackets). If you do not pay your taxes there are large penalties and fees. The government knows how much you owe because your employer reports your earnings.
 
-[IRS Tax Brackets](https://www.irs.com/articles/2018-federal-tax-rates-personal-exemptions-and-standard-deductions)
+[2025 IRS Tax Brackets](https://www.irs.gov/filing/federal-income-tax-rates-and-brackets)
 
 ### Budgeting
 
@@ -84,8 +84,10 @@ The most important parts of maintaining a good credit score are:
 
 - [Mission Economic Development Agency (MEDA)](https://medasf.org/about/)
   - MEDA creates opportunities for habitually under-resourced families throughout the San Francisco Bay Area. In other words, it helps people with economic development.
-- [Ally Wallet Wise](http://www.allywalletwise.com/)
-  - Ally Wallet Wise can help you build healthy habits when it comes to your personal finances.
+- [Khan Academy Financial Literacy course](https://www.khanacademy.org/college-careers-more/financial-literacy)
+  - One of many courses offered by Khan Academy
+- [Ally Financial Education Programs](https://www.ally.com/education/financial-education-programs/)
+  - Ally's Financial Education Programs site has many articles to learn about personal finances.
 
 ## Common Mistakes / Misconceptions
 
@@ -105,7 +107,12 @@ Use an Excel or Sheets spreadsheet to create a budget.
 On line one, put column headings to include (leave a blank column in between each to make it more readable): Income, Expenses, Debts, Monthly Payments, Balance, Notes.
 
 Under each column, put the source and in the next column put the amount (use your actual amounts, not the amounts in the example).
-You can use this [list of common budgeting categories](http://www.allywalletwise.com/source/downloads/ally_WalletWise_MonthlyIncomeForm.pdf) so you don't leave anything out.
+A Google search for [list of common budgeting categories](https://www.google.com/search?q=list+of+common+budgeting+categories&sourceid=chrome&ie=UTF-8) can give you some good ideas so you don't leave anything out.
+
+E.g.
+
+- [Local First Bank's Budgeting 101: Personal Budget Categories](https://localfirstbank.com/article/budgeting-101-personal-budget-categories/?fb_content_cat=personal)
+- Intuit Blog's [10 Types of Budget & Personal Expense Categories](https://www.intuit.com/blog/budgeting/include-budget/)
 
 | A             | B               | C            | D               | E           | F               | G           |
 | ------------- | --------------- | ------------ | --------------- | ----------- | --------------- | ----------- |
