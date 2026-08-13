@@ -43,7 +43,7 @@ Almost all wealthy people make money from investments.
 
 Depending on how much money you make, you will be required to pay Federal and State Taxes. There are different tax rates if you are single or if you are married (see the link below for more details about the tax brackets). If you do not pay your taxes there are large penalties and fees. The government knows how much you owe because your employer reports your earnings.
 
-[2025 IRS Tax Brackets](https://www.irs.gov/filing/federal-income-tax-rates-and-brackets)
+[Federal income tax rates and brackets](https://www.irs.gov/filing/federal-income-tax-rates-and-brackets)
 
 ### Budgeting
 
