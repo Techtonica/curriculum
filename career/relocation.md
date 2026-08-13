@@ -1,7 +1,7 @@
 # Relocation
 
 ### Projected Time
-60-90 minutes
+65-80 minutes
 - Lesson: 20-25 min
 - Independent Practice: 15-20 min
 - Guided Practice: 25-30 min
@@ -15,7 +15,12 @@ Moving to a new location is a major life decision that requires coordination acr
 - **Quick answer:** "Relocation is a project that requires upfront research, a realistic timeline, and deliberate comparison of trade-offs. Get those three things right, and the execution becomes straightforward."
 - **Relevance to Techtonica:** Since Techtonica is fully remote, participants are not required to live in the San Francisco Bay Area or California to join the program, but all program participants must be willing to relocate for an in-person placement if required by a placement company. Techtonica may be able to provide some assistance to graduates who are required to relocate for a placement with a Techtonica partner.
 
-### Objectives
+### Things to Learn
+- **Timeline structure:** The 6-10 week arc from pre-research through move completion
+- **Moving logistics:** Four distinct methods, their costs, and trade-offs
+- **Decision framework:** Key factors that determine where to move (beyond just the job)
+- **Housing search tools:** Location-specific resources and community networks
+- **Common hidden costs:** Shipping restrictions, travel accommodations, and regional price differences
 **Participants will be able to:**
 - Create a realistic 6-10 week relocation timeline tailored to their situation
 - Evaluate and compare the four primary moving methods (truck rental, flying/shipping, packing services, and hybrid approaches) by cost, effort, and fit
@@ -23,19 +28,12 @@ Moving to a new location is a major life decision that requires coordination acr
 - Research housing options effectively using location-specific resources and communities
 - Articulate clear pros and cons for their relocation decision rather than relying on intuition
 
-### Specific Things To Learn
-- **Timeline structure:** The 6-10 week arc from pre-research through move completion
-- **Moving logistics:** Four distinct methods, their costs, and trade-offs
-- **Decision framework:** Key factors that determine where to move (beyond just the job)
-- **Housing search tools:** Location-specific resources and community networks
-- **Common hidden costs:** Shipping restrictions, travel accommodations, and regional price differences
-
 ### Lesson
 Relocation often feels like a monolithic decision—either you move or you don't. In reality, it's a **project with multiple decision points**, each with concrete trade-offs. The difference between a smooth relocation and a chaotic one usually comes down to:
 
 1. **Starting research early** (not the week before)
-2. **Explicitly comparing methods** (not defaulting to the most obvious option)
-3. **Defining what "fit" means for you** (not just accepting what feels surface-level right)
+2. **Explicitly comparing methods** (not simply defaulting to the what feels like your most obvious option)
+3. **Defining what "fit" means for you**
 
 We'll work through a structured framework you can apply whether you're moving across the country or across town.
 
@@ -79,7 +77,7 @@ There are four primary approaches, each with different costs, effort levels, and
 - **Cost:** Base truck rental + per-mile charges; U-Haul typically $20-60/day + mileage, or flat rates for longer distances
 - **Gas costs:** Estimate using [GasBuddy Trip Cost Calculator](https://www.gasbuddy.com/tripcostcalculator)
 - **Accommodations on the way:** Budget for 1-2 hotel nights if driving 12+ hours; or drive in one long push if <800 miles
-- **Hidden costs:** Dolly rental, equipment (dollies $10-15/day), fuel surcharges, potential mileage overages
+- **Hidden costs:** Dolly rental ($10-15/day), equipment, fuel surcharges, potential mileage overages
 - **Effort level:** High (you pack, drive, unpack)
 - **Best for:** Local moves or when you have friends/family to help, and you want to minimize cost
   
@@ -183,8 +181,8 @@ Housing search tools are location-specific. Here are resources by region:
    - Calculate: cost, time commitment, physical effort
    - Which is better for your situation and why?
 
-3. **Weight the considerations:**
-   - Create a simple table: Criteria (budget, commute, climate, community) vs. Current Location vs. New Location
+3. **Weigh the considerations:**
+  - Create a simple table (Current Location vs. New Location) that compares the following criteria: budget, commute, climate, community
    - Score each 1-5 or note qualitatively
    - What's the biggest difference between locations?
 
