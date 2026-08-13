@@ -13,7 +13,7 @@ Moving to a new location is a major life decision that requires coordination acr
 - **Connection to future lessons:** Understanding relocation strategy will help you evaluate job offers in other cities, assess cost-of-living trade-offs, and plan your financial runway for major life transitions.
 - **Ecosystem fit:** Relocation planning intersects with career development, financial planning, and community building—skills that compound across your professional and personal life.
 - **Quick answer:** "Relocation is a project that requires upfront research, a realistic timeline, and deliberate comparison of trade-offs. Get those three things right, and the execution becomes straightforward."
-- **Relevance to Techtonica:** Since Techtonica is fully remote, participants are not required to live in the San Francisco Bay Area or California to join the program, but all program participants must be willing to relocate for an in-person placement if required by a placement company. Techtonica may be able to provide some assistance to graduates who are required to relocate for a placement with a Techtonica partner.
+- Moving to a new location for an employment opportunity is a major life change that requires coordination across multiple dimensions—logistics, finances, research, and personal fit.
 
 ### Things to Learn
 - **Timeline structure:** The 6-10 week arc from pre-research through move completion
