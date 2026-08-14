@@ -76,7 +76,7 @@ Staff will use the Apple and communication-tool guides during demonstrations. Pa
 - [GitHub Docs: About README Files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) — Reference for writing clear repository descriptions.
 
 ### Independent Practice
-Below are six activities to complete with a peer. Complete your choice of a single activity each day.
+Below are six activities to complete with a peer. Complete your choice of a single activity each day. At the end of each session, each partner should complete [the evaluation form](https://forms.gle/7bzY2mYdRbgTGyoe9).
 
 **Keyboard and Mac Navigation: “Follow-the-Path Challenge”** \
 One participant creates a short navigation path using Finder, Spotlight, Mission Control, and keyboard shortcuts; the partner follows the path without receiving extra help.
