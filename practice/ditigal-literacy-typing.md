@@ -200,7 +200,7 @@ Staff present a fictional new employee setup task. Participants must:
 
 Objectives: keyboard use, navigation, file organization, explaining steps, recovering from mistakes.
 
-**“Timed Document Production” (Typing and Formatting** \
+**“Timed Document Production” (Typing and Formatting)** \
 Participants receive a short announcement and must produce a polished document within a time limit. They must type the content, add a heading, format a list, correct errors, save the file, and place it in the correct folder. Staff observe both the finished document and the participant’s workflow, including shortcut use and accuracy.
 
 Objectives: typing accuracy, keyboard shortcuts, formatting, attention to detail, file naming, independent completion.
