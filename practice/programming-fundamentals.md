@@ -108,7 +108,7 @@ Staff should introduce concepts using plain-language examples before showing Jav
 - [Khan Academy: Statistics and Probability](https://www.khanacademy.org/math/statistics-probability) — Supplemental practice for patterns, data, and reasoning.
 
 ### Independent Practice
-Below are six activities to complete with a peer. Complete your choice of a single activity each day.
+Below are six activities to complete with a peer. Complete your choice of a single activity each day. At the end of each session, each partner should complete [the evaluation form](https://forms.gle/7bzY2mYdRbgTGyoe9).
 
 **“Mystery Rule Investigation”** \
 Each participant receives a set of inputs and outputs from an unknown system.
