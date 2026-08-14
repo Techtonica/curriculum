@@ -1,8 +1,8 @@
 # Practicing Digital Literacy & Typing
 
 ### Projected Time
-Each peer activity should take 20 mins \
-Each staff-led activity should take 40 mins
+- Each peer activity should take 20 mins \
+- Each staff-led activity should take 40 mins
 
 ### Prerequisites
 - Basic access to a Mac computer and internet connection
