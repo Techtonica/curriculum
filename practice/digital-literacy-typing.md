@@ -98,7 +98,13 @@ The observer records whether the participant:
 - Completes the task without random clicking
 
 **Typing and Formatting Relay** \
-Partners receive the same short paragraph containing intentional formatting requirements. They alternate completing one step at a time:
+Partners receive the same short paragraph containing intentional formatting requirements. 
+
+```
+Please review the project instructions before beginning your work. Save each document in the correct folder, use a clear filename, and check your formatting before sharing it with your partner. If you encounter a problem, document what happened, describe the steps you tried, and ask a specific question so someone else can assist you efficiently.
+```
+
+They alternate completing one step at a time:
 1. Type the paragraph accurately.
 2. Add a heading.
 3. Create a bulleted list.
@@ -202,6 +208,15 @@ Objectives: keyboard use, navigation, file organization, explaining steps, recov
 
 **“Timed Document Production” (Typing and Formatting)** \
 Participants receive a short announcement and must produce a polished document within a time limit. They must type the content, add a heading, format a list, correct errors, save the file, and place it in the correct folder. Staff observe both the finished document and the participant’s workflow, including shortcut use and accuracy.
+
+```
+Cohort Announcement: Digital Workflow Practice
+
+Please review the project instructions before beginning your work. Save each document in the correct folder, use a clear filename, and check your formatting before sharing it with the group. If you encounter a problem, document what happened, describe the steps you tried, and ask a specific questions in your document.
+
+Time Limit
+Participants have 10 minutes to type, format, save, and organize the announcement. They then have 2 minutes to review their work and share the completed file.
+```
 
 Objectives: typing accuracy, keyboard shortcuts, formatting, attention to detail, file naming, independent completion.
 
