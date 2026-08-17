@@ -221,7 +221,7 @@ encounter a problem, document what happened, describe the steps you tried, and a
 in your document.
 
 Time Limit
-Participants have 10 minutes to type, format, save, and organize the announcement. They then have 2
+Participants have 10 minutes to type, format, save, and organize the announcement. They then have 5
 minutes to review their work and share the completed file.
 ```
 
