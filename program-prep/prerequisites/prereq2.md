@@ -90,7 +90,7 @@ Create a Google Doc to document each step with screenshots. For each item below,
 3. Add a bio: Write 2–3 sentences about yourself. Include: your name, your pronouns, and details that you would like others to know about you (i.e. where you're from, one fun fact, and what draws you to software engineering)
 4. Send a scheduled message in [your designated Slack channel](https://docs.google.com/forms/d/e/1FAIpQLSeJsADCLrU1rfjQm3-OBCQd6Cck_KI2Gh17KHsIXCtBjaFUMw/viewform) introducing yourself (3–5 sentences), to release at a specific time.
 5. Send an individual direct message to one peer in the program
-6. Send a group direct message to your program staff
+6. Request to have a staff group direct message sent to you, then reply
 7. Set up settings to accommodate your program schedule and timezone, [learn more here](https://slack.com/help/articles/360025054173-Set-up-Slack-for-work-hours)
 8. Reply in the thread of a peer's introduction post
 
