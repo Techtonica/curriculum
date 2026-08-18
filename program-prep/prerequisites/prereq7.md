@@ -123,7 +123,7 @@ console.log("I live in " + city);
    I am 22 years old
    I live in Portland
    ```
-4. **Run it:** Paste the code into https://www.jsbin.com or open browser console (F12) and run it
+4. **Run it:** Paste the code into an online IDE (such as [codepen](https://codepen.io/), [replit](https://replit.com/), [sharepad](https://sharepad.io/), or [jsfiddle](https://jsfiddle.net/)) or open browser console (F12) and run it
 5. **Verify:** Did your prediction match?
 6. **Explain (write):** 
    - "Line 1-3: Create three variables storing information"
@@ -262,7 +262,6 @@ Share a Google doc link with staff with the following:
 2. Share the outputs that you get when running all 4 JavaScript code snippets in your Google doc
 
 **Free Resources:**
-- **[JSBin (Run Code)](https://www.jsbin.com)** (paste code, run, see output)
 - **[MDN - "JavaScript Basics"](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)** (reference)
 - **[JavaScript.info - "Variables"](https://javascript.info/variables)** (detailed explanation)
 - **[YouTube - "JavaScript for Beginners - Variables](https://www.youtube.com/watch?v=PkZNo7MFNFg)"** (4-hour course, watch intro section)
