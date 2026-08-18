@@ -110,7 +110,7 @@ Staff should introduce concepts using plain-language examples before showing Jav
 ### Independent Practice
 Below are six activities to complete with a peer. Complete your choice of a single activity each day. At the end of each session, each partner should complete [the evaluation form](https://forms.gle/7bzY2mYdRbgTGyoe9).
 
-**“Mystery Rule Investigation”** \
+**Activity 1: “Mystery Rule Investigation”** \
 Each participant receives a set of inputs and outputs from an unknown system.
 
 Example:
@@ -131,12 +131,15 @@ The partner assesses whether the participant:
 - Recognizes uncertainty or knowledge gaps
 - Revises the explanation when new evidence appears
 
-**“Cause-and-Effect Prediction Cards”** \
+**Activity 2: “Cause-and-Effect Prediction Cards”** \
 Partners use scenario cards describing an action and a resulting change.
 
 Example:
 
-> A system starts with 10 points. It removes 3 points every time a player makes a mistake. The player makes mistakes twice.
+> • A system starts with 10 points. It removes 3 points every time a player makes a mistake. The player makes mistakes twice. \
+> • A player begins with a score of 20 points. They answer two questions correctly and earn 10 points for each correct answer. They then answer one question incorrectly and lose 5 points. What is the player’s final score? \
+> • A store begins with 30 notebooks in inventory. On Monday, it sells 8 notebooks. On Tuesday, it receives a delivery of 15 notebooks. On Wednesday, it sells 6 notebooks. How many notebooks remain? \
+> • A class begins with 18 students in attendance. Two students arrive late, one student leaves early, and three previously absent students join the next session. How many students are present after these changes?
 
 The participant predicts the final state and explains each change. More complex cards include conditions, repeated actions, and unexpected outcomes.
 
@@ -147,7 +150,7 @@ The partner assesses whether the participant:
 - Identifies where an unexpected result occurred
 - Avoids guessing without evidence
 
-**“Repair the Process”** \
+**Activity 3: “Repair the Process”** \
 Each participant receives a flawed everyday process, such as:
 
 > To submit an assignment: open the document, submit it, check the file name, attach the file, click send, and confirm the correct course.
@@ -161,7 +164,7 @@ The partner assesses whether the participant:
 - Breaks the task into manageable steps
 - Explains proposed improvements clearly
 
-**“Knowledge Gap Interview”** \
+**Activity 4: “Knowledge Gap Interview”** \
 One partner receives a task they cannot immediately complete, such as designing a rule for a library checkout system. Instead of solving it immediately, they must identify what information is missing and ask targeted questions.
 
 Possible questions:
@@ -177,7 +180,7 @@ The partner assesses whether the participant:
 - Explains why each question matters
 - Adjusts the proposed solution after receiving answers
 
-**“Explain It to a Beginner”** \
+**Activity 5: “Explain It to a Beginner”** \
 Each participant receives a technical concept card, such as:
 - A loop
 - A function
@@ -196,7 +199,7 @@ The partner assesses:
 - Ability to answer a follow-up question
 - Ability to distinguish the concept from related concepts
 
-**“Solution Comparison Conference”** \
+**Activity 6: “Solution Comparison Conference”** \
 Partners receive a problem with multiple possible solutions, such as organizing a queue, checking eligibility, or processing a list of items. Each participant develops a different plain-language approach, then compares the solutions.
 
 They discuss:
@@ -214,37 +217,96 @@ The partner assesses whether the participant:
 - Accepts and responds to feedback
 - Revises their solution when appropriate
 
-
-
 ### Guided Practice
 Below are six activities to be completed with staff, each day.
 
-**“Design the Missing Rule” (Pattern Recognition and Reasoning)** \
+**Activity 1: “Design the Missing Rule” (Pattern Recognition and Reasoning)** \
 Staff provide a partially completed system with several examples and ask participants to determine the missing rule. After proposing a rule, participants receive a new example that challenges or confirms their interpretation. They must explain what evidence supports their rule and revise it if necessary.
 
 Objectives: pattern recognition, trial and error, articulating reasoning, identifying uncertainty, revising solutions.
 
-**“System State Timeline” (Cause and Effect)** \
+**Activity 2: “System State Timeline” (Cause and Effect)** \
 Staff describe a system that changes over time, such as a bank balance, game score, inventory count, or attendance list. Participants create a timeline showing each input, change, and resulting state. The group then compares predictions with the intended outcome and identifies where an error could have occurred.
+
+<details><summary>Example 1: Bank Balance</summary>
+
+**Starting balance:** $500
+
+| Event | Change | New Balance
+|-----|-----|-----
+| Starting balance | — | $500
+| Paycheck deposited | +$1,200 | $1,700
+| Rent paid | −$900 | $800
+| Groceries purchased | −$75 | $725
+| Refund received | +$40 | $765
+
+**Discussion:** Participants identify each transaction, show the intermediate balance, and determine where an incorrect result may have occurred.
+
+</details>
+
+<details><summary>Example 2: Game Score</summary>
+
+**Starting score:** 0 points
+
+| Event | Change | New Score
+|-----|-----|-----
+| Complete level 1 | +100 | 100
+| Collect bonus | +50 | 150
+| Lose a round | −25 | 125
+| Complete level 2 | +200 | 325
+| Use a penalty item | −75 | 250
+
+**Discussion:** Participants explain which event caused each change and predict the final score if another level adds 150 points.
+</details>
+
+<details><summary>Example 3: Store Inventory</summary>
+
+**Starting inventory:** 40 headphones
+
+| Event | Change | Inventory
+|-----|-----|-----
+| Starting stock | — | 40
+| Morning sale | −12 | 28
+| Shipment arrives | +25 | 53
+| Afternoon sale | −18 | 35
+| Damaged items removed | −3 | 32
+
+**Discussion:** Participants identify when inventory increased or decreased and determine whether the store needs to reorder.
+</details>
+
+<details><summary>Example 4: Class Attendance</summary>
+
+**Starting attendance:** 24 students
+
+| Event | Change | Present
+|-----|-----|-----
+| Session begins | — | 24
+| Two late students arrive | +2 | 26
+| One student leaves early | −1 | 25
+| One student returns | +1 | 26
+| Session ends | — | 26
+
+**Discussion:** Participants distinguish between arriving, leaving, and returning, then explain the final attendance count.
+</details>
 
 Objectives: sequencing, showing work, cause-and-effect reasoning, tracing behavior, isolating problems.
 
-**“The Broken Workflow” (Process Repair)** \
+**Activity 3: “The Broken Workflow” (Process Repair)** \
 Staff present a flawed process for completing a real-world task, such as submitting an application or checking out a library book. The process contains missing steps, steps in the wrong order, and unclear instructions. Participants work together to identify the defects, explain the consequences, and produce a corrected version.
 
 Objectives: problem decomposition, reading specifications, identifying logical errors, systematic troubleshooting, clear explanation.
 
-**“Requirements Interview” (Knowledge Gaps and Questions)** \
+**Activity 4: “Requirements Interview” (Knowledge Gaps and Questions)** \
 Staff give participants a vague project request, such as “Create a system that manages appointments.” Before proposing a solution, participants must interview staff by asking questions about users, inputs, rules, exceptions, and desired outcomes. Staff then reveal additional requirements and ask participants to update their proposed approach.
 
 Objectives: identifying knowledge gaps, asking focused questions, interpreting specifications, adapting to new information, communicating with nontechnical stakeholders.
 
-**“Expected Versus Actual” (Logic and Debugging)** \
+**Activity 5: “Expected Versus Actual” (Logic and Debugging)** \
 Staff provide several scenarios with an intended result and an actual result that does not match. Participants must compare the two, identify the likely source of the problem, and propose a test that would isolate it. They should explain why their test is useful rather than simply guessing a fix.
 
 Objectives: debugging mindset, systematic testing, reading error information, isolating problems, explaining technical discoveries.
 
-**“Build a Service Counter” (Functions and Abstraction)** \
+**Activity 6: “Build a Service Counter” (Functions and Abstraction)** \
 Staff present a large task, such as processing a customer order or preparing a student report. Participants identify repeated operations and organize them into named reusable procedures. For each procedure, they identify the inputs, expected output, and at least two test cases.
 
 Objectives: decomposition, abstraction, recognizing patterns, functions and parameters, testing, refactoring, explaining design decisions.
