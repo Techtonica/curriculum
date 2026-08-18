@@ -111,7 +111,7 @@ They alternate completing one step at a time:
 1. Type the paragraph accurately.
 2. Add a heading.
 3. Create a bulleted list.
-4. Bold selected words.
+4. Select words to bold.
 5. Insert a hyperlink.
 6. Correct spelling errors.
 7. Save the file with a professional name.
