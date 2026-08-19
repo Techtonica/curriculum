@@ -132,16 +132,19 @@ The partner assesses whether the participant:
 - Revises the explanation when new evidence appears
 
 **Activity 2: “Cause-and-Effect Prediction Cards”** \
-Partners use scenario cards describing an action and a resulting change.
+Partners will be given a scenario with an action and resulting change. In their breakout rooms, discuss your prediction of the final state and explains each change. More complex cards include conditions, repeated actions, and unexpected outcomes.
 
-Example:
+<details><summary>Class Scenario</summary>
+A class begins with 18 students in attendance. Two students arrive late, one student leaves early, and three previously absent students join the next session. How many students are present after these changes?
+</details>
 
-> • A system starts with 10 points. It removes 3 points every time a player makes a mistake. The player makes mistakes twice. \
-> • A player begins with a score of 20 points. They answer two questions correctly and earn 10 points for each correct answer. They then answer one question incorrectly and lose 5 points. What is the player’s final score? \
-> • A store begins with 30 notebooks in inventory. On Monday, it sells 8 notebooks. On Tuesday, it receives a delivery of 15 notebooks. On Wednesday, it sells 6 notebooks. How many notebooks remain? \
-> • A class begins with 18 students in attendance. Two students arrive late, one student leaves early, and three previously absent students join the next session. How many students are present after these changes?
+<details><summary>Player Scenario</summary>
+A player begins with a score of 20 points. They answer two questions correctly and earn 10 points for each correct answer. They then answer one question incorrectly and lose 5 points. What is the player’s final score?
+</details>
 
-The participant predicts the final state and explains each change. More complex cards include conditions, repeated actions, and unexpected outcomes.
+<details><summary>Store Scenario</summary>
+A store begins with 30 notebooks in inventory. On Monday, it sells 8 notebooks. On Tuesday, it receives a delivery of 15 notebooks. On Wednesday, it sells 6 notebooks. How many notebooks remain?
+</details>
 
 The partner assesses whether the participant:
 - Traces events in the correct order
