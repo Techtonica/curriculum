@@ -78,7 +78,7 @@ Staff will use the Apple and communication-tool guides during demonstrations. Pa
 ### Independent Practice
 Below are six activities to complete with a peer. Complete your choice of a single activity each day. At the end of each session, each partner should complete [the evaluation form](https://forms.gle/7bzY2mYdRbgTGyoe9).
 
-**Keyboard and Mac Navigation: “Follow-the-Path Challenge”** \
+**Exercise 1: Keyboard and Mac Navigation: “Follow-the-Path Challenge”** \
 One participant creates a short navigation path using Finder, Spotlight, Mission Control, and keyboard shortcuts; the partner follows the path without receiving extra help.
 
 Example challenge:
@@ -97,7 +97,7 @@ The observer records whether the participant:
 - Recovers from a mistake
 - Completes the task without random clicking
 
-**Typing and Formatting Relay** \
+**Exercise 2: Typing and Formatting Relay** \
 Partners receive the same short paragraph containing intentional formatting requirements. 
 
 ```text
@@ -125,7 +125,7 @@ The observer assesses:
 - File naming and organization
 - Attention to detail
 
-**Browser Research and Tab Management Challenge** \
+**Exercise 3: Browser Research and Tab Management Challenge** \
 Partners receive a research question with several required pieces of information. They must use browser tabs, bookmarks, search terms, and page navigation to find and organize the answer.
 
 Example requirements:
@@ -143,7 +143,7 @@ The observer assesses:
 - Ability to distinguish useful information
 - Clear explanation of findings
 
-**Email and Message Editing Clinic** \
+**Exercise 4: Email and Message Editing Clinic** \
 Partners receive poorly written messages containing unclear wording, missing context, excessive length, or inappropriate tone. Each participant revises one message for a specific audience.
 
 Example audiences:
@@ -161,7 +161,7 @@ The observer assesses:
 - Grammar and typing accuracy
 - Ability to communicate technical information simply
 
-**File Organization and Retrieval Challenge** \
+**Exercise 5: File Organization and Retrieval Challenge** \
 Partners receive a disorganized collection of files with unclear names and mixed file types. They must create a logical folder structure, rename files, and retrieve a requested document.
 
 The participant must explain:
@@ -177,7 +177,7 @@ The observer assesses:
 - Retrieval speed and accuracy
 - Documentation of organizational decisions
 
-**Screen Capture and Evidence Challenge** \
+**Exercise 6: Screen Capture and Evidence Challenge** \
 Partners receive a task that requires documenting progress, such as locating a setting, organizing a file, or finding a feature in an application. The participant must capture evidence using screenshots or a short screen recording.
 
 The documentation must include:
@@ -197,7 +197,7 @@ The observer assesses:
 ### Guided Practice
 Below are six activities to be completed with staff, each day.
 
-**“Digital Office Setup” (Mac Navigation)** \
+**Exercise 1: “Digital Office Setup” (Mac Navigation)** \
 Staff present a fictional new employee setup task. Participants must:
 1. Open required applications.
 2. Arrange windows using Mission Control.
@@ -209,7 +209,7 @@ Staff present a fictional new employee setup task. Participants must:
 
 Objectives: keyboard use, navigation, file organization, explaining steps, recovering from mistakes.
 
-**“Timed Document Production” (Typing and Formatting)** \
+**Exercise 2: “Timed Document Production” (Typing and Formatting)** \
 Participants receive a short announcement and must produce a polished document within a time limit. They must type the content, add a heading, format a list, correct errors, save the file, and place it in the correct folder. Staff observe both the finished document and the participant’s workflow, including shortcut use and accuracy.
 
 ```text
@@ -228,12 +228,12 @@ minutes to review their work and share the completed file.
 Objectives: typing accuracy, keyboard shortcuts, formatting, attention to detail, file naming, independent completion.
 
 
-**“Find the Answer, Then Show the Route” (Browser and Documentation)** \
+**Exercise 3: “Find the Answer, Then Show the Route” (Browser and Documentation)** \
 Staff provide a practical technical question and several possible documentation pages. Participants must identify the best source, locate the answer, bookmark the page, and demonstrate the search path they followed. They then explain how they would help a beginner find the same answer.
 
 Objectives: browser navigation, reading documentation, source evaluation, bookmarking, explaining technical information simply.
 
-**“Inbox Triage” (Email and Professional Communication)** \
+**Exercise 4: “Inbox Triage” (Email and Professional Communication)** \
 Participants receive a simulated inbox containing several messages:
 - An urgent request
 - A routine announcement
@@ -245,12 +245,12 @@ They must decide how to respond, what tone to use, whether to reply or forward, 
 
 Objectives: digital communication, prioritization, professional tone, audience awareness, identifying knowledge gaps.
 
-**“Recover the Missing File” (File Organization)** \
+**Exercise 5: “Recover the Missing File” (File Organization)** \
 Staff provide a cluttered desktop and a task requiring participants to locate, organize, and share several files. Some filenames are unclear or files are stored in unexpected folders. Participants must explain their search strategy, reorganize the materials, and create a short note describing where everything is located.
 
 Objectives: Finder navigation, search strategy, file organization, documentation, systematic troubleshooting.
 
-**“Create a Help Desk Demonstration” (File Organization)** \
+**Exercise 6: “Create a Help Desk Demonstration” (File Organization)** \
 Participants choose one assigned digital task and create a short instructional recording for someone unfamiliar with the tool. The recording must include the goal, steps, expected result, and one troubleshooting suggestion. Staff review the recordings and discuss clarity, pacing, framing, audio, and professionalism.
 
 Objectives: screen recording, digital navigation, documentation, technical communication, camera and presentation professionalism.
