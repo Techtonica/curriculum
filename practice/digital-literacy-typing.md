@@ -128,6 +128,42 @@ The observer assesses:
 **Exercise 3: Browser Research and Tab Management Challenge** \
 Partners receive a research question with several required pieces of information. They must use browser tabs, bookmarks, search terms, and page navigation to find and organize the answer.
 
+<details><summary>Q1: How can people reduce household water consumption, and which methods have the greatest potential impact?</summary>
+Research: Find an official government or utility source, two supporting sources, three recommended actions, estimated water savings, and an explanation of why the official source is trustworthy.
+</details>
+
+<details><summary>Q2: What are the best practices for creating a strong and memorable password?</summary>
+Research: Find guidance from an official cybersecurity organization, two supporting sources, recommendations about password length, password managers, and multifactor authentication, and a comparison of source credibility.
+</details>
+
+<details><summary>Q3: How does recycling differ among paper, plastic, glass, and electronic waste?	</summary>
+Research: Find an official local-government or environmental-agency source, two supporting sources, accepted and non-accepted materials, disposal instructions, and the most useful page to bookmark.
+</details>
+
+<details><summary>Q4: What steps should someone take to prepare for a severe thunderstorm?	</summary>
+Research: Find an official weather or emergency-management source, two supporting sources, preparation steps before and during a storm, warning signs, and an explanation of which source provides the most authoritative safety advice.
+</details>
+
+<details><summary>Q5: What are the health and environmental benefits of using public transportation?</summary>
+Research: Find an official transportation or environmental source, two supporting sources, at least three benefits, one limitation, and evidence supporting the main conclusions.
+</details>
+
+<details><summary>Q6: What should a person do if they receive a suspicious email asking for personal information?	</summary>
+Research: Find official cybersecurity guidance, two supporting sources, warning signs, recommended actions, and instructions for reporting the message.
+</details>
+
+<details><summary>Q7: How can someone conserve energy when using home heating and cooling systems?	</summary>
+Research: Find an official energy-agency source, two supporting sources, at least five practical actions, possible cost or energy benefits, and the most useful page to bookmark.
+</details>
+
+<details><summary>Q8: What are the main steps for creating a household emergency kit?	</summary>
+Research: Find an official emergency-preparedness source, two supporting sources, a recommended supply list, special considerations for children or pets, and a justification for choosing the official source.
+</details>
+
+<details><summary>Q9: How do vaccines help protect individuals and communities from infectious diseases?	</summary>
+Research: Find an official public-health source, two supporting sources, explanations of individual and community protection, key terminology, and an evaluation of source credibility.
+</details>
+
 Example requirements:
 - Find an official source.
 - Open two supporting sources.
@@ -229,7 +265,42 @@ Objectives: typing accuracy, keyboard shortcuts, formatting, attention to detail
 
 
 **Exercise 3: “Find the Answer, Then Show the Route” (Browser and Documentation)** \
-Staff provide a practical technical question and several possible documentation pages. Participants must identify the best source, locate the answer, bookmark the page, and demonstrate the search path they followed. They then explain how they would help a beginner find the same answer.
+Staff provide a practical technical question and suggestions on where to get started with documentation. Participants must identify the best source, locate the answer, bookmark the page, and demonstrate the search path they followed. They then explain how they would help a beginner find the same answer.
+
+<details><summary>Google Drive permissions</summary>
+
+> You need to share a project folder with three coworkers. They should be able to view the files but not edit them. Find the correct instructions, identify the best documentation page, bookmark it, and demonstrate the search path you followed. Explain how you would help a beginner avoid accidentally giving the coworkers editing access.
+
+Possible pages include Google Drive Help, the Google Workspace Learning Center, an organization’s collaboration guide, and a third-party tutorial.
+</details>
+
+<details><summary>Python package installation</summary>
+
+> Install a Python package in a virtual environment without affecting the system-wide Python installation. Find the best documentation, bookmark the page, and demonstrate the route you used to locate the commands. Explain how you would help a beginner distinguish between installing a package globally and installing it inside a virtual environment.
+
+Possible pages include the Python Packaging User Guide, Python’s virtual-environment documentation, pip documentation, and a university programming guide.
+</details>
+
+<details><summary>GitHub two-factor authentication</summary>
+
+> Enable two-factor authentication on a GitHub account and identify at least one available authentication method. Find the best official documentation, bookmark it, and show the search terms and navigation steps you used. Explain how you would help a beginner recognize whether a third-party guide is outdated or unsafe.
+
+Possible pages include GitHub Docs, GitHub Support, an organization’s security guide, and a general cybersecurity article.
+</details>
+
+<details><summary>Recovering a deleted OneDrive file</summary>
+
+> A user accidentally deleted an important file from OneDrive. Find the instructions for recovering it, identify the most authoritative page, bookmark it, and demonstrate your search path. Explain how you would help a beginner distinguish between recovering a file from the recycle bin and restoring an earlier version of the file.
+
+Possible pages include Microsoft Support, Microsoft Learn, an organization’s cloud-storage policy, and a third-party troubleshooting guide.
+</details>
+
+<details><summary>Troubleshooting an offline printer</summary>
+
+> A Windows computer says that a connected printer is offline. Find a reliable troubleshooting procedure, identify the best documentation page, bookmark it, and show how you reached the answer. Explain how you would help a beginner decide whether to follow the operating-system instructions, the printer manufacturer’s instructions, or the organization’s internal IT instructions.
+
+Possible pages include Microsoft Support, the printer manufacturer’s support page, an internal IT guide, and a third-party troubleshooting article.
+</details>
 
 Objectives: browser navigation, reading documentation, source evaluation, bookmarking, explaining technical information simply.
 
