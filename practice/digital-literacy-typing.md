@@ -129,39 +129,48 @@ The observer assesses:
 Partners receive a research question with several required pieces of information. They must use browser tabs, bookmarks, search terms, and page navigation to find and organize the answer.
 
 <details><summary>Q1: How can people reduce household water consumption, and which methods have the greatest potential impact?</summary>
-Research: Find an official government or utility source, two supporting sources, three recommended actions, estimated water savings, and an explanation of why the official source is trustworthy.
+
+  > Find an official government or utility source, two supporting sources, three recommended actions, estimated water savings, and an explanation of why the official source is trustworthy.
 </details>
 
 <details><summary>Q2: What are the best practices for creating a strong and memorable password?</summary>
-Research: Find guidance from an official cybersecurity organization, two supporting sources, recommendations about password length, password managers, and multifactor authentication, and a comparison of source credibility.
+
+  > Find guidance from an official cybersecurity organization, two supporting sources, recommendations about password length, password managers, and multifactor authentication, and a comparison of source credibility.
 </details>
 
 <details><summary>Q3: How does recycling differ among paper, plastic, glass, and electronic waste?	</summary>
-Research: Find an official local-government or environmental-agency source, two supporting sources, accepted and non-accepted materials, disposal instructions, and the most useful page to bookmark.
+
+  > Find an official local-government or environmental-agency source, two supporting sources, accepted and non-accepted materials, disposal instructions, and the most useful page to bookmark.
 </details>
 
 <details><summary>Q4: What steps should someone take to prepare for a severe thunderstorm?	</summary>
-Research: Find an official weather or emergency-management source, two supporting sources, preparation steps before and during a storm, warning signs, and an explanation of which source provides the most authoritative safety advice.
+
+  > Find an official weather or emergency-management source, two supporting sources, preparation steps before and during a storm, warning signs, and an explanation of which source provides the most authoritative safety advice.
 </details>
 
 <details><summary>Q5: What are the health and environmental benefits of using public transportation?</summary>
-Research: Find an official transportation or environmental source, two supporting sources, at least three benefits, one limitation, and evidence supporting the main conclusions.
+
+  > Find an official transportation or environmental source, two supporting sources, at least three benefits, one limitation, and evidence supporting the main conclusions.
 </details>
 
 <details><summary>Q6: What should a person do if they receive a suspicious email asking for personal information?	</summary>
-Research: Find official cybersecurity guidance, two supporting sources, warning signs, recommended actions, and instructions for reporting the message.
+
+  > Find official cybersecurity guidance, two supporting sources, warning signs, recommended actions, and instructions for reporting the message.
 </details>
 
 <details><summary>Q7: How can someone conserve energy when using home heating and cooling systems?	</summary>
-Research: Find an official energy-agency source, two supporting sources, at least five practical actions, possible cost or energy benefits, and the most useful page to bookmark.
+
+  > Find an official energy-agency source, two supporting sources, at least five practical actions, possible cost or energy benefits, and the most useful page to bookmark.
 </details>
 
 <details><summary>Q8: What are the main steps for creating a household emergency kit?	</summary>
-Research: Find an official emergency-preparedness source, two supporting sources, a recommended supply list, special considerations for children or pets, and a justification for choosing the official source.
+
+  > Find an official emergency-preparedness source, two supporting sources, a recommended supply list, special considerations for children or pets, and a justification for choosing the official source.
 </details>
 
 <details><summary>Q9: How do vaccines help protect individuals and communities from infectious diseases?	</summary>
-Research: Find an official public-health source, two supporting sources, explanations of individual and community protection, key terminology, and an evaluation of source credibility.
+
+  > Find an official public-health source, two supporting sources, explanations of individual and community protection, key terminology, and an evaluation of source credibility.
 </details>
 
 Example requirements:
