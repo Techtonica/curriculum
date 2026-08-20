@@ -158,6 +158,10 @@ Each participant receives a flawed everyday process, such as:
 
 > To submit an assignment: open the document, submit it, check the file name, attach the file, click send, and confirm the correct course.
 
+> A student has to submit an important form. the student clicks “Submit,” enters their information, closes the browser, checks whether all required fields are complete, opens the website, looks for a confirmation message, and attaches the required document.
+
+> You invite friends over for a meal. You  serve the food, wash your hands, leave the cooked food on the counter for several hours, gather the ingredients and utensils, put the leftovers away, cook the food, taste the food with the serving spoon, and clean the preparation area.
+
 The participant must reorder the steps, identify missing steps, and explain what could go wrong.
 
 The partner assesses whether the participant:
