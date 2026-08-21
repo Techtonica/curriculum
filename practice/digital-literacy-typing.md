@@ -198,6 +198,26 @@ Example audiences:
 - Peer
 - Supervisor
 
+<details><summary>An urgent request</summary>
+“I need this done ASAP because it’s really important and we’ve already been waiting too long. Please send me the report, but make sure it’s the right one and includes everything we talked about before. I don’t have time to explain it again, so just do it now.”
+</details>
+  
+<details><summary>A routine announcement</summary>
+“Just letting everyone know that the thing we usually do is going to be different next week because of some changes. It may happen on another day, but we’ll let you know when we figure it out. Please make sure you’re aware.”
+</details>
+  
+<details><summary>A request needing clarification</summary>
+“Can you fix the document and update the information from last time? Some of it doesn’t look right, and I think you know which parts I mean. Please send it back when it’s done.”
+</details>
+  
+<details><summary>A technical problem</summary>
+“The system isn’t working again. I tried a few things, and now it’s doing something different than before. It says there’s an error, but I don’t know what it means. Can someone look at this because I need it to work soon?”
+</details>
+  
+<details><summary>A message intended for a group</summary>
+“Hi, I wanted to talk about the meeting and the project because there are several things everyone needs to know. Some people haven’t responded yet, and we need to decide what we’re doing. Let me know your thoughts, preferably soon, so we can move forward.”
+</details>
+
 The observer assesses:
 - Professional tone
 - Clear subject or opening
