@@ -301,6 +301,10 @@ Objectives: sequencing, showing work, cause-and-effect reasoning, tracing behavi
 **Activity 3: “The Broken Workflow” (Process Repair)** \
 Staff present a flawed process for completing a real-world task, such as submitting an application or checking out a library book. The process contains missing steps, steps in the wrong order, and unclear instructions. Participants work together to identify the defects, explain the consequences, and produce a corrected version.
 
+> Someone submits an application. The applicant submits the application, gathers the required documents, receives a confirmation email, completes the application form, closes the website, and pays the application fee.
+
+> A patron wishes to checkout a library book. The patron takes the book home, searches the library catalog, returns the book, checks whether the book is available, presents a library card, and takes the book to the checkout desk.
+
 Objectives: problem decomposition, reading specifications, identifying logical errors, systematic troubleshooting, clear explanation.
 
 **Activity 4: “Requirements Interview” (Knowledge Gaps and Questions)** \
