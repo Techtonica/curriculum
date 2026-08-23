@@ -1,114 +1,9 @@
 # Floyd-Warshall Algorithm
 
 ## Overview
+The **Floyd-Warshall algorithm** is a dynamic programming algorithm used to find the **shortest paths between all pairs of vertices** in a weighted, directed graph. 
 
-The **Floyd-Warshall Algorithm** is a classic dynamic programming algorithm used to find the **shortest paths between all pairs of vertices** in a weighted, directed graph.
-
-Unlike single-source algorithms (such as Dijkstra's algorithm, which finds shortest paths from _one_ starting point to all other nodes), Floyd-Warshall computes the shortest paths for _every possible pair_ of start and end nodes in a single execution.
-
-### Key Features
-
-- **Graph Type:** Works on directed or undirected weighted graphs.
-- **Negative Weights:** Can handle edges with negative weights.
-- **Negative Cycles:** Detects negative cycles (cycles where the sum of edge weights is less than zero). If a negative cycle exists, shortest path distances become undefined.
-
----
-
-## Real-World Analogy
-
-Imagine a flight network connecting major cities worldwide.
-
-- **Dijkstra's Algorithm** is like asking: _"What is the fastest route from San Francisco to every other city on the map?"_
-- **Floyd-Warshall Algorithm** is like generating a complete lookup grid for the airline's website showing: _"What is the absolute fastest flight path between EVERY pair of cities in our network?"_
-
-To figure this out, the algorithm systematically asks: _"If I allow an layover/intermediate stop at City $K$, does that make the trip from City $I$ to City $J$ shorter than the direct route we currently know?"_
-
----
-
-## How It Works (Step-by-Step Logic)
-
-Floyd-Warshall maintains a 2D matrix `dist[i][j]` representing the shortest distance from node `i` to node `j`.
-
-1. **Initialization:**
-
-   - `dist[i][i] = 0` (distance to self is zero).
-   - `dist[i][j] = weight(i, j)` if a direct edge exists.
-   - `dist[i][j] = Infinity` if no direct edge exists.
-
-2. **Dynamic Programming State Transition:**
-   Iterate through every intermediate vertex $K$, and check if routing through $K$ offers a shorter path between vertex $I$ and vertex $J$:
-
-   $$\text{dist}[i][j] = \min(\text{dist}[i][j], \text{dist}[i][k] + \text{dist}[k][j])$$
-
-3. **Triple Loop Execution:**
-   Repeat this calculation using 3 nested loops:
-   - **Outer Loop ($k$):** The intermediate node being considered.
-   - **Middle Loop ($i$):** The starting node.
-   - **Inner Loop ($j$):** The destination node.
-
----
-
-## Complexity Analysis
-
-| Metric               | Complexity | Explanation                                                  |
-| :------------------- | :--------- | :----------------------------------------------------------- |
-| **Time Complexity**  | $O(V^3)$   | Requires 3 nested loops iterating over all $V$ vertices.     |
-| **Space Complexity** | $O(V^2)$   | Requires a $V \times V$ matrix to store pair-wise distances. |
-
-> **When to use:** Ideal for dense graphs with a small number of vertices ($V \le 400$) where you need all-pairs shortest paths. For larger sparse graphs, running Dijkstra's algorithm from each vertex ($V$ times) is often faster.
-
----
-
-## Visual & Interactive Resources
-
-- [VisuAlgo - All-Pairs Shortest Paths](https://visualgo.net/en/sssp) _(Interactive step-by-step matrix updates)_
-- [USFCA Graph Algorithms Visualizer](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) _(Step through graph state transitions visually)_
-
----
-
-## Code Example (JavaScript)
-
-````javascript
-/**
- * Computes all-pairs shortest paths using the Floyd-Warshall Algorithm.
- * @param {number[][]} graph - Adjacency matrix where graph[i][j] is edge weight (Infinity if no edge).
- * @returns {number[][]} Distance matrix containing shortest paths between all pairs.
- */
-function floydWarshall(graph) {
-  const numVertices = graph.length;
-
-  // Create a deep copy of the graph matrix to hold distances
-  const dist = Array.from({ length: numVertices }, (_, i) =>
-    Array.from({ length: numVertices }, (_, j) => graph[i][j])
-  );
-
-  // Consider each vertex as an intermediate node (k)
-  for (let k = 0; k < numVertices; k++) {
-    // Iterate over all source vertices (i)
-    for (let i = 0; i < numVertices; i++) {
-      // Iterate over all destination vertices (j)
-      for (let j = 0; j < numVertices; j++) {
-        // If vertex k is on the shortest path from i to j, update dist[i][j]
-        if (
-          dist[i][k] !== Infinity &&
-          dist[k][j] !== Infinity &&
-          dist[i][k] + dist[k][j] < dist[i][j]
-        ) {
-          dist[i][j] = dist[i][k] + dist[k][j];
-        }
-      }
-    }
-  }
-
-  // Check for negative weight cycles
-  for (let i = 0; i < numVertices; i++) {
-    if (dist```markdown
-# Floyd-Warshall Algorithm
-
-## Overview
-The **Floyd-Warshall algorithm** is an algorithm for finding the **shortest paths between all pairs of vertices** in a weighted, directed graph.
-
-Unlike algorithms such as Dijkstra's (which finds shortest paths from a single source vertex to all other vertices), Floyd-Warshall computes the shortest path between *every single pair* of nodes in a single run.
+Unlike algorithms such as Dijkstra's (which finds shortest paths from a single source vertex to all other vertices), Floyd-Warshall computes the shortest path between *every single pair* of nodes in a single execution.
 
 ### Key Features
 * **All-Pairs Shortest Path (APSP):** Solves the shortest path problem for all source-destination pairs simultaneously.
@@ -131,7 +26,7 @@ Imagine a network of flight routes connecting multiple cities. You want to build
 
 Floyd-Warshall uses a $V \times V$ matrix (where $V$ is the number of vertices) to track shortest distances.
 
-1. **Initialization:**
+1. **Initialization:** 
    * Set `dist[i][j]` to the edge weight between $i$ and $j$ if a direct edge exists.
    * Set `dist[i][i] = 0` (distance from a vertex to itself).
    * Set all other `dist[i][j]` entries to `Infinity` ($\infty$).
@@ -162,7 +57,7 @@ Floyd-Warshall uses a $V \times V$ matrix (where $V$ is the number of vertices) 
  */
 function floydWarshall(graph) {
   const V = graph.length;
-
+  
   // Create a deep copy of the graph matrix to hold distances
   const dist = graph.map(row => [...row]);
 
@@ -182,7 +77,7 @@ function floydWarshall(graph) {
     }
   }
 
-  // Optional: Check for negative weight cycles
+  // Check for negative weight cycles
   for (let i = 0; i < V; i++) {
     if (dist[i][i] < 0) {
       throw new Error("Graph contains a negative weight cycle!");
@@ -192,7 +87,7 @@ function floydWarshall(graph) {
   return dist;
 }
 
-// --- Example Usage ---
+// Example usage:
 const INF = Infinity;
 const graph = [
   [0,   5,   INF, 10],
@@ -202,4 +97,3 @@ const graph = [
 ];
 
 console.log(floydWarshall(graph));
-````
