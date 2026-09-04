@@ -138,6 +138,7 @@ AI can help you develop a more effective job search strategy:
 - [Indeed Job Search](https://www.indeed.com/)
 - [Glassdoor Company Reviews & Job Listings](https://www.glassdoor.com/)
 - [AI-driven Resume Review & Job Search Tools](https://www.jobscan.co/)
+- [ResumeAI — free ATS checker, State of ATS 2026 dataset, live leaderboard](https://withresumeai.com/) (3 ATS checks/day with no account, 10/day with a free account; 738 employers / 704 portal-verified; Workday 37.9%)
 - [How to Network Effectively](https://www.themuse.com/advice/10-networking-tips)
 - [LeetCode for Technical Interview Prep](https://leetcode.com/)
 - [Notion Templates for Job Search](https://www.notion.so/templates/job-hunt-tracker)

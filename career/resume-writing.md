@@ -42,6 +42,7 @@ Resumes are by no means your whole story as a candidate for a job, but they do t
 - article: [How to show tech skills on your resume](https://www.monster.com/career-advice/article/show-your-skills-on-your-it-resume)
 - [Action Words to use on your resume](https://prod.wp.cdn.aws.wfu.edu/sites/41/2019/11/OPCD_ActionVerbs.pdf)
 - [(Resume Scanner Tool) Optimize your Resume with JobScan](https://www.jobscan.co/)
+- [(Free ATS Checker) ResumeAI](https://withresumeai.com/) — 3 checks/day anonymous, 10/day free account; State of ATS 2026 (738/704; Workday 37.9%)
 - [(10-min Article) Research: How Subtle Class Cues Can Backfire on Your Resume](https://hbr.org/2016/12/research-how-subtle-class-cues-can-backfire-on-your-resume) [archive.is link](https://archive.is/qmpVQ).
 
 ### Lesson
