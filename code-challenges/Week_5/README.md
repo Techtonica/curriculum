@@ -39,7 +39,9 @@ You will find three files here, and two of them contain more than one task:
 ## Duplicated Exercises
 
 Every challenge here appears twice, once as a `.js` file and once as a `.py` file.
-They are the same challenges, not new ones.
+Most are the same challenge in both languages, but `Pop_Shift_and_Unshift_Elements.py`
+also asks you to handle empty lists and lists with fewer than two elements, which the
+JavaScript version does not require.
 
 If you are in the program, you only need the JavaScript versions. The Python files
 are there for the other readers of this curriculum.
@@ -90,8 +92,9 @@ After finishing this folder, you will be able to:
 4. Rotate an array by a given number of positions.
 5. Remove duplicate values from an array using `reduce`.
 
-The Python versions do not add new objectives. They are the same tasks written in
-Python syntax.
+The Python versions are mostly the same; one exercise has an additional requirement.
+`Pop_Shift_and_Unshift_Elements.py` also asks for empty lists and lists with fewer
+than two elements to be handled.
 
 ## Sequence and Relation
 
