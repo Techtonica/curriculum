@@ -32,20 +32,9 @@ You will find these challenges here:
 ## Duplicated Exercises
 
 Find Target Index appears twice, once as a `.js` file and once as a `.py` file.
-It is the same challenge, not two different ones.
 
 If you are in the program, you only need the JavaScript version. The Python file
 is there for the other readers of this curriculum.
-
-**The vital concept this week is searching and the `-1` "not found" pattern.** In
-lots of languages, functions that look for something return the index when they
-find it, and a special value like `-1` when they do not. Getting comfortable
-checking for that `-1` will help you far beyond these exercises.
-
-You will see this shape twice in a row, and that is worth noticing. Find Last
-Index searches an array and Find Target Index searches a string, so the data is
-different, but the answer has the same form: return where you found it, or return
-`-1` when you did not. Searching is one idea you can apply to many kinds of data.
 
 ## Prerequisites
 
@@ -66,6 +55,16 @@ Searching through data is something you will do constantly as a developer, wheth
 you are looking for a user in a list or a word in a message. These challenges give
 you a friendly place to practice that exact skill, and to get used to the `-1`
 answer that so many built-in search functions hand back.
+
+**The vital concept this week is searching and the `-1` "not found" pattern.** In
+lots of languages, functions that look for something return the index when they
+find it, and a special value like `-1` when they do not. Getting comfortable
+checking for that `-1` will help you far beyond these exercises.
+
+You will see this shape twice in a row, and that is worth noticing. Find Last
+Index searches an array and Find Target Index searches a string, so the data is
+different, but the answer has the same form: return where you found it, or return
+`-1` when you did not. Searching is one idea you can apply to many kinds of data.
 
 ## Learning Objectives
 
