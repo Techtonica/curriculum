@@ -12,23 +12,23 @@ week.
 
 You will find these exercises this week:
 
-1. **Hello Component** (`hello-component`) is your first React component. You
+1. **Mini Project: OOP** (`mini-project-OOP`) is the one exercise with no React
+   in it. You write an `Event` class that can add tickets with a price and a
+   ticket type, let someone search by the price they can afford, and then show a
+   list of events on an HTML page.
+2. **Hello Component** (`hello-component`) is your first React component. You
    write a `<Hello />` component, pass it `firstName` and `lastName`, and render
    "Hello, yourFirstName yourLastName" on the page.
-2. **React Button Part 1** (`react-props`) has you build a `ColorButton`
+3. **React Button Part 1** (`react-props`) has you build a `ColorButton`
    component that takes a `color` prop to set its background, plus an `onClick`
    prop that runs a function when the button is clicked. You make three buttons
    in different colors.
-3. **React Button Part 2** (`passing_props_from_child_to_parent`) continues
+4. **React Button Part 2** (`passing_props_from_child_to_parent`) continues
    directly from Part 1. This time the button sends a message back up to the
    parent component, and the parent stores it with `useState` and displays it.
-4. **Button Component** (`button-component`) is more props practice. You build a
+5. **Button Component** (`button-component`) is more props practice. You build a
    button that takes a number, make four of them showing 1 through 4, and make a
    button change color when it is clicked and change back when clicked again.
-5. **Mini Project: OOP** (`mini-project-OOP`) is the change of pace. No React
-   here. You write an `Event` class that can add tickets with a price and a
-   ticket type, let someone search by the price they can afford, and then show a
-   list of events on an HTML page.
 
 ## Why You Will See Some Ideas More Than Once
 
@@ -80,7 +80,7 @@ those components talk to each other. Once you can pass a value into a component
 and pass a value back out, you can build almost any interface, because everything
 bigger is made of those two moves repeated.
 
-The mini project is here so React does not become the only tool you reach for.
+The mini project comes first so React does not become the only tool you reach for.
 Classes and DOM manipulation are plain JavaScript, and they stay useful whether or
 not a framework is involved.
 
@@ -88,34 +88,36 @@ not a framework is involved.
 
 After finishing this folder, you will be able to:
 
-1. Write a functional React component and render it inside another component.
-2. Pass values into a component with props and use them in what it displays.
-3. Pass a function into a component as a prop and call it when a button is clicked.
-4. Send information from a child component back up to its parent.
-5. Hold a piece of changing information with `useState`.
-6. Write a JavaScript class with methods that store and filter data.
-7. Display a list of objects on a page using DOM manipulation.
+1. Write a JavaScript class with methods that store and filter data.
+2. Display a list of objects on a page using DOM manipulation.
+3. Write a functional React component and render it inside another component.
+4. Pass values into a component with props and use them in what it displays.
+5. Pass a function into a component as a prop and call it when a button is clicked.
+6. Send information from a child component back up to its parent.
+7. Hold a piece of changing information with `useState`.
 
 ## Sequence and Relation
 
 A gentle order to follow:
 
-1. Hello Component (`hello-component`)
-2. React Button Part 1 (`react-props`)
-3. React Button Part 2 (`passing_props_from_child_to_parent`)
-4. Button Component (`button-component`)
-5. Mini Project: OOP (`mini-project-OOP`)
+1. Mini Project: OOP (`mini-project-OOP`)
+2. Hello Component (`hello-component`)
+3. React Button Part 1 (`react-props`)
+4. React Button Part 2 (`passing_props_from_child_to_parent`)
+5. Button Component (`button-component`)
 
-Start with Hello Component, which is props at their simplest: two strings in, one
+Start with the mini project. It is plain JavaScript, so it builds on the classes
+and DOM manipulation you already know before React adds a whole new vocabulary on
+top. Getting it out of the way first also means the React exercises run together
+without a detour in the middle.
+
+Then Hello Component, which is props at their simplest: two strings in, one
 sentence out. React Button Part 1 adds using a prop to change how something looks
 and passing in a function. Part 2 continues that exact project and adds sending
 information back up, so do it right after while the code is still familiar.
 
-Button Component comes next as your check-yourself repeat, and by then you have
+Button Component comes last as your check-yourself repeat, and by then you have
 seen `useState`, which makes the color toggle much easier to think about.
-
-Save the mini project for last. It is the biggest one, and it is a different topic
-entirely, so it is a good one to end on.
 
 ## Relevant Materials
 
@@ -160,9 +162,9 @@ A few things that trip people up, so keep an eye out:
 Props are the idea of the week, so let me slow down on them, because the word
 sounds more technical than the thing is.
 
-A React component is just a function that returns some markup. A prop is an
-argument you pass to that function. That is genuinely all it is. When you write
-this:
+A React component is just a function that returns some markup. A prop (short for
+"property") is an argument you pass to that function. That is genuinely all it
+is. When you write this:
 
 ```jsx
 <Hello firstName="Ada" lastName="Lovelace" />
