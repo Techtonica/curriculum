@@ -38,7 +38,7 @@ The Python versions of Filter and Reduce and Map Practice do not add new objecti
 **JavaScript**:
 
 1. **Filter and Reduce** (`Filter_and_Reduce.js`)
-   - Replace the manual loops from Week 3 with built-in array methods.
+   - Extract elements with `filter`, aggregate an array into a single value or a new structure with `reduce`.
 2. **Map Practice** (`Map_Practice.js`)
    - Tasks using `map` and other array methods on an array of objects (a list of friends), including deriving new values (initials, average age) and filtering based on those derived values.
 3. **Getting Started with React: Hello Component**
