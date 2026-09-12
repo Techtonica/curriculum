@@ -1,3 +1,3 @@
-export default function Button({ num, handleClick }) {
+export default function Button() {
   return <button onClick={handleClick}>{num} </button>;
 }
