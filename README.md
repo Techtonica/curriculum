@@ -27,9 +27,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 8 - Testing](#week-8---Testing)
 - [Week 9 - Eventonica Project](#week-9---eventonica)
 - [Week 10 - More PERN &amp; Review](#week-10---full-stack-practice)
-- [Week 11 - Data Structures &amp; Algorithms](#week-11---data-structures--algorithms)
-  - [Data Structures](#data-structures)
-  - [Algorithms](#algorithms)
+- [Week 11 - 2 Full Stack Projects in 1 Week](#week-11---2-full-stack-projects-in-1-week)
 - [Week 12 - Final Assessments](#week-12---final-assessments)
 - [Week 13 - Career Week!](#week-13---career-week)
 - [Week 14 - Project Prep Week &amp; Electives](#week-14---project-prep-week--electives)
@@ -37,6 +35,8 @@ The following is the approximate sequence of the topics during the program but i
 - [Core Soft Skills for Tech Professionals](#core-soft-skills-for-tech-professionals)
 - [Independent Topics](#independent-topics)
 - [Optional / Elective Lessons](#optional--elective-lessons)
+- [Data Structures](#data-structures)
+- [Algorithms](#algorithms)
 
 ### Week 0 - Pre-Work
 
@@ -187,47 +187,8 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Endangered Animal Sighting Tracker Project](/projects/mern-pern-project.md)
 1. [JavaScript Dequeue](/data-structures/deque.md)
 
-### Week 11 - Data Structures & Algorithms
+### Week 11 - 2 Full Stack Projects in 1 Week
 2 mini projects in 1 week! [Contact App](/projects/pern-contact-list-app.md) and choice of [Weather App](/projects/pern-weather-app.md) or [Game App](/projects/pern-game-app.md)
-
-#### Data Structures
-
-1. [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
-1. [Sprint Plan for Data Structures & Algorithms Week](/projects/data-structures-algorithms-sprint.md)
-1. [Data Structures: Stacks](/data-structures/stack.md)
-1. [Data Structures: Queues](/data-structures/queues.md)
-1. [Data Structures: Linked Lists](/data-structures/linked-lists.md)
-1. [Data Structures: Hash Tables](/data-structures/hash-tables.md)
-1. [JavaScript Hash Maps / Tables](/data-structures/hash-tables.md)
-1. [Data Structures: Trees](/data-structures/trees.md)
-1. [NP versus P](/algorithms/p-versus-np.md)
-
-#### Algorithms
-
-1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
-1. [Algorithms: Searching](/algorithms/searching.md)
-1. [Algorithms: Sorting](/algorithms/sorting.md)
-1. [Approximation Algorithms](/algorithms/approximation-algorithms.md)
-1. [Articulation Points](/algorithms/articulation-points.md)
-1. [AVL Tree](/algorithms/avl-tree.md)
-1. [Algorithms: Backtracking](/algorithms/backtracking.md)
-1. [Bridges](/algorithms/bridges.md)
-1. [Distributed Algorithms](/algorithms/distributed-algorithms.md)
-1. [Divide and Conquer](/algorithms/divide-and-conquer.md)
-1. [External Sorting Algorithms](/algorithms/external-sorting-algorithms.md)
-1. [Fenwick (Binary Indexed) Tree](/algorithms/fenwick-binary-indexed-tree.md)
-1. [Fractional Knapsack (Greedy)](/algorithms/fractional-knapsack-greedy.md)
-1. [Knapsack (Dynamic Programming)](/algorithms/knapsack-dynamic-programming.md)
-1. [Longest Common Sequence](/algorithms/longest-common-sequence.md)
-1. [Longest Increasing Sequence](/algorithms/longest-increasing-sequence.md)
-1. [Minimum Spanning Tree](/algorithms/minimum-spanning-tree.md)
-1. [Parallel Algorithms](/algorithms/parallel-algorithms.md)
-1. [Polynomial vs Nondeterministic Polynomial ](/algorithms/p-versus-np-screenshoots)
-1. [Red-Black Self-Balancing Tree](/algorithms/red-black-self-balancing-tree.md)
-1. [Segment Tree](/algorithms/segment-tree.md)
-1. [Sliding Window Technique](/algorithms/sliding-window-technique.md)
-1. [Splay Tree](/algorithms/splay-tree.md)
-1. [Suffix Array & Suffix Tree](/algorithms/suffix-array-suffix-tree.md)
 
 ### Week 12 - Final Assessments
 
@@ -332,6 +293,45 @@ These are not blockers for any of the core sequence and so they are worked into 
 - [Artificial Intelligence](/artificial-intelligence.md)
 - [Server Side Rendering & Static Site Generation](/best-practice-in-development/server-side-rendering-static-site-generation.md)
 - [Service Workers, Progressive Web Apps (PWAs), and PWA Development](/electives/progressive-web-apps-and-service-workers.md)
+
+#### Data Structures
+
+1. [Intro to Data Structures](/data-structures/intro-to-data-structures.md)
+1. [Sprint Plan for Data Structures & Algorithms Week](/projects/data-structures-algorithms-sprint.md)
+1. [Data Structures: Stacks](/data-structures/stack.md)
+1. [Data Structures: Queues](/data-structures/queues.md)
+1. [Data Structures: Linked Lists](/data-structures/linked-lists.md)
+1. [Data Structures: Hash Tables](/data-structures/hash-tables.md)
+1. [JavaScript Hash Maps / Tables](/data-structures/hash-tables.md)
+1. [Data Structures: Trees](/data-structures/trees.md)
+1. [NP versus P](/algorithms/p-versus-np.md)
+
+#### Algorithms
+
+1. [Intro to Algorithms](/algorithms/intro-to-algorithms.md)
+1. [Algorithms: Searching](/algorithms/searching.md)
+1. [Algorithms: Sorting](/algorithms/sorting.md)
+1. [Approximation Algorithms](/algorithms/approximation-algorithms.md)
+1. [Articulation Points](/algorithms/articulation-points.md)
+1. [AVL Tree](/algorithms/avl-tree.md)
+1. [Algorithms: Backtracking](/algorithms/backtracking.md)
+1. [Bridges](/algorithms/bridges.md)
+1. [Distributed Algorithms](/algorithms/distributed-algorithms.md)
+1. [Divide and Conquer](/algorithms/divide-and-conquer.md)
+1. [External Sorting Algorithms](/algorithms/external-sorting-algorithms.md)
+1. [Fenwick (Binary Indexed) Tree](/algorithms/fenwick-binary-indexed-tree.md)
+1. [Fractional Knapsack (Greedy)](/algorithms/fractional-knapsack-greedy.md)
+1. [Knapsack (Dynamic Programming)](/algorithms/knapsack-dynamic-programming.md)
+1. [Longest Common Sequence](/algorithms/longest-common-sequence.md)
+1. [Longest Increasing Sequence](/algorithms/longest-increasing-sequence.md)
+1. [Minimum Spanning Tree](/algorithms/minimum-spanning-tree.md)
+1. [Parallel Algorithms](/algorithms/parallel-algorithms.md)
+1. [Polynomial vs Nondeterministic Polynomial ](/algorithms/p-versus-np-screenshoots)
+1. [Red-Black Self-Balancing Tree](/algorithms/red-black-self-balancing-tree.md)
+1. [Segment Tree](/algorithms/segment-tree.md)
+1. [Sliding Window Technique](/algorithms/sliding-window-technique.md)
+1. [Splay Tree](/algorithms/splay-tree.md)
+1. [Suffix Array & Suffix Tree](/algorithms/suffix-array-suffix-tree.md)
 
 ### Creative Commons Open-Source License
 
