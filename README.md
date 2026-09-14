@@ -27,9 +27,7 @@ The following is the approximate sequence of the topics during the program but i
 - [Week 8 - Testing](#week-8---Testing)
 - [Week 9 - Eventonica Project](#week-9---eventonica)
 - [Week 10 - More PERN &amp; Review](#week-10---full-stack-practice)
-- [Week 11 - Data Structures &amp; Algorithms](#week-11---data-structures--algorithms)
-  - [Data Structures](#data-structures)
-  - [Algorithms](#algorithms)
+- [Week 11 - 2 Full Stack Projects in 1 Week](#week-11---2-full-stack-projects-in-1-week)
 - [Week 12 - Final Assessments](#week-12---final-assessments)
 - [Week 13 - Career Week!](#week-13---career-week)
 - [Week 14 - Project Prep Week &amp; Electives](#week-14---project-prep-week--electives)
@@ -37,6 +35,8 @@ The following is the approximate sequence of the topics during the program but i
 - [Core Soft Skills for Tech Professionals](#core-soft-skills-for-tech-professionals)
 - [Independent Topics](#independent-topics)
 - [Optional / Elective Lessons](#optional--elective-lessons)
+- [Data Structures](#data-structures)
+- [Algorithms](#algorithms)
 
 ### Week 0 - Pre-Work
 
