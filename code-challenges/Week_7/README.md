@@ -20,12 +20,12 @@ After finishing this week's exercises, you will be able to:
 
 ## Sequence and Relation
 
-1. **Ternary Operator for Conditional** (`Ternary_Operator_for_Conditional.js`)
-   - Return the larger of two numbers using a ternary expression instead of an if/else block.
-2. **Remove Duplicates from Array** (`Remove_Duplicates_from_Array.js`)
-   - Revisit deduplication (Week 5) using `Set` — a different tool for the same problem.
-3. **Spread an Array into Another Array** (`Spread_an_Array_into_Another_Array.js`)
-   - Combine two arrays without mutating either original — connects to Week 5's copy-before-mutating guidance.
+- **Ternary Operator for Conditional** (`Ternary_Operator_for_Conditional.js`)
+  - Return the larger of two numbers using a ternary expression instead of an if/else block.
+- **Remove Duplicates from Array** (`Remove_Duplicates_from_Array.js`)
+  - Revisit deduplication (Week 5) using `Set` — a different tool for the same problem.
+- **Spread an Array into Another Array** (`Spread_an_Array_into_Another_Array.js`)
+  - Combine two arrays without mutating either original — connects to Week 5's copy-before-mutating guidance.
 
 These can be done in any order.
 
