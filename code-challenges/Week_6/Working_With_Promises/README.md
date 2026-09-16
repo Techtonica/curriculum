@@ -78,7 +78,7 @@ Create a function that simulates fetching data from a server. This function shou
 
 Implement a queue system that manages the execution of tasks, ensuring that no more than a specified number of tasks run at the same time. The queue should execute tasks in the order they were added, and when a task completes, the next task in the queue should start.
 
-1. Create a Queue Class: Define a class `AsyncQueu`e that takes a `concurrencyLimit` as a parameter. This class will manage the tasks.
+1. Create a Queue Class: Define a class `AsyncQueue` that takes a `concurrencyLimit` as a parameter. This class will manage the tasks.
 2. Implement Queue Methods:
    - `enqueue(task)`: Adds a task to the queue.
    - `runNext()`: Executes the next task in the queue if the concurrency limit is not reached.
