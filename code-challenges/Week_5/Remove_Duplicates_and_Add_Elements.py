@@ -7,7 +7,7 @@ item_to_move = 'cherry'
 
 
 
-# Write a function that takes a list of numbers as input and returns a new list with all duplicate numbers removed. You must use set() and list() methods to achieve this.
+# Write a function that takes a list of numbers as input and returns a new list with all duplicate numbers removed. You must use set() and list() functions to achieve this.
 
 def remove_duplicates(numbers):
 

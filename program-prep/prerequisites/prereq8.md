@@ -94,6 +94,8 @@ By the end of this session, participants will:
 
 ### Independent Practice
 
+🎗️ _**All independent practice tasks should be turned in the same day of the session no later than 9pm PT. Your submission link will be provided to you during your guided session's call**_
+
 #### Task 1: Simulate a GitHub Workflow with a Peer (75–120 minutes)
 **Objective:** Understand version control conceptually. See why teams use it. Practice collaboration and conflict resolution without Git CLI complexity.
 

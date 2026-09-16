@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 2rem;
+}
+button {
+}
+#root {
+  display: flex;
+}
