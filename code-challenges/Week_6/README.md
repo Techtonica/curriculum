@@ -1,19 +1,19 @@
 # Week 6 - Code Challenges
 
-## Prerequisites
+### Prerequisites
 
 1. Comfortable writing functions, loops, and conditionals (Weeks 1–3).
 2. Familiar working with arrays of objects, including `filter()`, `reduce()`, and `map()` (Week 4).
 3. Comfortable mutating arrays with `push`, `pop`, and `shift` (Week 5) — may be useful for the Async Queue bonus task.
 4. Can run a JavaScript file with `node file.js`.
 
-## Motivation
+### Motivation
 
 This week covers more ways to read, sort, and check data in objects and arrays — skills you'll frequently use with API responses or form data.
 
 Promises are used for asynchronous JavaScript code, including operations such as network requests. A promise represents the eventual success or failure of an asynchronous operation.
 
-## Learning Objectives
+### Learning Objectives
 
 After finishing this week's exercises, you will be able to:
 
@@ -25,7 +25,7 @@ After finishing this week's exercises, you will be able to:
 
 4. Build a queue that limits how many asynchronous tasks run at once.
 
-## Sequence and Relation
+### Sequence and Relation
 
 1. **Object Keys, Values, and For...Of** (`Object_Keys_Values_For-Of.js`)
    - Practice accessing object keys and values and iterating over the resulting arrays.
@@ -35,7 +35,7 @@ After finishing this week's exercises, you will be able to:
    - Create promises that resolve or reject based on a condition.
    - The bonus exercise applies promises to limit how many tasks run at once.
 
-## Relevant Materials
+### Relevant Materials
 
 1. [MDN: Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 2. [MDN: Object.values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
@@ -45,7 +45,7 @@ After finishing this week's exercises, you will be able to:
 6. [MDN: Array.prototype.every()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 7. [MDN: Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 
-## Common Mistakes and Misconceptions
+### Common Mistakes and Misconceptions
 
 1. `.sort()` mutates the original array in place and returns that same array without creating a new one.
 2. Sorting objects by a property needs an explicit compare function; without one, `.sort()` falls back to comparing default string conversions, which won't give the order you expect.
