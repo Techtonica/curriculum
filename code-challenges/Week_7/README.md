@@ -1,16 +1,16 @@
 # Week 7 — Code Challenges
 
-## Prerequisites
+### Prerequisites
 
 1. Comfortable with basic `if` statements (Weeks 1–3).
 2. Familiar with arrays, including copying vs. mutating them (Week 5).
 3. Can run a JavaScript file with `node file.js`.
 
-## Motivation
+### Motivation
 
 This week introduces a compact syntax for simple conditionals and array combination (ternary, spread), plus a new tool — Set — for removing duplicates without manually tracking seen values.
 
-## Learning Objectives
+### Learning Objectives
 
 After finishing this week's exercises, you will be able to:
 
@@ -18,7 +18,7 @@ After finishing this week's exercises, you will be able to:
 2. Remove duplicate values from an array using a `Set`.
 3. Combine two arrays into a new array using the spread operator (`...`).
 
-## Sequence and Relation
+### Sequence and Relation
 
 - **Ternary Operator for Conditional** (`Ternary_Operator_for_Conditional.js`)
   - Return the larger of two numbers using a ternary expression instead of an if/else block.
@@ -29,13 +29,13 @@ After finishing this week's exercises, you will be able to:
 
 These can be done in any order.
 
-## Relevant Materials
+### Relevant Materials
 
 1. [MDN: Conditional (ternary) operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 2. [MDN: Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 3. [MDN: Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
-## Common Mistakes and Misconceptions
+### Common Mistakes and Misconceptions
 
 1. Nesting multiple ternaries to handle more than two outcomes quickly gets hard to read — an if/else chain is often clearer at that point.
 2. `Set` removes duplicates automatically, but it is not an array — convert it back with `[...set]` or `Array.from(set)` if the function needs to return one.
