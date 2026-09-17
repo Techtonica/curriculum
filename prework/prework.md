@@ -134,8 +134,8 @@ If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, se
   - [ ] Understand the difference between your cohort-specific slack channels (i.e. #2026-h1-participants and #2025-h2-2026-h1-tech-help channels) and make your respective posts for cohort-specific information or tech-help related posts.
 
 ### Update Your Social Media Accounts
-- [ ] If you feel comfortable, create or update your social media accounts (LinkedIn & GitHub) to say you’re a Software Engineer in Training at @TechtonicaOrg. 
-- [ ] **Mandatory**: Update your LinkedIn with info about Techtonica, like so:
+- [ ] Create or update your social media accounts (LinkedIn & GitHub) to say you’re a Software Engineer in Training at @TechtonicaOrg.
+- [ ] **Mandatory (if you have a LinkedIn account)**: Update your LinkedIn with info about Techtonica, like so:
   - [ ] Add new experience with “Software Engineer in Training” as the title.
   - [ ] Type “Techtonica” as the company and select Techtonica from the list of companies (it’s the one with the teal image).
   - [ ] Add this paragraph to the description: _"Techtonica is a part-time, virtual, hands-on, project-based, collaborative software engineering learning program with a focus on PERN full-stack implementation. The last month is spent preparing to join Techtonica’s partner companies for employment."_
