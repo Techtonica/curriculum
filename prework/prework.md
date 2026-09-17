@@ -149,10 +149,7 @@ If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, se
 - [ ] Remove anything you don’t want in the pictures (like a coat or hat, anything with a pattern or logo, or things in the background).
 - [ ] Be far enough back from the camera that Techtonica can crop your photo for consistency with others. Your not-tilted head should be in the center with space above it, your hands should be down by your sides or folded, and your shoulders should reach either side of the square photo.
 - [ ] Check teeth, hair, lipstick, etc.
-- [ ] Check off each of the following photos:
-  - [ ] One of your head slightly turned to the left (but still looking at the camera)
-  - [ ] One of your head slightly turned to the right
-  - [ ] One of your head facing the camera straight-on
+- [ ] Background should be white (#FFFFFF)
 - [ ] Please submit your photo uing [this form](https://docs.google.com/forms/d/e/1FAIpQLSfyvhCYCSGUA5uhGGOY5usP0z4zhlMwGDDaPRLhNU_SCSZn4Q/viewform)
 
 ### Optional (if you finish the above work, choose what you're interested in next!)
