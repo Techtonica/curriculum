@@ -11,8 +11,8 @@ Imagine we have a simple application that fetches user data from an API and disp
 
 ## Create the Following Test Files:
 
-- Create an unit tests for `UserService` to verify that the service correctly fetches user data and handles errors. Simulate a network requests without actually making HTTP calls (`userService.test.js`).
-- Create an integration test for `UserController` to verify that the controller correctly delegates the request to the service and passes the response along. This test should ensure that the interaction between the controller and the service works as expected (`userController.test.js`)
+- Create a unit tests for `UserService` to verify that the service correctly fetches user data and handles errors. Simulate a network requests without actually making HTTP calls (`userService.test.js`).
+- Create a integration test for `UserController` to verify that the controller correctly delegates the request to the service and passes the response along. This test should ensure that the interaction between the controller and the service works as expected (`userController.test.js`)
 
 ## Running Your Tests
 
