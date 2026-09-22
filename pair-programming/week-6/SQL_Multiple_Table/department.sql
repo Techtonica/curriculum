@@ -12,6 +12,6 @@ VALUES
     (3, 70000, 'Sales', 'SLS'),
     (4, 80000, 'HR', 'HR'),
     (5, 90000, 'Finance', 'FIN'),
-    (6, 100000, 'IT', 'IT');
-    (7, 750000, 'Sales', 'SLS'),  
-    (8, 750000, 'Marketing', 'MKT'),  
+    (6, 100000, 'IT', 'IT'),
+    (7, 750000, 'Sales', 'SLS'),
+    (8, 750000, 'Marketing', 'MKT');

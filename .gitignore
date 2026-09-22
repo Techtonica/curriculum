@@ -2,3 +2,8 @@
 **.DS_Store
 .idea
 **node_modules/
+
+# Local secrets: exercises that call an API ask you to create a .env with your
+# own key. Keep real keys out of the repo; commit .env.example instead.
+**/.env
+!**/.env.example

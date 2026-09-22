@@ -1,9 +1,18 @@
 import express from "express";
 import fetch from "node-fetch";
 import ejs from "ejs";
+import path from "path";
+import { fileURLToPath } from "url";
 import "dotenv/config";
 
-const port = 5000;
+// Resolve paths against this file, so the server also works when you start it
+// from a different folder.
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Port 5000 is taken by the AirPlay Receiver on macOS, so default to 5173 --
+// the same port Vite uses, which you already know from Week 5.
+// Override with `PORT=4000 npm start` if 5173 is busy too.
+const port = process.env.PORT || 5173;
 
 const app = express();
 app.get("/", async (req, resp) => {
@@ -29,7 +38,7 @@ app.get("/", async (req, resp) => {
   }
 
   resp.send(
-    await ejs.renderFile("./index.ejs", {
+    await ejs.renderFile(path.join(__dirname, "index.ejs"), {
       weather,
       error,
       cityName: req.query.cityName
