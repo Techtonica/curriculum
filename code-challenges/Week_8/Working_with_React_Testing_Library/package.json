@@ -1,8 +1,8 @@
 {
-  "name": "react-javascript",
+  "name": "react-testing-library-exercise",
   "version": "1.0.0",
   "type": "module",
-  "description": "React Testing Library Practice",
+  "description": "React + Vite project for practicing React Testing Library",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
