@@ -7,12 +7,16 @@ You have been given a simple application consisting of a service module and a co
 Imagine we have a simple application that fetches user data from an API and displays it. Our application consists of two parts:
 
 - **Service Module (`userService.js`):** Responsible for fetching user data from an API.
-- **Controller Module (`userController.js`):** Uses the service to fetch user data and sends it to the view.
+- **Controller Module (`userController.js`):** Uses the service to fetch user data and returns it to the caller.
 
 ## Create the Following Test Files:
 
-- Create a unit tests for `UserService` to verify that the service correctly fetches user data and handles errors. Simulate a network request without actually making HTTP calls (`userService.test.js`).
-- Create a integration test for `UserController` to verify that the controller correctly delegates the request to the service and passes the response along. This test should ensure that the interaction between the controller and the service works as expected (`userController.test.js`)
+- Create a unit test for `UserService` to verify that the service correctly fetches user data and handles errors. Simulate a network request without actually making HTTP calls (`userService.test.js`).
+- Create a unit test for `UserController` to verify that the controller correctly delegates the request to the service and passes the response along, using a mocked `UserService` (`userController.test.js`). This test should ensure that the interaction between the controller and the service works as expected (`userController.test.js`)
+
+### Bonus: Integration Test
+
+Once your unit tests pass, try writing a real integration test: use the actual `UserService` (not a mock) together with `UserController`, and confirm the two work correctly together. Since you don't want a test that depends on a live network call, mock only `fetch` itself — that way both real classes still run, and only the true external dependency (the network) is faked.
 
 ## Running Your Tests
 
