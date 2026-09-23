@@ -12,7 +12,7 @@ Imagine we have a simple application that fetches user data from an API and disp
 ## Create the Following Test Files:
 
 - Create a unit test for `UserService` to verify that the service correctly fetches user data and handles errors. Simulate a network request without actually making HTTP calls (`userService.test.js`).
-- Create a unit test for `UserController` to verify that the controller correctly delegates the request to the service and passes the response along, using a mocked `UserService` (`userController.test.js`). This test should ensure that the interaction between the controller and the service works as expected (`userController.test.js`)
+- Create a unit test for `UserController` to verify that the controller correctly delegates the request to the service and passes the response along, using a mocked `UserService` (`userController.test.js`).
 
 Note: Although this controller currently only delegates to the service, testing the delegation gives us a simple example of mocking a dependency. In a larger application, a controller might also validate input, transform data, or choose how errors are handled.
 

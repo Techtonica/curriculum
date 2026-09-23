@@ -13,7 +13,7 @@ Create a simple React component that displays a list of items and supports addin
   - `getByRole()` — usually preferred when possible
   - `getByLabelText()` — particularly useful for form controls
 
-1. Install and run your tests using: `npm install` and `npm run test`
+3. Install and run your tests using: `npm install` and `npm run test`
 
 ## What's in your package.json
 
