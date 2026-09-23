@@ -4,14 +4,16 @@ Create a simple React component that displays a list of items and supports addin
 
 1. Create a file named `ItemList.jsx` that takes an array of items as a prop and renders them as a list. Include a text input and an "Add" button that appends a new item to the list.
 
-2. Create a test file named `ItemList.test.jsx` in the same directory. Import `render` and `screen` from React Testing Library and write the following tests:
+2. Create a test file named `ItemList.test.jsx` in the same directory. Import `render` and `screen` from React Testing Library, as well as `describe`, `test`, `expect` from "vitest", and write the following tests:
 
 - The first test should check that the component renders each item in the list.
 - The second test should check that the component renders no list items when passed an empty array.
-- The third test should use `user-event` to type a new item into the input, click the "Add" button, and confirm the new item appears in the list.
-- The `screen.getByText` query is used to check if an item of text is present in the document. This aligns with the idea of testing components from the user's perspective.
+- The third test should use `user-event` to type a new item into the input, click the "Add" button, and confirm the new item appears in the list. Keep in mind that `user-event` interactions are asynchronous, so you'll need to `await` them.
+- The `screen.getByText()` query is used to check if an item of text is present in the document; this is useful when the visible text itself is what matters. This aligns with the idea of testing components from the user's perspective. Other queries to know about include:
+  - `getByRole()` — usually preferred when possible
+  - `getByLabelText()` — particularly useful for form controls
 
-3. Install and run your tests using: `npm install` and `npm run test`
+1. Install and run your tests using: `npm install` and `npm run test`
 
 ## What's in your package.json
 
