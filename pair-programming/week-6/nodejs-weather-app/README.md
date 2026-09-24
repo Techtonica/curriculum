@@ -6,6 +6,6 @@ You will need to create a free account with open weather map to get a key. Make 
 
 - Initialize the project with `npm init` command
 - Install following dependencies `npm install express node-fetch dotenv ejs`
-- Create `.env` file to store your API key. For example: `API_KEY=YOUR-API_KEY-GOES-HERE`
+- Copy `.env.example` to `.env` and paste your own key into it: `cp .env.example .env`
 - Create `index.ejs` and `server.mjs` file. Copy the content from this repo.
-- Navigate to `http://localhost:5000/` to make the weather request.
+- Start the server with `npm start`, then navigate to `http://localhost:5173/` to make the weather request.

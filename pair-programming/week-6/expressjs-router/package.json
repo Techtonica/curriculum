@@ -1,0 +1,16 @@
+{
+  "name": "expressjs-router",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Techtonica Week 6 pair programming exercise: serving different files from different URLs with Express routes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
