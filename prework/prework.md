@@ -38,7 +38,7 @@ _**⚠️ Remember to complete: ⚠️**_
     - [ ] "techtonica-knowledge-check" (private)
     - [ ] "js-exercises" (public)
 - [ ] Complete the free course "Basic Git Workflow with GitHub" - [Free course from Udemy](https://www.udemy.com/course/git-started-with-github/) (If section 3, step 13 shows password authentication read these notes about [GitHub SSH authentication](https://docs.google.com/document/d/1V596QwRYzMAwYtCpTBXCHj-ykRqDxo42TokENLgkulk/edit?usp=sharing) or instead try this read about [managing personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens))
-- [ ] Complete the free course [freeCodeCamp's Learn JavaScript Debugging](https://www.freecodecamp.org/learn/learn-javascript-debugging/) course
+- [ ] Complete the free course [freeCodeCamp's Learn JavaScript Debugging](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#debugging) course
 - [ ] Schedule times to get to know the program staff, ahead of your program start date. Here are some good guiding questions:
   - [ ] Life story? Greatest accomplishment? What is important for people to learn about you?
   - [ ] Fears for the program?
