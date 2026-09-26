@@ -4,14 +4,16 @@ These assignments are to prepare you for starting full-time at Techtonica. There
 
 _**⚠️ Remember to complete: ⚠️**_
 
-- [Submit your Techtonica photos](#submit-your-techtonica-photos)
-- [Set up your MacBook Laptop](#set-up-your-macbook-laptop)
-- [Update your Social Media Accounts](#update-your-social-media-accounts)
-- [RSVP for Techtonica’s Events & Meetings](#rsvp-for-techtonicas-events--meetings)
-- [Pre-Work Week 1](#pre-work-week-1)
-- [Pre-Work Week 2](#pre-work-week-2)
-- [Pre-Work Week 3](#pre-work-week-3)
-- [Pre-Work Week 4](#pre-work-week-4)
+- [**Techtonica Pre-Work**](#techtonica-pre-work)
+  - [Pre-Work Week 1:](#pre-work-week-1)
+  - [Pre-Work Week 2:](#pre-work-week-2)
+  - [Pre-Work Week 3:](#pre-work-week-3)
+  - [Pre-Work Week 4:](#pre-work-week-4)
+  - [Set Up Your MacBook Laptop](#set-up-your-macbook-laptop)
+  - [Update Your Social Media Accounts](#update-your-social-media-accounts)
+  - [Submit Your Techtonica Photos](#submit-your-techtonica-photos)
+  - [Optional (if you finish the above work, choose what you're interested in next!)](#optional-if-you-finish-the-above-work-choose-what-youre-interested-in-next)
+  - [RSVP for Techtonica’s events \& meetings](#rsvp-for-techtonicas-events--meetings)
 
 ### Pre-Work Week 1:
 
@@ -23,7 +25,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Read and review [Techtonica&#39;s Participant Handbook](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ez75on7s6lo4)
 - [ ] Read and review this [pair programming roles definition](https://gist.github.com/jordanpoulton/607a8854673d9f22c696)
 - [ ] Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
-- [ ] Configure your zsh terminal, according to [these instructions](https://drive.google.com/file/d/1BaUWobXXujWZ3JS2Y1TP-fx7Xba3CMYQ/view?usp=sharing)
+- [ ] Configure your zsh terminal, according to [these instructions](https://docs.google.com/document/d/1QxkR6YfXkz7dpp-pX86QBOHDrDLT3s5pQHhzFQeyN3w/edit?tab=t.0)
 - [ ] Listen to [Fixed and Growth Mindset with Carol Dweck](https://www.oneyoufeed.net/fixed-and-growth-mindset/) (28 minute podcast episode)
 - [ ] Look through [Techtonica's Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
 - [ ] Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
@@ -33,7 +35,7 @@ _**⚠️ Remember to complete: ⚠️**_
   - [ ] [Sign up for a GitHub account](https://github.com/signup?user_email=&source=form-home-signup)
   - [ ] Make sure your Terminal is connected to your GitHub account so when you make a commit, GitHub knows it was from you via [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)
   - [ ] Sign in to GitHub in the Terminal.
-  - [ ] Set up your GitHub repos: 
+  - [ ] Set up your GitHub repos:
     - [ ] "techtonica-assignments" (public)
     - [ ] "techtonica-knowledge-check" (private)
     - [ ] "js-exercises" (public)
@@ -83,6 +85,7 @@ _**⚠️ Remember to complete: ⚠️**_
 **We highly recommend that you keep studying Javascript and practice the first 20 very easy level code challenges on [Edabit](https://edabit.com/challenges):**
 
 ### Pre-Work Week 4:
+
 - [ ] Practice git with [John Wiegley's "Git From the Bottom Up"](https://jwiegley.github.io/git-from-the-bottom-up/)
 - [ ] Read about [Techtonica’s Feedback Framework](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ncx7nw2pegwg)
 - [ ] Listen to [Do You Receive Feedback Well?](https://www.michellemcquaid.com/podcast/do-you-receive-feedback-well-podcast-with-sheila-heen/) (30 min podcast)
@@ -96,18 +99,20 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Practice your intro (1 minute max) for program calls until you have it memorized. Include your name, one small phrase about what you did before Techtonica, why you haven’t been able to get into tech, why you’ll make a great software engineer, and why you’re excited for Techtonica. Here are some [examples of personal pitches that you can read](https://medium.com/techtonica/participant-story-abby-f7c4bce3d657).
 
 Modify the following items if you're not sure where to start, but please make the pitch your own. We don't want everyone's pitch to sound the same.
+
 ```plaintext
-“I’m [name] and my pronouns are [pronouns]. 
-I’m a former [old jobs] and I love to [hobbies]. 
-I’m interested in tech because __________. 
-It’s been hard for me to get into tech because __________. 
-I’m excited about joining Techtonica because _________. 
+“I’m [name] and my pronouns are [pronouns].
+I’m a former [old jobs] and I love to [hobbies].
+I’m interested in tech because __________.
+It’s been hard for me to get into tech because __________.
+I’m excited about joining Techtonica because _________.
 I believe I’ll make a good software engineer because _______./I want to contribute _______ to the tech industry.”
 ```
 
 ### Set Up Your MacBook Laptop
 
 If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, set up your new laptop.
+
 - [ ] Download Zoom
 - [ ] Send [the electronically-signed laptop agreement as a PDF](https://docs.google.com/document/d/1mRLOpx9k6GWn0vooOw56HEaxIS1kqTihyqZyvkLal3U/edit?usp=sharing) to Techtonica (reply-all) in the application process thread (if applicable, otherwise, please just check off)
 - [ ] [Set Gmail to reply-all](https://screenrant.com/gmail-reply-all-default-email-setting-how/)
@@ -117,7 +122,7 @@ If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, se
 - [ ] [Install the LanguageTool Chrome](https://languagetool.org/)
 - [ ] Install the [Video Speed Controller Chrome extension](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk) and a Bionic Reading technology such as Selection Reader, Reader View, Just Read, Natural Reader, Speechify, or Text-to-Speech Extensions
 - [ ] For security reasons: adhere a movable camera cover (a Post-it note works for this)
-- [ ] See if you can secure a monitor, mouse, keyboard, and any necessary cables  on Buy Nothing, Freecycle, Craigslist, from a friend, etc.
+- [ ] See if you can secure a monitor, mouse, keyboard, and any necessary cables on Buy Nothing, Freecycle, Craigslist, from a friend, etc.
 - [ ] Install [Rectangle](https://rectangleapp.com/) for quickly resizing windows
 - [ ] Set up a password so your laptop can’t be used without it
 - [ ] [Install npm](https://www.npmjs.com/get-npm)
@@ -129,11 +134,12 @@ If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, se
 - [ ] [Download and install Slack](https://slack.com/downloads/mac) and look over [Techtonica’s Slack tips](https://docs.google.com/document/d/1xcRvH7F2Fj-AH1Q3Ji4UWPZ9NHyrHTn8Tz7kkmW8Rlw/edit?usp=sharing).
   - [ ] Upload a clear photo of your face
   - [ ] Ensure that your applicant name and pronouns are what others will see
-  - [ ] Add your phonetic name spelling (i.e. "Mar-sh Mah-low") and [audible pronunciation](https://www.name-coach.com/daaimah-tibrey) to your Slack profile. There is also a really cool [Slack profile feature](https://www.td.org/magazines/td-magazine/cool-tool-slack-pronunciation-guide) that lets you record your name, which is accessible to the entire Slack community. 
+  - [ ] Add your phonetic name spelling (i.e. "Mar-sh Mah-low") and [audible pronunciation](https://www.name-coach.com/daaimah-tibrey) to your Slack profile. There is also a really cool [Slack profile feature](https://www.td.org/magazines/td-magazine/cool-tool-slack-pronunciation-guide) that lets you record your name, which is accessible to the entire Slack community.
   - [ ] If you have more than one profile, notify staff of which profile should be deactivated
   - [ ] Understand the difference between your cohort-specific slack channels (i.e. #2026-h1-participants and #2025-h2-2026-h1-tech-help channels) and make your respective posts for cohort-specific information or tech-help related posts.
 
 ### Update Your Social Media Accounts
+
 - [ ] Create or update your social media accounts (LinkedIn & GitHub) to say you’re a Software Engineer in Training at @TechtonicaOrg.
 - [ ] **Mandatory (if you have a LinkedIn account)**: Update your LinkedIn with info about Techtonica, like so:
   - [ ] Add new experience with “Software Engineer in Training” as the title.
@@ -144,6 +150,7 @@ If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, se
 - [ ] Share the full links (not handles) for your social media, LinkedIn, and GitHub in the cohort pre-work checklist.
 
 ### Submit Your Techtonica Photos
+
 - [ ] Have your photos taken via screenshot or a camera phone using the photo guidelines outlined on the form below. That means you should wear clothes with solid colors like teal, cobalt blue, purple, or berry—please no patterns or logos.
 - [ ] Have [this white background](https://www.dropbox.com/s/w6sp5l5w2nh79q4/White%20Background.png?dl=0) ready on your zoom and plenty of natural light in front of you (but no sunlight directly on you).
 - [ ] Remove anything you don’t want in the pictures (like a coat or hat, anything with a pattern or logo, or things in the background).
@@ -162,6 +169,6 @@ If you’ve gotten a new laptop from the Part 1: Web Dev Foundations program, se
 
 ### RSVP for Techtonica’s events & meetings
 
-- [ ] Be sure to [RSVP](https://www.eventbrite.com/o/techtonica-11297022451) for your study group sessions to work through your pre-work materials. 
+- [ ] Be sure to [RSVP](https://www.eventbrite.com/o/techtonica-11297022451) for your study group sessions to work through your pre-work materials.
 
-- [ ] Accept invitations to study sessions you can make it to, or plan to check in on Slack if you can’t make it. (Please [sign up for the event](https://www.eventbrite.com/e/1597762904859?aff=oddtdtcreator) in the same link as a volunteer but use the Techtonica applicant ticket). 
+- [ ] Accept invitations to study sessions you can make it to, or plan to check in on Slack if you can’t make it. (Please [sign up for the event](https://www.eventbrite.com/e/1597762904859?aff=oddtdtcreator) in the same link as a volunteer but use the Techtonica applicant ticket).
