@@ -23,7 +23,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Read and review [Techtonica&#39;s Participant Handbook](https://docs.google.com/document/d/1bPp3wT4YUo2PuNSYLMwIW9TkU6trd7NSuR9ieHv9MME/edit#heading=h.ez75on7s6lo4)
 - [ ] Read and review this [pair programming roles definition](https://gist.github.com/jordanpoulton/607a8854673d9f22c696)
 - [ ] Read through the [Ethics in Software](/program-prep/ethics.md) topic outline
-- [ ] Configure your zsh terminal, according to [these instructions](https://drive.google.com/file/d/1BaUWobXXujWZ3JS2Y1TP-fx7Xba3CMYQ/view?usp=sharing)
+- [ ] Configure your zsh terminal, according to [these instructions](https://docs.google.com/document/d/1QxkR6YfXkz7dpp-pX86QBOHDrDLT3s5pQHhzFQeyN3w/edit?usp=sharing)
 - [ ] Listen to [Fixed and Growth Mindset with Carol Dweck](https://www.oneyoufeed.net/fixed-and-growth-mindset/) (28 minute podcast episode)
 - [ ] Look through [Techtonica's Time Management slides](https://docs.google.com/presentation/d/1VGlfYtWXQ8TEXsq4Bad0k2WZ-mK02hI3UwVXrfuUpPA/edit?usp=sharing)
 - [ ] Improve your typing speed, accuracy, and finger placement with [The Typing Cat](https://thetypingcat.com/), [TypingTest](https://www.typingtest.com/), or [Ratatype](https://ratatype.com/) (you should be at 50+ WPM by the start of the program)
