@@ -9,19 +9,25 @@ The project has two parts, and each has its own `package.json`:
 
 ## Quick Guide
 
-From this folder (`pair-programming/week-7/react-express-app/starter-code/React-express-starter-code`), install the server dependencies and start the server:
+From the root of the `curriculum` repo, move into this folder, install the server dependencies, and start the server:
 
 ```bash
+cd pair-programming/week-7/react-express-app/starter-code/React-express-starter-code
 npm install
 npm start
 ```
 
 You should see `Server listening on 8080`. Visit `http://localhost:8080/api` to check that it returns `{"message":"Hello from ExpressJS"}`.
 
-Open a second terminal in the same folder, then install and start the client:
+Leave the server running. Open a second terminal (in VS Code: **Terminal → New Terminal**). A new terminal starts in the root of the `curriculum` repo, not in this folder, so move into the client folder with its full path:
 
 ```bash
-cd client
+cd pair-programming/week-7/react-express-app/starter-code/React-express-starter-code/client
+```
+
+Check you are in the right place before installing: `pwd` should end in `React-express-starter-code/client`, and `ls` should list `package.json`, `vite.config.js`, and `src`. Then install and start the client:
+
+```bash
 npm install
 npm run dev
 ```
