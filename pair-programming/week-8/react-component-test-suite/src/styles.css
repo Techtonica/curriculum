@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.textHeader {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #565676;
+  color: #c38d94;
+  font-size: 35px;
+}
+
+.ListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #c38d94;
+  width: 165px;
+}
+
+.ListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #565676;
+  color: #fff;
+  border: 2px solid #565676;
+}
+
+.ListMain .header button:hover {
+  background-color: #565676;
+  border: 2px solid #565676;
+  cursor: pointer;
+}
+
+.singleitem {
+  color: #c38d94;
+  background-color: #edefff;
+  padding: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  list-style: none;
+}
