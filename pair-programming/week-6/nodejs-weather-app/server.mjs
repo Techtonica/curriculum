@@ -9,10 +9,10 @@ import "dotenv/config";
 // from a different folder.
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// Port 5000 is taken by the AirPlay Receiver on macOS, so default to 5173 --
-// the same port Vite uses, which you already know from Week 5.
-// Override with `PORT=4000 npm start` if 5173 is busy too.
-const port = process.env.PORT || 5173;
+// Port 5000 is taken by the AirPlay Receiver on macOS, so default to 8080.
+// If 8080 is busy too, you will see `Error: listen EADDRINUSE: address already
+// in use :::8080` -- pick another port with `PORT=4000 npm start`.
+const port = process.env.PORT || 8080;
 
 const app = express();
 app.get("/", async (req, resp) => {
