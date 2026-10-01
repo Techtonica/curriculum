@@ -47,7 +47,7 @@ After finishing these exercises, you will be able to:
 3. **Express.js Router** (`expressjs-router/`)
    - The smallest useful Express server: `index.js` maps `/` to `index.html` and `/about` to `about.html`. It is the quickest exercise here — the point is the route-to-file mapping, not the pages, so do not spend time on the HTML.
 4. **Node.js Weather App** (`nodejs-weather-app/`)
-   - The longest and most complete exercise here, and the one worth the most time. `server.mjs` takes a city name from the form's query string, `await`s a fetch to the OpenWeatherMap API, and renders `index.ejs` with the result. You need a free [OpenWeatherMap account](https://home.openweathermap.org/users/sign_up) — sign up at the start of the session, because a new key is not active immediately. Save the key; later weeks reuse it.
+   - The longest and most complete exercise here, and the one worth the most time. `server.mjs` takes a city name from the form's query string, `await`s a fetch to the OpenWeatherMap API, and renders `index.ejs` with the result. Two packages split the work: Express handles routing, middleware, and the request/response logic in the server Node creates, while [EJS](https://ejs.co/) is a Node package for templating — it fills the values from the API response into the HTML in `index.ejs`. You need a free [OpenWeatherMap account](https://home.openweathermap.org/users/sign_up) — sign up at the start of the session, because a new key is not active immediately. Save the key; later weeks reuse it.
 
 ## Relevant Materials
 
