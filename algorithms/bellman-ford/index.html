@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellman-Ford Visualizer</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; background: #f4f4f9; }
+        #graph-container { position: relative; width: 600px; height: 400px; border: 2px solid #333; background: white; margin: 20px; border-radius: 8px; }
+        .node { position: absolute; width: 40px; height: 40px; background: #4a90e2; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; transition: background 0.3s; }
+        .edge { position: absolute; height: 2px; background: #ccc; transform-origin: 0 0; }
+        .edge-label { position: absolute; font-size: 12px; background: white; padding: 2px; border-radius: 3px; }
+        .controls { margin-bottom: 20px; }
+        .distance-tag { position: absolute; top: -25px; left: 5px; color: #d00; font-size: 12px; }
+        .highlight { background: #f1c40f !important; }
+    </style>
+</head>
+<body>
+    <h1>Bellman-Ford Visualizer</h1>
+    <div class="controls">
+        <button onclick="step()">Next Relaxation Step</button>
+        <button onclick="reset()">Reset</button>
+        <p id="status">Click "Next" to start relaxing edges.</p>
+    </div>
+    <div id="graph-container"></div>
+
+    <script>
+        const nodes = { 'A': {x: 50, y: 200}, 'B': {x: 200, y: 100}, 'C': {x: 350, y: 200}, 'D': {x: 200, y: 300}, 'E': {x: 450, y: 100} };
+        const edges = [
+            { from: 'A', to: 'B', w: -1 }, { from: 'A', to: 'C', w: 4 },
+            { from: 'B', to: 'C', w: 3 }, { from: 'B', to: 'D', w: 2 },
+            { from: 'B', to: 'E', w: 2 }, { from: 'D', to: 'B', w: 1 },
+            { from: 'D', to: 'C', w: 5 }, { from: 'E', to: 'D', w: -3 }
+        ];
+        let distances = { 'A': 0, 'B': Infinity, 'C': Infinity, 'D': Infinity, 'E': Infinity };
+        let currentStep = 0;
+        let edgeIndex = 0;
+
+        function initGraph() {
+            const container = document.getElementById('graph-container');
+            for (let id in nodes) {
+                const div = document.createElement('div');
+                div.className = 'node';
+                div.id = `node-${id}`;
+                div.style.left = nodes[id].x + 'px';
+                div.style.top = nodes[id].y + 'px';
+                div.innerHTML = `${id}<div class="distance-tag" id="dist-${id}">∞</div>`;
+                container.appendChild(div);
+            }
+            edges.forEach((edge, i) => {
+                const start = nodes[edge.from];
+                const end = nodes[edge.to];
+                const dx = end.x - start.x;
+                const dy = end.y - start.y;
+                const dist = Math.sqrt(dx*dx + dy*dy);
+                const angle = Math.atan2(dy, dx) * 180 / Math.PI;
+                
+                const line = document.createElement('div');
+                line.className = 'edge';
+                line.id = `edge-${i}`;
+                line.style.width = dist + 'px';
+                line.style.left = (start.x + 20) + 'px';
+                line.style.top = (start.y + 20) + 'px';
+                line.style.transform = `rotate(${angle}deg)`;
+                container.appendChild(line);
+
+                const label = document.createElement('div');
+                label.className = 'edge-label';
+                label.style.left = (start.x + dx/2 + 20) + 'px';
+                label.style.top = (start.y + dy/2 + 20) + 'px';
+                label.innerText = edge.w;
+                container.appendChild(label);
+            });
+            updateDistances();
+        }
+
+        function updateDistances() {
+            for (let id in distances) {
+                document.getElementById(`dist-${id}`).innerText = distances[id] === Infinity ? '∞' : distances[id];
+            }
+        }
+
+        function step() {
+            if (currentStep >= Object.keys(nodes).length - 1) {
+                document.getElementById('status').innerText = "Relaxation complete!";
+                return;
+            }
+
+            const edge = edges[edgeIndex];
+            const edgeEl = document.getElementById(`edge-${edgeIndex}`);
+            
+            // Visual highlight
+            document.querySelectorAll('.edge').forEach(e => e.classList.remove('highlight'));
+            edgeEl.classList.add('highlight');
+
+            if (distances[edge.from] !== Infinity && distances[edge.from] + edge.w < distances[edge.to]) {
+                distances[edge.to] = distances[edge.from] + edge.w;
+                document.getElementById('status').innerText = `Updated ${edge.to} to ${distances[edge.to]}`;
+            } else {
+                document.getElementById('status').innerText = `No update for ${edge.to}`;
+            }
+
+            updateDistances();
+            edgeIndex++;
+            if (edgeIndex >= edges.length) {
+                edgeIndex = 0;
+                currentStep++;
+            }
+        }
+
+        function reset() {
+            distances = { 'A': 0, 'B': Infinity, 'C': Infinity, 'D': Infinity, 'E': Infinity };
+            currentStep = 0;
+            edgeIndex = 0;
+            updateDistances();
+            document.getElementById('status').innerText = "Reset complete.";
+        }
+
+        initGraph();
+    </script>
+</body>
+</html>
