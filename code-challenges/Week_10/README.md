@@ -8,7 +8,7 @@
 
 ### Motivation
 
-This week continues last week's format: four more standalone problems, each given only as a written spec with no starter code. This set spans type conversion, digit manipulation, counting the number of ways to reach a result, and comparing ranges between two arrays.
+This week continues last week's format: four more standalone problems, each given only as a written spec with no starter code. You'll need to write your own function signature and test calls. This set spans type conversion, digit manipulation, counting the number of ways to reach a result, and comparing ranges between two arrays.
 
 ### Learning Objectives
 
