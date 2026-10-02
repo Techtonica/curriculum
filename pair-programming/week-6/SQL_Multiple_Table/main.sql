@@ -5,8 +5,8 @@
 .mode column
 
 -- load database
-.read employee.sql
 .read department.sql
+.read employee.sql
 
 -- run query prompts
 

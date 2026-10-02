@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-weather-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Techtonica Week 6 pair programming exercise: calling the OpenWeatherMap API from an Express server and rendering the result with EJS",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
