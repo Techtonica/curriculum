@@ -59,10 +59,11 @@ This directory contains the pair programming session contents separated by week,
 ## Week 8
 
 - [Create user stories](/ui-ux-design/ui-ux-design.md)
-- [Jest Testing: RithmSchool](https://www.rithmschool.com/courses/rithm-school-intermediate-react/lessons/testing-with-jest/)
+- [Vitest: Getting Started](https://vitest.dev/guide/)
+- [React Testing Library: Introduction](https://testing-library.com/docs/react-testing-library/intro/)
 - [API testing with Jest](https://jestjs.io/docs/tutorial-async)
-- [React Component Test Suite](https://codesandbox.io/p/sandbox/wk8-pp-react-component-test-suite-4zgv6w)
-- [Testing a React Form (in codesandbox)](https://codesandbox.io/s/kc-week-8-ych1bq?file=/src/README.md)
+- [React Component Test Suite](/pair-programming/week-8/react-component-test-suite)
+- [Testing a React Form](/pair-programming/week-8/testing-a-react-form)
 
 ## Week 9
 
