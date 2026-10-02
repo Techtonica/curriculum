@@ -11,7 +11,7 @@ This folder covers forms in React, passing data from a child component to its pa
 
 ## Motivation
 
-Almost every app you build from here on takes input from a user and sends it somewhere: to another component, to a server, and from there to a database. This week follows that data one step at a time. First from an input into state, then from a child component up to its parent, then from an Express server into React through `/api`. Moving data through a React app is the vital concept; the final project is built on it.
+Almost every app you build from here on moves data from one place to another: from a user's input into state, between components, and between the browser and a server. This week takes those steps one at a time. First, an input's value goes into state. Next, a child component sends that value up to its parent. Last, React asks an Express server for data through `/api` and renders the response. Moving data through a React app is the vital concept; the final project is built on it.
 
 ## Learning Objectives
 
@@ -31,11 +31,11 @@ After finishing the exercises, you will be able to:
 2. **React Forms Continued** (`react-forms-continued/`)
    - The same form, already split into `src/Components/form.jsx` and `src/Components/message.jsx`. The README warns the code does not work: the fields will not accept typing until you complete the `set` function. Then finish `handleSubmit` so it passes the values up through the `tochild` prop, and the parent in `App.jsx` swaps the form for a thank-you message. This is the harder of the two form exercises; do it second.
 3. **React + Express App** (`react-express-app/`)
-   - The longest exercise and the one worth the most time. Follow `react-expressjs.md` to build a project from scratch: an Express server with a `/api` route, a Vite React client, a proxy between them, and a button that fetches the server's message. The Independent Practice adds an `/api/users` route and a list. `starter-code/` is the finished version to compare against, not the place to start.
+   - The longest exercise and the one worth the most time. Follow `react-expressjs.md` to build a project from scratch: an Express server with a `/api` route, a Vite React client, a proxy between them, and a button that fetches the server's message. The Independent Practice adds an `/api/users` route and a list. `starter-code/` is the finished version of the guided exercise to compare against, not the place to start.
 4. **Activity: Database & Backend Debugging** (`Activity.md`)
-   - A 90-minute facilitated session shared between Weeks 7 and 8, run with your cohort. You fix broken SQL queries, broken Express routes, and a full-stack app where "Add Todo" does nothing. It uses PostgreSQL and a broken app your facilitator provides; neither is in this folder.
+   - A 90-minute facilitated session shared between Weeks 7 and 8. You fix broken SQL queries, broken Express routes, and a full-stack app where "Add Todo" does nothing. It uses PostgreSQL and a broken app your facilitator provides; neither is in this folder.
 5. **Factorial with Recursion** (`Factorial_Calculation_Using_Recursion.js`)
-   - A short standalone warm-up, unrelated to the rest of the week. Fill in `factorial(n)` and run it with `node Factorial_Calculation_Using_Recursion.js`; `factorial(5)` should return `120`. Safe to do at the start of a session or skip if time is short.
+   - A short standalone warm-up, unrelated to the rest of the week. Run it with `node Factorial_Calculation_Using_Recursion.js`.
 
 ## Relevant Materials
 
@@ -56,4 +56,4 @@ After finishing the exercises, you will be able to:
 5. `fetch("/api")` with no proxy in `vite.config.js` returns Vite's `index.html` instead of JSON, and `res.json()` fails with `Unexpected token '<', "<!DOCTYPE "... is not valid JSON`. With the proxy set but the Express server not running, the request fails with a `500` and the Vite terminal prints `[vite] http proxy error: /api`. The server and the client each need their own terminal, both running.
 6. On macOS, port 5000 belongs to the AirPlay Receiver. A request to `localhost:5000` can come back `403 Forbidden` from AirPlay rather than from your server. Run Express on another port, such as `PORT=8080`, and point the proxy `target` at the same port.
 7. A recursive function with no base case, or one the input never reaches, fails with `RangeError: Maximum call stack size exceeded`. Decide what `factorial(0)` returns before writing the recursive call.
-8. Take turns typing. In the React + Express exercise, switch when you switch terminals: one of you owns the server, the other the client.
+8. If you are working with a partner, take turns typing. In the React + Express exercise, switch when you switch terminals: one of you owns the server, the other the client.
