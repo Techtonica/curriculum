@@ -1,97 +1,93 @@
 const express = require("express");
 const cors = require("cors");
+const { Pool } = require("pg");
 require("dotenv").config();
-const path = require("path");
-const db = require("./db/db-connection.js");
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
+
+const db = new Pool({
+  connectionString: process.env.DATABASE_URL,
+});
+
 app.use(cors());
 app.use(express.json());
 
-// creates an endpoint for the route "/""
-app.get("/", (req, res) => {
-  res.json({ message: "Hola, from My template ExpressJS with React-Vite" });
-});
-
-// create the get request for students in the endpoint '/api/students'
+// Get all students
 app.get("/api/students", async (req, res) => {
   try {
-    const { rows: students } = await db.query("SELECT * FROM students");
-    res.send(students);
-  } catch (e) {
-    return res.status(400).json({ e });
+    const result = await db.query("SELECT * FROM students");
+    res.json(result.rows);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
   }
 });
 
-// create the POST request
-app.post("/api/students", async (req, res) => {
+// Get single student
+app.get("/api/students/:studentId", async (req, res) => {
+  const { studentId } = req.params;
   try {
-    const newStudent = {
-      firstname: req.body.firstname,
-      lastname: req.body.lastname,
-      iscurrent: req.body.iscurrent
-    };
-    //console.log([newStudent.firstname, newStudent.lastname, newStudent.iscurrent]);
     const result = await db.query(
-      "INSERT INTO students(firstname, lastname, is_current) VALUES($1, $2, $3) RETURNING *",
-      [newStudent.firstname, newStudent.lastname, newStudent.iscurrent]
+      "SELECT * FROM students WHERE id = $1",
+      [studentId]
     );
-    console.log(result.rows[0]);
+    if (result.rows.length === 0) {
+      res.status(404).send("Student not found");
+      return;
+    }
     res.json(result.rows[0]);
-  } catch (e) {
-    console.log(e);
-    return res.status(400).json({ e });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
   }
 });
 
-// delete request for students
-app.delete("/api/students/:studentId", async (req, res) => {
+// Create a new student
+app.post("/api/students", async (req, res) => {
+  const { firstname, lastname, is_current } = req.body;
   try {
-    const studentId = req.params.studentId;
-    await db.query("DELETE FROM students WHERE id=$1", [studentId]);
-    console.log("From the delete request-url", studentId);
-    res.status(200).end();
-  } catch (e) {
-    console.log(e);
-    return res.status(400).json({ e });
+    const result = await db.query(
+      "INSERT INTO students (firstname, lastname, is_current) VALUES ($1, $2, $3) RETURNING *",
+      [firstname, lastname, is_current]
+    );
+    res.json(result.rows[0]);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
   }
 });
 
-//A put request - Update a student
+// Update a student
 app.put("/api/students/:studentId", async (req, res) => {
-  //console.log(req.params);
-  //This will be the id that I want to find in the DB - the student to be updated
-  const studentId = req.params.studentId;
-  const updatedStudent = {
-    id: req.body.id,
-    firstname: req.body.firstname,
-    lastname: req.body.lastname,
-    iscurrent: req.body.is_current
-  };
-  console.log("In the server from the url - the student id", studentId);
-  console.log(
-    "In the server, from the react - the student to be edited",
-    updatedStudent
-  );
-  // UPDATE students SET lastname = "something" WHERE id="16";
-  const query = `UPDATE students SET firstname=$1, lastname=$2, is_current=$3 WHERE id=${studentId} RETURNING *`;
-  const values = [
-    updatedStudent.firstname,
-    updatedStudent.lastname,
-    updatedStudent.iscurrent
-  ];
+  const { studentId } = req.params;
+  const { firstname, lastname, is_current } = req.body;
   try {
-    const updated = await db.query(query, values);
-    console.log(updated.rows[0]);
-    res.send(updated.rows[0]);
-  } catch (e) {
-    console.log(e);
-    return res.status(400).json({ e });
+    const result = await db.query(
+      "UPDATE students SET firstname=$1, lastname=$2, is_current=$3 WHERE id=$4 RETURNING *",
+      [firstname, lastname, is_current, studentId]
+    );
+    if (result.rows.length === 0) {
+      res.status(404).send("Student not found");
+      return;
+    }
+    res.json(result.rows[0]);
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
   }
 });
 
-// console.log that your server is up and running
-app.listen(PORT, () => {
-  console.log(`Hola, Server listening on ${PORT}`);
+// Delete a student
+app.delete("/api/students/:studentId", async (req, res) => {
+  const { studentId } = req.params;
+  try {
+    await db.query("DELETE FROM students WHERE id=$1", [studentId]);
+    res.json({ message: "Student removed" });
+  } catch (err) {
+    console.error(err.message);
+    res.status(500).send("Server Error");
+  }
 });
+
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
