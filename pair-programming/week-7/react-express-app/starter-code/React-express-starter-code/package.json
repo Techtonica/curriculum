@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
-    "client": "cd client && npm start",
+    "client": "cd client && npm run dev",
     "dev": "concurrently -n 'server, client' -c 'cyan, green' \"nodemon server/index.js\" \"npm run client\""
   },
   "keywords": [],

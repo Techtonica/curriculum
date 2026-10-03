@@ -53,14 +53,14 @@ First, create a directory called `react-express-app` and move inside that direct
 mkdir react-express-app && cd react-express-app
 ```
 
-Next, create a folder called `server` and a file inside of it called `index.js`.
+Next, create a folder called `server` and a file inside of it called `index.js`. Stay in `react-express-app` afterwards: the `package.json` for the server goes here, not inside `server/`.
 
 ```bash
-mkdir server && cd server
-touch index.js
+mkdir server
+touch server/index.js
 ```
 
-To create our Node project, run the following command in your terminal. This creates the `package.json` file which will allow us to keep track of all our app scripts and manage any dependencies our Node app needs.
+To create our Node project, run the following command in your terminal from the `react-express-app` folder. This creates the `package.json` file which will allow us to keep track of all our app scripts and manage any dependencies our Node app needs.
 
 ```bash
 npm init -y
@@ -94,7 +94,8 @@ import express from 'express';
 const app = express();
 
 //Set the port that you want the server to run on
-const PORT = process.env.PORT || 5000;
+//Not 5000: on macOS that port belongs to the AirPlay Receiver
+const PORT = process.env.PORT || 8080;
 
 //creates an endpoint for the route /api
 app.get('/api', (req, res) => {
@@ -132,10 +133,10 @@ Let's run `npm run dev` on your terminal. You should see console output like thi
 [nodemon] watching path(s): *.*
 [nodemon] watching extensions: js,mjs,json
 [nodemon] starting `node server/index.js`
-Server listening on 5000
+Server listening on 8080
 ```
 
-Go to `http://localhost:5000/api` in your browser, you will see `{"message":"Hello from ExpressJS"}` message. Now let's move to the frontend.
+Go to `http://localhost:8080/api` in your browser, you will see `{"message":"Hello from ExpressJS"}` message. Now let's move to the frontend.
 
 ### Step 2: Create An App Frontend With React using Vite
 
@@ -175,11 +176,11 @@ Now go to`http://localhost:5173/` in your browser, you will see the react logo.
 
 ### Step 3: Connecting frontend and backend
 
-In the development phase, the React app is running on port 5173 with the help of vite and nodejs API running on port 5000.
+In the development phase, the React app is running on port 5173 with the help of vite and nodejs API running on port 8080.
 
-There should be some interaction between these two. You can proxy all the API calls to nodejs API. Vite provides some inbuilt functionality and to tell the development server to proxy any unknown requests to your API server in development, add a **proxy** field to your package.json of the React.
+There should be some interaction between these two. You can proxy all the API calls to nodejs API. Vite provides some inbuilt functionality to tell the development server to send any request that starts with `/api` to your API server in development: add a **proxy** setting to `client/vite.config.js`.
 
-The vite.config.js file in the provided code serves as the configuration file for Vite and here is the setting for the proxy:
+The vite.config.js file serves as the configuration file for Vite and here is the setting for the proxy:
 
 ```js
 // client/vite.config.js
@@ -194,7 +195,7 @@ export default defineConfig({
     // add this code
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'http://localhost:8080',
         changeOrigin: true
       }
     }
@@ -204,7 +205,7 @@ export default defineConfig({
 
 ### Step 4: Make HTTP Requests from React to Node
 
-Now let's fetch data from the /api endpoint. To do so, you can navigate to the `App.js` component in the src folder and make an HTTP request.
+Now let's fetch data from the /api endpoint. To do so, you can navigate to the `App.jsx` component in the src folder and make an HTTP request.
 
 Now make a simple GET request using the Fetch API to your backend and then the data returned as JSON.
 

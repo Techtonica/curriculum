@@ -40,7 +40,7 @@ function RegisterYourCatForm(props) {
         onChange={set("color")}
         value={values.color}
       >
-        <option>Select color</option>
+        <option value="">Select color</option>
         {COLORS.map((c) => (
           <option key={c} value={c}>
             {c}
@@ -60,7 +60,7 @@ function RegisterYourCatForm(props) {
       <label htmlFor="habit">Habits:</label>
       <textarea
         id="habit"
-        name="habit"
+        name="habits"
         value={values.habits}
         onChange={set("habits")}
       />
