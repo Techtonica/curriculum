@@ -1,0 +1,7 @@
+{% for topic in site.topics %}
+{% if topic.outline %}
+## {{ topic.title }}
+
+{{ topic.outline }}
+{% endif %}
+{% endfor %}
