@@ -1,12 +1,16 @@
-/*
+# Display User Name in Greeting
+# Instructions:
+# Ask the user for their name and then display a greeting.
+# Practice using the following Python string operations:
+#   - Concatenation: use the `+` operator to join strings together.
+#   - Joining: use the `str.join()` method to combine a list of strings into one string.
+#   - Repeating a string: use the `*` operator to repeat a string a given number of times.
 
-Prompt a user for their name and then display a greeting message that repeats the name a specified number of times. Practice using concat, join, and repeat.
+name = input("What is your name? ")
+print("Hello, " + name + "!")
 
-You may also need some of the following (but not required): 
-- int()
-- isinstance()
-- list()
+print("Welcome! " * 3)
 
-*/
-
-import sys # do not remove line
+words = ["Hello", name, "!"]
+greeting = " ".join(words)
+print(greeting)
