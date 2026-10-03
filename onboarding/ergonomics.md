@@ -36,6 +36,7 @@
 - [These slides](https://docs.google.com/presentation/d/1q-X4-bPDdyk8Hr3ne-Rr0SMFMP7YRdJQz9AzAZ2fR1A/edit?usp=sharing) [and this video](https://drive.google.com/file/d/1Hit6LrHm1r6DlekGOSplfK5Ni00mtYZr/view?usp=sharing) follow along with the lesson below.
 - Spend a few minutes skimming through these resources:
   - [7 Ways to Be A Healthier Programmer](https://successfulsoftware.net/2008/10/26/7-ways-to-be-a-healthier-programmer/)
+  - [UC Berkeley's "Ergonomic Tips for Laptop Users"](https://uhs.berkeley.edu/sites/default/files/laptop.pdf)
   - [CalOSHA's "Easy Ergonomics for Desktop Users"](https://www.dir.ca.gov/dosh/dosh_publications/ComputerErgo.pdf)
 
 #### What is Ergonomics?
