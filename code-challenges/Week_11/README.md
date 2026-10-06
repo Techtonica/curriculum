@@ -35,9 +35,8 @@ Although the challenges do not depend on each other and can be completed in any 
 
 ### Relevant Materials
 
-1. [Runtime Complexity](../../runtime-complexity/) — optional background on reasoning about solution efficiency.
-2. [Recursion](../../recursion/) — optional background for the recursive How Many Vowels challenge.
-3. [Algorithms](../../algorithms/) — broader curriculum material on algorithms and data structures, if you want to go further.
+1. [Runtime Complexity](../../runtime-complexity/runtime-complexity.md) — useful for comparing approaches to Find the Missing Number.
+2. [Recursion](../../recursion/recursion.md) — review for the recursive How Many Vowels challenge.
 
 ### Common Mistakes and Misconceptions
 
