@@ -3,7 +3,7 @@ Halloween is the time of year when youth prepare for tricks or treats! Create a 
 
 Examples:
 timeForTrickOrTreat(new Date(2013, 9, 31)) ➞ true
-timeForTrickorTreat(new Date(2013, 0, 23)) ➞ false
-timeForTrickorTreat(new Date(3000, 9, 31)) ➞ true
+timeForTrickOrTreat(new Date(2013, 0, 23)) ➞ false
+timeForTrickOrTreat(new Date(3000, 9, 31)) ➞ true
 
 */
