@@ -1,13 +1,16 @@
-// Write a short program that prints each number from 1 to 100 on a new line. For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
+/*
+Create a function that takes a positive integer n and returns an array
+representing the numbers from 1 through n.
 
-// Example 1:
-// Input: n = 3
-// Output: [1 2 Fizz]
+For each number:
+- If it is divisible by both 3 and 5, use "FizzBuzz".
+- If it is divisible by 3, use "Fizz".
+- If it is divisible by 5, use "Buzz".
+- Otherwise, use the number.
 
-// Example 2:
-// Input: n = 5
-// Output: [1 2 Fizz 4 Buzz]
-
-// Example 3:
-// Input: n = 19
-// Output: [1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz]
+Examples
+fizzBuzz(3) // returns [1, 2, "Fizz"]
+fizzBuzz(5) // returns [1, 2, "Fizz", 4, "Buzz"]
+fizzBuzz(19) // returns
+[1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz", 16, 17, "Fizz", 19]
+*/
