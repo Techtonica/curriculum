@@ -45,33 +45,28 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 
 1. [How to Learn](/onboarding/learning-to-learn.md)
 1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
+1. [Homebrew](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-advanced.md#installing-homebrew)
+1. [Growth Mindset (YCLA Lesson Plan](/onboarding/YCLA_LessonPlan_v10.pdf)
+1. [Working Remotely](career/working-and-collaborating-remotely.md)
 
 ### Week 1 - Set Up Onboarding, Developer Tools, Intro to JS, CSS, & HTML
 
 1. [Virtual Program Guidelines](https://docs.google.com/document/d/1v54bB6ntRovJaGx-7SyFyE3aBJ3wQJMg9RvAOt5yqsk/edit?usp=sharing)
-1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
 1. [Participant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
 1. [Professionalism](/onboarding/professionalism.md)
-1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
-1. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
-1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
-1. [Bash Profile](/dev-tools/dot-profile.md)
-1. [Vim](/dev-tools/vim.md)
-1. [Homebrew](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-advanced.md#installing-homebrew) 📝
 1. [How to Pair Program](/onboarding/pair-programming.md)
 1. [Project 0 - Week 1 Review](/projects/week-1-worksheet.md)
-1. [Operating Systems](/dev-tools/operating-systems.md)
 1. [Ergonomics](/onboarding/ergonomics.md)
-1. [Growth Mindset (YCLA Lesson Plan](/onboarding/YCLA_LessonPlan_v10.pdf)
 1. [Asking Good Questions](/onboarding/asking-good-questions.md)
-1. [Networking (Career)](/career/networking-career.md)
-1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
-1. One of either: [Living in Open Workspaces](onboarding/living-in-open-workspaces.md) or [Working Remotely](career/working-and-collaborating-remotely.md) depending on program status. 😷
+1. ~~[Networking (Career)](/career/networking-career.md)~~
+1. ~~[Living in Open Workspaces](onboarding/living-in-open-workspaces.md)~~
 1. [HTML](/web/html.md)
 1. [Intro to CSS](/web/css.md)
+1. [CSS Challenge](/css/css-challenge.md)
 1. [JS HTML DOM Methods](/web/js-dom-methods.md)
 1. [Debugging](/debugging/debugging.md)
 1. Recipe Page Project ([Phase 1: HTML](/projects/recipe-page/phase-1-html-prompt.md) | [Phase 2: CSS](/projects/recipe-page/phase-2-css-prompt.md))
+1. [Learning to Learn](/onboarding/learning-to-learn.md)
 
 ### Week 2 - Git GitHub Command Line JS CSS & HTML
 
@@ -98,6 +93,12 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Writing Readable Code](/writing-readable-code/writing-readable-code.md)
 1. [Deploy your Client Side Portfolio Project to Netlify](/deploying/deploying-1-personal-site-to-netlify.md)
 1. [Portfolio Project: Collaboration and Review](/projects/portfolio/portfolio-webpage-3.md)
+1. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
+1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
+1. [Bash Profile](/dev-tools/dot-profile.md)
+1. [Vim](/dev-tools/vim.md)
+1. [Operating Systems](/dev-tools/operating-systems.md)
+1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
 
 ### Week 3 - JavaScript Fundamentals
 
@@ -111,9 +112,11 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [intro to Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
+1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
 
 ### Week 4 - Intermediate JavaScript and Intro to React
 
+1. [Tech Industry Tips](/onboarding/tech-industry-tips.md)
 1. [JavaScript DOM Manipulation](/web/js-dom-methods.md) - _formerly jQuery_
 1. [Game Project (HTML & JavaScript)](/projects/js-html-games.md)
 1. [a11y: Accessibility](/web/accessibility.md)
