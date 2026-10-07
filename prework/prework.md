@@ -72,7 +72,7 @@ _**⚠️ Remember to complete: ⚠️**_
 - [ ] Complete the free course lessons about classes, modules, and scope from [Javascript in 12 Easy Lessons](https://www.udemy.com/course/javascript-in-12-easy-lessons/) (lessons 8, 9, & 10)
 - [ ] Listen to [How to Trade Expectations for Appreciation](https://podcasts.apple.com/ca/podcast/how-to-trade-expectations-for-appreciation-a/id1098413063?i=1000500370199) (33 mins)
 - [ ] Watch the lesson [Debugging JS in VSCode](https://youtu.be/3HiLLByBWkg?feature=shared)(Free resource). Here are [the docs](https://code.visualstudio.com/docs/editor/debugging) for debugging in VS Code. While Debugger for Chrome extension is depreciated, please try using similar extensions such as the [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript) chrome extension
-- [ ] Read [JavaScript For Cats](http://jsforcats.com/)
+- [ ] Read [JavaScript For Cats](https://web.archive.org/web/20250723040059/https://jsforcats.com/)
 - [ ] Do the [6 basic exercises about objects in JS from exercism](https://exercism.org/tracks/javascript/exercises/high-score-board) (The High Score Board exercise)
 - [ ] Read through the [Navigating New Codebases](/program-prep/navigating-new-codebases.md) topic outline
 - [ ] Practice working with Git and GitHub ​[Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
