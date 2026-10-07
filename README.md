@@ -14,24 +14,24 @@ We'd love your help in improving this curriculum. See [CONTRIBUTING](./CONTRIBUT
 
 ## Table of Contents
 
-The following is the approximate sequence of the topics during the program but is always being tuned and optimized so if you have questions, please open an issue.
+The following is the approximate sequence of the topics during the program, but is always being tuned and optimized so if you have questions, please open an issue.
 
 - [Week 0 - Pre-Work](#week-0---pre-work)
-- [Week 1 - Onboarding &amp; Developer Tools](#week-1---onboarding--developer-tools)
-- [Week 2 - Webpages: HTML &amp; CSS](#week-2---webpages-html--css)
+- [Week 1 - Onboarding, Developer Tools, Intro to JS, CSS, &amp; HTML](#week-1---onboarding-developer-tools-intro-to-js-css--html)
+- [Week 2 - Git, GitHub, Command Line, JS, CSS, &amp; HTML](#week-2---git-github-command-line-js-css--html)
 - [Week 3 - JavaScript Fundamentals](#week-3---javascript-fundamentals)
-- [Week 4 - Intermediate JavaScript and React](#week-4---intermediate-javascript-and-React)
-- [Week 5 - Web APIs](#week-5---web-apis)
-- [Week 6 - Databases](#week-6---databases)
-- [Week 7 - Advanced JS and React](#week-7---Advanced-JS-and-React)
+- [Week 4 - Intermediate JavaScript and Intro to React](#week-4---intermediate-javascript-and-intro-to-React)
+- [Week 5 - Server Side: Node, HTTP, &amp; APIs](#week-5---server-side-node-http--apis)
+- [Week 6 - RESTful API, Databases, &amp; SQL](#week-6---restful-api--databases)
+- [Week 7 - Advanced JS and Intermediate React](#week-7---Advanced-JS-and-Intermediate-React)
 - [Week 8 - Testing](#week-8---Testing)
 - [Week 9 - Eventonica Project](#week-9---eventonica)
-- [Week 10 - More PERN &amp; Review](#week-10---full-stack-practice)
+- [Week 10 - Continued PERN Full Stack Review](#week-10---continued-pern--full-stack-review)
 - [Week 11 - 2 Full Stack Projects in 1 Week](#week-11---2-full-stack-projects-in-1-week)
-- [Week 12 - Final Assessments](#week-12---final-assessments)
-- [Week 13 - Career Week!](#week-13---career-week)
-- [Week 14 - Project Prep Week &amp; Electives](#week-14---project-prep-week--electives)
-- [Weeks 15+ - Final Project](#weeks-15-final-project)
+- [Week 12 - Blog App and Practice Interviews](#week-12---blog-app-and-practice-interviews)
+- [Week 13 - Back to Basics & Final Project Planning Pitches](#week-13---back-to-basics--final-project-planning-pitches)
+- [Week 14 - Final Project Week 1, OAuth, Auth0, &amp; Production Environment](#week-14---final-project-week-1-oauth-auth0--production-environment)
+- [Weeks 15+ Final Project Weeks 2 to 4](#weeks-15+-final-project-weeks-2-to-4)
 - [Core Soft Skills for Tech Professionals](#core-soft-skills-for-tech-professionals)
 - [Independent Topics](#independent-topics)
 - [Optional / Elective Lessons](#optional--elective-lessons)
@@ -41,37 +41,34 @@ The following is the approximate sequence of the topics during the program but i
 ### Week 0 - Pre-Work
 
 Before beginning the program, participants meet weekly for 4 weeks to learn JavaScript fundamentals.
-Participants should memorize [common JavaScript built-in functions](/javascript/common-functions-cheatsheet.md) within the first month.
+Participants should memorize [common JavaScript built-in functions](/javascript/common-functions-cheatsheet.md) within the first month. [Pre-work tasks can be found here](/prework/prework.md), other topics reviewed include, but are not limited to:
 
-### Week 1 - Onboarding & Developer Tools
-
-1. [Welcome, Tips, and Rules](/onboarding/tech-industry-tips.md)
-1. [Participant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
 1. [How to Learn](/onboarding/learning-to-learn.md)
+1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
+1. [Homebrew](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-advanced.md#installing-homebrew)
+1. [Growth Mindset (YCLA Lesson Plan](/onboarding/YCLA_LessonPlan_v10.pdf)
+1. [Working Remotely](career/working-and-collaborating-remotely.md)
+
+### Week 1 - Set Up Onboarding, Developer Tools, Intro to JS, CSS, & HTML
+
+1. [Virtual Program Guidelines](https://docs.google.com/document/d/1v54bB6ntRovJaGx-7SyFyE3aBJ3wQJMg9RvAOt5yqsk/edit?usp=sharing)
+1. [Participant Weekly Expectations Checklist](https://docs.google.com/document/d/1WbQ_sMZtclQPqwqZhgLuGAq2Lbgw2Rju8Udtf8HmwVA/edit?usp=sharing)
 1. [Professionalism](/onboarding/professionalism.md)
-1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
-1. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
-1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
-1. [Bash Profile](/dev-tools/dot-profile.md)
-1. [Vim](/dev-tools/vim.md)
-1. [Homebrew](https://github.com/Techtonica/curriculum/blob/main/dev-tools/command-line-advanced.md#installing-homebrew) 📝
 1. [How to Pair Program](/onboarding/pair-programming.md)
 1. [Project 0 - Week 1 Review](/projects/week-1-worksheet.md)
-1. [Operating Systems](/dev-tools/operating-systems.md)
-1. [Keyboard Shortcuts](/dev-tools/keyboard-shortcuts.md)
 1. [Ergonomics](/onboarding/ergonomics.md)
-1. [Growth Mindset (YCLA Lesson Plan](/onboarding/YCLA_LessonPlan_v10.pdf)
 1. [Asking Good Questions](/onboarding/asking-good-questions.md)
-1. [Networking (Career)](/career/networking-career.md)
-1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
-1. One of either: [Living in Open Workspaces](onboarding/living-in-open-workspaces.md) or [Working Remotely](career/working-and-collaborating-remotely.md) depending on program status. 😷
+1. ~~[Networking (Career)](/career/networking-career.md)~~
+1. ~~[Living in Open Workspaces](onboarding/living-in-open-workspaces.md)~~
 1. [HTML](/web/html.md)
 1. [Intro to CSS](/web/css.md)
+1. [CSS Challenge](/css/css-challenge.md)
 1. [JS HTML DOM Methods](/web/js-dom-methods.md)
 1. [Debugging](/debugging/debugging.md)
 1. Recipe Page Project ([Phase 1: HTML](/projects/recipe-page/phase-1-html-prompt.md) | [Phase 2: CSS](/projects/recipe-page/phase-2-css-prompt.md))
+1. [Learning to Learn](/onboarding/learning-to-learn.md)
 
-### Week 2 - Webpages: HTML & CSS
+### Week 2 - Git GitHub Command Line JS CSS & HTML
 
 1. [Git Version Control](/git/git-version-control.md)
 1. [.gitignore](/git/gitignore.md)
@@ -96,6 +93,12 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Writing Readable Code](/writing-readable-code/writing-readable-code.md)
 1. [Deploy your Client Side Portfolio Project to Netlify](/deploying/deploying-1-personal-site-to-netlify.md)
 1. [Portfolio Project: Collaboration and Review](/projects/portfolio/portfolio-webpage-3.md)
+1. [Intro to Command Line Interface Tools](/dev-tools/command-line-interface.md)
+1. [Advanced Command Line](/dev-tools/command-line-advanced.md)
+1. [Bash Profile](/dev-tools/dot-profile.md)
+1. [Vim](/dev-tools/vim.md)
+1. [Operating Systems](/dev-tools/operating-systems.md)
+1. [Chrome Developer Tools: Setup](/chrome-developer-tools/chrome-developer-tools.md)
 
 ### Week 3 - JavaScript Fundamentals
 
@@ -109,9 +112,11 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Basic JavaScript Practice](/javascript/basic-js-practice.md)
 1. [intro to Testing & TDD](/testing-and-tdd/testing-and-tdd.md)
 1. [Assigned Reading - Eloquent JavaScript](https://eloquentjavascript.net/Eloquent_JavaScript.pdf)
+1. [Roles in Tech](/career/roles-in-tech/roles-in-tech.md)
 
-### Week 4 - Intermediate JavaScript and React
+### Week 4 - Intermediate JavaScript and Intro to React
 
+1. [Tech Industry Tips](/onboarding/tech-industry-tips.md)
 1. [JavaScript DOM Manipulation](/web/js-dom-methods.md) - _formerly jQuery_
 1. [Game Project (HTML & JavaScript)](/projects/js-html-games.md)
 1. [a11y: Accessibility](/web/accessibility.md)
@@ -122,7 +127,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Functional Programming](/functional-programming/FP.md)
 1. [All React Lessons](/react-js)
 
-### Week 5 - Web APIs
+### Week 5 - Server Side: Node, HTTP, APIs
 
 1. [Node.js](/node-js/node-js.md)
 1. [JavaScript 8 - Regular Expressions / RegEx](/javascript/javascript-8-regex.md)
@@ -133,7 +138,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Express.js](/express-js/express.md)
 1. [Game Project (React)](/projects/react-game)
 
-### Week 6 - Databases
+### Week 6 - RESTful API, Databases, & SQL
 
 1. [JavaScript 9 - Async, Callbacks, Promises](/javascript/javascript-9-async.md)
 1. [Intro to JSON](https://www.digitalocean.com/community/tutorials/an-introduction-to-json) (DigitalOcean)
@@ -151,7 +156,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Install and Run PostgreSQL using Docker](/databases/install-postgres-with-docker.md)
 1. [REST APIs](projects/rest-api-project.md)
 
-### Week 7 - Advanced JS and React
+### Week 7 - Advanced JS and Intermediate React
 
 1. [Full-Stack Web App Using React and Express](/pair-programming/week-7/react-express-app/react-expressjs.md)
 1. [Recursion](/recursion/recursion.md)
@@ -179,7 +184,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Article by Techtonica Alum: Working in the field as a New Software Engineer out of Bootcamp](https://www.linkedin.com/pulse/working-seasoned-engineers-understanding-planning-process-tibrey/)
 1. [Navigating New Codebases](/program-prep/navigating-new-codebases.md)
 
-### Week 10 - Full Stack Practice
+### Week 10 - Continued PERN Full Stack Review
 
 1. [Deploying to Heroku with React and Node](/deploying/deploying-to-heroku.md)
 1. [Optimizing your React/NodeJS Project](/electives/optimization/optimizing-your-react-node-project.md)
@@ -190,12 +195,12 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 ### Week 11 - 2 Full Stack Projects in 1 Week
 2 mini projects in 1 week! [Contact App](/projects/pern-contact-list-app.md) and choice of [Weather App](/projects/pern-weather-app.md) or [Game App](/projects/pern-game-app.md)
 
-### Week 12 - Final Assessments
+### Week 12 - Blog App and Practice Interviews
 
 1. [Open-source Projects](/open-source/open-source.md)
 1. [Blog App with AI Feature](/projects/blog-app)
 
-### Week 13 - Career Week & Final Project Prep Week
+### Week 13 - Back to Basics & Final Project Planning Pitches
 
 1. [Career Week: Machine Learning Engineer](/career/roles-in-tech/machine-learning.md)
 1. [Career Week: Entrepreneurship](/career/roles-in-tech/entrepreneurship.md)
@@ -208,7 +213,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Final Project: Selecting Your Final Project](/projects/final-project/selecting-your-project.md)
 1. [Final Project: Planning Your Project](/projects/final-project/planning-your-project.md)
 
-### Week 14 - Final Project Implementation & Electives
+### Week 14 - Final Project Week 1, OAuth, Auth0, & Production Environment
 
 1. [Intro to Security in Web Development](/security/web-security.md)
 1. [Refactoring](/refactoring/refactoring.md)
@@ -223,7 +228,7 @@ Participants should memorize [common JavaScript built-in functions](/javascript/
 1. [Negotiating](/interviewing/negotiating.md)
 1. [Ethics in Software Engineering](/program-prep/ethics.md)
 
-### Weeks 14+ Final Project
+### Weeks 15+ Final Project Weeks 2 to 4
 
 Participants spend 5 weeks building a [full-stack web application](/projects/final-project/README.md), from inception to production. This includes:
 
