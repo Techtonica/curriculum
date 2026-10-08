@@ -1,14 +1,41 @@
-# Step 1: Register as a Volunteer
+# Get Started Contributing
+
+Thank you for your interest in contributing to this project. This guide is designed to help everyone participate confidently, regardless of their experience with the programming languages, frameworks, or tools used in this repository. New contributors are encouraged to start with the setup instructions, review our code of conduct, and look for beginner-friendly issues before making changes. Please ask questions when something is unclear—we value learning and collaboration over prior experience.
+
+This guide also includes recommendations for contributors participating in hackathons, information about our acceptable use of AI-assisted development tools, and guidance for reporting issues involving special features or less common configurations. Before opening an issue or pull request, please check the existing documentation, discussions, and project wiki to avoid duplicating work and to ensure that your contribution follows current project practices.
+
+Whether you are submitting your first documentation fix, experimenting during a hackathon, or developing a major feature, please communicate clearly, test your changes, and respect the time and contributions of others. Before contributing, you must agree to read and agree to the [Code of Conduct](/CODE_OF_CONDUCT.md) and help maintain an inclusive, transparent, and welcoming community.
+
+## Table of Contents
+- Step 1: Register as a Volunteer
+- Step 2: Read through and Agree to the Code of Conduct
+- Step 3: Finding an Issue to Work On
+- External Hackathon Participants
+- Techtonica Volunteers
+- All Contributors
+- Working on your Issue
+- Slack Communication
+- Completed Curriculum Work
+- Check for dead links
+- Best Practices
+    - GitHub Issues
+    - Pull Request
+    - Using AI?
+- Contributing to Special Features (website)
+- Supporting contributors from different languages confidences
+- Software Engineering Program Project Links
+
+### Step 1: Register as a Volunteer
 
 Before doing anything else, you must [register as a volunteer](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1).
 
-# Step 2: Read through and Agree to the Code of Conduct
+### Step 2: Read through and Agree to the Code of Conduct
 
 Before opening an issue, commenting, etc you must read and agree to the [Code of Conduct](/CODE_OF_CONDUCT.md).
 
-# Step 3: Finding an Issue to Work On
+### Step 3: Finding an Issue to Work On
 
-## External Hackathon Participants
+### External Hackathon Participants
 
 - **Follow Step 1 and Step 2 above**
 - If you are new to contributing to GitHub projects, review the [GSSoC guide](https://github.com/GSSoC24/Contributor/tree/main/gssoc-guidelines), read the [best practices](#best-practices) section below, contact Techtonica [program staff](https://techtonica.org/team/) or talk to a Techtonica mentor via Slack (in #mentors).
@@ -19,11 +46,11 @@ Before opening an issue, commenting, etc you must read and agree to the [Code of
   - [Issues tagged with 100daysofcode](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20label%3A100daysofcode)
   - [Issues tagged with 'good first issue'](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22)
 
-## Techtonica Volunteers
+### Techtonica Volunteers
 
 Find any [unassigned open issue](https://github.com/Techtonica/curriculum/issues?q=is%3Aissue%20state%3Aopen%20no%3Aassignee).
 
-## All Contributors
+### All Contributors
 
 - If you find an issue that sounds interesting to you and you have the knowledge to complete it...
   - **Confirm no one is already assigned to it has in-progress work**
@@ -38,7 +65,7 @@ Find any [unassigned open issue](https://github.com/Techtonica/curriculum/issues
 
 🎗️ _**Please note, all repo support will be provided on weekdays, U.S. Pacific Timezone. The quickest means of support would be to join the Slack #curriculum channel.**_
 
-## Working on your Issue
+### Working on your Issue
 
 - Comment on the issue directly from the [TO-DO column](https://github.com/Techtonica/curriculum/projects/2), that means it is available, even if there's an "assignee". If you have a question (feel free to follow it up with a Slack message).
 - In the issue, you should find a link for a lesson outline and for corresponding slides.
@@ -49,15 +76,15 @@ Find any [unassigned open issue](https://github.com/Techtonica/curriculum/issues
 - To make a **video**, one effective solution has been to record your screen as you explain the lesson slides. An alternative can be a video found online that covers all the objectives of the lesson in a way suited to beginners.
 - Here is an **example** of a great lesson trio: [MongoDB Slides](https://docs.google.com/presentation/d/1BvO6PrSpulHVSDNOkMaDZM-V7McmheLgm0Lg2PFae7k/edit#slide=id.p), [MongoDB Lesson Outline](/electives/databases/mongo-db.md), [MongoDB Video](https://drive.google.com/file/d/1022MSkPjfRyGAUQa2I-pQltpUn4Q1NJc/view).
 
-## Slack Communication
+### Slack Communication
 
 If you are in Techtonica's slack space, please communicate about curriculum related work or requests in the #curriculum channel. If you are not in the Techtonica slack community and would like to be added, after having completed [the volunteer form](https://docs.google.com/forms/d/e/1FAIpQLSeW0mo-Dpsig70374UEPvzexpas-31Ost_HsFwm0kjNOxtbtg/viewform?c=0&w=1), please kindly search your email for `You can join our Slack by clicking here` or send info@techtonica.org an email.
 
-## Completed Curriculum Work
+### Completed Curriculum Work
 
 Place a "completed" label on the issue once you've completed it, make a pull request to Techtonica/curriculum main, and leave comments about your work if you like.
 
-## Check for dead links
+### Check for dead links
 
 1. Run `npm install` at the project root.
 1. Run `npm run validate-links` to find potentially dead links.
@@ -65,7 +92,7 @@ Place a "completed" label on the issue once you've completed it, make a pull req
 1. Fix links and submit a pull request.
 1. Search & check links from github.com & codepen.io manually. These sites block bots, so we are unable to test them effectively with our tool.
 
-## Best Practices
+### Best Practices
 
 These best practices are very important when working on a development team. Having code reviews from a team means that there will potentially be multiple request for changes from several reviewers. It helps everyone in the code review to understand what has been addressed, iterated on, what remains outstanding, and even gives opportunity to provide any missing context to one another.
 
@@ -91,7 +118,17 @@ When addressing requests for changes it is best practice to do so in a visible a
 - Request a staff, peer, and mentor reviewer
 - The PR title should be descriptive enough to give an at a glance understanding of what you're working on
 
-## Full Time Programs' Project Links:
+#### Using AI?
+
+### Contributing to Special Features (website)
+
+- mvp branch (app automation)
+- time bound rendering
+- credentials or passwords needed
+
+### Supporting contributors from different languages confidences
+
+### Software Engineering Program Project Links
 
 - Week 1. Recipe Page ([phase 1](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-1-html-prompt.md) & [phase 2](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-2-css-prompt.md))
 - Week 2. Recipe Page ([phase 3](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-3-bootstrap-prompt.md) and [phase 4](https://github.com/Techtonica/curriculum/blob/main/projects/recipe-page/phase-4-DOM-Manipulation.md))
