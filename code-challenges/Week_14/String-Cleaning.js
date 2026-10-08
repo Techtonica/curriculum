@@ -3,6 +3,6 @@ Your boss decided to save money by purchasing some cut-rate optical character re
 
 Example 1			  Example 2			    Example 3
 Input: '! !'          Input:'123456789'	    Input: 'This looks5 grea8t!'
-Output: '! !'		  Output: ''			Output: 'This looks great!'	
+Output: '! !'		  Output: ''			Output: 'This looks great!'
 
 */
