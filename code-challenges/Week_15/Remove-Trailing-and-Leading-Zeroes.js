@@ -8,6 +8,8 @@ Trailing Zeros are the zeros after a decimal point which don't affect the value 
 
 Leading Zeros are the zeros before a whole number which don't affect the value (e.g. the first three zeros in 000234 and 000230). 
 
+Special case: For decimal values less than 1, keep a zero before the decimal point for consistency and readability.
+
 Examples
 removeLeadingTrailing("230.000") ➞ "230"
 
@@ -16,5 +18,7 @@ removeLeadingTrailing("00402") ➞ "402"
 removeLeadingTrailing("03.1400") ➞ "3.14"
 
 removeLeadingTrailing("30") ➞ "30"
+
+removeLeadingTrailing("0.5") ➞ "0.5"
 
 */
