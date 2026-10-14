@@ -1,6 +1,6 @@
 /*
 
-Write a function that creates an object with each (key, value) pair being the (lower case, upper case) versions of a letter, respectively. All of the letters in the input list will always be lowercase.
+Write a function that creates an object with each (key, value) pair being the (lower case, upper case) versions of a letter, respectively. All of the letters in the input array will always be lowercase.
 
 Examples
 mapping(["p", "s"]) ➞ { "p": "P", "s": "S" }
