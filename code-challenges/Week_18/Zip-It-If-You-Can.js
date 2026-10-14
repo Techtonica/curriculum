@@ -4,12 +4,12 @@ You are given an array of women and an array of men. Return "sizes don't match" 
 
 Examples
 zipIt(["Elise", "Mary"], ["John", "Rick"])
- ➞ [["Elise", "John"], ["Mary", "Rick"]]
+  ➞ [["Elise", "John"], ["Mary", "Rick"]]
 
 zipIt(["Ana", "Amy", "Lisa"], ["Bob", "Josh"])
- ➞ "sizes don't match"
+  ➞ "sizes don't match"
 
 zipIt(["Ana", "Amy", "Lisa"], ["Bob", "Josh", "Tim"])
- ➞ [["Ana", "Bob"], ["Amy", "Josh"],["Lisa", "Tim"]]
+  ➞ [["Ana", "Bob"], ["Amy", "Josh"], ["Lisa", "Tim"]]
 
 */
