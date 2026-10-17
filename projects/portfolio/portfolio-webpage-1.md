@@ -117,7 +117,7 @@ Staff will evaluate this project against the requirements above and the [shared 
 - [ ] Add and style a profile photo of yourself. Include a border.
 - [ ] Have some info in a second column
 - [ ] Use one "id" correctly.
-- [ ] Select 3 [web design patterns](https://github.com/Techtonica/curriculum/edit/main/electives/web-patterns.md) to implement
+- [ ] Select 3 [web design patterns](https://github.com/Techtonica/curriculum/blob/main/electives/web-patterns.md) to implement
 - [ ] Use your search bar at least once to jump to an element or style.
 - [ ] Have 2 CSS blocks that include the class "override" with one overriding the other rule in an obvious way.
 - [ ] Change the display property of at least one element.
