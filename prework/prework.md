@@ -4,16 +4,14 @@ These assignments are to prepare you for starting full-time at Techtonica. There
 
 _**⚠️ Remember to complete: ⚠️**_
 
-- [**Techtonica Pre-Work**](#techtonica-pre-work)
-  - [Pre-Work Week 1:](#pre-work-week-1)
-  - [Pre-Work Week 2:](#pre-work-week-2)
-  - [Pre-Work Week 3:](#pre-work-week-3)
-  - [Pre-Work Week 4:](#pre-work-week-4)
-  - [Set Up Your MacBook Laptop](#set-up-your-macbook-laptop)
-  - [Update Your Social Media Accounts](#update-your-social-media-accounts)
-  - [Submit Your Techtonica Photos](#submit-your-techtonica-photos)
-  - [Optional (if you finish the above work, choose what you're interested in next!)](#optional-if-you-finish-the-above-work-choose-what-youre-interested-in-next)
-  - [RSVP for Techtonica’s events \& meetings](#rsvp-for-techtonicas-events--meetings)
+- [Submit your Techtonica photos](#submit-your-techtonica-photos)
+- [Set up your MacBook Laptop](#set-up-your-macbook-laptop)
+- [Update your Social Media Accounts](#update-your-social-media-accounts)
+- [RSVP for Techtonica’s Events & Meetings](#rsvp-for-techtonicas-events--meetings)
+- [Pre-Work Week 1](#pre-work-week-1)
+- [Pre-Work Week 2](#pre-work-week-2)
+- [Pre-Work Week 3](#pre-work-week-3)
+- [Pre-Work Week 4](#pre-work-week-4)
 
 ### Pre-Work Week 1:
 
