@@ -1,5 +1,8 @@
 # **Techtonica Pre-Work**
 
+## **Daaimah Rocks!!! 🎸**
+
+
 These assignments are to prepare you for starting full-time at Techtonica. There will be a study group each week where volunteers, mentors, and your peers can help. Be sure to plan ahead and pace yourself, each day’s work load is full and a good indication of the level of work expectation and pacing that will go into each day of learning in the program. Mark off your work in your pre-work checklist.
 
 _**⚠️ Remember to complete: ⚠️**_
