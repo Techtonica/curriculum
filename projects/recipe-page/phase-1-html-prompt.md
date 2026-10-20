@@ -40,7 +40,7 @@ None
 7. Add at least one image
 8. Add links to similar recipes you found online
 9. Wrap each section in `<div>` tags
-10. Push at least 15 commits to GitHub
+10. Push at least 50 commits to GitHub (weekly)
 11. Share a pull request reviewed by your mentor
 
 ### What Staff Will Evaluate
