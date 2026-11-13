@@ -502,21 +502,21 @@ Build a **Note-Taking Application** where users can create notes, assign tags, s
 
 **Full-Stack Prompts (6-8):**
 
-**3a: Backend Setup (6 mins)**
-- Express app and middleware
-- Data structures
-- Validation functions
-
-**3b: API Endpoints (6 mins)**
-- All required endpoints
-- Error handling
-
-**3c: Frontend Implementation (6 mins)**
-- HTML structure
-- CSS styling
-- JavaScript event handlers and fetch calls
-- Form submission handling
-- Dynamic UI updates
+- Backend Setup (6 mins)
+  - Express app and middleware
+  - Data structures
+  - Validation functions
+  
+- API Endpoints (6 mins)
+  - All required endpoints
+  - Error handling
+  
+- Frontend Implementation (6 mins)
+  - HTML structure
+  - CSS styling
+  - JavaScript event handlers and fetch calls
+  - Form submission handling
+  - Dynamic UI updates
 
 #### Phase 4: Testing (5 mins)
 
@@ -525,16 +525,16 @@ Build a **Note-Taking Application** where users can create notes, assign tags, s
 - Run tests from terminal
 
 **Full-Stack Prompts (6-8):**
-**4a: API Tests (3 mins)**
-- Write integration tests for endpoints
-- Run tests: `npm test`
+- API Tests (3 mins)
+    - Write integration tests for endpoints
+    - Run tests: `npm test`
 
-**4b: Browser Verification (2 mins)**
-- Start dev server: `npm start`
-- Test form submission in browser
-- Test filtering/search functionality
-- Verify UI updates without page reload
-- Test error handling (invalid inputs)
+- Browser Verification (2 mins)
+    - Start dev server: `npm start`
+    - Test form submission in browser
+    - Test filtering/search functionality
+    - Verify UI updates without page reload
+    - Test error handling (invalid inputs)
 
 #### Phase 5: Git Workflow & Branching (5 mins)
 - Check current branch
