@@ -383,19 +383,19 @@ Program staff will present a **framework for test quality** and how to use AI re
 
 **The Three Levels of Test Evaluation:**
 1. **Does it run?** (Technical correctness)
-  - No syntax errors
-  - Correct imports/fixtures
-  - Assertions are valid
+    - No syntax errors
+    - Correct imports/fixtures
+    - Assertions are valid
 2. **Does it test?** (Behavioral correctness)
-  - Assertion validates the expected behavior
-  - Input setup is realistic
-  - Test name matches what's being tested
+    - Assertion validates the expected behavior
+    - Input setup is realistic
+    - Test name matches what's being tested
 3. **Is it maintainable?** (Code quality)
-  - Clear variable names and test names
-  - Single responsibility (one behavior per test)
-  - Documented edge cases
-  - Doesn't duplicate other tests
-  - Tests are in the correct file / directory with the correct naming conventions
+    - Clear variable names and test names
+    - Single responsibility (one behavior per test)
+    - Documented edge cases
+    - Doesn't duplicate other tests
+    - Tests are in the correct file / directory with the correct naming conventions
 
 **Participant Activity (10 minutes):**
 Program staff will provide a **sample function** and present 3-4 AI-generated test cases (varying in quality). You'll work in **small groups (3-4 people)** for 8 minutes to:
